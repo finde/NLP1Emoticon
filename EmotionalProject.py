@@ -27,32 +27,71 @@ class DataPoint:
     def get_class_label(self):
             return self.class_label
 
+    def get_positive_words(self):
+            return self.positive_words
+
+    def get_negative_words(self):
+            return self.negative_words
+    
     def get_list_of_words(self):
             return self.data_string.split()
+            
 
 
 ############################
 # Feature extraction funcs #
 ############################
 
+        
+    # Count total number of words
+    # from given array of words
     def get_word_count(self):
             # Split the string into seperate words and count them:
             words = self.get_list_of_words()
             return len(words)
+            
+    # Count number of positive words
+    # from given array of words
+    def count_positive_words(self):
+        list_words = self.split_sentence(lowercase = True)
+        return self.count_specific_words(list_words, self.get_positive_words())
 
-
+    # Count number of negative words
+    # from given array of words
+    def count_negative_words(self):
+        list_words = self.split_sentence(lowercase = True)
+        return self.count_specific_words(list_words, self.get_negative_words())
+        
+    
+    # Count number of special punctuation occurrences
     def get_special_punctuation_count(self):
-            # Count the number of special puncuation marks:
-            exclamation_marks = self.get_data_string().count("!")
-            question_marks = self.get_data_string().count("!")
+        # Count the number of special puncuation marks:
+        exclamation_marks = self.get_data_string().count("!")
+        question_marks = self.get_data_string().count("!")
 
-            count_special_punctuation = exclamation_marks + question_marks
-            return count_special_punctuation
+        count_special_punctuation = exclamation_marks + question_marks
+        return count_special_punctuation
 
+
+########################################
+# Help functions for eature extraction #
+########################################
+
+
+    '''
+    For some functions we need the words to be all in lowercase.
+    E.g. Happily is not in the list of happy words, happily is.
+    Boolean argument added for this!
+    '''
     # Split sentence into array words
-    def split_sentence(self):
-        list_words = re.findall(r"[\w']+|[.,!?;]", self.get_data_string())
+    def split_sentence(self, lowercase=False):
+        if lowercase:
+            data = self.get_data_string().lower()
+        else:
+            data = self.get_data_string()    
+        list_words = re.findall(r"[\w']+|[.,!?;]", data)
         return list_words
+
 
     # Count words from given dictionary
     def count_specific_words(self, list_words, dictionary):
@@ -64,18 +103,7 @@ class DataPoint:
 
         return n_words
 
-    # Count number of positive words
-    # from given array of words
-    def count_positive_words(self):
-        list_words = self.split_sentence()
-        return self.count_specific_words(list_words, self.positive_words)
-
-    # Count number of negative words
-    # from given array of words
-    def count_negative_words(self):
-        list_words = self.split_sentence()
-        return self.count_specific_words(list_words, self.negative_words)
-
+    
 
 if __name__ == "__main__":
 
@@ -95,7 +123,7 @@ if __name__ == "__main__":
     if(vars(args)['text'] is not None):
         data_string = vars(args)['text']
     else:
-        data_string = "What's going on if I try to do this?!"
+        data_string = "What's going on if I Happily try to do this sad thing?!"
 
     if(vars(args)['hashtags'] is not None):
         hashtags = vars(args)['hashtags']
