@@ -33,6 +33,14 @@ class DataPoint:
                 words = self.get_list_of_words()
                 return len(words)
                 
+        
+        def get_special_punctuation_count(self):
+                # Count the number of special puncuation marks:
+                exclamation_marks = self.get_data_string().count("!")
+                question_marks = self.get_data_string().count("!")
+                
+                count_special_punctuation = exclamation_marks + question_marks
+                return count_special_punctuation
                 
             
 if __name__ == "__main__":
@@ -50,7 +58,7 @@ if __name__ == "__main__":
         if(vars(args)['text'] is not None):
 		data_string = vars(args)['text']
         else: 
-                data_string = "What's going on if I try to do this"
+                data_string = "What's going on if I try to do this?!"
                 
 	if(vars(args)['class'] is not None):
 		data_class = vars(args)['class']
@@ -66,4 +74,6 @@ if __name__ == "__main__":
          
         print "This is your data: \n ", data_point.get_data_string() 
         print "The word count is: ", data_point.get_word_count() 
+        print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
+            
                 
