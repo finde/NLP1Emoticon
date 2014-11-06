@@ -1,7 +1,7 @@
 import json
 import argparse
 import re
-
+from string import punctuation
 
 
 class DataPoint:
@@ -47,7 +47,7 @@ class DataPoint:
     # from given array of words
     def get_word_count(self):
             # Split the string into seperate words and count them:
-            words = self.get_list_of_words()
+            words = self.split_sentence()
             return len(words)
             
     # Count number of positive words
@@ -71,7 +71,7 @@ class DataPoint:
 
         count_special_punctuation = exclamation_marks + question_marks
         return count_special_punctuation
-
+        
 
 ########################################
 # Help functions for eature extraction #
@@ -82,14 +82,26 @@ class DataPoint:
     For some functions we need the words to be all in lowercase.
     E.g. Happily is not in the list of happy words, happily is.
     Boolean argument added for this!
+    Default would be false, so that we don't waste time for it unless
+    it is really necessary
+    '''
+    '''
+    Now punctuation option is also added.
+    By default we would return the sentence without punctuation,
+    since this (I guess..) what we usually want when we split the sentence
     '''
     # Split sentence into array words
-    def split_sentence(self, lowercase=False):
-        if lowercase:
-            data = self.get_data_string().lower()
+    def split_sentence(self, lowercase=False, without_punctuation = True):
+        if without_punctuation:
+            data = self.get_sentence_without_punctuation()
         else:
-            data = self.get_data_string()    
+            data = self.get_data_string()
+        
+        if lowercase:
+            data = data.lower()
+                
         list_words = re.findall(r"[\w']+|[.,!?;]", data)
+        
         return list_words
 
 
@@ -102,6 +114,12 @@ class DataPoint:
                 n_words += 1
 
         return n_words
+
+    # Get the sentence without punctuation
+    def get_sentence_without_punctuation(self):
+        sentence_without_punctuation = ' '.join(word.strip(punctuation) for word in self.get_data_string().split() 
+             if word.strip(punctuation))    
+        return sentence_without_punctuation
 
     
 
@@ -146,12 +164,9 @@ if __name__ == "__main__":
     # Do some random shit to make sure things work :)
 
     print "This is your data: \n ", data_point.get_data_string()
-### TODO - find a better way for splitting things. Maybe get rid of punctuation first
-### Otherwise we do unnecessary checks for ! and ? in the lists of words for 2nd way
-### or lose words (because they contain ! or ? and won't find a match in the list) 
-### for the 1st way. 2nd way would also fail the total word count (counts ! and ?).
     print "This is your data splitted 1st way (get_list_of_words()): \n ", data_point.get_list_of_words()
     print "This is your data splitted 2nd way (split_sentence()): \n ", data_point.split_sentence()
+    print "This is your data without punctuation: \n ", data_point.get_sentence_without_punctuation()
     print "These are your hashtags: \n ", data_point.get_hashtags()
     print "The word count is: ", data_point.get_word_count()
     print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
