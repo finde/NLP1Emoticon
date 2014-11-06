@@ -7,6 +7,7 @@ import \
     language_check  # source = https://pypi.python.org/pypi/language-check, pip install --user --upgrade language-check
 
 # tweepy
+
 consumer_key = 'Ltcqzn4LYuxhDWjDYvAplZdX6'
 consumer_secret = 'EQlZTaU9kWvC5aAT2RbM1PjIk1HhrmQaWzoWuHP8lWlmrJkdPN'
 access_token = '123835904-UAHBaeePOY7FRpj70GA3FvfrCLkxBKeQbSiqxPT1'
@@ -21,7 +22,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 query = ':)'
-max_tweets = 100
+max_tweets = 2000
 
 dataPoints = []
 
@@ -38,9 +39,9 @@ for tweet in searched_tweets:
     status['raw'] = tweet.text
 
     # preprocessing
-    status['text'] = tweet.text
-    status['emoticons'] = tweet.text
-    status['tags'] = tweet.text
+    # status['text'] = tweet.text
+    # status['emoticons'] = tweet.text
+    # status['tags'] = tweet.text
 
     # print status.get_data_string()
     # print lang_tool.check(tweet)
@@ -53,5 +54,5 @@ file.close()
 
 # data = json.load(open(filename))
 
-# with open('data.json', 'wb') as fp:
+# with open('data_raw.json', 'wb') as fp:
 #     json.dump(dataPoints, fp)
