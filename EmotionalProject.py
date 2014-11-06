@@ -5,15 +5,12 @@ import re
 
 
 class DataPoint:
-    FILE_POS = "positive-words.txt"
-    FILE_NEG = "negative-words.txt"
-
-    def __init__(self, data_string, hashtags, class_label):
+    def __init__(self, data_string, hashtags, class_label, dictionary):
         self.data_string = data_string
         self.hashtags = hashtags
         self.class_label = class_label
-        self.positive_words = self.load_positive_words()
-        self.negative_words = self.load_negative_words()
+        self.positive_words = dictionary.get_positive_words()
+        self.negative_words = dictionary.get_negative_words()
 
 
 
@@ -52,30 +49,6 @@ class DataPoint:
             count_special_punctuation = exclamation_marks + question_marks
             return count_special_punctuation
 
-    def load_word_list(self, file):
-        word_list = []
-        idx = 0
-
-        file = open(file, 'r')
-
-        for line in file:
-            if idx >= 36:
-                line = line.rstrip('\n')
-                word_list.append(line)
-            idx += 1
-
-        return word_list
-
-    # Load list of positive words
-    # save them into an array
-    def load_positive_words(self):
-        return self.load_word_list(self.FILE_POS)
-
-    # Load list of negative words
-    # save them into an array
-    def load_negative_words(self):
-        return self.load_word_list(self.FILE_NEG)
-
     # Split sentence into array words
     def split_sentence(self):
         list_words = re.findall(r"[\w']+|[.,!?;]", self.get_data_string())
@@ -106,43 +79,48 @@ class DataPoint:
 
 if __name__ == "__main__":
 
-	#Command line arguments
-	parser = argparse.ArgumentParser(description="Run simulation")
+    #Command line arguments
+    parser = argparse.ArgumentParser(description="Run simulation")
 
-	parser.add_argument('-text', metavar='The text of the data point', type=str)
-	parser.add_argument('-hashtags', metavar='The text of the data point', type=list)
-	parser.add_argument('-class', metavar='The class label of the data point (-1, 0, 1)', type=int)
+    parser.add_argument('-text', metavar='The text of the data point', type=str)
+    parser.add_argument('-hashtags', metavar='The text of the data point', type=list)
+    parser.add_argument('-class', metavar='The class label of the data point (-1, 0, 1)', type=int)
 
-	args = parser.parse_args()
+    args = parser.parse_args()
 
-        # If arguments are passed to the command line, assign them.
-        # Otherwise, use some standart ones.
-        if(vars(args)['text'] is not None):
-		data_string = vars(args)['text']
-        else:
-                data_string = "What's going on if I try to do this?!"
+    from Dictionary import Dictionary
 
-        if(vars(args)['hashtags'] is not None):
-		hashtags = vars(args)['hashtags']
-        else:
-                hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS"]
+    # If arguments are passed to the command line, assign them.
+    # Otherwise, use some standart ones.
+    if(vars(args)['text'] is not None):
+        data_string = vars(args)['text']
+    else:
+        data_string = "What's going on if I try to do this?!"
 
-	if(vars(args)['class'] is not None):
-		data_class = vars(args)['class']
-        else:
-                data_class = 0
+    if(vars(args)['hashtags'] is not None):
+        hashtags = vars(args)['hashtags']
+    else:
+        hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS"]
 
-
-        # Construct a data point:
-        data_point = DataPoint(data_string, hashtags, data_class)
+    if(vars(args)['class'] is not None):
+      data_class = vars(args)['class']
+    else:
+      data_class = 0
 
 
-        # Do some random shit to make sure things work :)
+    # Load dictionary of positive and negative words
+    dictionary = Dictionary()
 
-        print "This is your data: \n ", data_point.get_data_string()
-        print "These are your hashtags: \n ", data_point.get_hashtags()
-        print "The word count is: ", data_point.get_word_count()
-        print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
+    # Construct a data point:
+    data_point = DataPoint(data_string, hashtags, data_class, dictionary)
 
-        print "Number of positive words: ", data_point.count_positive_words()
-        print "Number of negative words: ", data_point.count_negative_words()
+
+    # Do some random shit to make sure things work :)
+
+    print "This is your data: \n ", data_point.get_data_string()
+    print "These are your hashtags: \n ", data_point.get_hashtags()
+    print "The word count is: ", data_point.get_word_count()
+    print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
+
+    print "Number of positive words: ", data_point.count_positive_words()
+    print "Number of negative words: ", data_point.count_negative_words()
