@@ -1,0 +1,14 @@
+[
+  {	
+	"raw": "raw text", 
+	"text": "clean text", 
+	"emoticons": [":)", ":(", ":|"],
+	"tags": ["happy", "sad", "neutral"]
+  },
+  {
+	"raw": "raw new text", 
+	"text": "clean new text", 
+	"emoticons": [":D", "D:", ":-|"], 
+	"tags": ["less", "more", "even"]
+  }
+]
