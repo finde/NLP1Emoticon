@@ -1,0 +1,107 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{graphicx}
+
+%\usepackage{soul}
+
+\begin{document}
+
+\title{Predicting emoticons in text \\ Weekly plan}
+
+\author{By Gornishka, Loor, Qodari, Xumara}
+\maketitle
+
+\section*{Week 45 (current week)}
+
+\subsubsection*{Priority:} 
+Get a clear idea about the project: 
+
+\begin{itemize}
+\item[1.] how much data do we need - start from around 1000-2000 training tweets and increasing the number in case it appears both possible and needed.   \\
+\item[2.] how should we pre-process the data - remove hyperlinks and tags; detect the language and make sure it's English; perform spelling and grammar correction; store hashtags separately - they might be useful as features (e.g. tweet containing the hashtag \#BestDayEver is more likely to also contain ":)" instead of ":(" ) \\
+\item[3.] decide on "emoticon classes" - start with \textbf{Positive} ( :) , ;) , :D, :] ), \textbf{Negative} ( :( , ;( , :[ ) and \textbf{Neutral} ( :| , :/ ) and increase the number of classes once the project has progressed enough (possibly extremely positive (:D), extremely negative ( ;) ), surprised ( :O ) or other, depending on the temporal results). \\
+\item[4.] which algorithms are we going to use for classification - possibly \textbf{CRF}, \textbf{logistic regression} or \textbf{SVM}. Implement at least one and use at least one more in order to compare results. \\
+\item[5.] what features might be useful - word count; count of positive and negative words in the tweet; count of positive and negative words in the hashtags; special punctuation used (?, !); upper-case words; count of adjectives or other parts of the speech; Expand the list as much as possible through the whole project.  
+\end{itemize}
+
+In order to be sure about the points above, research previous work related to the project during week 45 and week 46.
+
+
+\section*{Week 46:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.] Finalize the project idea. 
+\item[2.] Effort on collecting and pre-processing the data. 
+\item[3.] Implement basic functions for feature-extraction.
+\end{itemize}
+
+
+\section*{Week 47:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.] Implement a classifier and possibly get a first working version of the project. 
+\item[2.] Discuss the progress so far. Decide if more data is needed, if the chosen classifiers yield a good performance and what features seem to be important so far.
+\end{itemize}
+
+
+\section*{Week 48:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.] Explore more features and adjust parameters in order to improve the performance. 
+\end{itemize}
+
+
+\section*{Week 49:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.] Prepare a demo. 
+\item[2.] Fix possible bugs. 
+\item[3.] Collect results for the presentation and the final report.
+\end{itemize}
+
+
+\section*{Week 50:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.]  Prepare a presentation.
+\end{itemize}
+
+
+\section*{Week 51:} 
+\subsubsection*{Priorities:}
+\begin{itemize}
+\item[1.] Finalize the project.
+\item[2.] Prepare final report. 
+\end{itemize}
+
+
+\begin{comment}
+Sample table in case it's needed
+\begin{center}
+	\begin{tabular}{ l | l | l | l | l | l || l | l | l | l || l}
+		\textbf{K} & Sampling & C-space & VocabSize & TrainSize & Kernel & Airplanes & Cars & Faces & Motorbikes & MAP \\ 
+		\hline
+		400 & dense & gray & 100 & 300 & linear & 87 & 74 & 95 & 69 & 81 \\
+		800 & dense & gray & 100 & 300 & linear & 93 & 70 & 86 & 73 & 81 \\
+		1600 & dense & gray & 100 & 300 & linear & 88 & 72 & 86 & 64 & 78 \\
+		2000 & dense & gray & 100 & 300 & linear & 86 & 73 & 81 & 51 & 73 \\	
+		4000 & dense & gray & 100 & 300 & linear & 90 & 75 & 83 & 53 & 75 \\	
+	\end{tabular}
+\end{center}
+
+\end{comment}
+
+
+\begin{comment}
+\begin{itemize}
+	\item MatLab (http://www.mathworks.nl/products/matlab/)
+	\item VL\_Feat (http://www.vlfeat.org/)
+	\item LibSVM (http://www.csie.ntu.edu.tw/cjlin/libsvm/)
+	\item Caltech Vision Group (http://www.vision.caltech.edu/)
+\end{itemize}
+\end{comment}
+
+\end{document}
