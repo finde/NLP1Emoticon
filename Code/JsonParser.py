@@ -37,24 +37,32 @@ class Json_Object:
         for key in self.json_object["tags"]:
             tags.append(key.encode("utf-8"))
         return tags
+        
+class Json_Getter:
+    def __init__(self, verbose=0):
+        self.json_objects = []
+	
+	j_son = json.dumps([{"raw": "raw text", "text": "clean text", "emoticons": [":)", ":(", ":|"], "tags": ["happy", "sad", "neutral"]},{"raw": "raw new text", "text": "clean new text", "emoticons": [":D", "D:", ":-|"], "tags": ["less", "more", "even"]}])
+	if verbose == 1:
+	   print j_son
+	self.json_load = json.loads(j_son)
+	
+    def parse_json(self, verbose=0):	
+	# Loop through file of tweets
+	# Store json object in vector
+	for j_obj in self.json_load:
+	    tweet = Json_Object(j_obj)	    
+	    if verbose == 1:
+                print 'raw: ', tweet.get_raw()
+                print 'clean: ', tweet.get_clean()
+                print 'emoticons: ', tweet.get_emoticons()
+                print 'tags: ', tweet.get_tags()
+            self.json_objects.append(j_obj)
+            
+        return self.json_objects
                       
 if __name__ == "__main__":
 	# Get json file
 	# File contains array of tweets
-	
-	json_objects = []
-	
-	j_son = json.dumps([{"raw": "raw text", "text": "clean text", "emoticons": [":)", ":(", ":|"], "tags": ["happy", "sad", "neutral"]},{"raw": "raw new text", "text": "clean new text", "emoticons": [":D", "D:", ":-|"], "tags": ["less", "more", "even"]}])
-	print j_son
-	j_son_loads = json.loads(j_son)
-	
-	# Loop through file
-	# Store json object in vector
-	for j_obj in j_son_loads:
-	    json_object = Json_Object(j_obj)
-            print 'raw: ', json_object.get_raw()
-            print 'clean: ', json_object.get_clean()
-            print 'emoticons: ', json_object.get_emoticons()
-            print 'tags: ', json_object.get_tags()
-            json_objects.append(j_obj)
-        
+	json_getter = Json_Getter()
+	json_objects = json_getter.parse_json()
