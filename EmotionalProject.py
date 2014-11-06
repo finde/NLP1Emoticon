@@ -4,8 +4,9 @@ import argparse
 
 
 class DataPoint:
-	def __init__(self, data_string, class_label):
+	def __init__(self, data_string, hashtags, class_label):
 		self.data_string = data_string
+		self.hashtags = hashtags
 		self.class_label = class_label
 		
 		
@@ -16,6 +17,9 @@ class DataPoint:
         
         def get_data_string(self):
                 return self.data_string
+
+        def get_hashtags(self):
+                return self.hashtags
                 
         def get_class_label(self):
                 return self.class_label
@@ -49,6 +53,7 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Run simulation")
 	
 	parser.add_argument('-text', metavar='The text of the data point', type=str)
+	parser.add_argument('-hashtags', metavar='The text of the data point', type=list)
 	parser.add_argument('-class', metavar='The class label of the data point (-1, 0, 1)', type=int)
 	
 	args = parser.parse_args()
@@ -59,6 +64,11 @@ if __name__ == "__main__":
 		data_string = vars(args)['text']
         else: 
                 data_string = "What's going on if I try to do this?!"
+        
+        if(vars(args)['hashtags'] is not None):
+		hashtags = vars(args)['hashtags']
+        else: 
+                hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS"]
                 
 	if(vars(args)['class'] is not None):
 		data_class = vars(args)['class']
@@ -67,12 +77,13 @@ if __name__ == "__main__":
                                 
         
         # Construct a data point:                                                                                                                                                            
-        data_point = DataPoint(data_string, data_class)
+        data_point = DataPoint(data_string, hashtags, data_class)
         
         
         # Do some random shit to make sure things work :) 
          
         print "This is your data: \n ", data_point.get_data_string() 
+        print "These are your hashtags: \n ", data_point.get_hashtags() 
         print "The word count is: ", data_point.get_word_count() 
         print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
             
