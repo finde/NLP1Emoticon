@@ -146,6 +146,12 @@ if __name__ == "__main__":
     # Do some random shit to make sure things work :)
 
     print "This is your data: \n ", data_point.get_data_string()
+### TODO - find a better way for splitting things. Maybe get rid of punctuation first
+### Otherwise we do unnecessary checks for ! and ? in the lists of words for 2nd way
+### or lose words (because they contain ! or ? and won't find a match in the list) 
+### for the 1st way. 2nd way would also fail the total word count (counts ! and ?).
+    print "This is your data splitted 1st way (get_list_of_words()): \n ", data_point.get_list_of_words()
+    print "This is your data splitted 2nd way (split_sentence()): \n ", data_point.split_sentence()
     print "These are your hashtags: \n ", data_point.get_hashtags()
     print "The word count is: ", data_point.get_word_count()
     print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
