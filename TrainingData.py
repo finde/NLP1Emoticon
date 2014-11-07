@@ -10,7 +10,6 @@ import DataPoint
 
 class TrainingData:
     def __init__(self, data_points):
-        print data_points
         self.data_points = data_points
         
 
@@ -33,8 +32,9 @@ class TrainingData:
 ############################
                                     
     def count_words(self):
-        counts = [each.count_words() for each in self.get_training_points()]
-        return counts
+        return self.count_feature('words')
+        
+        
         
 
 
@@ -42,7 +42,33 @@ class TrainingData:
 # Help functions for eature extraction #
 ########################################
 
-
+    def count_feature(self, feature):
+        if feature == 'words':
+            return [each.count_words() for each in self.get_training_points()]
+        
+        elif feature == 'positive_words':
+            return [each.count_positive_words() for each in self.get_training_points()]
+        
+        elif feature == 'negative_words':
+            return [each.count_negative_words() for each in self.get_training_points()]
+        
+        elif feature == 'positive_words_hashtags':
+            return [each.count_positive_words_in_hashtags() for each in self.get_training_points()]
+        
+        elif feature == 'negative_words_hashtags':
+            return [each.count_negative_words_in_hashtags() for each in self.get_training_points()]
+        
+        elif feature == 'uppercase_words':
+            return [each.count_uppercase_words() for each in self.get_training_points()]
+        
+        elif feature == 'special_punctuation':
+            return [each.count_special_punctuation() for each in self.get_training_points()]
+        
+        elif feature == 'adjectives':
+            return [each.count_adjectives() for each in self.get_training_points()]
+        
+        else:
+            return ['unknown feature, bro! :( Give me another one!']    
 
 
                 
