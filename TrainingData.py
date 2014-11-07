@@ -42,8 +42,18 @@ class TrainingData:
     def count_words(self):
         return self.count_feature(self.feature_dictionary['words'])
         
-        
-        
+#### Might be changed to a matrix if it's hard to work with!!    
+    # Returns a dictionary containing the values corresponding to all
+    # the features for all the datapoints.
+    def get_feature_dictionary(self):
+        d = {}
+        for feature in self.feature_dictionary:
+            #print 'result for feature ', feature, ': \n', self.count_feature(self.feature_dictionary[feature])
+             
+            d[feature] = self.count_feature(self.feature_dictionary[feature])
+            
+        return d
+               
 
 
 ########################################
@@ -127,17 +137,14 @@ if __name__ == "__main__":
     training_data = TrainingData(data)
     # Do some random shit to make sure things work :)
     
-#### TODO for some stupid reason all other functions work here
-#### except from print_data_point() 
-#### (it says DataPoint instance has no attribute 'print_data_point' )
-#### Does anybody happen to know why? It works fine in the DataPoint file
     print "This is your first data point: \n "
-    #data_point1.print_data_point()
-    print data_point1.get_data_string()
+    data_point1.print_data_point()
+    #print data_point1.get_data_string()
     print "This is your second data point: \n "
-    #data_point2.print_data_point()
-    print data_point2.get_data_string()
+    data_point2.print_data_point()
+    #print data_point2.get_data_string()
     print "number of words: \n ", training_data.count_words()
+    print "feature dictionary: \n ", training_data.get_feature_dictionary()
     
     
 

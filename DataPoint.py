@@ -164,7 +164,7 @@ class DataPoint:
             for word in dictionary:
                 if word in hashtag:
                     n_words += 1
-                    print word
+                    #print word
         
         return n_words
                                 
