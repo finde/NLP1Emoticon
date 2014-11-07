@@ -3,6 +3,7 @@ import argparse
 import re
 from string import punctuation
 import nltk
+from Dictionary import Dictionary
 
 
 class DataPoint:
@@ -36,7 +37,12 @@ class DataPoint:
     
     def get_list_of_words(self):
             return self.data_string.split()
-            
+    
+    
+    def print_data_point(self):
+            print "TEXT: ", self.get_data_string()
+            print "HASHTAGS: ", self.get_hashtags()
+            print "CLASS: ", self.get_class_label()             
 
 
 ############################
@@ -223,7 +229,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    from Dictionary import Dictionary
+
 
     # If arguments are passed to the command line, assign them.
     # Otherwise, use some standart ones.
@@ -276,8 +282,11 @@ if __name__ == "__main__":
     print "Number of negative words in hashtags: \n ", data_point.count_negative_words_in_hashtags()
     
     
-    print "This is your data tagged in a misterious way: \n ", data_point.pos_tag_data_string()
+    print "This is your data tagged in a mysterious way: \n ", data_point.pos_tag_data_string()
     print "Number of adjectives (JJ): ", data_point.count_adjectives()
     # Example for counting more than one part of speech:
     print "Number of adjectives (JJ) and adverbs (RB): ", data_point.count_multiple_types_in_tags(['JJ', 'RB'])
+    
+    
+    data_point.print_data_point()
     
