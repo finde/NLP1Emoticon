@@ -61,8 +61,21 @@ class DataPoint:
     def count_negative_words(self):
         list_words = self.split_sentence(lowercase = True)
         return self.count_specific_words(list_words, self.get_negative_words())
-        
+                
     
+    # Count number of positive words
+    # from given array of hashtags
+    def count_positive_words_in_hashtags(self):
+        hashtags = self.get_hashtags()
+        return self.count_specific_words_in_hashtags(hashtags, self.get_positive_words())
+
+    # Count number of negative words
+    # from given array of hashtags
+    def count_negative_words_in_hashtags(self):
+        hashtags = self.get_hashtags()
+        return self.count_specific_words_in_hashtags(hashtags, self.get_negative_words())
+        
+                
     # Count number of special punctuation occurrences
     def get_special_punctuation_count(self):
         # Count the number of special puncuation marks:
@@ -114,13 +127,42 @@ class DataPoint:
                 n_words += 1
 
         return n_words
+        
+    # Count number of specific words in a hashtag    
+    def count_specific_words_in_single_hashtag(self, hashtag, dictionary, repetition = False):
+        n_words = 0
+        
+        # Either count each occurence
+        if repetition:
+            for word in dictionary:
+                n_words += hashtag.count(word)
+                
+        # Or just check for each word if it's in the hashtag or not        
+        else:
+            for word in dictionary:
+                if word in hashtag:
+                    n_words += 1
+        
+        return n_words
+                                
+
+    def count_specific_words_in_hashtags(self, hashtags, dictionary, repetition = False):
+        n_words = 0
+        
+        for each in hashtags:
+            n_words += self.count_specific_words_in_single_hashtag(each, dictionary, repetition)
+        
+        return n_words        
+                                            
+    
 
     # Get the sentence without punctuation
     def get_sentence_without_punctuation(self):
         sentence_without_punctuation = ' '.join(word.strip(punctuation) for word in self.get_data_string().split() 
              if word.strip(punctuation))    
         return sentence_without_punctuation
-
+        
+    
     
 
 if __name__ == "__main__":
@@ -146,7 +188,7 @@ if __name__ == "__main__":
     if(vars(args)['hashtags'] is not None):
         hashtags = vars(args)['hashtags']
     else:
-        hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS"]
+        hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS", "#sohappy"]
 
     if(vars(args)['class'] is not None):
       data_class = vars(args)['class']
@@ -173,3 +215,6 @@ if __name__ == "__main__":
 
     print "Number of positive words: ", data_point.count_positive_words()
     print "Number of negative words: ", data_point.count_negative_words()
+
+    print "Number of positive words in hashtags: ", data_point.count_positive_words_in_hashtags()
+    print "Number of negative words in hashtags: ", data_point.count_negative_words_in_hashtags()
