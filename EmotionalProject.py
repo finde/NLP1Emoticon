@@ -66,13 +66,13 @@ class DataPoint:
     # Count number of positive words
     # from given array of hashtags
     def count_positive_words_in_hashtags(self):
-        hashtags = self.get_hashtags()
+        hashtags = self.get_lowercase_hashtags()
         return self.count_specific_words_in_hashtags(hashtags, self.get_positive_words())
 
     # Count number of negative words
     # from given array of hashtags
     def count_negative_words_in_hashtags(self):
-        hashtags = self.get_hashtags()
+        hashtags = self.get_lowercase_hashtags()
         return self.count_specific_words_in_hashtags(hashtags, self.get_negative_words())
         
                 
@@ -142,6 +142,7 @@ class DataPoint:
             for word in dictionary:
                 if word in hashtag:
                     n_words += 1
+                    print word
         
         return n_words
                                 
@@ -152,8 +153,7 @@ class DataPoint:
         for each in hashtags:
             n_words += self.count_specific_words_in_single_hashtag(each, dictionary, repetition)
         
-        return n_words        
-                                            
+        return n_words                                          
     
 
     # Get the sentence without punctuation
@@ -161,10 +161,14 @@ class DataPoint:
         sentence_without_punctuation = ' '.join(word.strip(punctuation) for word in self.get_data_string().split() 
              if word.strip(punctuation))    
         return sentence_without_punctuation
+    
+            
+    # Turn hashtags into lowercase for matching in the    
+    def get_lowercase_hashtags(self):
+        return [each.lower() for each in self.get_hashtags()]
         
-    
-    
 
+                
 if __name__ == "__main__":
 
     #Command line arguments
@@ -209,12 +213,19 @@ if __name__ == "__main__":
     print "This is your data splitted 1st way (get_list_of_words()): \n ", data_point.get_list_of_words()
     print "This is your data splitted 2nd way (split_sentence()): \n ", data_point.split_sentence()
     print "This is your data without punctuation: \n ", data_point.get_sentence_without_punctuation()
-    print "These are your hashtags: \n ", data_point.get_hashtags()
     print "The word count is: ", data_point.get_word_count()
     print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
 
     print "Number of positive words: ", data_point.count_positive_words()
     print "Number of negative words: ", data_point.count_negative_words()
+  
+    print "These are your hashtags: \n ", data_point.get_hashtags()
+    print "These are your lowercase hashtags: \n ", data_point.get_lowercase_hashtags() 
 
-    print "Number of positive words in hashtags: ", data_point.count_positive_words_in_hashtags()
-    print "Number of negative words in hashtags: ", data_point.count_negative_words_in_hashtags()
+#### TODO: printing the matching pos/neg words in hashtags shows that e.g. suck and sucks are found.
+#### That's not cool, because they correspond to the same word in the hashtag.
+#### If only the longer one is counted then: in "#suckyweather #lifesucks" only one of them
+#### will be found, when it's two bad words. But if we keep counting both, we count twice
+#### the same word as in the example below... Sooo... Needs some fix          
+    print "Number of positive words in hashtags: \n ", data_point.count_positive_words_in_hashtags()
+    print "Number of negative words in hashtags: \n ", data_point.count_negative_words_in_hashtags()
