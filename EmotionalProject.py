@@ -2,6 +2,7 @@ import json
 import argparse
 import re
 from string import punctuation
+import nltk
 
 
 class DataPoint:
@@ -96,6 +97,10 @@ class DataPoint:
         count_special_punctuation = exclamation_marks + question_marks
         return count_special_punctuation
         
+    # Example function for counting types of tags:    
+    def count_adjectives(self):
+        # Count the number of adjectives in a sentence
+        return self.count_specific_type_in_tags('JJ')   
 
 ########################################
 # Help functions for eature extraction #
@@ -104,7 +109,7 @@ class DataPoint:
 
     '''
     For some functions we need the words to be all in lowercase.
-    E.g. Happily is not in the list of happy words, happily is.
+    E.g. Happily is not in the list of positive words, happily is.
     Boolean argument added for this!
     Default would be false, so that we don't waste time for it unless
     it is really necessary
@@ -179,6 +184,27 @@ class DataPoint:
         return [each.lower() for each in self.get_hashtags()]
         
 
+    # Tag a "tokenized" list of words
+    # Keep puntuation, pos_tag would also tag it.
+    # Turn to lowercase, otherwise there are mistakes
+#### TODO: Apperantly it's weird even with lowercase 
+#### ('try' is not and adjective (JJ) for sure..) 
+#### Check how to properly use the pos_tag function!!!               
+    def pos_tag_data_string(self):
+        split = self.split_sentence(lowercase = True, without_punctuation = False) 
+        return nltk.pos_tag(split)
+    
+    
+    # Counts the number of tags from specific type                
+    def count_specific_type_in_tags(self, type):
+        count = 0
+        for each in self.pos_tag_data_string():
+            if each[1] == type:
+                count += 1
+                
+        return count        
+        
+
                 
 if __name__ == "__main__":
 
@@ -242,3 +268,9 @@ if __name__ == "__main__":
 #### the same word as in the example below... Sooo... Needs some fix          
     print "Number of positive words in hashtags: \n ", data_point.count_positive_words_in_hashtags()
     print "Number of negative words in hashtags: \n ", data_point.count_negative_words_in_hashtags()
+    
+    
+    print "This is your data tagged in a misterious way: \n ", data_point.pos_tag_data_string()
+    print "Number of adjectives (JJ): ", data_point.count_adjectives()
+    
+    
