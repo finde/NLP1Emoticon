@@ -45,11 +45,12 @@ class DataPoint:
         
     # Count total number of words
     # from given array of words
-    def get_word_count(self):
+    def count_words(self):
             # Split the string into seperate words and count them:
             words = self.split_sentence()
             return len(words)
-            
+  
+                      
     # Count number of positive words
     # from given array of words
     def count_positive_words(self):
@@ -74,10 +75,20 @@ class DataPoint:
     def count_negative_words_in_hashtags(self):
         hashtags = self.get_lowercase_hashtags()
         return self.count_specific_words_in_hashtags(hashtags, self.get_negative_words())
+   
+    # Count number of uppercase words
+    # maybe Ignore short words (I is always uppercase) 
+    def count_uppercase_words(self):
+        n_words = 0
         
+        for word in self.split_sentence():
+            if word.isupper() and len(word)>1:
+                n_words += 1
+                
+        return n_words         
                 
     # Count number of special punctuation occurrences
-    def get_special_punctuation_count(self):
+    def count_special_punctuation(self):
         # Count the number of special puncuation marks:
         exclamation_marks = self.get_data_string().count("!")
         question_marks = self.get_data_string().count("!")
@@ -187,7 +198,7 @@ if __name__ == "__main__":
     if(vars(args)['text'] is not None):
         data_string = vars(args)['text']
     else:
-        data_string = "What's going on if I Happily try to do this sad thing?!"
+        data_string = "What's going on if I Happily try to do this SAD thing?!"
 
     if(vars(args)['hashtags'] is not None):
         hashtags = vars(args)['hashtags']
@@ -213,11 +224,13 @@ if __name__ == "__main__":
     print "This is your data splitted 1st way (get_list_of_words()): \n ", data_point.get_list_of_words()
     print "This is your data splitted 2nd way (split_sentence()): \n ", data_point.split_sentence()
     print "This is your data without punctuation: \n ", data_point.get_sentence_without_punctuation()
-    print "The word count is: ", data_point.get_word_count()
-    print "The # of ? and ! is: ", data_point.get_special_punctuation_count()
+    print "The word count is: ", data_point.count_words()
+    print "The # of ? and ! is: ", data_point.count_special_punctuation()
 
     print "Number of positive words: ", data_point.count_positive_words()
     print "Number of negative words: ", data_point.count_negative_words()
+    
+    print "Number of uppercase words: ", data_point.count_uppercase_words()
   
     print "These are your hashtags: \n ", data_point.get_hashtags()
     print "These are your lowercase hashtags: \n ", data_point.get_lowercase_hashtags() 
