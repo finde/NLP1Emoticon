@@ -203,7 +203,13 @@ class DataPoint:
                 count += 1
                 
         return count        
-        
+    
+    # Count the number of tags from a whole list of POS tags 
+    def count_multiple_types_in_tags(self, types):
+        count = 0
+        for each in types:
+            count += self.count_specific_type_in_tags(each)  
+        return count         
 
                 
 if __name__ == "__main__":
@@ -272,5 +278,6 @@ if __name__ == "__main__":
     
     print "This is your data tagged in a misterious way: \n ", data_point.pos_tag_data_string()
     print "Number of adjectives (JJ): ", data_point.count_adjectives()
-    
+    # Example for counting more than one part of speech:
+    print "Number of adjectives (JJ) and adverbs (RB): ", data_point.count_multiple_types_in_tags(['JJ', 'RB'])
     
