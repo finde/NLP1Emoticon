@@ -11,6 +11,14 @@ import DataPoint
 class TrainingData:
     def __init__(self, data_points):
         self.data_points = data_points
+        self.feature_dictionary = { "words": 1,
+                                    "negative_words": 2,
+                                    "positive_words": 3, 
+                                    "positive_words_hashtags": 4,
+                                    "negative_words_hashtags": 5,
+                                    "uppercase_words" :6,
+                                    "special_punctuation": 7,
+                                    "adjectives": 8}
         
 
     
