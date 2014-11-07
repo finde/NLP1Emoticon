@@ -40,7 +40,7 @@ class TrainingData:
 ############################
                                     
     def count_words(self):
-        return self.count_feature('words')
+        return self.count_feature(self.feature_dictionary['words'])
         
         
         
@@ -51,28 +51,28 @@ class TrainingData:
 ########################################
 
     def count_feature(self, feature):
-        if feature == 'words':
+        if feature == self.feature_dictionary['words']:
             return [each.count_words() for each in self.get_training_points()]
         
-        elif feature == 'positive_words':
+        elif feature == self.feature_dictionary['positive_words']:
             return [each.count_positive_words() for each in self.get_training_points()]
         
-        elif feature == 'negative_words':
+        elif feature == self.feature_dictionary['negative_words']:
             return [each.count_negative_words() for each in self.get_training_points()]
         
-        elif feature == 'positive_words_hashtags':
+        elif feature == self.feature_dictionary['positive_words_hashtags']:
             return [each.count_positive_words_in_hashtags() for each in self.get_training_points()]
         
-        elif feature == 'negative_words_hashtags':
+        elif feature == self.feature_dictionary['negative_words_hashtags']:
             return [each.count_negative_words_in_hashtags() for each in self.get_training_points()]
         
-        elif feature == 'uppercase_words':
+        elif feature == self.feature_dictionary['uppercase_words']:
             return [each.count_uppercase_words() for each in self.get_training_points()]
         
-        elif feature == 'special_punctuation':
+        elif feature == self.feature_dictionary['special_punctuation']:
             return [each.count_special_punctuation() for each in self.get_training_points()]
         
-        elif feature == 'adjectives':
+        elif feature == self.feature_dictionary['adjectives']:
             return [each.count_adjectives() for each in self.get_training_points()]
         
         else:
