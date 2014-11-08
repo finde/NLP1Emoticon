@@ -9,10 +9,12 @@ from nltk.metrics import edit_distance
 import re
 import collections
 
+import language_check
+
 
 class SpellingCheck:
     def __init__(self, text):
-        self.dictionary = enchant.Dict("en")
+        self.dictionary = enchant.Dict("en-US")
         self.spelling_checker = SpellChecker(self.dictionary)
         self.spelling_checker.set_text(text)
         self.max_dist = 2
@@ -43,12 +45,19 @@ class SpellingCheck:
     def replace_word(self, word):
         if self.dictionary.check(word):
             return word
+
         suggestions = self.dictionary.suggest(word)
         if suggestions and edit_distance(word, suggestions[0]) <= self.max_dist:
             return suggestions[0]
 
+
 if __name__ == "__main__":
     sentence = "Helo! Ths is vomment."
     checker = SpellingCheck(sentence)
-    checker.select_suggestion()
+    print checker.select_suggestion()
     print checker.spelling_checker.get_text()
+
+    language_tool = language_check.LanguageTool("en-US")
+    matches = language_tool.check(sentence)
+    sentence = language_check.correct(sentence, matches)
+    print sentence
