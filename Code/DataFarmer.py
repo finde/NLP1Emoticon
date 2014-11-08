@@ -1,66 +1,10 @@
-__author__ = "Finde"
-__version__ = "v0.1"
-
 import os
 import json
 import re
+import numpy as np
+from time import sleep
 import tweepy  # http://www.tweepy.org/
-
-import language_check  # https://pypi.python.org/pypi/language-check
-import nltk  # http://www.nltk.org/
-from nltk.tokenize.punkt import PunktWordTokenizer
-
-
-def uniqify(seq, idfun=None):
-    # order preserving
-    if idfun is None:
-        def idfun(x): return x
-    seen = {}
-    result = []
-    for item in seq:
-        marker = idfun(item)
-        # in old Python versions:
-        # if seen.has_key(marker)
-        # but in new ones:
-        if marker in seen: continue
-        seen[marker] = 1
-        result.append(item)
-    return result
-
-
-class Preprocessor:
-    def __init__(self, text):
-        print text
-        self.text = text
-        self.lang_tool = language_check.LanguageTool('en-US')
-
-    def language_corrector(self, text):
-        matches = self.lang_tool.check(text)
-        return language_check.correct(text, matches)
-
-    def remove_html(self, text):
-        return re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', '@HLINK', text)
-
-    def remove_retweet(self, text):
-        if text.find("RT ") == 0:
-            return text.replace("RT ", "")
-        return text
-
-    def get_object(self):
-        status = {}
-        status['hashtags'] = re.findall(r"#(\w+)", self.text)
-
-        status['text'] = self.text
-        # replace HTML link with @HLINK
-        status['text'] = self.remove_html(status['text'])
-
-        # spellchecker
-        status['text'] = self.language_corrector(status['text'])
-
-        # remove RT
-        status['text'] = self.remove_retweet(status['text'])
-
-        return status
+import progressbar
 
 
 class DataFarmer:
@@ -69,6 +13,22 @@ class DataFarmer:
         auth = tweepy.OAuthHandler(self.twitter_config['consumer_key'], self.twitter_config['consumer_secret'])
         auth.set_access_token(self.twitter_config['access_token'], self.twitter_config['access_token_secret'])
         self.twitter_api = tweepy.API(auth)
+
+    def uniqify(self, seq, idfun=None):
+        # order preserving
+        if idfun is None:
+            def idfun(x): return x
+        seen = {}
+        result = []
+        for item in seq:
+            marker = idfun(item)
+            # in old Python versions:
+            # if seen.has_key(marker)
+            # but in new ones:
+            if marker in seen: continue
+            seen[marker] = 1
+            result.append(item)
+        return result
 
     def match_emotion(self, text, emotion):
         my_compile = lambda pat: re.compile(pat, re.UNICODE)
@@ -106,16 +66,9 @@ class DataFarmer:
         # default if all fail
         return False
 
-    def run_twitter_crawler(self):
-
+    def fetch_from_twitter(self, target):
+        number_of_tweets = []
         for q in self.twitter_config['query']:
-
-            max_tweets_per_query = self.twitter_config['max_tweets_per_query']
-            search = self.twitter_api.search
-
-            searched_tweets = [status for status in
-                               tweepy.Cursor(search, q=q['query_string'], lang='en').items(max_tweets_per_query)]
-
             # file exists, it should append instead of overwrite
             statuses = []
             filename = q['class_label'] + '_raw.json'
@@ -127,50 +80,61 @@ class DataFarmer:
                 f.close()
 
             n_tweet = len(statuses)
-            for tweet in searched_tweets:
-                # print dir(tweet)
-                raw_text = tweet.text.encode('utf8')
 
-                # basic pre-processing to ensure the status match with the target emotion
-                # and only one emotion (class_label) allowed per status (no mixed emotions)
-                if not self.match_emotion(raw_text, q['class_label']):
-                    continue
+            if n_tweet < target:
 
-                statuses.append(raw_text)
+                # twitter crawler
+                max_tweets_per_query = self.twitter_config['max_tweets_per_query']
+                search = self.twitter_api.search
 
-            f = open(filename, 'w+')
+                searched_tweets = [status for status in
+                                   tweepy.Cursor(search, q=q['query_string'], lang='en').items(max_tweets_per_query)]
 
-            # store unique status
-            statuses = uniqify(statuses)
-            f.write(json.dumps(statuses, sort_keys=True, indent=4, separators=(',', ': ')))
-            f.close()
-            print '============================================'
-            print ' Emoticon: ', q['class_label']
-            print ' Query: ', q['query_string']
-            print ' New tweets: ', (len(statuses)-n_tweet)
-            print ' Total tweets: ', len(statuses)
-            print '============================================'
+                for tweet in searched_tweets:
 
-    def run_preprocess(self):
-        for q in self.twitter_config['query']:
-            statuses = []
-            filename = q['class_label'] + '_raw.json'
-            if os.path.isfile(filename) and os.access(filename, os.R_OK):
-                # load json dump into variable
-                f = open(filename, 'r+')
-                statuses = json.load(f)
+                    if len(self.uniqify(statuses)) >= target:
+                        break
+
+                    raw_text = tweet.text.encode('utf8')
+
+                    # basic pre-processing to ensure the status match with the target emotion
+                    # and only one emotion (class_label) allowed per status (no mixed emotions)
+                    if not self.match_emotion(raw_text, q['class_label']):
+                        continue
+
+                    statuses.append(raw_text)
+
+                statuses = self.uniqify(statuses)
+
+                f = open(filename, 'w+')
+
+                # store unique status
+                f.write(json.dumps(statuses, sort_keys=True, indent=4, separators=(',', ': ')))
                 f.close()
+                # print '============================================'
+                # print ' Emoticon: ', q['class_label']
+                # print ' Query: ', q['query_string']
+                # print ' New tweets: ', (len(statuses) - n_tweet)
+                # print ' Total tweets: ', len(statuses)
+                # print '============================================'
 
-            # for each status, run cleaner again
-            new_statuses = []
-            for status in statuses:
-                # not done here
-                status['text'] = Preprocessor(status['raw']).get_text()
-                new_statuses.append(status)
+            number_of_tweets.append(len(statuses))
 
-            f = open(filename, 'w+')
-            f.write(json.dumps(new_statuses))
-            f.close()
+        return number_of_tweets
+
+    def run(self, target):
+        bar = progressbar.ProgressBar(maxval=target,
+                                      widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
+
+        number_of_tweets = self.fetch_from_twitter(target)
+        bar.update(np.mean(number_of_tweets))
+
+        while len(number_of_tweets) > 0 and np.mean(number_of_tweets) < target:
+            sleep(10)
+            number_of_tweets = self.fetch_from_twitter(target)
+            bar.update(np.mean(number_of_tweets))
+
+        bar.finish()
 
 
 if __name__ == "__main__":
@@ -187,7 +151,7 @@ if __name__ == "__main__":
         # 'access_token': '2864250076-Q4yYb98vZ2mfLVc2nItl651AxKqkZzaJdEAVh7n',
         # 'access_token_secret': 'tFy5NRL4iZUierYdyxcoP0mAp5XcDAHhoRroHd3krT8Q0',
 
-        'max_tweets_per_query': 50,
+        'max_tweets_per_query': 25,
         'query': [
             {'class_label': 'positive', 'query_string': ':)'},
             {'class_label': 'negative', 'query_string': ':('}
@@ -195,4 +159,4 @@ if __name__ == "__main__":
     }
 
     data_farmer = DataFarmer(twitter_cfg)
-    data_farmer.run_twitter_crawler()
+    data_farmer.run(900)
