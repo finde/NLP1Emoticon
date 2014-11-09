@@ -34,30 +34,30 @@ class DataPoint:
 
     def get_negative_words(self):
             return self.negative_words
-    
+
     def get_list_of_words(self):
             return self.data_string.split()
-    
-    
+
+
     def print_data_point(self):
             print "TEXT: ", self.get_data_string()
             print "HASHTAGS: ", self.get_hashtags()
-            print "CLASS: ", self.get_class_label()             
+            print "CLASS: ", self.get_class_label()
 
 
 ############################
 # Feature extraction funcs #
 ############################
 
-        
+
     # Count total number of words
     # from given array of words
     def count_words(self):
             # Split the string into seperate words and count them:
             words = self.split_sentence()
             return len(words)
-  
-                      
+
+
     # Count number of positive words
     # from given array of words
     def count_positive_words(self):
@@ -69,8 +69,8 @@ class DataPoint:
     def count_negative_words(self):
         list_words = self.split_sentence(lowercase = True)
         return self.count_specific_words(list_words, self.get_negative_words())
-                
-    
+
+
     # Count number of positive words
     # from given array of hashtags
     def count_positive_words_in_hashtags(self):
@@ -82,18 +82,18 @@ class DataPoint:
     def count_negative_words_in_hashtags(self):
         hashtags = self.get_lowercase_hashtags()
         return self.count_specific_words_in_hashtags(hashtags, self.get_negative_words())
-   
+
     # Count number of uppercase words
-    # maybe Ignore short words (I is always uppercase) 
+    # maybe Ignore short words (I is always uppercase)
     def count_uppercase_words(self):
         n_words = 0
-        
+
         for word in self.split_sentence():
             if word.isupper() and len(word)>1:
                 n_words += 1
-                
-        return n_words         
-                
+
+        return n_words
+
     # Count number of special punctuation occurrences
     def count_special_punctuation(self):
         # Count the number of special puncuation marks:
@@ -102,11 +102,11 @@ class DataPoint:
 
         count_special_punctuation = exclamation_marks + question_marks
         return count_special_punctuation
-        
-    # Example function for counting types of tags:    
+
+    # Example function for counting types of tags:
     def count_adjectives(self):
         # Count the number of adjectives in a sentence
-        return self.count_specific_type_in_tags('JJ')   
+        return self.count_specific_type_in_tags('JJ')
 
 ########################################
 # Help functions for eature extraction #
@@ -131,12 +131,12 @@ class DataPoint:
             data = self.get_sentence_without_punctuation()
         else:
             data = self.get_data_string()
-        
+
         if lowercase:
             data = data.lower()
-                
+
         list_words = re.findall(r"[\w']+|[.,!?;]", data)
-        
+
         return list_words
 
 
@@ -149,75 +149,85 @@ class DataPoint:
                 n_words += 1
 
         return n_words
-        
-    # Count number of specific words in a hashtag    
+
+    # Count number of specific words in a hashtag
     def count_specific_words_in_single_hashtag(self, hashtag, dictionary, repetition = False):
         n_words = 0
-        
+        match_words = []
+
         # Either count each occurence
         if repetition:
             for word in dictionary:
                 n_words += hashtag.count(word)
-                
-        # Or just check for each word if it's in the hashtag or not        
+
+        # Or just check for each word if it's in the hashtag or not
         else:
             for word in dictionary:
                 if word in hashtag:
-                    n_words += 1
-                    #print word
-        
+                    if len(match_words) == 0:
+                        match_words.append(word)
+                    else:
+                        # check if any subset of found word is already stored before
+                        for idx, match_word in enumerate(match_words):
+                            if match_word in word:
+                                match_words[idx] = word
+                            else:
+                                match_words.append(word)
+
+            n_words = len(match_words)
+
         return n_words
-                                
+
 
     def count_specific_words_in_hashtags(self, hashtags, dictionary, repetition = False):
         n_words = 0
-        
+
         for each in hashtags:
             n_words += self.count_specific_words_in_single_hashtag(each, dictionary, repetition)
-        
-        return n_words                                          
-    
+
+        return n_words
+
 
     # Get the sentence without punctuation
     def get_sentence_without_punctuation(self):
-        sentence_without_punctuation = ' '.join(word.strip(punctuation) for word in self.get_data_string().split() 
-             if word.strip(punctuation))    
+        sentence_without_punctuation = ' '.join(word.strip(punctuation) for word in self.get_data_string().split()
+             if word.strip(punctuation))
         return sentence_without_punctuation
-    
-            
-    # Turn hashtags into lowercase for matching in the    
+
+
+    # Turn hashtags into lowercase for matching in the
     def get_lowercase_hashtags(self):
         return [each.lower() for each in self.get_hashtags()]
-        
+
 
     # Tag a "tokenized" list of words
     # Keep puntuation, pos_tag would also tag it.
     # Turn to lowercase, otherwise there are mistakes
-#### TODO: Apperantly it's weird even with lowercase 
-#### ('try' is not and adjective (JJ) for sure..) 
-#### Check how to properly use the pos_tag function!!!               
+#### TODO: Apperantly it's weird even with lowercase
+#### ('try' is not and adjective (JJ) for sure..)
+#### Check how to properly use the pos_tag function!!!
     def pos_tag_data_string(self):
-        split = self.split_sentence(lowercase = True, without_punctuation = False) 
+        split = self.split_sentence(lowercase = True, without_punctuation = False)
         return nltk.pos_tag(split)
-    
-    
-    # Counts the number of tags from specific type                
+
+
+    # Counts the number of tags from specific type
     def count_specific_type_in_tags(self, type):
         count = 0
         for each in self.pos_tag_data_string():
             if each[1] == type:
                 count += 1
-                
-        return count        
-    
-    # Count the number of tags from a whole list of POS tags 
+
+        return count
+
+    # Count the number of tags from a whole list of POS tags
     def count_multiple_types_in_tags(self, types):
         count = 0
         for each in types:
-            count += self.count_specific_type_in_tags(each)  
-        return count         
+            count += self.count_specific_type_in_tags(each)
+        return count
 
-                
+
 if __name__ == "__main__":
 
     #Command line arguments
@@ -267,26 +277,26 @@ if __name__ == "__main__":
 
     print "Number of positive words: ", data_point.count_positive_words()
     print "Number of negative words: ", data_point.count_negative_words()
-    
+
     print "Number of uppercase words: ", data_point.count_uppercase_words()
-  
+
     print "These are your hashtags: \n ", data_point.get_hashtags()
-    print "These are your lowercase hashtags: \n ", data_point.get_lowercase_hashtags() 
+    print "These are your lowercase hashtags: \n ", data_point.get_lowercase_hashtags()
 
 #### TODO: printing the matching pos/neg words in hashtags shows that e.g. suck and sucks are found.
 #### That's not cool, because they correspond to the same word in the hashtag.
 #### If only the longer one is counted then: in "#suckyweather #lifesucks" only one of them
 #### will be found, when it's two bad words. But if we keep counting both, we count twice
-#### the same word as in the example below... Sooo... Needs some fix          
+#### the same word as in the example below... Sooo... Needs some fix
     print "Number of positive words in hashtags: \n ", data_point.count_positive_words_in_hashtags()
     print "Number of negative words in hashtags: \n ", data_point.count_negative_words_in_hashtags()
-    
-    
+
+
     print "This is your data tagged in a mysterious way: \n ", data_point.pos_tag_data_string()
     print "Number of adjectives (JJ): ", data_point.count_adjectives()
     # Example for counting more than one part of speech:
     print "Number of adjectives (JJ) and adverbs (RB): ", data_point.count_multiple_types_in_tags(['JJ', 'RB'])
-    
-    
+
+
     data_point.print_data_point()
-    
+
