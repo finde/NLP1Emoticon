@@ -102,12 +102,12 @@ if __name__ == "__main__":
     training_data = TrainingData.TrainingData(data_points)    
     
     # Get the feature matrix of this data
-    feat_matrix = training_data.get_feature_matrix()
+    feat_matrix = np.array(training_data.get_feature_matrix())
     
     
     
     x_train = feat_matrix
-    t_train = data_class
+    t_train = np.array(training_data.get_label_vector())
     
     #start with really small weights!!
     w = np.random.randn(L, 3)*0.005; 

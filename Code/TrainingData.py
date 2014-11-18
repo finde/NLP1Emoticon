@@ -58,10 +58,13 @@ class TrainingData:
     so 1 vector with all the feature values for 1 datapoint'''
     def get_feature_matrix(self):
        feature_dict = self.get_feature_dictionary()
-       feat_matrix = np.array([[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))])
+       feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
        
        return feat_matrix
   
+    ''' Returns the label vector '''
+    def get_label_vector(self):
+        return [each.get_class_label() for each in self.get_training_points()]
         
         
                
