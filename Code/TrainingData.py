@@ -53,6 +53,16 @@ class TrainingData:
             d[feature] = self.count_feature(self.feature_dictionary[feature])
             
         return d
+        
+    ''' Returns the feature values for all features for each datapoint
+    so 1 vector with all the feature values for 1 datapoint'''
+    def get_feature_matrix(self):
+       feature_dict = self.get_feature_dictionary()
+       feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+       return feat_matrix
+  
+        
+        
                
 
 
@@ -131,6 +141,7 @@ if __name__ == "__main__":
     data_point1 = DataPoint.DataPoint(data_string1, hashtags1, data_class1, dictionary)
     data_point2 = DataPoint.DataPoint(data_string2, hashtags2, data_class2, dictionary)
 
+
     data = [data_point1, data_point2]
     
     
@@ -146,7 +157,9 @@ if __name__ == "__main__":
     print "number of words: \n ", training_data.count_words()
     print "feature dictionary: \n ", training_data.get_feature_dictionary()
     
-    
+    feature_dict = training_data.get_feature_dictionary()
+    feat_matrix = training_data.get_feature_matrix() #[[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+    print 'feat_matrix', feat_matrix
 
     '''
     print "This is your data splitted: \n ", data_point.split_sentence()
