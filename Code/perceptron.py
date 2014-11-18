@@ -23,53 +23,61 @@ import numpy as np
 import TrainingData
 from Dictionary import Dictionary
 import DataPoint
+from TSVParser import TSV_Getter
 
 import lmj.perceptron.averaged as AMP
 
 if __name__ == "__main__":
-#    features = [
-#        [1, 1, 1],
-#        [0, 0, 0],
-#        [2, 2, 2]
-#    ]
-#    
-#    
-#    label = ['a', 'b', 'c']
-#
+    # features = [
+    # [1, 1, 1],
+    # [0, 0, 0],
+    # [2, 2, 2]
+    # ]
+    #
+    #
+    # label = ['a', 'b', 'c']
+    #
 
     # Generate a couple of data strings, hashtags and classes
-    data_string = ["This is a second AWesOme example and i LOVE it?!", "I feel sad", "I don't care"]
-    hashtags = [["#happy", "#yay", "#love"],
-        ["#sad", "#depressed", "#suicidemood", "#totallyhungry"],
-        ["#whatever"]]
-    data_class = [0, 1, 2]
-    
+    data_class = [
+        ['negative.tsv', ':('],
+        ['positive.tsv', ':)']
+    ]
+
     # open the dictionaries
     dictionary = Dictionary()
-    
+
     # generate points from all the strings, hashtags, classes
-    data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
-    
+
+    data_points = []
+    for c in data_class:
+        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1], dictionary) for _ in
+                                     TSV_Getter(c[0]).get_all_tsv_objects(50)]
+
     # gather the data points into a whole training data
-    training_data = TrainingData.TrainingData(data_points)    
-    
+    training_data = TrainingData.TrainingData(data_points)
+
     # Get the feature matrix of this data
     feat_matrix = training_data.get_feature_matrix()
 
     # these are now your features and your classes
     features = feat_matrix
-    labels = data_class
-        
-    
-    
+    labels = [row[1] for row in data_class]
+
+
+
     # perceptron = Perceptron()
     # perceptron.learn(features, label)
 
     multiclass = AMP.Multiclass()
 
-    for n in xrange(10):
-        for i in xrange(len(features)):
-            multiclass.learn(features[i], labels[i])
+    for n in xrange(1000):
+        for i in xrange(len(data_points)):
+            multiclass.learn(features[i], data_points[i].get_class_label())
 
-    for i in xrange(len(features)):
-        print multiclass.predict(features[i])
+    count = 0
+    for i in xrange(len(data_points)):
+        if data_points[i].get_class_label() == multiclass.predict(features[i]):
+            count = count + 1
+
+    print count * 100.0 / len(data_points)
