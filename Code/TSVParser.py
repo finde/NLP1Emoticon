@@ -57,7 +57,7 @@ class TSV_Getter:
     def get_all_tsv_objects(self, size):
         if size is None:
             size = len(self.all_tsv_objects)
-        return self.all_tsv_objects[0:size - 1]
+        return self.all_tsv_objects[0:size]
 
 
 if __name__ == "__main__":
