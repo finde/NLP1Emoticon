@@ -10,27 +10,28 @@ def mlp_gradient(x, t, w, b, v, a, L):
     # initialize datastructures w, b, v and a to fill later on
     gradW = np.zeros((L, 3));
     gradB = np.zeros(3);
-    gradV = np.zeros((10, L));
+    gradV = np.zeros((8, L));
     gradA = np.zeros(L);
 
+    # print x
     # calculate h
-    h = 1/(1+exp(-(v.T.dot(x) + a)));
+    h = 1/(1+np.exp(-(v.T.dot(x) + a)));
     
     # calculate gradient for w and b as usual, only logQ is a bit different than before, so the result will be different.
     logQ = (w.T.dot(h)).T + b;
     c = logQ.max();
-    qc = exp(logQ - c);
-    logZ = c + log(sum(qc));
+    qc = np.exp(logQ - c);
+    logZ = c + np.log(sum(qc));
 
     # store derivatives
     for j in range (0, 3):
-        gradB[j] = ((j == t) - exp(logQ[j] - logZ));
+        gradB[j] = ((j == t) - np.exp(logQ[j] - logZ));
         gradW[:,j] = h * gradB[j];
     
     #compute deltaH and compute gradients
     deltaH = w.dot(gradB);
     gradA = deltaH.T*h*(1-h);
-    gradV = outer(x,(deltaH.T*h*(1-h)));
+    gradV = np.outer(x,(deltaH.T*h*(1-h)));
     
     #return gradients
     return gradW, gradB, gradA, gradV
@@ -40,9 +41,9 @@ def mlp_iter(x_train, t_train, w, b, v, a, L):
     r = list(range(x_train.shape[0]));
     
     # shuffle numbers in r to iterate over our trainingset in a random way
-    random.shuffle(r);
+    np.random.shuffle(r);
     for row in r:
-        gradW, gradB, gradA, gradV = mlp_gradient(x_train[row,:], t_train[row], w, b, v, a, L);
+        gradW, gradB, gradA, gradV = mlp_gradient(x_train[row, :], t_train[row], w, b, v, a, L);
         
         # update gradients, but multiply by small learning rate to keep the weights small
         w = w + gradW*(1E-2);
@@ -56,17 +57,19 @@ def mlp_train_set(w, b, v, a, N, L, x_train, t_train):
         w, b, v, a = mlp_iter(x_train, t_train, w, b, v, a, L);
     return w, b, v, a
 
-def count_correct_results(w, b, v, a):
-    h = 1/(1+exp(-(x_test.dot(v) + a)));
+def count_correct_results(w, b, v, a, x_test, t_test):
+    x_test = x_train
+    t_test = t_train
+    h = 1/(1+np.exp(-(x_test.dot(v) + a)));
     
     # implement the gradients we derived
     logQ = (h.dot(w)) + b;
-    q = exp(logQ);
+    q = np.exp(logQ);
     Z = sum(q);
 
     c = logQ.max();
-    qc = exp(logQ - c);
-    logZ = c + log(sum(qc));    
+    qc = np.exp(logQ - c);
+    logZ = c + np.log(sum(qc));    
     
     logP = logQ - logZ;
     
@@ -74,7 +77,7 @@ def count_correct_results(w, b, v, a):
     
     # count number of correctly labeled images
     for i in range(t_test.shape[0]):
-        classification = argmax(logP[i,:]);
+        classification = np.argmax(logP[i,:]);
         if(classification == t_test[i]):
             cnt = cnt + 1;
     return cnt, t_test.shape[0]
@@ -90,28 +93,28 @@ if __name__ == "__main__":
         ["#sad", "#depressed", "#suicidemood", "#totallyhungry"],
         ["#whatever"]]
 
-    data_class = [0, 1, 2]
+    data_class = np.array([0, 1, 2])
     dictionary = Dictionary()
     
-    data_point = np.zeros((len(data_class),1))
-    for i in range(0, len(data_class)):
-        data_point[i] = DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary)
-
-    training_data = TrainingData(data_point)    
-    feature_dict = training_data.get_feature_dictionary()
+    data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
     
-    feature_dict = training_data.get_feature_dictionary()
-    feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+    # gather the data points into a whole training data
+    training_data = TrainingData.TrainingData(data_points)    
+    
+    # Get the feature matrix of this data
+    feat_matrix = training_data.get_feature_matrix()
+    
+    
     
     x_train = feat_matrix
     t_train = data_class
     
     #start with really small weights!!
-    w = np.random.randn(L, 3)*0.0015; 
-    b = np.random.randn(3)*0.015; 
-    v = np.random.randn(10, L)*0.0015;
-    a = np.random.randn(L)*0.0015; 
+    w = np.random.randn(L, 3)*0.005; 
+    b = np.random.randn(3)*0.05; 
+    v = np.random.randn(8, L)*0.005;
+    a = np.random.randn(L)*0.05; 
     
     w, b, v, a = mlp_train_set(w, b, v, a, N, L, x_train, t_train);
-    cnt, cntall = count_correct_results(w, b, v, a);
+    cnt, cntall = count_correct_results(w, b, v, a, x_train, t_train);
     print 'cnt: ', cnt, '\n cntall: ', cntall
