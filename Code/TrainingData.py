@@ -5,7 +5,7 @@ from string import punctuation
 import nltk
 from Dictionary import Dictionary
 import DataPoint
-
+import numpy as np
 
 
 class TrainingData:
@@ -59,8 +59,12 @@ class TrainingData:
     def get_feature_matrix(self):
        feature_dict = self.get_feature_dictionary()
        feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+       
        return feat_matrix
   
+    ''' Returns the label vector '''
+    def get_label_vector(self):
+        return [each.get_class_label() for each in self.get_training_points()]
         
         
                
