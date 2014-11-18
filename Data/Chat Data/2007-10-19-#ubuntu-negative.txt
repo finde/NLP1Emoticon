@@ -1,0 +1,184 @@
+i envy all of you? i just want to install and use the gutsy livecd like i would normally always do. i'm not going to settle for text-based installation or any alternate cd's :(
+the tracker is refusing my connection :(
+if my xorg.conf file is ****'d up again then I will blame k3b or my dvd drive for burning a bad image... :(
+southafrikanse, really? it deletes everything? :(
+fjleon, ok :(
+i have installed kommander. how do i run it? i can't find it anywhere. :(
+oh my everyone's talking so fast :(
+:(
+I tried to select a different gfx driver in that new gutsy gui (using ati with proprietary fglrx so far, wanted to go for the open source version of radeon), rebooted and now my notebook display only runs in 640x480 anymore and I cant seem to get my gfx card back to normal work... what do I do? :(
+erat123, well, sorry, I don't have the time to help you out right now. :(
+thanks soundray... any idea about my gfx card problem? :(
+I tried to select a different gfx driver in that new gutsy gui (using ati with proprietary fglrx so far, wanted to go for the open source version of radeon), rebooted and now my notebook display only runs in 640x480 anymore and I cant seem to get my gfx card back to normal work... what do I do? :(
+:(
+you cant login to desktop as root :(
+no fakeraid support eh? :(
+cousin_luigi and ademan: re-started X (CTRL ALT backspace), but I still see only one driver at restricted drivers manager and it's already enabled... OpenGL still doesn't work :(
+:(
+PAStheLoD: It was all working fine with feisty :(
+now i just installed gutsy a couple of hours ago and my firs impresion is  that is a little slower then FF on my system and this strange freezing :(
+PAStheLoD: tell me about it :(
+cousin_luigi. IcemanV9: re-started X. Same problem, and on restricted drivers manager I see only one nvidia driver and it's already enables... Please help :(
+Lunks: I've looked into this before, I havent found a way to do it yet :(
+Pici: Not the same circle, right? :(
+where are the lock files for firefox please???? :(
+ademan: I'm in there, and no one is responding :(
+ewww FF just died :(
+tbuss, ok i deleted .parentlock and theres no lockfile.. and yet it doesnt run :(
+:(
+ALSA lib control.c:874:(snd_ctl_open_conf) Cannot open shared library /usr/lib/alsa-lib/libasound_module_ctl_pulse.so
+could you guide me to what i need to do ALSA lib control.c:874:(snd_ctl_open_conf) Cannot open shared library /usr/lib/alsa-lib/libasound_module_ctl_pulse.so
+faggotry; 100gb mp3s formated:(
+nrdb: this is so depressing. there is no graphics card vendor to turn to for reliable, functional, open source 3d drivers. they all hate me and want my money :(
+kitche: i have no been able to run x successfully from the liveCD at all tonight. no one seems to know what to do :(
+utorrent used to be so nice :(
+cant update :(
+rryan, i have to use separate desktop per monitor :(
+plik: I like freeloader :(
+i've just fresh installed gutsy but it boots up too slow:((((
+i've just fresh installed gutsy but it boots up too slow:(((( anybody help me pls??
+Pelo: bad news for me :(
+broken :( it is brend new only a couple of mounts
+i've just fresh installed gutsy but it boots up too slow:(((( anybody help me pls??
+pwnguin: huh :( all I know abou tuning HD stuff is hdparm xD
+IcemanV9, might be.. on a ati so :( tho xserver works fine :) only usplash doesnt show
+kahrytan: Sorry :(
+gah! buggy buggy ubuntu-alternative! :(
+:(
+any chance they can fix this stuff and re-release it soon. i can't wait 6 months for a usable Ubuntu system :(
+can anyone suggest a free cd burn software for windows? My nero won let me go lower than 8X and my live cd's are borqued :(
+ * LordLimecat didnt read that info :(
+:(
+I'm trying to play something with mplayer and I'm getting "alsa-lib: pcm_hw.c:1242:(snd_pcm_hw_open) open /dev/snd/pcmC0D0p failed: Device or resource busy"  Is there something I can do to force it to not be busy?
+I'm trying to play something with mplayer and I'm getting "alsa-lib: pcm_hw.c:1242:(snd_pcm_hw_open) open /dev/snd/pcmC0D0p failed: Device or resource busy"  Is there something I can do to force it to not be busy?
+i try to open strigi, and it opens uo kate :(
+:(
+cellofellow, thanks, and I feel bad for your 5 instances of nm :(
+:(
+my mouse runs and hides :(
+Well, I have a list of repo mirrors in Adept... I already tried a Canadian one, there aren't any Mexican ones listed - the page IcemanV9 posted has one, and it shows Gutsy, but I have no way to add it. :(
+wastedfluid, Yes, no idea :(
+yeah ive got 64 bit and java doesnt work :(
+riotkittie, darn, they were cool :(
+everyone left :(
+DARKGuy:but it truns bad :(
+DARKGuy:but actual glxgears says my brd performance better :(
+tuntun, ah, automatic ordering? I don't think they've added that to nautilus yet :(
+DARKGuy:mylaunghing options itslf has opengl :(
+DARKGuy:i guess my gaming days are over :((
+DARKGuy:i cnat go back and play on windows :(((
+xmms no longer supported :(
+after "sudo /etc/init.d/mysql stop" mysql still is running :( i don't need it to run, but it seems the upgrade will not proceed until it dies. any idea ho to keep it from relaunching?
+I got a problem while istalling freespire can anyone help me please :(
+I got a problem while istalling freespire can anyone help me please :(
+I'm trying to fix Ubuntu boot to get back freespire  can anyone help me please :(
+Lunz: :(
+how can I add free spire to menu.lst in Ubuntu to make it boot again I really need help if anyone know this :(
+how can I add free spire to menu.lst in Ubuntu to make it boot again I really need help if anyone know this :(
+how can I add free spire to menu.lst in Ubuntu to make it boot again I really need help if anyone know this :(
+how can I add free spire to menu.lst in Ubuntu to make it boot again I really need help if anyone know this :(
+Lunz: sorry, i'm cluless :(
+:(
+hellow  can anyone help :(
+how can I add free spire to menu.lst in Ubuntu to make it boot again I really need help if anyone know this :(
+:( no
+Lunz: hmm, im not so sure why you're having problems :(
+Lunz: I dunno :(
+next thing would be: i possess a canon canoscan 3000 usb scanner, which wouldn't work under feisty because of some strange kernel flags. this should be fixed under gutsy (they wrote in the forums). now ... the scanner is still not being recognized :(
+sorry to repeat my question... had to reboot & lost the chat :( can someone remind me how i can upgrade from the dvd ? something about add cdrom...
+jotil google doesn't always have the answers:(
+haru: mm, dunno :(
+jotil: yes, I know that is the error, but how can I fix that? :(
+FF works a lot faster on this linux compared to XP pro ffs :(
+compiz dont work on my graphics card :(
+could someone point me in the right direction to get my dell d820 laptop wireless working? I had hope by now that linux had moved on and would work from fresh install, but even ubuntu7.10 didnt, hence my irc name :(
+:(
+could someone point me in the right direction to get my dell d820 laptop wireless working? I had hope by now that linux had moved on and would work from fresh install, but even gutsy didnt, hence my irc name :(
+:( is it possible to download Amarok with all dependecies>
+cwill1: Nope :(
+I did search but nothing came up, tried several varients of it too :(
+Eclipse/Aptana plugin for Eclipse really hate the 7.10 update :(
+new kernel in gutsy doesn't generate ACPI events on my Asus laptop :(
+if anyone can help me, i'll be really thankful. i need xp for work :(
+:(
+Amaranth: bugger bugger bugger :( *cries*
+Tigerman: i am trying to fix my own problem right now and that is not helping me :(
+where midnight commander in gutsy? :(
+I did, but everybody ignored me :(
+hi all, i have a problem with gutsy, in feisty, it has the file /etc/gtk-2.0/gtk.immodules, but in gutsy this files does not exist, how can i change the options for the cedile module ???? :(
+IdleOne: I was looking at this thread: http://ubuntuforums.org/showthread.php?t=574125&highlight=error+loading+operating+system&page=5 don't see a resolution there :(
+:(
+kyja: yes :(
+IdleOne: did that :( i was spamming Esc really fast...could be caues it's a USB keyboard but i had enabled legacy usb support. IdleOne: i'm on a separate computer so it should be ok
+Nomikos: no such luck :(
+pici prove it. :(
+:(
+Vlet: no matter though...I did everything from scratch again and it still doesn't work :(
+Vlet: yeah i did that a clean install :P but it still mucked up :(
+Reuben: Not sure.. over my head :(
+PMantis: I did :(
+:(
+apt-get seems useless all the packages i want to install arnt available :(
+MasterShrek: i wish i knew what that was :(
+hello , i have trouble installing gutsy, whenever i get to the "scanning mirrors", it just hangs... :(
+i hate my packet shaped bs dorm connection :(
+gahhH! 7.10 upgrade totally fsckd my system :(
+geefinator, don't say that. i also have dual display :(
+vlet, im on osx.  it's even worse in the real thing :((((((
+my xserver won't start nvidia crashes b4 login, i was trying to make dual screen, i even backed it up. now the back up xorg.conf isn't working. can anyone help? I've been searching and searching :((
+seamus7: in the terminal now rsync is outputting alot of errors :(
+i had it in feisty and in gutsy ... :(
+dystopianray: so do u have any idea what i can do to prevent this kernel panic again? :(
+vlet: :(
+TabooTreez: just discoverd that my HDD died on my notebook :( So I'm not really in the mood to help others any further :(
+tsukasa: ah ok, stupidly i'm not at the box now :( it will take me roughly 15 to get to it
+Someone please help me with GUTSY install. All I get is "OUT OF RANGE" in red on my monitor :(
+Someone please help me install Gutsy :(
+the "/msg ubotu mirrors" doesn't work :(
+MasterShrek: NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!! :(
+src: i didnt... smb4k screwed it :(
+abhibera, :(
+I thought it gutsy would install it automatically, but it doesn't :(
+we are being spammed with join/leave notices :(
+Gutsy sucks:(
+:((
+Gutsy install is giving me problems:(
+gutsy help anyone?:(
+Synaptic is so slow at the moment :(
+gutsy has NOT been going well for me  :(
+:(
+:( No volume control GStreamer plugins and/or devices found. :(
+too many questions, no answers... sad world :(
+:(
+i dunno i just can't get any sound :(
+:(
+hi out there, after upgrading from feisty i have lost my dri accel for my intel 945 card :(
+someone told me to add the cdrom to the sources list by doing "sudo apt-cdrom add" i think? I could be slightly off on the command :(
+help guys please :(
+rryan:(EE) NVIDIA(0): Failed to initialize the NVIDIA kernel module! Please ensure
+any1 using a m-audio audiophile 2496 usb soundcard? having trouble getn mine to work :(
+i'm having soundcard troubles :(
+when trying to start timidity again (as a daemon), I get "ALSA lib pcm_dmix.c:864:(snd_pcm_dmix_open) unable to open slave". it seems like alsa is trashed somehow. this is NOT the first time I experience this. a restart fixed it everytime it happened, but I guess there's a way without a long and disgusting reboot
+cm_dmix.c:864:(snd_pcm_dmix_open) unable to open slave"
+i think im going to give up on ubuntu :(
+restarting alsa-utils doesn't help, stopping it and timidity and starting only alsa-utils does also not work; timidity prompts the following message when I try to start it again while the alsa-utils are running again:  "ALSA lib pcm_dmix.c:864:(snd_pcm_dmix_open) unable to open slave"
+oh no not pasting :(
+psyjoniz: no it does not have that :(
+nonix4: bummer. :( If it's any consolation I've made some (similar) bad partitioning decisions.
+window decoration :( please help should i remove emerald and is emerald good to keep???
+window decoration :( please help should i remove emerald and is emerald good to keep???
+but my desktop doesnt have this problem :(
+i want my gutsy :(
+Tigerman, then i'd say you can safely remove hotkeys it's not going to help :(
+I've just installed kubuntu-desktop on gusty, logged in KDE but there are no desktop effects :( how to enable them ????????
+I've just installed kubuntu-desktop on gusty, logged in KDE but there are no desktop effects :( how to enable them ????????
+I've just installed kubuntu-desktop on gusty, logged in KDE but there are no desktop effects :( how to enable them ????????
+My X server crashes when I try to enable compiz :(
+Hey guys what is the shell command to "split" the input.. so if i got "xx yy zz" i want "yy" as output.. I forgot it! :(
+ekp, No :(
+Can anyone help me set up dual montiors please?  Only one will show up in the Screens and Graphics menu :(
+Can anyone help me set up dual montiors please?  Only one will show up in the Screens and Graphics menu :(
+This is shameful :(
+Can anyone help me set up dual montiors please?  Only one will show up in the Screens and Graphics menu :(
+Can anyone help me set up dual montiors please?  Only one will show up in the Screens and Graphics menu :(
+ubuntu is basically broken now, i have to back up everything and do a clean install :(

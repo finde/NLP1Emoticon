@@ -1,0 +1,128 @@
+can someone please help me, I don't want to have to reinstall... :(
+dammit i can't decided between KDE of Gnome for Dapper :(
+lmh: then it's lying !!! :(
+yct: well.. I need to write a "month with Suse 10.1" article... so unfortunately my good laptop is taken... I'm gonna have to install Ubuntu on another machine in the meantime :((
+RandolphCarter: I dont know if you remember my problem w/ the Radeon 7000, but I had to end up changing the driver again to vesa :(, but the server is for vmware so thats cool
+Seveas: cant go by that ubuntu has alot of users with 2-3 names in channels at all times :(
+oh :(
+Mark1412: astalavista.box.sk ...tsss.. :(
+oh :(
+:( But daadddyyyy
+:(
+> :( I broke my pc
+well ... i guess i found out everything  need to know.. it won't be a midnight release :(
+hyperactivecrond :( i've been searching for a "misplaced" final iso ;)
+I wanted Perky Penguin :(
+don't tell me unability to extract a rar archive will be the reason i switch back to windows :(
+> so i wont be using it :(
+dapper was a horrible upgrade for me, it enticed me to mess with things i shouldn't.  Like xgl.  Now my gdm is screwed :(
+:(
+:(
+:(
+cuz ur right guys, itl take hours:( + the system will be jam acked with breezy users upgrading lol
+"Epiphany has quit unexpectedly" every time I load it :(
+pike__, :( O well
+im disappointed:(
+Bilford: thanks for that, i'll wait :(
+i dont think anyone knows hisakasex:(
+but thats a dream for now:(
+Saj: x2 is expensive :(
+Hentai_Jeff: They are? I was wondering why the latest version didn't get released on Linux. :(
+viaken: :(
+does cedega really not work on pb:(?
+If someone renamed an XP install iso to an ubuntu install iso and someone went to install it and installed windows :(
+:(
+Seveas: :((
+:(
+khermans: don't know perl :(
+aww no party near me :(
+i hate that dapper splashscreen on bootup :(
+Seveas: don't have salmon :(
+my IP blocks torrents !! :(
+:(
+:(
+scheuri : so when I log off windows xp then type in the users username n password, then it cannot.. :(
+he just haves to set +l to 1499 :(
+Burgundavia: doesnt help when I'm having issues now :(
+5 :(
+hi ubuntu-6.06-desktop-i386.jigdo is missing :(
+kbrooks: I just happen to have ~1MB/s upload... the limits just suck :(
+Seveas: pity :(
+only 6 seeds at the moment... :(
+khermans I'm getting errors with the command line transcode so I think a frontend would fail still :(
+:(
+: no scan result :(
+there are no seeders for the dvd at the moment :(
+thoreauputic, :(
+onkarshinde, i need more 379 mb :(
+Torrent is slow :(
+Xore, fun and profit? :(
+thoreauputic: I had to reconnect to irc.freenode.org :(
+:(
+it is 4 hours before I even can start installing :(
+:(
+50Kb from the xubuntu site :(
+how do i reclaim my firefox icon.. was about to read the forum post before it died :(
+installing xp in qemu is so slow :(
+wierd... mine does not work good at all :(
+those mirrors are too slow :(
+i know how to install stuff myself, just takes me ages :(
+i broke ubuntu :(
+grimboy: probably? im always here. i have no life. :(
+Celestar: thanks but i am downloading ISOs. Bittorrents are taking twice the time :(
+??? wtf ? :(
+installation is SLOW :(
+MacSlow, few moment for 19mb ? you must be lucky dude, I live with 512 only :(
+The Totem Plugin Could Not Startup : Could not establish connection to sound server - can someone help me here? :(
+hey guys all the games I play now are really laggy since i played around wiht the driver settings :(
+Celestar:: :( sorry, dont know how to do it by command line
+dapper isn't cool :(
+dunnix: No i don't think my sound is working :(
+installArchives() failed :(
+snoops:: i dont know, sorry :( but dont quit on us, there are lots of brilliant people that answer questions very quickly
+:(
+Frogzoo: what do you mean reinstall? I tried reinstalling the whole ubuntu distro with boot loader twice and same result. It just tries to load (and fails) ubuntu after a few seconds... :( I also tried using the install CD in recovery mode but wasn't sure what to do...
+Frogzoo: as part of the system reinstall, the boot loader (LILO) was also reinstalled. It did not improve my situation. Breezy install went a lot smoother with GRUB...I don't have a choice of boot loader here.. :(
+krazykit: I did that but it just spits out errors about /proc/devices not being present... :(
+damnit. I need a kernel compiled with gcc-3.4 :(
+:(
+:(
+I've been following that with no success :(
+visik7: doesn't work :(
+:(
+:(
+sorush20: apparently not, unfortunately :(
+help! how can I edit my xorg.conf ?? cant do it via su chmod :(
+i cant find the msttcorefonts with synaptic....i have all the sources enabled tho.... :(
+:(
+jayrod06, but not a macbook :(
+nouse thats right windows :()
+I have a terrible problem :(
+madmike, but it doesnt, windows doesnt boot... :(
+stupid windows :(, it doesn't work in my ntfs partition due to a resize partition
+midna: well, thanks... not sure about the status of my warranty, that's all :(
+I tried putting the SSID and key in by hand and still no go :(
+I'm a little dissapointed. I'm excited that the new Ubuntu can find my wireless card out of the box, and I heard it was delayed mostly for wireless support... so why isn't there a wifi manager :(
+wastrel: my wifi is in there with SSID and password I set :(
+>:(
+Problem is the few things that don't work aren't just a matter of downloading a driver installer :(
+I did that shachaf, and the script didn't run. :(
+asdx, not as many as I hoped there would be :(
+Frem: No luck with that :( Thanks anyway, I'll just lurk in here until somebody helps me :)
+It seems to have better card support but no sort of wifi manager :(
+dsas: easyubuntu breaks totem for me :(
+is there a way to set a global http proxy? i keep getting "can't resolve http" errors and nothing will update/download. my isp insists on using transparent proxies but the default one i go through is broken :(
+Ah, I haven't used anything but Raid 0 so unfortunately I can't help you :(
+the power manager on dapper doesn't work apparently :(
+h3sp4wn: How do I do that ? :(
+michaels, sorry no :( but google might be able to help if you search on about:config+firefox
+It didn't work :( Host unreachable ...
+h3sp4wn: ... ? Any idea (sorry for bugging you but I can't get this sorted out :( )
+i think it's telling me i'm rubbish and can't be trusted with software :(
+same thing :(
+gnomefreak, what now? :(
+can any1 help me with my soundcard problem :(
+hell i want an edgy repo :(
+(EE) Failed to load /usr/lib/xorg/modules/extensions/libGLcore.so <- help me :(
+eobanb yeah i know... but without forcing a setting... it wont let XGL run normal speed :(
+penguinwhoflew,  mmm not saavy in that part sorry :(

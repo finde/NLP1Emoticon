@@ -1,0 +1,143 @@
+Hmm.. I need some help with Ubuntu 8.04, I just did a fresh install on my desktop, the install went okay, but everytime I try to boot into it I get the busybox. :(
+Pelo :(. I agree with whoever said releases shouldn't hit the repositories until torrents have been going for a week or so.
+astro: ah ok thx. do you pr chance know of a workaround? I bet if I try to fix xp now with the repair thingie it will screw ubuntu up :(
+MattJ: I do :(
+:(
+yeah, my laptop spikes to 70C sometimes :(
+:(
+gravemind: another 700 MB :(
+:(
+Pelo, those people are idiots :(
+bagelong: don't know then sorry :(
+josh04: when i edited and restarted its not an option in the gnome utility to switch >:(
+gotenks: How do I do that? I have four rectangles in my workspace switcher but can only use 2 of them :(
+it's the chenbro nas.. i thought i was getting one with a slot, but no :(
+fuck even xchat is configured to get to somewhere :(
+:(
+ralfz i lied :(
+Led_Zeppelin: :(
+ * Konedima just wants some attention :(
+agmishra, I can't find any -dev packages for gtk :(
+How do I configure ubuntu and/or mplayer to play in 7.1? Right now its only playing over 2.1 speakers :( ??
+oh, Its either Hardy that still should be in Alpha Release, or 'me'    but its a fresh install. and almost everything is goin haywire.  I dont have any sound, A black screen on 1 on 2 reboot (besides of the Gdm login screen)   ect..ect. I need serious help (mostly with these 2 problems) I'm with Ubuntu since Hoary, and i never seen it this buggy.    :(
+boy I really wish I could get Ubuntu onto my PowerMac :(
+roxygirl: that means since you arent in the US you cant watch those videos.  I have that same problem when trying to watch dr who  from the UK :(
+alright, :( thanks bazhang and nikonlappy.
+Is anyone have problems connecting to their protected wireless networks with Hardy? my network uses WPA2 Personal and it doesn't accept the passkey :(
+It must :(
+seamus7: now if only my usb gprs modem works! :(
+i hate this fucking ubuntu shit, low quality releases, almost every single time :(
+ * Baby_Shambl3s wishes to help out but dont where to start :(
+I have a problem, I installed Ubuntu however I can't get a wireless connection working. On the taskbar, I can 'Enable Networking' properly but I can't press 'Enable Wireless'. When I list the devices in terminal a wireless card is there... help :(
+cool:  gone??? dead??  it wont show on another ubuntu machine I have ... :( ... I just unmounted it ... some hours ago
+AH CRAP, ubuntu+1 forwards to this channel now? :(
+help!!!  I just did a fresh install of 8.04 and I can't find file sharing... it was right in the menus in the beta....what happened to it? :(
+that sudo mount doesn't work :(
+no one can help me?  :(
+hello. Ubuntu newbie here. I installed 8.04 hoping it would detect pre-installed XP, but now I am unable to boot into XP :(
+cool, I've installed it by EnvyNG it should be correct :(
+can someone PLEASE help me share folders in 8.04?  They seem to have taken out the function in the release... :(
+anyone who knows more about wireless?? :(
+rothchild: No idea :( In 7.10, it just automatically asked me if I wanted to enable the restricted drivers for the card, so I did. If I use the "Hardware Testing" option in System>Administrator, then it detects what it is, but that doesn't help any. It just tells me it's name
+rothchild: :( The only ones I'm finding for Broadcom is two for the 43xx, I have the 44xx...
+﻿dystopianray: not for me sadly, tried everything on the net :(
+rothchild: If that's the little On/Off button... :( It seems to have been killed as well. Doesn't work. I hit it, and Wireless Network shows up in my networking, but it wont actually find any networks
+dystopianray: sadly it still increase with one every 5 secs :(
+rothchild: :( That doesnt work for me
+Okay Ubuntu people. Hardy really screwed over my system. I tried to upgrade via commandline because the graphical upgrader kept crashing. Now, I'm stuck with commandline root access and a broken dpkg and X server :(. Is there any way I can tell dpkg to stop acting silly?
+rothchild: :( No luck. And I made sure to leave it on when I restarted
+timandtom: I even tried madwifi irc room but they didnt help much :(
+amerio: I've been asking in here for a while too, no one seems to have any idea :( I'm thinking about just going back to 7.10 for a bit, especially if it turns out to be  Ubuntu specifically, not just the card not working at all(Haven't tried on XP yet)
+MttJocy: Thanks, already did though. But, that doesn't help me get it working NOW :(
+:(
+jpatrick, too bad :(
+:(
+xp boot "fixer" killed the data :(
+El1: nvidia-glx doesnt work for me, i get same error :(
+I cannot hibernate or sleep at all :(
+linux__alien, hmm there should be a log wth more information :(, but i gtg, sorry
+otarid: yes, but it did automatically so dont know how to help :(
+obnibolongo: not for me :(
+i had to install x86 version, the 64 bit didnt have a wireless driver :(
+obnibolongo: I only have one computer :(
+and just sooo many things don't work :(
+LebLinux: sorry i dont know :( try ##linux
+:(
+i dont know what to do with 8.04 now :(
+Since theres so many people try to use fewer lines by condensing messages or leaving out things like :(
+:(
+digitalspaghetti: dunno i just know how to edit txt :(
+:(
+materthron: sorry i dunno :( maybe try it as root?
+crashanddie, neither worked :(
+please anyone... i really need to get the TV OUT working.. it's the last thing that sends me back to windows.. :(
+releases.ubuntu.com is on it's knees :(
+HardyOne, do you have other link? that one would not respond :(
+crashanddie, i can view it but i dont know how to mount it :(
+:(
+crashanddie, i can view it but i dont know how to mount it :(
+lamothe: it slows my system down and is rather annoying than helpful :(
+:(
+Ceo1: I don't see anything about the wireless card there... I don't know what might be wrong :(
+ok :(
+no luck getting mpd to start at boot :(
+lamothe: sure.. but these settings doesn't seem to help :(
+hmpf, not much help here :(
+not sure :(
+:(
+I asked 5 questions and didn't get anyhelp for even one of them :(
+Lieutenant: burn again the image, i had also this problem, i don't no why :(
+hey lads -- so since ive upgraded to hardy ive lost all sound and cant find a problem anywhere ive even blacklistedmy onboard card -- when i type aplay -l i get 4/5 listings of the same card,.,.when i type aplayi get -- ALSA lib pcm.c:2106:(snd_pcm_open_conf) Cannot open shared library /usr/lib/alsa-lib/libasound_module_pcm_pulse.so aplay: main:546: audio open error: No such file or directory -- does this mean something to anyo
+yeah josh04_, I've tried everything :(\
+hey guys - whats with the 'DESKTOP EFFECTS'- they wont turn on in my ubuntu box ???? :(
+bresero burnt it and then a checked, corrupted files :(
+graingert: didnt work after i upgraded :(
+hilts50: np, good luck.  and wish me luck, I still can't update to hoary.  my repository is choking. :( :)
+PhotoJim:  :(  good luck
+movie editor can't open avi files :(
+El1, sorry I don't know how to control where the hardware manager looks :(
+hi. Ubuntu 8.04 won't install the bootloader during the installation, and manual bootloader install doesn't work :(
+Hello!! Maybe someone could help me and explain something to me. I'm using Ubuntu 8.04 and my laptop has a wireless card. When I type lspci -v this is what I got: Broadcom Corporation BCM4306 802.11b/g Wireless LAN Controller (rev 03). But now when I try to install the firmware I see there are two options: bcm43xx-fwcutter and b43-fwcutter. I don't know which one is the right choice to me :(
+Hey, im trying to install 8.04 using just grub and the alternative iso file. Ive tried to do as described here: http://www.ubuntugeek.com/install-ubuntukubuntuedubuntuxubuntu-without-cdrom-drive.html but this does not work for 8.04 :(
+i have im a neb - even had code written fro mem didint work :(
+mut80r, Nith, thx :) i should be geting high speed rely soon (im on dial-up sadly :()
+crashanddie, mut80r, u ppl r so luky :(
+mut80r - same error - the corrupt file is stopping all apt-get operations from completing :(
+i can't find XMMS2! :(
+Hey, im trying to install 8.04 using just grub and the alternative iso file. Ive tried to do as described here: http://www.ubuntugeek.com/install-ubuntukubuntuedubuntuxubuntu-without-cdrom-drive.html but this does not work for 8.04 :(
+dalton2345: it does not run inside qemu :(
+amenado: None of the specified resolutions appear in drop down box anyway :(
+zog, but i wanted to have propertary drivers working :(
+Kr0ntab: as I said, I have a dual-boot with Windows, and it is working... :(
+mindlord: if u moved the machine, I'd check that a/ your heatsink hasnt come loose, and b/ nothing else is loose while you're at it, especiall ythe graphics card if AGP, (unscrew, undo clip at far end, resinsert and screw in again)   and   seeing u have a 1GHz cpu, is the heatsink pase old? 5 mins poking around might be worth it, intermittent lockups drive u crazy :(
+finally, my ubuntu is so messed up I couldn't even open Pidgin :(
+hmmm, there we go, firefox-2 can be installed from the official ubuntu repoes but not the iinet ones :(
+bigtimer121: thats always fun :(
+FFS. getting tired of the WSOD after installing ATi's driver.. It does it with the ATI driver from ATi itself and the one from the apt source. :(
+tech0007: my VTs don't work. :( My geforce go 6100 and usplash make the VTs stop working.
+Yes, but most my stuff is on ntfs :(
+im doing the alternate cd upgrade from 7.10 to 8.04 and I definitely wouldn't recommend it... :(
+the download link is broken :(
+me cai :(
+jk :(
+Jordan_U, sad enough :(
+zvacet, its for the xfire plugin :(
+of course no answer :(
+i am going back to 7.10 :(
+SuperLag: the sound dont work, thanks to pulseaudio :(
+I must be insane. :()
+zvacet: that's exactly what I'm saying... the update manager tells me i'm uptodate version wise as well.. i mean, it doesn't show a new version available!!! :(
+zvacet: I tried everything from that guide... not working :( same thing!
+i cant setup my internet sharing :( someone knows a good firewall?
+zvacet: i'lll keep trying though! :(
+How long is everybody else's upgrade taking?  Mine's taking about 10 hours, and I have a pretty fast connection. :(
+:(
+MrObvious :(
+:( <--- Sad face
+bruenig:  the channel is on invite? :(
+:(
+I was updating to hardy and it failed :(
+using pulseaudio is really a bad move :(
+Kasio, hmm, I'm not sure, that is odd, I didn't do any upgrades. :(  sorry.
+to the forums :(
+Byan: sorry then, i'm really not sure :(

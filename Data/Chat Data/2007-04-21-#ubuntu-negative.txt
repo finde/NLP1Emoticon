@@ -1,0 +1,135 @@
+GeekChick|, there is no open with option :(
+bollocks, my keyboard doesn't work properly either, yay for progress :(
+eck, fix my sound card :(
+miranda82: sorry, i have no clue what so ever :(
+Flannel, oh.  darn.  :(
+well it might in hw info, but since that keeps crashing :(
+Jordan_U: I do have bunch of obscure repos :(
+mjr: :( you there man?
+I am install fiesty today, but i have problem with wifi, i just got 46% signal streng :(
+Hasrat how you create new workspaces? I forgot :(
+hummm no idea then bro :( sorry
+For some reason, I cannot seed the Feisty torrent :(
+Pelo: oh, so app must support... ugh.  thought it was a widget thing but i am not a coder :(
+It doesn't work for me th emiddle button to activate the cube :(
+dtholden: yeah i tried creating two profiles in Networking (manual configuration) .. one for roaming and one for a static ip ... but it doesn't work as expected ... Network Manager seems to work best only with roaming and then of course you get that password prompty :(
+No one is answering me on #grub :(
+Flannel: I tried ubuntu/ubuntu, ubuntu/ , root/root . Nothing works... :(
+Pelo: I tried with no pass. Not working :(
+> Jordan_U: no worries, im the newb here :(
+Dammit, I'm frustrated with Feisty.  Feisty is too good.  Too easy.  I don't get any challenge or sense of accomplishment from it.  I haven't had to go to the command line once! 90 minutes and everything works.  What kind of deal is that?  I didn't even need Automatix.  :(
+eck: yes, that is my prob. i'll just wait to upgrade then:(((
+now whenever i log in, i have about a dozen apps opening. i don't know how to reset it to default :( - which is with an empty session-
+i seem to be lost, where is the httpd.conf located :(
+rulus: i don't know why it doesn't :(
+:(
+just have to get ati drivers working so i can have beryl/compiz :(
+jordan_u: intel / realtek (one of them... :()
+actually, i think /home "is" on another paty.. i just cant bloody remember :(
+NickGarvey - AHA! Thanks - That's the boy. - but why can't I change that shortcut any more? :(
+no one cares :(
+hi, i can't login into my default session :( it says can't open /etc/profile but it exists
+cellojoe, You can't :(
+I am tired. :(
+Crazytom, so you reinstalled from scratch? :(
+Possum: rocks and hard places unfortunately :(
+wickedpuppy: and neither does GAIM :(
+jussi01, :(
+last time I went through the documentation, all they said about chipsets, thought I got it right and bought two USB wireless net cards and none of them are working :(
+no fix, just embarrassing now :(
+Please copy/paste. I got disconnected. :(
+mjbrooks looking on the ubuntu IRC channel list, this is the most appropriate :(
+ok i wont get help here thats for sure :( all day i'm trying to fix my updated 7.04 machine. all day i'm posting here for help an nothing  I cant install nvidia drivers on 7.04 pls help
+Haffalump: thanks :(
+I want sound :(
+aatdark: know anyway to enable it? :(
+Dreamer: ati is always the problem :(
+xq: hrm ok..cause I had 3d support before I upgraded to feisty and now its gone :(
+ xq: no i cant enable that :(
+xq: but it worked back in edgy :(
+ndy80> I tried to upgrade to feisty from edgy. There was an error wth gmediastreamer-0.12 packages... an error in the installa script... now I've an unstable/hybrid system... I can boot but I cannot upgrade gmediaserver or remove it!!! :(
+LjL : yes its the front end. :(
+LjL : anythere idea? :(
+how can i map drives with ubuntu?  i can mount them, but no application can seem to see them :(
+kerik: not after i upgraded :(
+webben: never seen that before :(
+yeah, it still fails to boot :(  grub loading stage 1.5 "error 17"
+there must be someone here who knows how to fix the buggered up kernal problem which leads to feisty leaving my machine unbootable?? "waiting for root file system" -- hangs then drops to busy box :(
+wolfspirit: the lovely upgrade button has killed my system. that's why im here :(
+Azureday, i already have flash installed but i need shockwave and did not find it :(
+edgy
+i installed ubuntu on a different drive and now i'm having these huge problems making anything boot at all :( (i don't know if it's a general problem though)
+atomiku : *CRIES* :((((((( GRRRR
+xq: unfortunately the upgrade killed the ability to boot :(
+LjL: I used envy on my last kernel update but it is not working in feisty :(
+this is driving me insane. I can't get my resolution sorted :( I am using open source ati drivers with aiglx and beryl and I am stuck at 1024x768. already looked at https://help.ubuntu.com/community/FixVideoResolutionHowto#head-42bafbcee7a10ed50f2d9016555557b9874be252 to no avail. anyone got any other ideas?
+PirateHead: ok yeah thats probably something to do with it i am not sure how to fix tho :(
+Hello. I cannot connect to the internet from kubuntu pc through windows machine :( Can anybody help please!
+delire: i have the restricted package installed :(
+:(
+anyone know the reason why compiz depends on the ubuntu-desktop? that kind of sucks i wanna get rid of it and feisty forces me to keep it :(
+hi, since updating ubuntu to 7.04 my TV-Card isn't recognized; the driver is loaded, but kaffeine says that i haven't got a tv card :(
+Daverocks: sorry :(
+I got lots of errors :(
+compwiz18: still doesnt work :(
+ compwiz18: yep :(
+compwiz18: :(
+DearAll I have a rather serious problem, having spent my two days and still unable to solve :(
+Wesselaar - its really odd i'm not sure what to do sorry :(
+compwiz18: nope :(
+compwiz18: ok :( I dont know what I have done
+:(
+epod: hrm ok.. :(
+delire: still no internet.. :(
+fiery_cleric: i cannot find default gateway.. :( ?
+delire: it's exactly the same card as in the wiki article :(
+:(
+meanfish: yeah this has been for weeks :(
+meanfish: ok :( should I remove xserver-xorg-video-ati
+:(
+:(
+GoDawgs: not keen to play :(
+My cdrom doesn't work anymore :( Information about it at this thread http://ubuntuforums.org/showthread.php?t=405630&page=6
+matkix0s: sorry... can't help you with VMware :(
+LjL: unfortunately theres no audit trail.. its going to say installed because i hit the apt-get install before i saw your thing about not doing it.. sorry :(
+LjL: looks like X is working fine now. But font smoothing all gone now :( ill have to find a way to get that back
+How on earth do I use my second monitor :(
+can someone please tell me how to install ssh server I am trying for a long time... :(
+rodness, yeah it sucks :(
+ristrected drivers manager says i dont need any? i still dont have direct rendering on :(
+askar: Yeah, according to google there appears to be a problem with intel cards and 2.6.odd kernels. Unfortunately I haven't got such a card so I can't be of much help to you. :(
+Hi. How do I access Compiz settings? Also, for some reason the Compiz cube/workstations are no longer working... I HAVE asked in Ubuntu-effects but it's pretty dead in there and I would like to get this fixed! :(
+I need help please :(
+ is any1 else having problems when you ctl+alt+f1 and then go back to ctl+alt+f7? some1 pls help i need this to work :(
+Kraeloc: but no solution from gogole search :(
+ is any1 else having problems when you ctl+alt+f1 and then go back to ctl+alt+f7? will some1 pls help i really need this too work :(
+:(
+Huffalump: i can't rely on maybe's :( because on Launchpad there is a separate ia64 branch of builds.. and I wonder why, if AMD64 is for 64-bit Intels as well. I must be sure
+o dear :(
+gnomefreak: i have asked about how to install JAVA runtime environment or firefox :(
+RasQulec, That didn't work :(
+already did jrib, thanx, but i won't help :(
+can anyone help please, i can only get a refresh rate of 50 hz, and i used to get 85 hz on this res in dapper, and yes i've done "sudo dpkg-reconfigure xserver-xorg" and no luck :(
+can anyone help please, i can only get a refresh rate of 50 hz, and i used to get 85 hz on this res in dapper, and yes i've done "sudo dpkg-reconfigure xserver-xorg" and no luck :(
+Hi everybody. I've burned 5 cd with the 7.04 iso but i can't get a single one to pass the check for defects... :(
+:(
+makkk and the network mennager isnt like that in any conntent :(((((
+wireless, i have no DHCP and WPA2, so i choose WPA2 from the bar but not IP, or viceversa :(
+PriceChild:  wireless, i have no DHCP and WPA2, so i choose WPA2 from the bar but not IP, or viceversa :(
+bluefox83: it just updated the list and didn't say about a new version :(
+i need a gui for maping/binding multimedia keys - tried many, can't to work :(
+rasqulec: mine doesn't even work then :(
+helps when you don't have a functioning X server :(
+:(
+teitunge, i tried.. -ao switch.. didnt help :(
+Kraeloc: to start clean, config-less, so to speak, but apart from that i have no other ideas :((
+Kraeloc: np :(
+eck: Good words : ".....if I'll figure out...."..... :(
+I dont see the cairo-clock folder in my home folder :(
+Ok. Thank you, Guys! Sorry that I've wasted your time :(
+:(
+linux-generic is installed :(
+why does X say theres no nvidia module when i just installed it? :(
+ardchoille: :( Would it be damaging if I just change the permission of /var/www temporarily
+Journeyman: why do you say that? :(
+wtf is going on in here idefixx? :(

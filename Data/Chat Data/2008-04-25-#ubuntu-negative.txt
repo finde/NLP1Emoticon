@@ -1,0 +1,129 @@
+mad_max02: i alwaws clean install. the only time i tried updating, it didn't work right :(*
+mad_max02, 20-40k :(
+jesus :(
+thanks god! Partition editor says my harddisk space is unallocated :( What am I supposed to do? I'm doing booting XP and PCLinuxOS and want to swicth to Ubuntu :(
+is archive.ubuntu.com dead? :(
+i'm having troubles with my bcm4318 wifi on a ibook G4 :(
+it just doesn't work :(
+nibsa1242b: i did :( and yes you're right
+oddalot, yes, and it does not support EDID :(
+bah :(
+bugger :(
+Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
+﻿Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
+Any Xen gurus here? Having some issues with Xen after upgrading to Hardy :(
+mojo: that's always a good idea, especially after an upgrade. it's taken me 50 little steps to get my video where I want it, I dread the update :(
+:( feel like a dumb here waiting for hours
+telexicon: what is your problem anyways? I'm only havign issues with its autocompletion, brings up porn to the top all the time :(
+no more #ubuntu+1 :(
+wow i got more then i bargined for :(
+samalex: I've got an hour left. :(
+Pelo- :( i did that too and it just showed me that i have a disc in,nothing popped up.
+bazhang, I'm burning another CD now.. to see if it makes any difference ... :(
+ffm_, not just for the road :(
+upgrade is being slow :(
+what is the partial upgrade after upgrade to hardy that's been taking me ages? :(
+ * jeriath is sad cuz synergy doesnt work with 8.04 :(
+shpook: not in North florida either :(
+thanks, cox! ... :(
+HardyOne: Thanks! It's up to 64 days now. :(
+:(
+hey, could anyone help me install hardy? :(
+Utalcn2me: i have the volume really low, but it's scratchy constantly, someone else with a computer similar to mine has the same problem on the forums so i guess i'll just wait for a fix :(
+Updated this machine last night.. three others won't even apt-get update ... I think I'll just wait a few days :(
+harriseldon no there is no placeholder for the card :(
+x1250: Yeah, shame on me :(
+harriseldon: allright sweet. Thanks for the help. I gotta go to bed cause i got school in the morning :( Cya....
+Kl4m, I tried following the steps mentioned there for Persistent live USB install.. I guess those are for 7.10, it dint seem to work for me :(
+I haven't even managed to boot 8.04 yet....  :(
+its just this version that I am facing this problem :(
+bcgrown: hmm, sorry... ati here :(
+uhh i just deleted my bars on the top right for the wireless networking how do i get it back?? :(
+I just found the most beautiful theme ever but the matching icons won't work :(
+wasnt it harris :(
+zelrikriando: Then I don't know, sorry :(
+Lardarse, i know!! :(
+I just found the most beautiful theme ever but the matching icons won't work :(
+seamus7, in south africa :(
+in the end i knew problem of can't load NTFS .... the cause was windows was corrupt :(
+ok. I got my ATI drivers working, but now my dual monitors wont work :( please help
+seamus7, 384k/128k here for me :(
+flash on linux is crap :(
+gord: I can't open that web page - time out :(
+Jordan_U: but Pulseaudio is not in a stable state itself :(
+ubuntu 8.04 i386 MD5SUM, where can I get it? http://releases.ubuntu.com times out for me :(
+:( wrong keyboard
+Jordan_U: can't open that page - time out :(
+:( :( :(
+i do a upgrade with the ubuntu alternate cd...still it wants to download 400 packages :(
+Corbett: what do you mean by you "wiped" windows? If you've deleted that partition, then the data is lost forver :(
+gotta be a trolbot :(
+I think i may have borked it up... :(
+Hey all, Any help would be appreciated. Everything was working great with 8.04 last night and this morning and all of a sudden this morning I can't 'Sudo' It tells me it can't resolve the hostname, I can't load synaptic (nothing happens) and my numpad on the keyboard doesn't work :(
+corbett: I think you have accidentally deleted your E:/ drive :(
+ikonia: I hate messing with partitions :(
+Ziroday : Ivnt another pc now :(
+Ziroday : Thanks, I'll check with another computer, the fact is that I'havnt used it for a week :(
+unop, well it appears to be a little borked in any case, guest account doesn't work and I can't create or write to files in the directory... Time to get dirty with smb.conf again *sigh* :(
+:(
+jrib: ALOT HAS CHANGED SINCE MY UPDATE :(
+jrib: i KNOW THERE IS - but I cant change it :(
+ifireball: Why doesn't it do it for me :( ubuntu 8.04
+will ubuntu work then on my x1950pro if it cant boot :(
+(1:30:47 PM) iKar: will ubuntu work then on my x1950pro if it cant boot :(
+guitarj1d : yea I will install hardy 2day so Im worried about my grap cad:(
+the case is such that the graphics card coolling hangs over the one remaining pci slot, no pci expansion possible :(
+can someone help me with wlan pls? :( dosnt work
+hi. i have some performance issues during video playback. the fan is going crazy :( it was fine under feisty
+crash, nope. it happens simly w/o reason :(
+i will just stick to hardwire or vista :(
+nullmind I take it Final Fanatasy is agame? the software I'venever heard of is always game related :(
+indian_munnda: aha, so ion that case u need to recycle the fixed IP, anyone help with a foolproff method in hardy? no box here on 8.04 to talk him thru.. :(
+the repositories are slammed :(. is there one which is not serving upgrades?
+is there _any_ way to install ubuntu using the iso but without burning the cd? all the cdrw's that i've got are bad :(
+Nith: no, second computer is windows only :(
+indian_munnda: hmmmm ok. we're reaching the ned of my sure-fire knowledge here i'm afraid :(
+still no support for my all in one epson stylus cx2800 :(
+haha sorry wrong knb ppl :(
+How many times have I been mouseless trying to operate a GUI? :( Too many.
+iusegnulinux: cant find :(
+Is us.archive.ubuntu.com up? I cant apt-get install build-essential... :(
+I don't think so... :(
+amenado: i'm a bad drawer :(
+dbristow:  if its mismatched, you need to re-download :(
+albech :(
+mapp :( did it download most of them? Might be some packages that are being updated and such, I got the same problem earlier, try sudo apt-get update then sudo apt-get upgrade from terminal, after you close that Sources window
+bullium, the instruction in that page doesn't work for me.. :(
+ALSA lib simple_none.c:1741:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+does anyone have anything to say about hardy?  i haven't updated .. i'm too scared to do it.. :(
+is there any possible way to upgrade 8.04 through some mirror?  40kb/s is gonna take a while :(
+harking :( no fair
+Is there another audio program instead of audiopulse. I think it's crashing on boot for me :(
+can anyone help a newb :)? i just installed Ubuntu 8.04 on a second partition on my laptop and now i can't boot into windows anymore :(
+i can't find the partition manager or anything :( My windows won't boot, at the screen where you have to press esc to choose the OS it gives me 3 choices for ubuntu but none for windows :(
+ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+Jack_Sparrow, ok, I have 12 minutes left... :(
+Jack_Sparrow, ok, I have 12 minutes left... :(
+stupid thing wont work :(
+nucco: i know where is is but thats the only ext3 i have my /sda2 in jfs so I doubt those settings will work :(
+sachael, works for me but veeeery slow :(
+thomasc599: been trying to open that since, my darn connection is giving me 550Bytes per second :(
+IcemanV9: it didn't :( restarting changes verything
+ok, dassouki_ , you need more knowledgeable help than I :(
+nucco, Arky44 u guys don't happen to know why from gutsy to hardy my sound stopped working :(
+anyone :(
+I still need help. I'm being really sad now. :(
+kindofabuzz: nope.. didn't work. I guess it's back to gutsy for now :(
+ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+hey everyone, any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(
+any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(  or how i can diagnose?
+hi, I'm getting this audio error when running a game called spring: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
+although the upgrade from 7.10 to 8.04 killed it :(
+hwilde: those troubleshooting guides don't seem to apply. Spring uses openal, which defaults to using OSS. under 7.10 Spring worked fine, but with 8.04 it only works if its the only audio application running. If another audio application is running I get this error: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
+i think my distro upgrade got frozen :( it's been "Configuring motion" for like 5mins... with no change
+nibsa1242  :(
+might go back to gutsy :(
+hey guys i have a code red o.0! I was upgrading to hardy from gutsy, and then my computer crashed and gnome won't start...how can I finish the installation from the terminal (the update-dist command returns an error :(
+:(
+hwilde: yup. tried that. no dice :(
