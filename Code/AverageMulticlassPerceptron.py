@@ -80,6 +80,7 @@ def count_correct_results(w, b, v, a, x_test, t_test):
     # count number of correctly labeled images
     for i in range(t_test.shape[0]):
         classification = np.argmax(logP[i,:]);
+# TODO: These probabilities seem weird, find out if that's expected behaviour
         print classification, t_test[i], np.exp(logP[i,:]), ' '
         if(classification == t_test[i]):
             cnt = cnt + 1;
