@@ -3,6 +3,8 @@ from TrainingData import TrainingData
 from DataPoint import DataPoint
 from Dictionary import Dictionary
 
+import random
+
 class GetData:
     def __init__(self, data_class, n, training_percentage):
         self.data_class = data_class
@@ -28,18 +30,30 @@ class GetData:
 
 
     # Helper functions
+    def lin_space(self, n):
+      arr = []
+
+      for i in range(0, n):
+        arr.append(i)
+
+      return arr
+
     def load_tsv(self):
         training = []
         test = []
 
         for index, cls in enumerate(self.data_class):
-            temp = TSV_Getter(cls[0]).get_all_tsv_objects(self.n_per_class)
+            raw = TSV_Getter(cls[0]).get_all_tsv_objects(None)
 
-            length = len(temp)
-            training_length = int(round(self.training_percentage * length))
+            arr_index = self.lin_space(len(raw))
+            random.shuffle(arr_index)
+            arr_index = arr_index[0:self.n_per_class]
 
-            training.append(temp[0:training_length])
-            test.append(temp[training_length:length])
+            raw_trim = [raw[index] for index in arr_index]
+
+            training_length = int(round(self.training_percentage * self.n_per_class))
+            training.append(raw_trim[0:training_length])
+            test.append(raw_trim[training_length:self.n_per_class])
 
         return training, test
 
