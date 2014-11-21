@@ -1,0 +1,612 @@
+[00:00] <don-o> radioaktivstorm: its nearly impossible to tell. welcome to wireless! :)
+[00:06] <aleka> Ashfire: I was actually locked into the virtual machine and couldn't figure out what the escape key was :(
+[00:12] <djlenoir> <-- is looking for someone to help with a bluetooth issue. Problem = not working :)
+[00:12] <Boumboum5> sylpou: go ahead. No need to ask if you can ask. :)
+[00:12] <ubotu> sylpou_: Don't ask to ask a question. Just ask your question :)
+[00:14] <usser> verve: dont remove them :)
+[00:16] <Colro> Ashfire908: there isn't one :(
+[00:17] <Boumboum5> ubotu is a bot. :)
+[00:17] <ubotu> Sorry, I don't know anything about is a bot. :) - try searching on http://ubotu.ubuntu-nl.org/factoids.cgi
+[00:18] <Keule|on> :(
+[00:20] <Boumboum5> Keule|on: I want to help you but I don't know the answer. :(
+[00:20] <Lifeisfunny> thanks Jordan_U  :)
+[00:21] <Jordan_U> Lifeisfunny, np :)
+[00:23] <gavintlgold> well i'm going to see how it goes :) hope I get good x back
+[00:25] <Rolenun> is the Intel x86 usable with Intel 64-bit, or am I supposed to use AMD64 instead? :)
+[00:27] <Boumboum5> speaker: less of a load on them now that upgrade day is over :)
+[00:34] <speaker219> your welcome :)
+[00:35] <Boumboum5> akiratheoni: Hope that helps :)
+[00:35] <Keule|on> what? :)
+[00:36] <Boumboum5> agwells: Your problem is beyond my beginner's competence... I don't know how to tweak your system to get your USB devices to work properly. Hopefully someone else will know.  I need to go now.. :(
+[00:39] <jnc> we'll see, ZionPsyfer has generously offered to dig up a list of some sort... maybe it will help me along in my quest :)
+[00:41] <Boumboum5> Intelligitimate: Yes. ogg vorbis   uses the .ogg extension. Lots of info  on it in wikipedia :)
+[00:42] <Boumboum5> gavintlgold: that's a bit beyond my competence. :(  I'm still rather newbie-ish myself. At worst case, reinstall ubuntu.
+[00:44] <Kodemage> tag: you're telling me :(
+[01:01] <`eric-> cdm10, but it works? :)
+[01:05] <Cryoniq> saloxin: thanks :)
+[01:06] <Rolenun> is the Intel x86 build usable with Intel 64-bit, or should I use AMD64? :)
+[01:08] <jnc> earlmred: no idea.  I'll bet they'd answer your inquiry though, especially if you fork over some money to them when it works :)
+[01:11] <Cryoniq> saloxin: ah.. maybe I should switch my other box GF6200 TurboForce edition then to this box instead meanwhile for some compiz love untill then :)
+[01:14] <Colro> ZionPsyfer: I'm not worried about WHY it locked up -- I caused that by applying a new GTK theme while it had 20+ tabs open :)
+[01:20] <Rolenun> is the Intel x86 build usable with Intel 64-bit, or should I use AMD64? :)
+[01:21] <Neatchee> Ahorner:  Well, let it run.  See how it goes :)
+[01:22] <Neatchee> Ahorner:  You can always run "gksu -c aptitude dist-upgrade" later.  It won't hurt anything if you're fully upgraded :)
+[01:24] <aoupi> hmm, can't find any wireless PCI cards that work out of the box to buy in sweden :(
+[01:24] <Neatchee> Ahorner: My pleasure :)
+[01:30] <Juice^> Sergo: are you really bored? :)
+[01:38] <LinuxJuggalo> it looks so far away :(
+[01:38] <katharos> wirechief: oh ok. dont mind me :)
+[01:40] <Rich4> :(
+[01:46] <Sergo> ZionPsyfer: for example, if there is a small scrath on Cd, the installation can fail with red screen:) .. with windows xp, there can be a 1000 of scratch, but no problem with installing
+[01:46] <usser> through a hole in the pocket :)
+[01:55] <CoasterMaster> joanki, oh haha....yeah, I've been there too :)
+[01:56] <stemount> hi guys. :)
+[02:01] <stemount> ALCS? :(
+[02:02] <stemount> I am :)
+[02:05] <stemount> :(
+[02:06] <stemount> hmm :(
+[02:09] <Arafangion> joanki: You can also write to /tmp, but that is by definition TeMPorary data. :)
+[02:10] <Neatchee> h1st0: No, i have plenty of leases available :)
+[02:11] <Arafangion> joanki: That's it. :)
+[02:11] <Arafangion> joanki: Yellow, actually. :)
+[02:12] <Arafangion> joanki: Yup. :) It highlights if the name exists anywhere in the line.
+[02:12] <Neatchee> stemount: are you a registered user on FreeNode? If so, PMs :)
+[02:12] <Arafangion> joanki: I'm an irssi guy, it's great in conjunction with screen. :)
+[02:13] <Arafangion> joanki: I run it on the server, and I just detach when I logout, and re-attach (ie, screen -rd) when I login. :) Yeah, in terminal.
+[02:16] <katharos> mlalkaka: that's right, which is why i've been working so long on getting the nvidia drivers working :)
+[02:16] <stemount> i feel great :(
+[02:20] <stemount> :)
+[02:23] <Vlet> bqmassey: Deluge :)
+[02:24] <Arafangion> Ahorner: And that, my friend, is the difference between a software engineer, and a mere "programmer". :)
+[02:25] <Vlet> bqmassey: uhh, I dunoh - I just use it and it works well :)
+[02:26] <stemount> OpenDNS is great. :)
+[02:27] <katharos> mlalkaka: awesome, thanx, i'll try that now, i'll be back to let you know how it goes :)
+[02:27] <stemount> MySpace is poor :(
+[02:27] <Vlet> joanki: it sounds like you're picking things up pretty well - once you get over the hump, you'll be all about *nix :)
+[02:31] <stemount> oh :(
+[02:32] <Arafangion> kevinO: Heh, indeed. ;)  Now carry on. :)
+[02:36] <branstrom> I haven't had any problems upgrading, for one :)
+[02:37] <Unbutu[G33Z3R> TorvusLinalds:   i had no probs :) even browsed the web and listened to online radio while it installed
+[02:37] <Unbutu[G33Z3R> thxs i appreciate it TorvusLinalds :)
+[02:39] <Kragnerac> :)
+[02:40] <katharos> mlalkaka: nope :( still end up at bulletproof X
+[02:44] <Vlet> TorvusLinalds: there ya go :)
+[02:45] <kevinO> groobox jk :)
+[02:51] <katharos> mlalkaka: hehe, thanx but i tried them already :)
+[02:51] <stemount> :)
+[02:56] <stemount> :(
+[02:57] <scguy318> Berzerker: hmm, your original issue, I dunno :(
+[02:57] <b4sic> anyone? :(
+[02:59] <RB2> mrg, OH! Yes, I do. :)
+[03:03] <marx2k> oh :(
+[03:03] <marx2k> that sucks :)
+[03:05] <matthew1429> thx, I had a drive go bad on me :(
+[03:05] <LordLimecat> ctrl alt delete either does nothing, process manager, or reboot on linux :)
+[03:06] <marx2k> Steven: nvidia-glx-new wont load for my GeForce 6800 :(
+[03:07] <asbani> yep :)
+[03:07] <Vlet> asbani: good :)
+[03:08] <mrg> rb2: i've used kubuntu for years.. i even switched to ubuntu for the (supposedly) automatic desktop effects and all i got was the shaft (again) :(
+[03:19] <matthew1429> heheh that's a noob question if i ever asked one :)
+[03:20] <fatcatmatt> jimd1: i prefer gparted :)
+[03:25] <fatcatmatt> ashfire908: getdeb.net had 2 packages for it, simple install, but its gone now :(
+[03:25] <Foo1> jdong: I'm using fluxbox :)
+[03:26] <don-o> joanki: open office and you already have it :)
+[03:28] <ubotu> charlie: Don't ask to ask a question. Just ask your question :)
+[03:31] <stemount> :)
+[03:32] <fatcatmatt> upfwnv03: if you install it, yes it does. i was running it before :)
+[03:33] <Unbutu[G33Z3R> P got utorrent working :)
+[03:33] <fatcatmatt> now, upfwnv03, time to install virtualbox :)
+[03:36] <mrg> rb2: no offense to notebook users, of course :)
+[03:37] <stemount> nope :(
+[03:37] <Vlet> bruenig: brainfart :)
+[03:38] <LordLimecat> Lifeisfunny: thanks, found it :)
+[03:39] <stemount> i did :(
+[03:39] <stemount> :(
+[03:51] <Vlet> Anick: it's just eye candy? If you just want eye candy, get a caleidoscope :)
+[03:55] <Anick> chowmeined: so no eye candy for me :(
+[03:57] <BSG75> :jnc .. slightly confused as u can guess :)
+[03:59] <LordLimecat> :)
+[04:01] <charlie> I've customized the heck out of my Gusty install, and you just got me one step closer to being done. I congratulate you Falstius :)
+[04:05] <charlie> eyemean,  no problem, glad to help :)
+[04:06] <bobgill> I have a bunch of .ttf fonts in a mounted partition, how do I move them all to /usr/share/fonts/truetype?  Would it be: "sudo cp *.ttf /usr/share/fonts/truetype" ?? Don't want to mess it up :)
+[04:06] <LordLimecat> i mean, dont you sort of have to want a virus to get one on linux? (or be running wine) :)
+[04:07] <bobgill> charlie: thanks it worked :) :)
+[04:08] <IdleOne> LordLimecat: well then if you get a virus under wine then perhaps you need not run wine :)
+[04:10] <LordLimecat> Falstius: yea, i suppose...hurts to think people fall for it :(
+[04:18] <Paxton> I was hoping I'd be typing in this channel from ubuntu, but the disk partition utility on the install CD bugged out :(
+[04:23] <charlie> m0u5e, No problem. Hope this works out for you too :)
+[04:27] <Paxton> I need help with getting my windows partition resized so I can install ubuntu for a dual-boot. The install CD's partitioner just craps out on me :(
+[04:27] <djlenoir> jnc: now why didn't i think of that... i will try that and switch it back over to see if it works. :)
+[04:28] <eck0> :)
+[04:30] <eck0> Ah sorry, thanks :)
+[04:32] <Vlet> b4sic: probably lots :)
+[04:32] <b4sic> vlet: are you one of them? :)
+[04:32] <Paxton> I wish I knew enough to be considered a developer, all I know is basic C++ :(
+[04:34] <eck0> I am Vlet :)
+[04:35] <Vlet> eck0: oops - replied to someone else, but yeah, see above :)
+[04:36] <eck0> I saw that Vlet :) - thanks
+[04:37] <Paxton> seamus7 I am not using Vista. Running XP on a Dell, no system CD :(
+[04:38] <[[Charlie]]> :)
+[04:39] <heartsblood> :(
+[04:46] <Paxton> seamus7: Any help on my hardware thread would be appreciated too :)
+[04:47] <|||BOX|||> YAY got Utorrent working :)
+[04:50] <|||BOX|||> went to mount iso but soon as i click on it  ubuntu asks if i wann mount :) this is too easy
+[04:53] <gnomefreak> Name141: install it :)
+[04:57] <BOX|UK> got utorrent working on ubuntu but the main window is black :(
+[04:58] <Dan2552> LordLimecat: no idea :)
+[04:58] <noor> guys know where i can give my ubuntu some soul by adding some sound files? gnome-look.org lacks them :(
+[04:59] <LordC> Great, welcome to the community then BOX|UK :)
+[05:02] <Paxton> seamus7: I'm gonna use wubi and just make sure everything's hunky dory in Gutsy. Hopefully I'll be back in this channel on it shortly :)
+[05:06] <juancis14> hrp2171 to learn c programming dont need any packages, just a book :)
+[05:09] <Madpilot> rayb0t, the whole purpose of compiz is to look shiny and eat resources. :)
+[05:10] <rayb0t> all I do is listen to music and chat really, why not :)
+[05:11] <mattg> WOOT!  7.10 is workin good now :)
+[05:14] <eck0> Hm, I got dual monitors going nice now :) - second problem visual effects - see: http://pastebin.com/m300fe788
+[05:17] <Scabdates> IpMoo: ok...but it didn't :(
+[05:21] <juancis14> yeah, do it _tux :)
+[05:22] <ubotu> KevinO: Don't ask to ask a question. Just ask your question :)
+[05:22] <MidnighToker> [[Charlie]]: thanks :)
+[05:24] <Madpilot> josenj76, ubotu is a bot, just so you know. :)
+[05:28] <nickrud> Jban: I tend to use that rather than the menu, it's faster :)
+[05:31] <jimmygoon> epidodi, thats very strange... I don't have any xrdb processes :(
+[05:34] <nickrud> Jban: just be prepared for the 'duh, I dunno's :)
+[05:36] <crdlb> robbizzle, just don't expect the 3d effects to work :)
+[05:38] <youknowme> gouranga, cool, now restart your system, be sure to have "sudo cp /etc/X11/xorg.conf_backup /etc/X11/xorg.conf" handy in case something goes sour :)
+[05:40] <marx2k> damn.... gutsy (specifically NVidia) broke my system :(
+[05:41]  * mon^rch whistles... gutsy is like perfect amazing :))
+[05:41] <marx2k> I really wish that the Ubuntu install CDs still used gparted :(
+[05:42] <marx2k> actually it looks like if you drop to a terminal in the Ubuntu install CD, gparted is installed... you just need to be able to run it :)
+[05:43] <marx2k> Im running gparted within the Ubuntu install CD right now :)
+[05:45] <IpMoo> :)
+[05:46] <marx2k> VLet: Upgrade... now Im having to install :)
+[05:48] <crdlb> tritium, yes I know :)
+[05:49] <marx2k> too late now anyway, the disc is formatted :(
+[05:49] <marx2k> jimmy: nah its like 150 gigs of roms :)
+[05:51] <Rich4> jimmygoon: so we need to wait this out? :(
+[05:53] <c_lisp> marx2k you can apt-get it quick anyways so it doesn't matter :)
+[05:54] <marx2k> c_lisp: yeah but noobs needing help during install would not know that :)
+[05:56] <marx2k> Dan: Oh! haha it lets my media center ubuntu computer run as a MAME arcade box :)
+[05:59] <marx2k> Dan2552: Yeah itd be even better if I had a WII :)
+[05:59] <marx2k> Right now my modded xbox serves as a media center via XBMC - does 1080i and everything :)
+[06:00] <c_lisp> I can't get mugen to work on my xbox :(
+[06:01] <marx2k> Dan2552, I blew my wad on this Toshiba 65" :)
+[06:02] <marx2k> but since I haxx0r'd DishNET, my girlfriend loves me more now :) :)
+[06:04] <Dan2552> super smash bros not coming out till ages in europe though >:(
+[06:11] <nickrud> I'm the optomist ;:)
+[06:11] <djlenoir> oh sweet! i finally stumbled upon a forum thread that gave me the answer i needed to get my bluetooth keyboard and mouse working... even after a reboot! = happiness! :)
+[06:15] <jscinoz> Seveas, the falcon deb in your feisty repo is broken :(
+[06:15] <jimmygoon> KevinO, enjoy synergy... it pretty much rocks! :)
+[06:16] <simplyubuntu> :(
+[06:25] <bodq> hi, I don't see my wacom tablet input devices in `xinput list`, although they're defined in xorg.conf and work :(
+[06:26] <Vlet> fabio: $5 is not hard to come by for gaming pleasure :)
+[06:27] <nickrud> simplyubuntu: dialup, yes, about 3k. And We got local radio stations on the phone line :)
+[06:28] <jimmygoon> DanaG, :O tr3vino doesn't appear to have a gutsy repo yet :(
+[06:36] <kwtm> LiMaO: Good job.  I am still using a 32-bit system but may one day end up using your script. :)
+[06:43] <buntunub> nothing in the docs about how to stop random frequent lockups tho :(
+[06:46] <jmagder> Any suggestions on fixing this? :)
+[06:49] <jmagder> elliott541a: thanks anyways. :)  I just booted up into the installer again, and it looks like some how the partition was destroyed. Tht would be a problem.  I'll try again.  :)
+[06:49] <hydrogen> and it doesn't work well after you use vim because you end up with random letters all over your screen :)
+[06:51] <ubutom> sorry, im a bad impostor, hehe :)
+[06:55] <troxor> luislo: no site, just my intuition, which at this hour probably isn't reliable :)
+[07:01] <nickrud> h1st0: you are evil :)
+[07:11] <Jadi> dystopianray: tnx :) will read it.
+[07:19] <therealnanotube> dxdt: cool... :) what kind of hardware are you on?
+[07:20] <troxor> tenemag: a friend of mine was instantly converted :)
+[07:20] <therealnanotube> dxdt: ic. i'm on a laptop with an ati gfx card. so not sure if your mileage = my myleage. :)
+[07:21] <dxdt> therealnanotube: well I never claimed it to be.  You should just try it if you feel like it.  Yeah I am a physics major.  :)
+[07:23] <troxor> zparta: kwin has an option for window-specific settings, where you can specify for that window to always be under all other apps, and without a window border; then, just full screen that app, and voila! instant video background :)  you also have devilspie, which does that window-specific alteration for any desktop environment
+[07:25] <therealnanotube> dxdt: yea, i know i'll try it, i was just curious to know before trying :) i was a physics major in undergrad at some point, too. ;)
+[07:27] <gustavo_> vega- yeah? im not on linux right now... thanks :)
+[07:27] <therealnanotube> dxdt: hehe yea, i'm doing a finance phd now. :)
+[07:30] <LastLemming> That's "regression". Not a solution nor a workaround. We need to use our custom DSDT.aml/hex file (devels must modify the kernel to acept custom dsdt) or to FIX this bug, or ... just pick another distro :(
+[07:36] <vega-> anyone done an upgrade from feisty to gutsy and has root on software raid? if so, did it go ok? :)
+[07:37] <fatcatmatt> [chr0n0s]: I have compiz going with Emerald :)  imma happy camper
+[07:44] <troxor> luislo: hmm, same here... I dunno- if you're on the bazaar version, compiled from src.. dunno what else could be the problem.. there has to be something dictating the desktop margin.. maybe `ps faux` will give you hints.. you can just start killing stuff (try nautilus/your-window-manager) at will, and see what happens :)
+[07:52] <tvst> usser: not yet :(
+[07:52] <usser> tvst: yea just checked :)
+[08:04] <fatcatmatt> nikolai: now throw compiz and emerald on there and you should be golden.  add the reflective surface for compiz :)
+[08:10] <lordprofit> yah just a simple coder :)  if i want games i have an xbox
+[08:12] <fatcatmatt> simplechat: get an iso of windows and start over :)
+[08:14] <Colro> dystopianray: If only I could afford a new gfx card atm :(
+[08:15] <Ryuho> how is that not implemented :( on screenkeyboard?
+[08:23] <Sorcererbob> I'll google it :)
+[08:23] <mdalek> it takes longer to get to desktop from login than to boot from bios to login :(
+[08:23] <mdalek> and my hdd is thrashing.... i've got 1gig ram :(
+[08:30] <`eric-> i just want to say... gutsy is amazing. :)
+[08:46] <Boumboum6> Heh. It's not like XP and Vista are always guaranteed to work out of the box either. :)
+[08:50] <Boumboum6> freenode is the server, not the program you're using to get on freenode. :)
+[08:51] <riotkittie> mcp_dk: :)
+[08:54] <Boumboum6> ExRarne: sounds to me like one of the installs overwrote the other. :(   (a  newbie guess)
+[08:56] <DUUUUUDE> i am now a full linux :)
+[08:56] <Boumboum6> DUUUUDE: heh. It's one of the best Distros of linux I've seen...first one that recognized my wifi, my widescreen, and my nvidia video card right out of the box. :)
+[08:57] <simplechat> wow, gusties default backround looks pretty damn hot :)
+[08:58] <Boumboum6> I agree wi th riotkittie...luckily it's highly modifiable. :)
+[08:58] <ExRarne> I didn't make any backsups because my brother has by external hard drive :(
+[09:01] <aeshyamae> riotkittie: clicking the install again is not doing anything here:(
+[09:03] <Boumboum6> h1s0: cool :)  I'm still a semi-newbie. :)
+[09:06] <riotkittie> Morgwyr: i know i've seen other people mention the same thing here but i'm not sure how they resolved it :( maybe there's something on the forums...
+[09:08] <Boumboum6> critt: I do not. :(
+[09:09] <Boumboum6> neur1: :)  I went though that myself a number of times--I do not have 24/7 internet..I get online at wifi hotspots at the library...and have to interrupt downloads when the library closes. :)
+[09:10] <Boumboum6> nickrud: heh. the best ones for ME, yes...maybe not so good for others. :)
+[09:15] <murlidhar> :(
+[09:17] <DUUUUUDE> JW, we need more ppl like u, too bad my sound works :)
+[09:20] <DUUUUUDE> wtf!? i can see the HD but cant write to it, rio help me :)
+[09:20] <DUUUUUDE> hehe :)
+[09:21] <DUUUUUDE> ok how i change permission :) chmod...etc? how?
+[09:24] <mic> DShepherd: problem is that not everything is mirrored on other servers :(
+[09:24] <Symmetria> :)
+[09:24] <bananamuzzj> :(
+[09:25] <simplechat> dystopianray:  ah, its done now :) damn that was slow :)
+[09:25] <simplechat> dystopianray: ok, thanks anyway :)(
+[09:26] <bananamuzzj> :(
+[09:26] <bananamuzzj> none can help me? :(
+[09:30] <DUUUUUDE> man this sux. all i want is to be able to read/write to my new added hard drive. for now i can read but not write to my added hard drive :(. please PM me to help me if you can .
+[09:30] <DUUUUUDE> man this sux. all i want is to be able to read/write to my new added hard drive. for now i can read but not write to my added hard drive :(. please PM me to help me if you can ..
+[09:32] <DUUUUUDE> sorry :(
+[09:38] <fuligin> hi is anyone having apci problems with 7.10, any way to reinstall it cause on my thinkpad it said it cant find it :(
+[09:49] <gustavo_> ompaul " There are at least major two cases where one may wish to use boot options. Case 1: When trying to install, and the install freezes. Case 2: After a system has been installed and does not boot or the system needs adjustment. " i didnt see anything that might help :(
+[10:39] <BoomSie> whoops, sounds familiar. You have the mixer issue too, sorry :)
+[10:40] <BoomSie> no, a simple work around I have now, but fully fixed WITH an end mixer/master, no :(
+[10:40] <BoomSie> I don't know if I should make a bug-report on the Alsa site or Ubuntu now :(
+[10:42] <BoomSie> :) well, then you just hit the jackpot, this is the first time I encountered this audio problem in 5 years :D
+[10:42] <lobo_nz> tehknow, got it sorted had to install xserver-xgl to get my window decorations working - just incase someone else bugs you :)
+[10:44] <BoomSie> I know, cause it's blocked cause of the previous setting, it requires a reboot or you need to kill the application that is blocking your sound device :(
+[11:02] <bam_> oh... :)
+[11:05] <simplechat> :)
+[11:06] <beni> bam_: np I always like when someone can help me :)
+[11:07] <beni> jscinoz: wait. That was dumb, forget it :)
+[11:07] <karin5482> thanks :)
+[11:09] <bam_> anyway, thank you guys for all the help. I have to get back to work. Have a great release Party! :)
+[11:11] <wers> How do I reenable network manager to manage my network after manually configuring it? :)
+[11:13] <beni> Moduliz0r: oh yeh :) Gotta blog that
+[11:17] <Mr> I get this error when I try to boot "Unable to mount root fs on unkown block (0,0)... I had 7.10 running fine yesterday... this morning I get that error... I really need some help :(
+[11:20] <fantasia> Can somebody help me with installing beyrl on gutsy? the wiki for beryl for ubuntu is down :(
+[11:24] <JW_704> Ah :)
+[11:24] <phishie> ps -ef (with a space):)
+[11:25] <zxcv24> rbs-tito: ahh, thanks :)
+[11:27] <JW_704> :(
+[11:28] <rbs-tito> linux26: No problem :)
+[11:31] <rbs-tito> ParanoyaM: Just a certain netiquette of writing in upper case. It makes it easier if you just state your problem and wait for an answer :)
+[11:33] <beni> RiffRaff: answer for wh00t? :)
+[11:44] <beni> RiffRaff: sorry :(
+[11:44] <RiffRaff> thank you for your help :)
+[11:45] <beni> rbs-tito: they got windows keys, dont they? :)
+[11:46] <beni> rbs-tito: ok.. just read a test about these ones and they were a bit bitchy because DELL didn't do it "with love" you know? :)
+[11:47] <beni> rbs-tito: yeah, stuff like this :)
+[11:52] <cyphase> rbs-tito: oh yea, i forgot about you :). Turns out once i reset Totem's gconf settings, it works fine
+[11:52] <rbs-tito> cyphase: Good to know :)
+[11:56] <asbani> beni: I need to press both in a game :)
+[11:57] <rbs-tito> Off to work now, bye :)
+[11:58] <beni> Mr: Okay good luck bro :)
+[11:58] <Mr> thanks :)
+[11:59] <asbani> Thanks saloxin, that was it :)
+[12:00] <jonah> hi. i got XP, Vista and pclinuxos installed now. is it possible to install ubuntu also without messing up the current grub settings so i just have to add the Ubuntu partition in the menu.lst file? <- have to take a shower, if anyone knows the answer, plz message me :)
+[12:04] <raidproblem> saloxin: Yup I think that is what I have to do. Of course now I have a full windows install on a striped volume that I have to trash :(
+[12:07] <raidproblem> aata: Just a way of setting up disks so games and stuf can run a little faster :)
+[12:09] <raidproblem> saloxin: thanks for the help, you seem to be very busy :)
+[12:10] <raidproblem> saloxin: Okee dokee I'd better go hose my system again :) Thanks :)
+[12:20] <albix> ok i solved my problem by myself :)
+[12:21] <ZaphodBeeblebrox> wtg, albix :)
+[12:22] <murlidhar> niller: no problem :)
+[12:26] <rayb0t> is sharing pretty screenshots offtopic for this channel? :)
+[12:27] <sponix> saloxin:  I went from kernel.org, can anyone verify their copy is good :)
+[12:29] <IHK> before i go insane :), how do i give permission to write to me on a mounted disk, that's mounted with truecrypt(encrypted)? "sudo chown andreas crypt" gives the response "chown: changing ownership of `crypt': Read-only file system", first of all ls -l stil says root root, and second, its not a read only file system :S what am i doing wrong?..
+[12:29] <rayb0t> deadsouls: that's what I did :)
+[12:33] <sponix> saloxin:  these tards don't even list the rsync mirrors on the page anymore :(
+[12:34] <rayb0t> Tigerman: just back up your current xorg.conf in case of emergency :)
+[12:34] <ZaphodBeeblebrox> stefg: Thanks a lot :)
+[12:38] <kiba> the latest incarnation of the linux kernel failed to detect my network and sound :(
+[12:40] <tiago> :)
+[12:42] <zmitya> don't have cd :(
+[12:43] <rayb0t> shooood:  just ask your questions :) if somone knows the answer they will help
+[12:43] <murlidhar> zmitya:> u can always download one :) from the torrents
+[12:43] <zmitya> but it does not show the adept does noe show the version upgrade :(
+[12:43] <zmitya> murlidhar: but i don't want to download a CD :)
+[12:47] <asbani> Thanks to you _keito_ It's fixed :)
+[12:56] <_JSR_> heya all :)
+[13:01] <mandrill> dmizer: ta. :)
+[13:05] <picard_pwns_kirk> AnssiP: but being on this channel, you might not want fedora :)
+[13:16] <beni> kane77: stenography? :)
+[13:16] <_keito_> 1.48+ZyXEL: :) do you know the exact model of your product?
+[13:17] <kane77> beni, :) yes something like that.. replacing commonly used words with some symbols...
+[13:17] <beni> kane77: never heard of this, could you drop me a comment if you find that? I'm keen to see that :) http://mybeni.rootzilla.de
+[13:21] <notgod> beni: sure. :)
+[13:25] <Ubuntu_7> good morning :)
+[13:25] <Ubuntu_7> i have a question about amule :)
+[13:26] <detra> _keito_, Ok thank you for your help ... I will keep working and let you know if I get any closer ... And then ask you again :)
+[13:30] <feierfox> :(
+[13:35] <raz0r> Hey can someone help me with changing my resolution with nvidia card ? :(
+[13:36] <beni> detra: Nope hell no :) I just had the trouble with an Linksys USB adaptor which didnt work in linux, and i found a page in the net with a guy testing hardware for ubuntu Linux and he Said this one should work. I bought it and It worked with my GF's laptop and we're all happy now :o)
+[13:37] <detra> _keito_, I've been a windows nerd all my life ... I know everything about it ... but I have many times changed to linux but ended up changing back ... Because when you are used to 1 OS there's stuff you need ... But now I got both wine and crossover to work ... So everythings coo :)
+[13:38] <Peaker> beni: oops, just oh ok :)
+[13:38] <Pipepi> :)
+[13:39] <beni> _keito_: *this* rocks :) http://mybeni.rootzilla.de/mybeNi/mXsk1/wp-content/uploads/2007/10/bildschirmfoto.png
+[13:40] <Pipepi> :)))
+[13:40] <kritzstapf> Pelo, thanks, thats okay :)
+[13:40] <beni> Psi-Jack: Haha, nope not yet I got too few Lan Cables :) But one day, it will - definitely :)
+[13:43] <student23> vinay, I can't check now as I'm not sure but If you leave me a way to contact you I can let you know :)
+[13:47] <detra> Psi-Jack, Fair enough :)
+[13:48] <detra> _keito_, I'm gonna test them all :)
+[13:50] <detra> _keito_, thats it :)
+[13:51] <bodq> hi, I don't see my wacom tablet input devices in `xinput list`, although they're defined in xorg.conf and work :( how to debug this? [report]
+[13:51] <detra> _keito_, I've never owned an ati myself ... That's why I'm using nvidia ... start with 1, stick with 1 :)
+[13:52] <beni> asbani: LOL :)
+[13:52] <IdleOne> VSpike: well then that is what you needed to do :) let it finish the upgrade and you will see the package appear later on. may have changed name so it needs to go packageA to packageB so it can notice " packageB is now packageA "
+[13:52] <beni> myname: and "ubotu" is the Channel bot, he is a program why helps us to help people :)
+[13:53] <asbani> beni: I don't like xchat, because I run my irc from terminal and screen, that i can log back into it from different computer or from work :)
+[13:53] <beni> asbani: ah okay irssi or stuff :) sorry
+[13:59] <Andycasss> Can i sort installed packages by date/time? :(
+[13:59] <Tomi_G> Gutsy: Using ATI drivers, ATI Xpress 200, Desktop effects could not be enabled. How to fix it :(
+[14:04] <Andycasss> How do i make vista sharings work, ubuntu keeps asking for authentication when i have no password in vista????:(
+[14:04] <gb__> sponix:  i did try no password too :(
+[14:08] <kane77> bashish should be in ubuntu repos.. it is cool :)
+[14:10] <mpmc> ThunderStruck: Thanks :)
+[14:12] <asbani> hmm cool I'm in konsole. looks nice :)
+[14:15] <dansku> thanks :)
+[14:19] <Tomi_G> menisk: Desktop effects still doesn't work and everything is so slow now :((
+[14:20] <howlingmadhowie> hi everybody :)
+[14:21] <kane77> compwiz18, or links :) but that has no flash yet
+[14:22] <compwiz18> kane77, true :)
+[14:22] <kane77> compwiz18, maybe something can be done about it.. mplayer has ascii art output.. :) imagine watching youtube in your console :)
+[14:25] <juancis14> hello everybody :)
+[14:28] <mendred> np :)
+[14:31] <VSpike> idleone - however, the crash is now fixed :)
+[14:33] <muzzbanaan> :)
+[14:36] <Tranto1> Sorry, could someone tell me if this is the correct channel for my questions about Gutsy? Seems that there is too much people here :)
+[14:37] <LjL> LM22: try asking a question :)
+[14:54] <SuperPigs> LjL thanks :)
+[14:59] <lamego> svg, otherwise you could use a mini cd :)
+[15:03] <b0ha> same problem like RootyRootRootWoo :)
+[15:19] <damianl> LiMaO: :)
+[15:21] <kolla> So, instead of asking a question, I say "kvm in gutsy is broken - true or false!" :)
+[15:25] <stemount> hey :)
+[15:26] <Moduliz0r> what's wrong with the bluetooth things??? I can't browse a device :(
+[15:27] <Andycasss> how to set a shorter delay when the source of mount cant be found? Right now it takes 5 min till it boots up (Fstab) :(
+[15:29] <ShapeshifterO> I really need help :( I nuked my ubuntu installation. I now need to chroot into my installation via the live cd, but I don't know how to do that. Can someone help me? please!
+[15:33] <kaminix> stefg: Yes, I was just on it, then I logged out to log back into a fancier colorprompt :(
+[15:42] <LjL> daekdroom: ...? of course. they're more frozen than even, since it's released :)
+[15:53] <GoingGibbon> I cant upgrade! Cant seem to fix this issue by myself! Does anyone know how to help me? :)
+[15:55] <andre_> LjL:  tx for the help,  I'll see if that work on the next update :)
+[15:55] <nemo_home> LiMaO: would you have any speculation on that front, or should I go poke around, maybe nag a dev or two? :)
+[15:55] <nemo_home> ion_bidon: no clue on the initrd thing, since I tend to take error messages literally, personally :)
+[16:00] <ben___> :)
+[16:00] <nemo_home> mc44: keep in mind I bought this ubuntu box from dell to encourage their business decision :)
+[16:03] <Op3r> :(
+[16:04] <Op3r> cos Im using a low end laptop :(
+[16:05] <xsacha> LjL: yeah it works in KDE. not working here in gnome :(
+[16:05] <LM22> ktorrent rules :)
+[16:05] <jdong> LM22: ah, ok. ktorrent rocks indeed :)
+[16:06] <stemount> its fine. but KDE is really lame on memory :(
+[16:07] <nemo_home> jdong: XFCE4 :)
+[16:07] <nemo_home> jdong: my laptop with 96MiB of memory runs XFCE4 :)
+[16:08] <jdong> nemo_home: of course, if you like GNOME apps.... KDE is pretty useless :)
+[16:08] <jdong> nemo_home: if you use majority GTK apps, I would never tell you to try KDE :)
+[16:11] <Draggin> noo1 - Aha :) Thanks very much
+[16:12] <nemo_home> vocx: and I'm looking for a decent high-powered gnome burning tool :)
+[16:12] <jdong> xsacha: ok, point. that's not the intended purpose of mplayer :)
+[16:13] <jessie^^> xsacha, it doesn't appear to be compiz doing it either, which is good :)
+[16:14] <mc44> jdong: xgl/firefox usually take me above that after a while :(
+[16:14] <mc44> jdong: but soon it will be ding dong dead! :)
+[16:15] <jdong> mc44: let's hope so :)
+[16:15] <felipe__> saloxin: yeah, pretty noisy :)
+[16:17] <stemount> :)
+[16:17] <stemount> :(*
+[16:20] <jessie^^> xsacha, stemount: thank you for looking at this with me. i guess this is a 'just gutsy' thing :)
+[16:21] <stemount> that don't conflict with anything else :)
+[16:22] <stemount> it is very good mundungus :)
+[16:22] <stemount> mundungus, bit heavy on memory but :)
+[16:34] <lior> I couldn't put together anything ... :(
+[16:35] <attunix> TheSaint: errm to you too! :)
+[16:35] <attunix> :)
+[16:36] <attunix> :)
+[16:36] <gpled> attunix: it means you like trains :)
+[16:38] <NoWhereMan> saloxin, all fixed now :)
+[16:40] <SuperPigs> TheSaint :)
+[16:42] <attunix> thesaint: errm to you to! :)
+[16:46] <xyz> :)
+[16:50] <LjL> jnc: non-family-friendly quit message :)
+[16:50] <xyz> murkyMurk, john_preist: thanks guys, it works great! :) Now... Do any of you know how to listen to ShoutCast which I usually accessed through WinAmp on windows? I've seen that I could possibly install Wine (which I have) and then mount my new NTFS r/w partitions, but I'd rather be able to run a native linux program... Another question I have is where I can check whether my web camera can take shots from Linux?
+[16:51] <xyz> :)
+[16:52] <Draggin> Thanks for the help... I'm way further now :)
+[16:54] <xyz> john_priest aha :) murkyMurk: thx
+[16:54] <wolferine> jnc, yes, of course :)
+[17:16] <BoomSie> ja :)?
+[17:17] <aata> :) why do i get a big black cross on starup?
+[17:22] <attunix> anyone know what #ubuntu-general does? :)
+[17:35] <moope1> hey , my computer keeps freezing up for no apparent reason. can anyone help find out why? The mouse disappears and I am left hanging :(
+[17:44] <KR-data> nickrud, thanks :)
+[17:52] <KR-data> nickrud, thanks again :)
+[17:52] <raidproblem> poningru: maybe it's wrong... Well, as long as I won't lose data I don't mind the errors :)
+[17:57] <[[Charlie]]> Sorry pici thought i turned that off. It's off now :)
+[17:57] <Pici> [[Charlie]]: Okay :)
+[17:59] <nickrud> garu: grub counts from 0 , if you remember that it's easy :)
+[18:00] <raidproblem> poningru: Yup I disabled the stupid JMicron controller in BIOS and now the errors are gone :) Thanks for help.
+[18:01] <FireHazard17> :(
+[18:02] <Traveler6> :)
+[18:06] <nickrud> aata: what, I'm out of context here :)
+[18:06] <nickrud> Traveler6: the hp 17"? looking at that myself :)
+[18:07] <stemount> :)
+[18:11] <aata> thanks a mil :)
+[18:11] <flick> warkruid, now that i know what to look for, i think i will find out a way :)
+[18:14] <Iggi> :)
+[18:15] <raidproblem> great, thanks :)
+[18:21] <nickrud> aata: 1. do the get command. 2. burn that, and /var/cache/apt/archives/* to a cd. 3. Install. 4. copy the files back to /var/cache/apt/archives on the new install. 5. run the set command on the mypackages file. 6. Watch your system update, without downloading :)
+[18:26] <nickrud> :)
+[18:27] <aata> :)
+[18:29] <nickrud> vocx: yesterday I was the 1337 'th user. Destiny :)
+[18:31] <kst-> how do I setup my s-video output to TV (pal-b) with ati fglrx on gutsy? anything special? my former solution from feisty got broken with the upgrade :(
+[18:33] <Fryguy--> god i hate my terminal colors :(
+[18:33] <kst-> how do I setup my s-video output to TV (pal-b) with ati fglrx on gutsy? anything special? my former solution from feisty got broken with the upgrade :(
+[18:33] <stemount> aata thats fine :)
+[18:34] <fuligin> envy does wonders even for newbies like me :)
+[18:39] <troxor> atouk: sudo -i to get to the root user's account, make up a really long random password, set it, and then forget it :)
+[18:40] <troxor> aata: just answering questions :)
+[18:41] <nickrud> Fryguy--: doable. I'll mail you a bunch of dvd's :)
+[18:42] <nickrud> aata: install without doing the backup :)
+[18:42] <kiru> nickrud: found it :) thx
+[18:44] <ompaul> aata, the use of * does not disguise the need for you to avoid the word fully in irc - you should have checked that also :)
+[18:46] <buck_> ubotu: Hello :)
+[18:46] <ubotu> Sorry, I don't know anything about hello :) - try searching on http://ubotu.ubuntu-nl.org/factoids.cgi
+[18:50] <kiru> after deleting everything, purging and reinstalling, it is gone :)
+[18:54] <Ajzo> Paddy_EIRE: little to much to do instead one simple CLICK :)
+[18:54] <Box|UK> ati  xpress 200 FTW :)
+[18:54] <Dialntone> im having a lot of problems trying to get an avi file to play :(
+[18:54] <tehlaser> or you can hack in gconf-manager, but that's not exactly recommended.  :)
+[18:56] <nickrud> ldrada: heh. small case vs caps. About right :)
+[18:58] <tehlaser> alill0: glad you made it back.  :)
+[18:58] <Ajzo> Ashex: it is enough just to clikc middle click and it is downloading instead launching in browser :)
+[19:03] <Ajzo> Ashex: i'm gonna change it manually but it works as i can see :))
+[19:04] <BaD_CrC> :)
+[19:09] <Gin> joanki, I also said that when I first get to know Ubuntu. ;) but now , it is sooo easy :)
+[19:12] <local> iotkittie,  :)
+[19:12] <troxor> kriel: higher learning curve, yes; but, the kicker is that there exists an edge :)
+[19:13] <ali110> garu : well thanks a lot for trying to help that was so kind :)
+[19:15] <beni> DerDritte: okay :) But mine grabs the covers automatically and has a clean and simple UI ;)
+[19:15] <riotkittie> yw :)
+[19:17] <beni> nanbudh: yes, install it :)
+[19:18] <flick> beni, i'm serious :)
+[19:21] <troxor> garu: it's a safer answer than 'of course!' and then have your wireless card not work :) but yes, in general, it should be fine, provided the card's hardware supports wpa
+[19:21] <Mishaal> does anyone know how to copy ubuntu 7.10 from torrent to nero? i am using Windows just now :(
+[19:23] <Mishaal> Gin: i want to copy it to CD :(. i searched in google but i couln'd find :(
+[19:25] <Mishaal> thanks kishan and Paddy_EIRE_ :)
+[19:26] <michael_> :)
+[19:26] <wolferine> thats too bad Paddy_EIRE_ :)
+[19:27] <wolferine> Paddy_EIRE_, obviously :)
+[19:27] <garu> nanbudh nah...no problems with downloading anything here :)
+[19:28] <the_darkside_986> i tried running compiz but 3d games like sauerbraten kept shrinking to windowed mode instead of fullscreen, and it would freeze up. :(
+[19:29] <troxor> kriel: progress :)  install xfonts-base, or just xfonts-*
+[19:30] <troxor> kriel: I believe -base is the only one you need, but the foolproof way is just to install them all :)
+[19:31] <Mishaal> good, just now i have Windows, if i follow it i will have ubuntu :)
+[19:33] <Mishaal> Paddy_EIRE_:  but i want to install it and keep Windows. i'm new to linux :(
+[19:33] <Box|UK> i burned the disc as iso was able to view web pages  and browse the web while it installed :)
+[19:34] <kkathman> Paddy_EIRE_,   gnome-commander is a bit better, but not too configurable (i.e. colors, background,) and you can only have the two panels :(
+[19:47] <ubotu> Ghone[fark]: Don't ask to ask a question. Just ask your question :)
+[19:50] <beni> riddareralf: go find the button! :)
+[19:51] <flick> gnome rocks :)
+[19:51] <flick> riotkittie, nautilus rocks :) thanks for pointing out i can do what i want in nautilus too... i think i assumed things too quickly, i apologize for that
+[19:53] <beni> EminX: Where's the prob? :)
+[19:56] <nn> claudio75: it could be a slight change in the driver since fiesty or maybe just driver got overlooked :)
+[20:01] <beni> John117: Or just setup an old linux computer which shares music on your lan or stuff :) Just little tasks to learn about this OS
+[20:11] <Phocion> ah i was typing it worng :)
+[20:16] <John117> box|uk that's okay. I was using my laptop as an experiement so i could get comfortable with the install before switching on my desktop.   I think i'm ready. :)
+[20:17] <pubuntu> i need help :( the guided partitioning won't let me go below 50%
+[20:21] <m1r> john117 ,rest of space :)
+[20:24] <Jban> Fryguy--: Ahh, ok I understand now... I know that was a silly question, but I've only had Ubuntu for 2 days now  so... some really apparent things aren't common to me :)
+[20:24] <beni> TheRepacker: welcome to the Freedom Movement buddy! :)
+[20:28] <Lejzi> beni so i can simply use ndwrapper and thats it ?? no more problems? :)
+[20:30] <John117> OKay guys.. i'm off to finally install ubuntu on my desktop this time. :)  thansk for your help!
+[20:31] <sco50000> trident523: i don't think this is the bug i am getting :(  if i start normally, it hangs at just near the end of the boot screen loading bar, and in recovery mode, it hangs at the part when it says: "Starting GNOME Display Manager:"
+[20:31] <pubuntu> the manual partition is confusing :(
+[20:31] <sco50000> trident523: i don't think this is the bug i am getting :(  if i start normally, it hangs at just near the end of the boot screen loading bar, and in recovery mode, it hangs at the part when it says: "Starting GNOME Display Manager:"
+[20:32] <nn> stop downloading gutsy :( i cant install mythtv meh
+[20:33] <Box|UK> running utorrent in ubuntu  :)
+[20:37] <garu> beni that's no war...its the truth :)!
+[20:38] <kkathman> pici uhm - kinda but not completely :)
+[20:42] <Mehlron> No, wired :(
+[20:44] <patricknev> trident523:i have a laptop with integrated video card, so no 3d :(
+[20:45] <Seveas> percival, not if you tell it not to :)
+[20:50] <crossout> oh k thanks :)
+[20:52] <Fethman> damn quake wars plays great on gutsy :)
+[20:52] <Fryguy--> Vista|G33Z3R: :( use irssi :(
+[20:53] <Jban> astro76: If I asked you a question about porting a windows Pizza into Ubuntu, would that be office topic? Hehe, just joking, I was up here early in the morning and wasn't used to topic rules :), so I apologize.
+[20:58] <kkathman> endo awn is awn I think :)
+[20:59] <PriceChild> Seveas, :)
+[21:01] <Seveas> so you're talking rubbish :)
+[21:05] <Dan2552> kevin_: you could make your own :)
+[21:05] <Stormx2> Fryguy--, happens. Calm yourself :)
+[21:05] <Seveas> Gigglez, your sources.list is busted or you're not on x86 :)
+[21:08] <stemount> :(
+[21:11] <akorn> Fryguy: haha yea i was being lazy with google today, to be honest :)
+[21:11] <attunix> astro76: cool thanks :)
+[21:13] <Jban> astro76: I just now noticed that there was two files... one ~$ass Shedule.doc and the other was the correct Class Schedule.doc ... I can open the documents fine it seems, sorry about taking up your time there :)
+[21:14] <Seveas> dopel, windows support in ##windows :)
+[21:18] <ubotu> Don't ask to ask a question. Just ask your question :)
+[21:21] <ubotu> As you can see, this is a large channel. If you're speaking to someone in particular, please put their nickname in what you say (use !tab), or else messages get lost and it becomes confusing :)
+[21:21] <Dan2552> my laptop battery always only lasts 1hr20mins even when setting CPU to 50% and power saver on graphics :(
+[21:24] <Lejzi> DUUUUUDE: try transmission :)
+[21:24] <DUUUUUDE> ok thnx pax and lej :)
+[21:24] <joerack> Virtual box says my kernel isn't installed...  :( help?
+[21:24] <Paxton> Lejzi: Is there a windows version of transmission? I'm still feeling my way into ubuntu with wubi because the partition utility won't let me resize for enough to install :(
+[21:25] <Lejzi> Paxton: windows version of transmission? well...... utorrent maybe? :)
+[21:25] <optx> my windows wubble, but no cube right now :(
+[21:28] <crossout> MasterShrek: Thank you MasterShrek :), you tip got windows to load. Unfortunately as its booting I now get the BSOD. Wondering if I should try to repair windows or do something else.
+[21:29] <Paxton> PeacefulCheet1: I'm surprised that anyone got my adapter working, I'm looking forward to it :)
+[21:30] <Dan2552> :( i'm sorry
+[21:32] <jessie^^> :)
+[21:32] <crossout> oh nice thanks :)
+[21:33] <PeacefulCheet1> Thanks paxton :)
+[21:34] <xaios> Ubuntu is awesome, I just wanted to drop in to say thanks :)
+[21:35] <Paxton> PeacefulCheet1: I have to go now, I hope that helps you. I'll be back in half an hour if you still have trouble. If you do, I'll see if I can help :)
+[21:35] <Lejzi> :(
+[21:36] <crossout> ah hello MasterShrek :), I tried your suggestion, now I get the BSOD trying to boot windows, wondering what is your take on my options?
+[21:39] <crossout> MasterShrek, damn, well that means I pretty much I have to repair it I guess, since there is no way I'm gona format. Thanks for you help though, nice to know how to revert the Master Boot :).
+[21:40] <crossout> MasterShrek, k thank you, cya later :).
+[21:42] <stemount> 7.10 works fantastic here LiMaO :(
+[21:42] <kst-> I think I'll go back to feisty :( or can anyone tell me a good reason why I should use gutsy?
+[21:43] <stemount> o rly :(
+[21:44] <PriceChild> scottfro, read it :)
+[21:45] <Tranto1> jnc: you know what I mean... Next -> Next -> Finish :)
+[21:48] <Tranto1> jnc: I'm too lazy for commands :) well, really what I want is a process that configure Grub in a correct way, and restore the system. I'm not sure I'm able to do this only making a copy of the files in my linux partition
+[21:50] <Pici> Colro: ask in #compiz-fusion :)
+[21:50] <kevin1> thanks LiMaO :)
+[21:53] <Tranto1> jnc: thanks, I can't do this right now, but I have copy/pasted your previous message :)
+[21:54] <Fryguy--> akorn: :)
+[21:55] <stemount> :(
+[21:56] <Sp4rKy> i know it's not the good chan for this question which is out of topic, but i'm looking for an algorithm of a Multi writer multi reader register implementation, so if someone knows that :)
+[21:56] <Pici> Sp4rKy: try ##programming :)
+[21:57] <crossout> MasterShrek, I solved the problem :D. it turns out while I was scrambling trying to figure out how to fix the boot, I loaded the optimize settings in the BIOS, needless to say that screwd things up :). Again thank you very much :).
+[22:01] <Pinchiukas> I don't do those :)
+[22:03] <akorn> leobru: you're welcome :) hopefully that solves it
+[22:03] <akorn> leobru: After you install, go to System, Preferecnes and Screen resolution :)
+[22:05] <Peste> :(
+[22:05] <Vlet> woot - compizfusion 0.6 released :)
+[22:15] <ubotu> seth: Don't ask to ask a question. Just ask your question :)
+[22:15] <Odd-rationale> Colro_: Didn't make sense to me either. :) Just passing on what someone else told me.
+[22:20] <student23> Tranto1, Thanks anyway :)
+[22:20] <dudesmn> :)
+[22:23] <Fryguy--> Vlet: seriously, I don't understand the random problems people are having.  ubuntu is dirt easy to use, upgrade, and customize :(
+[22:25] <Vlet> Fryguy--: well, you're probably intuitive by nature :)
+[22:26] <PriceChild> billy, most are, no need to mention it :)
+[22:26] <asbani> MaxRandor: people might shout at me telling you this, but I'd recommend a fresh gutsy install, download gutsy.iso and do a fresh install :)
+[22:26] <cpt> PriceChild, nothing is working after i tryed changing the standard driver setings :)
+[22:27] <Tranto1> cpt: In fact I don't know where that file is in! :) When I installed Feisty, it configured with the correct resolution without doing anything else
+[22:29] <Fastn> eodchop: Thx i check :)
+[22:30] <Joikast> Iv'e added the ones in the third part softwares .. still does not work :(
+[22:35] <arooni> how can i get my dual montiors working in gutsy?  i have an nvidia grphaics card and its not working :(
+[22:37] <stemount> Innomen, come to #discuss-ubuntu :)
+[22:39] <slackern> oxeimon, aye for now i guess, personally i can live with basic performance for now and i like testing the drivers for the devs a bit :)
+[22:43] <Fastn> roC_MasterMind, okey :)
+[22:44] <Vlet> Yoman: hehe :)
+[22:49] <Vlet> bjwebb: hmm... demons maybe :)
+[22:49] <Powerix> Lots of people needing help :/ And hey - I'm one of them - sorry! Got a problem with my sound. It "works" but boy is the quality awful! It hisses like a bag of snakes :( Got 7.10 and an SB Audigy - can anyone help?
+[22:50] <ubotu> was1984[1]: Don't ask to ask a question. Just ask your question :)
+[23:00] <Powerix> cpt: cool :) Thats one thing then
+[23:00] <hozano> MasterShrek: Ok. :( I will try again asking in the channel... Thanks
+[23:00] <cpt> Powerix, hehe yes, but it im no further :)
+[23:03] <Vlet> riotkittie: compiz is flashier than metacity is flashier than fluxbox is flashier than vt200 :)
+[23:04] <mpeters> try sudo apt-get install compizconfig* and see if you get lucky :)
+[23:05] <juanbond> awesome!  thanks for the tips :)
+[23:17] <Innomen> murkyMurk: easy for someone who knows what you mean by that :)
+[23:19] <SuperPigs> fryguy but i want to encrypt files, streams and everything so :))
+[23:19] <Fastn> thx for all answers, helped me alot :)
+[23:19] <ThunderStruck> jdong, welcome to ummmm fun :(
+[23:23] <Fastn> d4rkmonkey, Okey thx alot :) how do i comment it out trough terminal?
+[23:25] <Creed> vocx, true :( Older versions are fine (I hope!)
+[23:27] <cdm10> Never mind about my evolution question, I screwed up the spelling of spamassasin :)
+[23:28] <Creed> lauchazombie, lol I love bash :) I woud live there forever if I could but I was giving this machine to a friend who wanted compiz
+[23:30] <Creed> lauchazombie, links is pretty sweet, comes in handy at work (pretty restrictive firewall...ssh is open though :)).
+[23:31] <Creed> Pelo, I'm not telling people not to use newever utorrent or utorrent in general because of the new owners, I'm simply expressing my opinion on the matter. If I am misinformed then thats my problem :) Everyone has faults...I'll learn the truth when I feel like it, but for now I'd rather just stick to my beliefs.
+[23:33] <ubotu> Don't ask to ask a question. Just ask your question :)
+[23:34] <Innomen> thanks all :)
+[23:37] <Fastn> d4rkmonkey, Oh this works great :) , what was the only two problems with this chipset?
+[23:39] <Fastn> d4rkmonkey okey :)
+[23:39] <jrcdude> Great :( I guess noone knows an anser
+[23:39] <Pir8> ok but what I am trying to do is have that app launcher link call an alias that I setup within the shell :)
+[23:40] <Pir8> aaah now I know why it dont work :)
+[23:40] <Skratz0r> Thanks. :)
+[23:43] <Pir8> I've had no luck with it :(
+[23:43] <Lost_Soul> :)
+[23:47] <bobgill> jrib: I did "Mark for complete removal" and now it's not in the list anymore :(
+[23:50] <hans_> flick: or something :)
+[23:53] <jdong> vocx: point is, now that it is built the way I packaged it, the end user won't have to worry about anything. It runs with EVERY JRE in our repositories now :)
+[23:55] <jdong> lauchazombie: it's Ubuntu -- it's what we do for each other :)

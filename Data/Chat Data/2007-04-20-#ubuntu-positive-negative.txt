@@ -1,0 +1,655 @@
+[12:03] <larson9999> servers are a bit slow :)
+[12:04] <mc44> function1: it is 4/7 :)
+[12:04] <mc44> function1: the month :)
+[12:04] <_Neil> So guys, where can I find a changelog for fiesty? See the main changes :)
+[12:05] <IncredibleHink> xtknight, ALSA lib confmisc.c:1105:(snd_func_refer) Unable to find definition 'defaults.pcm.front.card'
+[12:05] <jokoon> Hello here :) I'm looking for a way to place the little buttons on the window top bar (the minimize, maximize and close) to the left side instead of the right side, just like mac windows. Is this possible ?
+[12:05] <IncredibleHink> xtknight, ALSA lib conf.c:3500:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[12:06] <iGadget> man... I've never seen bittorrent work this well. Downloading the iso... :)
+[12:07] <lbci_irc> download desktop-alternate using bittorrent and upgrade offline... fastest way on release day! I have one computer doing the online update and its been running 9 hours now:(
+[12:10] <LjL> swedekid: and read the site the bot gave you so i won't have to exercise my typing skills so much again :)
+[12:11] <LjL> toubsu: e296e3468358789904097fc8df29609a, but why would you trust me? :)
+[12:12] <evilfourzero> god everyone stop downloading fiesty fawn so that I can download at a decent speed pleease :)
+[12:23] <Adimanuk> Subhuman, thanks :)
+[12:25] <holycow> cedricshock, sure give him your alternative too, i'm good :)
+[12:31] <holycow> :)
+[12:31] <dIsTuRbEd1> HeLp! "I added a few lines to my sources.list and now i want to fix this list prob, yes i am a newbie but doing okay so(i installed nvidia video drivers fine :) how does one use vim to delete the lines i added?
+[12:34] <justin420> :)
+[12:35] <justin420> :)
+[12:45] <ytsestef> any1 know why sometimes I have sound and some other I dont? where's the alsaconf command?? :(
+[12:45] <Angeluz> RedNeckBoy: Hmm... you should have contacted Michael of Phoronix when you received those news. :)
+[12:47] <DeX-aNoM-MwG-> thanks angel/wastrel, ill check ito ut just wanted to make sure there was hope :)
+[12:47] <askar> Stoffer: We could file a bugreport but it propably get very low in the priority list :)
+[12:51] <milage> :(
+[12:55] <DanaG> :(
+[12:58] <Angeluz> sylvisj: With the login you creating during the install-process. :)
+[12:58] <milage> Shadow :)
+[01:00] <KNY> haha you jerks, I can't even install gnomebaker since the mirrors are thrashed :)
+[01:00] <Angeluz> Skygge: Sorry, I confused you with sylvisj. :)
+[01:02] <ytsestef> Angeluz: ok :)
+[01:07] <KNY> foug, the numbering scheme is year.month :)
+[01:07] <KNY> foug, :)
+[01:10] <KNY> bimberi, I have the ISO, I just need to burn it :)
+[01:11] <bimberi> KNY: kk :) although note that you can only upgrade from the _alternate_ cd, not the desktop - it's for installs only
+[01:11] <Goldy> generic :  will put in my rt61 and try now :)
+[01:11] <nuked_omen> thanks a lot with the link :)
+[01:12] <bimberi> armyriad: you don't say :)
+[01:13] <bimberi> bobrik: yw :)
+[01:16] <Hairulfr> bobrik: LOL, nice :)
+[01:18] <Abnaxos> Hi again! Still having problems with network manager since the upgrade to Feisty. :( I could break it down to network manager not receiving any notifications from dhcdbd. It might be related to the following message in the syslog: dhcdbd: message_handler: message handler not found under /com/redhat/dhcp/eth0 for sub-path eth0.dbus.get.reason
+[01:21] <Msakaji> Pie-rate: Like a lot of things in the end. :)
+[01:26] <sylvisj> if only 7.04 detected the 8800gts as an 8800gts and didn't try to rape me using nv :(
+[01:26] <breakthru> i have a blank screen with nvidia drivers :( that happens on ubuntu 6.10 and 7.04
+[01:26] <bimberi> nu-: obotu is tired :)
+[01:27] <Gold2> RT61 is working perfectly out of the box :)
+[01:31] <variant> feistyman: i fyou keep it up to date then yes, you are already using feisty final :)
+[01:35] <Angeluz> Kagaru: Bills multimedia-house runs Linux. :)
+[01:35] <zbrown> gils: no, its already done :)
+[01:37] <bimberi> :)
+[01:37] <variant> sldkfj: well, simple enough to replicate :)
+[01:38] <bimberi> Tell: ask away and we'll see :)
+[01:45] <mrpoundsign> this morning, it was 1 day 18 hours. Now it's 12 hours. An hour ago it was 18 hours.  :)
+[01:47] <ajehuk> mike1 - ah I could disagree with you there, but I'll save that for some other time :)
+[01:47] <wondering> How would I make a command line only LiveCD that's based on ubuntu-7.04-alternate.iso ? Could someone help me please? I've searched all over Google and I can't seem to find anything :(
+[01:47] <bimberi> Mr_Giraffe: :)
+[01:48] <bimberi> SubMOA: cool :)
+[01:49] <aoirthoir> :(
+[01:49] <xq> wondering: Heh, that would be quite a lot of work :)
+[01:50] <xq> That's all, you already have your name :) You can change it via /nick <nickname>
+[01:52] <aoirthoir> etplayer_fiesty9: i will wait until next week then have ubuntu support step me through it. Thats what I pay them for:)
+[01:53] <aoirthoir> etplayer_fiesty9: ah ok I gotcha. Yeah it worked with dapper and edgy. So ima just wait:)
+[02:00] <ajehuk> Mr_Giraffe - I wouldnt rule it out - but I wouldnt look at it first - dont change something else - it only makes trouble shooting harder :)
+[02:03] <ajehuk> foug - lol - sorry :)
+[02:05] <Sterk> duelboot, thanks a bunch :)
+[02:09] <atoponce> homanj: thx. :)
+[02:12] <duelboot> livingdaylight, sweet...if you like to mess with backgrounds... :)
+[02:13] <void^> if you go on feeding that troll he might explode :)
+[02:15] <hype_> hi :)
+[02:16] <jon__> anyone have any suggestions on how to recover from a failed do-release-upgrade on edgy server? mine keeps seg faulting when it is "checking package manager" now :(
+[02:16] <duelboot> slamBrick, did you backup first? :(
+[02:17] <[acid] Neatchee> yay! Thanks guys :)
+[02:21] <arejay> man, i just want to be able to install audacity :(
+[02:22] <Sterk> thank you sir :)
+[02:23] <[acid] Neatchee> kamen: add/remove programs.  There are several :)
+[02:25] <elvenseven> damn im gonna call for quit. livecd goes to login screen which no username or password could access :(
+[02:26] <jon__> FreeCiv is fun :)
+[02:29] <elvenseven> BYE IM GONNA BUY VISTA :(
+[02:30] <steve_> ok theres definitely something wrong with my graphics drivers or something :(
+[02:38] <NET||abuse> matt__, :) saw something about deps being a bit broken for java 6 on feisty
+[02:40] <NET||abuse> DigitalNinja, i had a few weirdnesses last 2 days with security, but htat's europe based :)
+[02:42] <jrib> Stormx2: yes, I think so.  Try it! :)
+[02:43] <NET||abuse> TheIronChef, look up the mp3 codecs.. what'r they called again. :)
+[02:43] <NET||abuse> ytsestef, lotsa xorg.conf fiddling :)
+[02:44] <Frog29> Hey - any way to isntall feisty fawn without internet? (or can someone help me get my wireless working JUSt so i can update :) )
+[02:44] <NET||abuse> ytsestef, go to the www.beryl-project.org wiki and go through the setup details :)
+[02:46] <NET||abuse> hmmm, how robust is the ipod mini G1, i'm really rough on portable gear :)
+[02:47] <TheoMurpse> Wow, the servers really are taking a hit. Right now my upgrade says 14 hours left to finish the upgrade. :(
+[02:49] <Frog29> so a revision of my question :) - can you UPDATE 6.10 using the altrenate cd? or can you just reisntall it?
+[02:50] <[acid] Neatchee> Pie-rate: 'grats.  Wish it did for me :(  What wireless card do you use?
+[02:52] <ryeth> matt:  just learned what ntfs-3g was yesterday :)
+[02:52] <Frog29> ok - i'll go torrent with everyone :)
+[02:55] <Frog29> garryfre - i used to be :)
+[02:56] <Frog29> :)
+[02:56] <TheIronChef> lol alright... that suckss ... i just wanna hear music :(
+[02:58] <pipeline_> mister_roboto: i'll redownload :)
+[03:00] <TheIronChef> this is weird getting used to ... ive used xp since the day it came out and jsut installed feisty today... kinda different :(
+[03:01] <mister_roboto> TheIronChef: eventually you get used to everything just working without being loaded with tons of useless advertising crap (all new windows pc's) and you'll come to love it :)   that is, if you get past the learning curve and can do all the work you need to do
+[03:07] <[acid] Neatchee> downfallat111: nope.  This'd be it :)
+[03:08] <jaz_> rofl ubuntu just ruined my vista :(
+[03:08] <TheIronChef> i like vista :(
+[03:09] <mister_roboto> TheIronChef: it's ok to like vista :)
+[03:09] <disasm> no it's slowing down :(( was at 500, now it's down to 300 k/s
+[03:09] <russe11> magnetron: I don't think you're rude. :)
+[03:13] <samk> How do you mount an sd card?????????:)
+[03:17] <mister_roboto> BHSPitMonkey: i'm just the messenger, dude :)
+[03:22] <mister_roboto> deepsa: generally, google is a good friend in such times :)
+[03:22] <deepsa> mister_roboto: okay :)
+[03:23] <steve_> nice :)
+[03:23] <HasratUSA> okay i believe it's got so popular that the servers are just fukt and so am i :)
+[03:24] <NickGarvey> jrib: :)
+[03:25] <tbuss> NickGarvery: no offense to those out there that are very skilled in linux, but those guys in #apache don't seem to like noobies :)
+[03:26] <TheIronChef> how do i join that :(
+[03:27] <LabThug_hm> no ' of course :)
+[03:27] <HasratUSA> okay hell with the upgrade im sticking to edgy :)
+[03:29] <HasratUSA> fetching file 2 of 1241 at 45 KB/S :)
+[03:29] <ShiFTKey> IndyGunFreak: thanks, I burned a disk at work, but forgot to bring it home :(
+[03:31] <TheDebugger> ShiFTKey: Yes, already ordered mine :)
+[03:31] <arejay> NickGarvey, thank's :)
+[03:31] <tristil> clop, I wasn't telling you not to do, that's just what I got through Google. :)
+[03:32] <HasratUSA> witless it would be great for yourself if you don't cause although it's extremely slow right now, you will be downloading some files at an extremely slow rate. on the other hand, the more people gets frustrated, impatient and kills the upgrade, the more speed i get :)
+[03:33] <Ax4> disasm, cool :)
+[03:35] <Ax4> im gonna throw my 2 x 100mbit boxes on the torrent to help out :)
+[03:37] <rukuartic> aoliax: Probably overloaded, or it hit a big package :)
+[03:37] <[acid] Neatchee> fulat2k: I literally just asked that question when I came in here, so glad to pass on the info :)
+[03:38] <rukuartic> aoliax: Then you're still downloading. :)
+[03:39] <fulat2k> [acid] Neatchee: cool :)  d/lding final release now.  gonna install on my desktop when i get back... yum, yum :)
+[03:41] <[acid] Neatchee> Pelo: Yeah, I know :)  Can't help but hope that it speeds up soon though :P
+[03:42] <Ax4> god i love bot coders with sense of humor :)
+[03:49] <hagabaka> i'm actually getting segmentation fault when running aptitude, or apt-get :(
+[03:49] <rukuartic> bambie: How is it? I'm still updating :(
+[03:51] <oblib> Flannel, I thought it would, but wanted to make sure before I lost it forever :)
+[03:55] <HasratUSA> i live in Queens, NYC and the only broadband provider in my area is time warner cable and failing to get a connection from comcast i felt unlucky and now i thank god Crapcasr isn't in here :) by the way are you using dsl?
+[03:57] <[acid] Neatchee> There's a bad router in the neighborhood and they refuse to fix it :(
+[04:03] <dc> llol: dont rub it in, a lot of us are stuck in a laggy ass dist-update :(
+[04:04] <anonymouss2448>  :)
+[04:04] <jrib> delire: unfortunately :(
+[04:05] <tom__> magnetron: haha yeah, i'm just not sure if i wanna bork my computer or not :)
+[04:10] <dc> :)
+[04:12] <gerry_> jrib: only four lines :)
+[04:12] <dc> JebJoya: welcome :)
+[04:12] <JebJoya> was weird - wireless was working before i made the upgrade to feisty... wasn't last time i shutdown... :)
+[04:13] <yagiska> :( no fun having feisty if i can't download packages... guess i'll just let it sit for a bit
+[04:13] <JebJoya> NickGarvey - seems to just... work :)
+[04:13] <NickGarvey> JebJoya: oh good :)
+[04:14] <JebJoya> it's sorted now, but y'know, thought you might want to know :)
+[04:22] <NickGarvey> have mercy :(
+[04:23] <NickGarvey> Puppy_: :)
+[04:23] <foug> BHSPitMonkey: good call :)
+[04:23] <bimberi> NickGarvey: lucky there don't seem to be many about :)
+[04:24] <Ax4> :(
+[04:24] <Nerdz> Damn I would love to use ubuntu :(
+[04:25] <MIke11> corporations make your computer affordable :)
+[04:25] <HasratUSA> damn just found out alberto is so busy with school he can't make a version of envy for Feisty :(
+[04:25] <BILL-GATES> I am, ubuntu 6.10 ;) 7.04 not working for me :(
+[04:27] <Frog29> :)
+[04:28] <thepinkc> hi - is there anyone out there that can help me with running ubuntu from the disk I burned? I am having a hard time. :(
+[04:30] <LoneShadow2> come back tomm BILL-GATES :)
+[04:33] <bimberi> BILL-GATES: it's support channel full of wonderful but offtopic intolerant helpers :)
+[04:33] <liz0r1> ubuntu (feisty fawn) sound plays out of headphone and external speakers at the same time. An idea how to only get it playing out of my headphones :)
+[04:34] <bimberi> Pelo: yes, i'll confess later :)
+[04:40] <r0bby_> :(
+[04:41] <kondor101> seed it :)
+[04:41] <xucrute> kILLu: Thanks a lot. I really hope I get this thing to work and retire windows forever! :)
+[04:42] <xq> hey Nick -- again :)
+[04:46] <JebJoya> :)
+[04:48] <xq> Anyone think Ubuntu will have a problem setting itself up on a computer with 4 sata hard drives? Just putting Ubuntu on one (ext3 the entire drive and partition /home seperately)...think it will install GRUB correctly? :) Debian can't! lol
+[04:49] <DARKGuy> wobx: I see, thanks :)
+[04:50] <r0bby_> getting help in here is fun :)
+[04:50] <zntneo> :(
+[04:51] <wobx> DARKGuy: np :) hf with ubuntu :>
+[04:52] <looknglass> PresuntoRJ: hey :) Brazil is fklying, cheers dude
+[04:52] <Artemis3> kondor101, sadly, yes, the main page needs a big TORRENT button :)
+[04:53] <Humjaba> stefg: :( The mirrors now are crying
+[04:53] <Nerdz> slop: No it's not working :(
+[04:54] <Abom> sorry, I reposted on accident :)
+[04:55] <Abom> trying to get an answer to my issue, I can't get online :(
+[04:55] <Humjaba> my windows machine is crying now too... uninstalling office, encoding a dvd and downloading ubuntu install cd... on a single-core amd 3200+ :(
+[04:56] <Frog29> pelo- ok.............. :)
+[04:57] <Abom> Tonren: so everything's working now? :) maybe photoshop was interpreting you're computer as if it were windows or something
+[05:00] <bimberi> kondor101: heh :)
+[05:02] <DeX-aNoM-MwG-> Pelo: Thanks :)
+[05:02] <Abom> k thanks :)
+[05:04] <Abom> pppoe_dude: there's some problem with not having a password with wireless connections :(
+[05:04] <RAOF> rellik_: Yes.  Basically, you just have to run "update-manager" twice :)
+[05:05] <vafada> i'm getting "can't access tty; Job control turned off" when booting LiveCD :(  i have ubuntu ultimate edition right now so i had no problems with previous ubuntu
+[05:06] <RAOF> NemesisD: Yes, indeed.  They are both window managers, and you can't have two programs managing your windows at the same time :)
+[05:07] <Frog29> Pelo - ok i'll look it up or ask around :)
+[05:09] <lisapc> stefg, be silent pls :)  you talking nonsense again!  I told you, i had Grub boot from my 2nd HDD before
+[05:10] <taggie> sorry knix, i'm too slow :)
+[05:11] <knix_> taggie, no prob, :)
+[05:12] <RAOF> rellik_: I don't think so.  Also, trying to upgrade your stuff over SSH is a recipie for misery :)
+[05:14] <SuperLag> slyfox: you paying attention? :)
+[05:15] <Frog29> eric - welcome :)
+[05:15] <kondor101> now im seeding,  now im giving back :)))
+[05:17] <rellik_> RAOF, yeah, I will try x-forwarding..  not ideal but ok :)
+[05:18] <Awperator> Can anyone please answer my wine question? No one seems to be in the wine channel. Pm me if you can. Thanks :)
+[05:23] <RAOF> fulat2k: You can't, sucks to be not runnign Gnome :(
+[05:24] <fulat2k> RAOF: besides reading binarydriverhowto/nvidia that is :)
+[05:31] <PresuntoRJ> hendaus: ok... so your problem seems to be on how to create a torrent, and not really with ktorrent (you could use other clients for that) :)
+[05:34] <lisapc> Pelo, I figured it out!  was easy.  I simply removed grub from 1st HDD, and then "sudo grub-install /dev/sdb" which installs it on my 2nd HDD.  I now dont even need the 1st HDD to load Ubuntu. :)
+[05:37] <labanux> Vaske_Car : select mirror closest to your home.. :)
+[05:37] <xechostor> roller : thanks :)
+[05:38] <lisapc> Pelo, and I am in awe of your ignorance :)
+[05:47] <RAOF> billy: Ok.  It's just that it's *much, much* easier to use apt instead :)
+[05:48] <billy> RAOF: yeah, I know.  ** if only **.  :)
+[05:53] <ajax4> zero88: You can optimize it to your exact hardware, but its not for beginners :)
+[05:54] <zero88> ajax4 RAOF oh ok,then ill stear clear of that for now :)
+[05:56] <Kickersny> rellik, year.month :)
+[05:59] <blrich> RAOF, oh good :( oh well i thought there might be something caus it has nvidia stuff
+[06:05] <kerik> Rkyraccoon55: sounds wacko :)...are you using x?
+[06:06] <RAOF> blrich: Yeah, try the Feisty LiveCD, and possibly just install a Dapper chroot into it :)
+[06:07] <blrich> RAOF, SuperLag Flannel thanks for your help :)
+[06:08] <mojojojo_> gecko: I'm from Poland, so it's rather distant from there :)
+[06:10] <kerik> Rkyraccoon55: I mean your little "ticks" in the boxes in there :)
+[06:16] <labanux> crimsun: the module can't be found.. :(
+[06:16] <Nergar> anyone want to recommend me some cool aps??? /msg me the apps :)
+[06:28] <kerik> EverythingEvil2: VERY NOTaccelerated :)
+[06:30] <kerik> EverythingEvil2: seems from the bot that I should just wait and see when the servers are not under such heavy attack :)
+[06:31] <kerik> EverythingEvil2: guess I'll wait a few days then :)...see you round mate
+[06:32] <kerik> EverythingEvil2: but guess I should be going to work :) - have a nice day/night!
+[06:33] <Frog29> Diabolix - ( i am a windows convert :) )
+[06:33] <kerik> EverythingEvil2: hehe...it's sorta cool...here its 06:33 AM :) but sleep tight when you get there :)
+[06:34] <kerik> EverythingEvil2: sounds like I should just try :)
+[06:39] <RAOF> Tarkus: Yes.  Just right click on the .iso, and select "Burn to disk" :)
+[06:44] <zcat[1] > some people say 4x but that's a bit too slow for me :)
+[06:48] <Meshezabeel> k-edgy: np :)
+[06:50] <Rictoo> I see :)
+[06:50] <billy> deCon, to a DVD.  :)
+[06:50] <billy> deCon, just be really sure to read everything carefully, as in, don't tell it to format /home.  :)
+[06:52] <Madpilot> billy, sorry, wrong person. :) /opt is in Root - which the file manager in Ubuntu called File System
+[06:54] <billy> Madpilot, :)  I'm sorry dude.   /opt really, truly honestly isn't there.  Can I post a screenshot somewhere?
+[06:55] <s0undt3ch> deepsa: that one a also Xorg :) my laptop has a x1400
+[06:55] <s0undt3ch> deepsa: that one and also Xorg :) my laptop has a x1400
+[06:57] <bamb1> :)
+[06:58] <ccfiel> crdlb:  I am planning to buy one. coz my ATI is not supported  :)
+[06:59] <Meshezabeel> darwin: yup, good thing about having a number of different programs, different people have different tastes, and we can all choose the one we like best for ourselves :)
+[07:01] <ccfiel> raof: yes its support but no tv out :( im planning to replace may windows MCE so i need tv out
+[07:01] <billy> Madpilot, you'll see me flailing around with thunderbird.  pardon my mess.  :)
+[07:01] <RAOF> ccfiel: Is your card really not supported.  ATI sucks :(
+[07:04] <billy> DARKGuy, right on.  :)
+[07:06] <tom__> deCon: np :)
+[07:07] <siti> tom__: yeah :(
+[07:10] <billy> lalala, :(  not cool.
+[07:13] <tom__> fonz_: ubotu is a bot :)
+[07:15] <jd> can anyone help me with my USB?  :)  It says I don't have permission to mount it
+[07:18] <Jordan_U> ny83, Yes, unlike some Proprietary OS's, with Ubuntu Release Candidate means just that :)
+[07:18] <tom__> oh yeah feisty coming in off my isp mirrors :)
+[07:18] <Jordan_U> ny83, That it may be exactly what is released :)
+[07:26] <Madpilot> mjbrooks, something like that :)
+[07:27] <rpedro> nice:) forgot to come and look
+[07:30] <DaSkreech> Jordan_U: Yeah no Feisty ppc images :(
+[07:35] <bimberi> DaSkreech: very :)
+[07:36] <DaSkreech> there is a ubuntu studio and PS3 one though :)
+[07:51] <bimberi> Noldoaran: yw :)
+[07:52] <bimberi> aussieaubs: yep :)
+[07:58] <robin> Thanks for the help :)
+[08:03] <Jordan_U> kcowolf, I am sorry, I can't help you there :(
+[08:04] <siti> neo_: I think there is a channel #ubuntu-es for spanish speakers :)
+[08:16] <ubotu> Andy_242: Don't ask to ask a question. Just ask your question :)
+[08:16] <john_> i just downloaded the new ubuntu iso what software do i used to burn an iso in ubuntu? :)
+[08:18] <Absolt> any ideas? :(
+[08:21] <siti> Tarkus: if you remove all the resolutions or comment them out then it should work (in the /etc/X11/xorg.conf) :(
+[08:30] <Jordan_U> mjallen, There is no real delete key on macs :)
+[08:31] <drumline_> Kubuntu ISO @ 100k/s from a certain server that I wont mention right now.  :)   ...not bad.
+[08:32] <john_> dam redownload :(
+[08:33] <Jordan_U> Darii, You may want to know that I am using a mac right now :)
+[08:33] <valermos> Jordan_U, Alright I'll work on it... I'm about go go buy an nvidia card :) Thanks for your help. I might be back.
+[08:34] <Jordan_U> Darii, That isn't a key, that's a key combination :)
+[08:40] <ajax4> jb: Don't know, but probably alot smoother than my Pentium-3 :)
+[08:41] <ajax4> Crypt: np :)
+[08:43] <noiesmo> gr3ml1n, np :)
+[08:45] <shepherd> :)
+[08:57] <crdlb> nu-, yeah, there's no 64bit flash player :)
+[09:03] <shepherd> :)
+[09:07] <andy_> jussi01, ok, gonna check it out :)
+[09:23] <Donovan_> Use the apt-get commands fail, of course, and php4 seems to be competely removed... :(
+[09:30] <Donovan_> lol :)
+[09:35] <tristanmike> ajax4: no, it's not there, but it's listed in the Support Documentation that comes with Feisty :(
+[09:37] <tristanmike> ajax4: yeah, I've been there, it's not working for me :(
+[09:39] <Donovan_> Tomcat: There is no php4 in feisty, sadly :(
+[09:39] <Donovan_> Application uses the unsupported feature $this-> which was yanked out from under everyone with php5 :)
+[09:49] <ATi7500> hi all :)
+[09:49] <what_if> anyone had problems with the desktop install with Nvidia ?? edgy never worked for me :(
+[09:50] <what_if> magnetron: my card does not work with the NV driver... just random colors :(
+[09:52] <Amaranth> bayziders: Yeah, it's awesome :)
+[09:53] <Amaranth> bayziders: beryl is no more :)
+[09:54] <noiesmo> tristanmike, oh and restart firefox :)
+[09:55] <Amaranth> ferret_0568: I don't want to disable that, too much spam :)
+[09:56] <noiesmo> tristanmike, np :)
+[09:58] <ubotu> oxygen: Don't ask to ask a question. Just ask your question :)
+[10:01] <Amaranth> Donovan_: no, that's what apt is for :)
+[10:04] <fluid> only bad thing about this install is that i have to force beryl to render through copy...which makes it slower than it should be :(
+[10:08] <gustavo> Ademan, because i want :)
+[10:10] <gustavo> medinfo: its done, i just need to know where is my image :(
+[10:11] <Hairulfr> fluid: Workflow ;) it just takes too long, I can do pretty much the same, only slower and a lot more bothersome :)
+[10:14] <paroneayea> sorry, that was rude of me :)
+[10:15] <foxiness> can i say hi :) ?
+[10:19] <Hairulfr> jussi01: FOund it :) Wow, I got so used to apt-get that this is frightening and a disturbing world, downloading from at HP
+[10:19] <Meshezabeel> magnetron, tx for the cd/dvd help :)
+[10:19] <gustavo> zilly6_, it will be better if u are using a k8 kernel :)
+[10:20] <gustavo> zilly6_, yeah, really, that sucks :(
+[10:21] <Hairulfr> ccfiel: It should be yes :)
+[10:22] <bomanizer> gharz: k, thans.. i'm off to the forums, these damn irc channels are too frantick for me :)
+[10:25] <ccfiel> dystopianray: in my ATI card 9250. i used the open source but no tv out :( and in restricted driver its not supported so i will buy one today i want to make sure the one i will buy will run smoothly (6200) do you think?
+[10:27] <ccfiel> dystopianray: i currently have an ati 9250 :( is not supported in restricted.
+[10:29] <Hairulfr> jussi01: No, I haven't, I need the power that photoshop gives... :(
+[10:30] <Hairulfr> LaNCeloT_RW: 32-bit :)
+[10:30] <ccfiel> dystopianray: ok thanks! i will buy now. :)
+[10:31] <Hairulfr> jussi01: Nice :)
+[10:32] <fluid> its a pain. lol...70 megs of libraries for 32bit support. :(
+[10:40] <jin> :S feisty is so slow compared dapper :(
+[10:52] <ubotu> Kakurady: Don't ask to ask a question. Just ask your question :)
+[10:56] <cables> flamebird, i mean button, not version :)
+[10:59] <slackern> protocol1, np, hope it helps, my x1950 card i will just smash with a hammer :)
+[10:59] <protocol1> :)
+[10:59] <Hairulfr> babo: Do it the upgrademanager way :)
+[11:06] <TommyTom> ikonia_: from what i understand though, software raid i would have to wipe the whole array. i can do that. 400gb gone :(
+[11:14] <copper> ikonia_: ok, thanks :)
+[11:18] <gustavo> iknonia ive did it so many times without any problem :)
+[11:18] <gustavo> ikonia ive did it so many times without any problem :)
+[11:19] <gustavo> lol, not really... but it happens while i was trying :)
+[11:20] <gustavo> but its the truth, never happened before... :)
+[11:21] <gargoyle80> what is currently the best direct connect client for ubuntu? :)
+[11:23] <gustavo> maybe in another time, im not good enough :)
+[11:23] <THJ> when i started out in 1997 it was slackware 3.0 :)
+[11:25] <gustavo> oh, u are very helpful :)
+[11:25] <gustavo> is there a chan for kernel help? :)
+[11:26] <THJ> that's the thing about OSS volunteer help. "thou arth inferior, but I shalt helpeth thou.", okay, time to shut up. :)
+[11:27] <dungodung> :(
+[11:29] <Amec> :(
+[11:35] <noiesmo> guillem101, :)
+[11:37] <noiesmo> guillem101, it'll be right :)
+[11:42] <mneptok> magnetron: why are you telling me about Automatix? :)
+[11:45] <mneptok> jono: sure. get in line for your requisite lobotomy. :)
+[11:49] <pukkie> orbin: thanks, but now i still don't know nothing about the repositories and such :) are they the same?
+[11:52] <mrigns> aaaah this torrent issue annoys me :( the logs won't show any probs
+[11:53] <alleyoopster> Angel-SL: if you have the cd , there is a file there md5, but I see the bot got off his arse :)
+[11:56] <noiesmo> guillem101, :)
+[12:01] <ubotu> Don't ask to ask a question. Just ask your question :)
+[12:01] <Hairulfr> SubMOA: Nice :) where'd you get it?
+[12:05] <QwertyM> TheoMurpse: Oh, okay, good if it has a fix, cause am not in a mood to reinstall again :(
+[12:05] <TheoMurpse> QwertyM I've no idea if it has a fix. I'm looking at a black screen right now for the past 10 minutes :(
+[12:12] <QwertyM> LjL: Okay. :)
+[12:24] <lieter> no, not that bug :)
+[12:26] <mrjones> hello, im looking for a linux distribution for my old pc (700 mhz, 128 mb ram). the download page tells me i nedd 256 minimum :(.......what to do now?
+[12:27] <dimebar> lieter: ok - my opera does that :) wondering if i was alone
+[12:27] <lieter> i really wanna get opera working, i love opera :)
+[12:28] <crzyboon> lieter, so download the .deb and start off :)
+[12:36] <Stig> Can I install Beryl on Feisty through the Synaptic package manager? or is there a better way? Last time I tried installing it through the terminal following a guide it completely messed up... :(
+[12:39] <M_Fatih> my apt broken :(
+[12:42] <ubotu> Don't ask to ask a question. Just ask your question :)
+[12:44] <Laizerox> Ty :)
+[12:47] <parking-> :)
+[12:48] <linoleum> Slart: I have no idea :)
+[12:52] <jokoon> Hello :) I'd like to replace occurrences of text in a m3u file, for example i:\music\ with /dev/hdb2/music ... what command to use and can I create a script ? like a .BAT but for linux, is it a bash file ?
+[12:54] <jokoon> thanks a lot PirateHead :)
+[12:58] <usr_rob> alleyoopster, yes, i have read the distrowatch, thx anyway :)
+[12:59] <forza-juve> hi all :)
+[12:59] <apokryphos> pfft :)
+[01:00] <Almindor> hey guys, I still get a strange problem with DHCP on fiesty :( (been having this whole beta)
+[01:05] <forza-juve> slart : thx man :)
+[01:08] <kanpachi> hello, i can't extract a bz2 file :( how can i do it?
+[01:09] <Huffalump> Slart - That's ridiculous.  But thanks :)  So, I did search a little but don't quite get it... I have to apt-get nivida-glx or nvidia-glx-new ?
+[01:20] <|NewUser|> zaggynl, there is no difference if you keep updating ur beta.. :)
+[01:20] <zaggynl> |NewUser|, ah okay, I'll wait 'till the servers are a bit faster again then, I'm not getting any updates atm :)
+[01:21] <|NewUser|> zaggynl, US .. servers going fine at the moment :) i m downloading from there
+[01:26] <|NewUser|> LjL, sorry :)
+[01:26] <sldkfj> CookedGryphon,  thanks, that gives me something to consume my day :)
+[01:28] <Bakey> angel-sl: this the burn errors :)
+[01:29] <Bakey> angel-sl: your internets are broke :)
+[01:35] <Huffalump> Of course, it helps if I spell Feisty... and not the party-like Fiesty... :))
+[01:41] <DjViper> gils: hm google it, bittorrent+nat :)
+[01:42] <foof> without starting any flames, why ubuntu over debian? :)
+[01:43] <spikeb> tarzeau, if you end up installing it, come back and let me know how it is - i have a family member waiting to see if she should upgrade or not :)
+[01:43] <oktay> bimberi: shoot. i already have the regular cd. full upgrade it is then. Thanks !! :)
+[01:45] <tarzeau> oktay: i do :)
+[01:45] <oktay> tarzeau: good for you :)
+[01:45] <ferronica> stefg: right now i am in ubuntu 6.10 :(
+[01:46] <oktay> tarzeau: no sir. i am just an end-user :)
+[01:47] <oktay> tarzeau: i stopped messing with the OS too much when work got busy :). nowadays i just use the stuff.
+[01:47] <Dextorion> slackern: yeah..  could try :)  I bet there are more files missing but hey.. we could try
+[01:48] <spikeb> ytsestef, you bet :)
+[01:48] <Dextorion> slackern: cool :)
+[01:49] <jono> people of the world, go and digg http://digg.com/linux_unix/Ubuntu_Open_Week_2 :)
+[01:50] <jono> bimberi: :)
+[01:55] <spikeb> Anss1, gaim/pidgin weren't designed particularly for IRC. if i were in charge, xchat would be the default client :)
+[01:56] <jrib> crolle17: it is :)
+[01:58] <bimberi> BrokenLinux: yw :)
+[02:03] <CompuChip> atomiku, you're not in the dir are you :)
+[02:05] <crolle17> jrib need a lot of time to read them :)
+[02:09] <CompuChip> ikonia_, I know that is the problem. But how do I fix it. How can I resume the upgrade when I can't boot into my system? :)
+[02:10] <CompuChip> ikonia_ :( so just make a fresh install and then try the upgrade again
+[02:15] <ferronica> there is no way to copy paste my ubuntu 6.10 data to windows :(
+[02:15] <ferronica> CompuChip: Mp3 and Movies :)
+[02:16] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:18] <yag4mi>  :)
+[02:23] <CompuChip> sorcerer do you call the Microsoft help desk when you try to install a program that was ported from Linux and is potentially unstable in Windows? :)
+[02:28] <BrokenLinux> bimberi: got xchat, thanks for all your help :)
+[02:29] <bimberi> BrokenLinux: cool, np :)
+[02:29] <CompuChip> 700 MB @ 500 kb/s takes a long time :)
+[02:32] <VSpike> does the bot do !advocacy ? :)
+[02:34] <theoryx> hello :) i just installed linux and wonder where to set what OS is default? when booting...
+[02:37] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:41] <JebJoya> LjL: Oh :(
+[02:42] <ndlovu> ikonia_, thanks, I've tried there already :( (seems nobody's home)
+[02:44] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:47] <theoryx> :(
+[02:55] <JebJoya> LjL: coolio, it's doing something :)
+[02:56] <CompuChip> tikka, ok, for a while it kept disabling it on my system automatically :)
+[03:02] <CompuChip> So, let's go install my new Feisty system :)
+[03:05] <CompuChip> ZeroSystem I think I just told you nonsense. Sorry :)
+[03:07] <robin_sz> ikonia, heh :)
+[03:07] <robin_sz> I'll go and troll elsewhere :)
+[03:20] <grumz> so I don't speak very well english :(
+[03:21] <JebJoya> is there a lojban room for ubuntu? :)
+[03:24] <CompuChip> PriceChild depends on what you want to do :)
+[03:24] <ubotu> southafrikanse: Don't ask to ask a question. Just ask your question :)
+[03:24] <PriceChild> CompuChip, not recommended :)
+[03:25] <CompuChip> PriceChild better than passwd root :) But why not?
+[03:28] <rohan> this codec of snd-hda-intel is bad :( it doesnt automatically mute the laptop speakers when i put in a headphone in the socket
+[03:28] <Chipaca> rohan: snd-hda-intel sucks :(
+[03:28] <rohan> Chipaca: i agree :(
+[03:29] <rohan> crimsun: that's ok, or you need output of some other command too ? :)
+[03:29] <MaximusBrood> zaggynl: That sounded too easy to be true, trying now :)
+[03:31] <Chipaca> PirateHead: if nothing seems essential, you can use fuser -k :)
+[03:32] <Chipaca> rohan: I compiled my own kernel :(
+[03:34] <JebJoya> ahh, biffy clyro, fixed amarok and ubuntu, what could be better?  thanks all, especially LjL :)
+[03:35] <Chipaca> moDumass: :)
+[03:43] <[miles] > :)
+[03:43] <rohan> PirateHead: and how do i close that ? :(
+[03:45] <Michaelx> Hi all... Just installed feisty on my acer 8204, tried to install Beryl and can get it running :(
+[03:45] <mc44> Dekkard: after the offical release it should ask automatically :)
+[03:55] <rohan> parking-: yes. do ls /dev/sd* and you'll understand :)
+[03:56] <parking-> rohan:  nothing :)
+[03:56] <Michaelx> Hi All ... Anyone who can maybe help ??? I got 7.04 on my Acer 8204 installed and I can get compiz or Beryl running ... :(
+[04:01] <Michaelx> skinny: I have an Acer Notebook 8204 with an ATI 1600 mobile and 7.04 ... Can get compiz and Beryl running :(
+[04:01] <Michaelx> I mean that I CAN'T get it running :(
+[04:02] <Michaelx> 7.04 is working (as you can see) but no chance with compiz or Beryl :)
+[04:03] <Michaelx> So anyone in here with a Notebook, equipped with an X1600 from ATI who is able to run Beryl or compiz with 7.04 ??? I guess not :(
+[04:06] <Michaelx> ikonia: I already read ALL of the documentation and I wasn able to get it working :(
+[04:09] <rohan> lots of people seem to be having problems with this snd-hda-intel driver .. damn :(
+[04:10] <MyNameEh> the installer crashed when installing grub :(
+[04:10] <rohan> crimsun: :)
+[04:10] <rohan> the worst part is that this sound problem is a regression from edgy, where it worked perfectly :(
+[04:11] <M0K3R> ubotu: i come from a forum where they can't help me anymore :)
+[04:12] <rohan> crimsun: yes, i am not prodding you again and again :)
+[04:13] <crimsun> southafrikanse: did you check the mixer levels first? :)
+[04:14] <nox-Hand> mc44: No idea, I have just gotten what the upgrades has pulled in. After upgrading to -14 it stopped booting and I just booted -13 until -15 came out since I thought that would fix it. It did not so now I return here for help :)
+[04:14] <rohan> woohoo .. feisty is one of the _BEST_ releases of ubuntu ever :)
+[04:17] <southafrikanse> crimsun: But should I move? I don't know :(
+[04:21] <ubuntu> sterk: xchat :)
+[04:24] <CompuChip> I'm out to enjoy my fresh Edgy system :)
+[04:25] <nox-Hand> mc44: Looking :)
+[04:28] <orbin> deepsa: nice desktop. hot day hey? :)
+[04:28] <surviver> jrib, and hy :)
+[04:30] <surviver> jrib, k:) i ' m quiet noob to linx :p only have it for a week, i know the basics now iam going bit farther :p
+[04:32] <MadDog011> mc44, Thanx :) ima Give it a GO :)
+[04:33] <nox-Hand> mc44: i.e same error :(
+[04:38] <atomiku> Progressive: I assume you havent solved the problem yet then :(
+[04:39] <Progressive> atomiku, my live cd works fine, just installing.. :(
+[04:42] <[acid] Neatchee> Howdy.  I have an NTFS partition mounted through ntfs-3g, and I would like to use a loopback share with it through NFS so that I can use certain write functions (specifically mmap), but I can't seem to get the share to mount.  I keep receiving permission denied errors.  I would appreciate a bit of help here :)
+[04:43] <mc44> :)
+[04:43] <nox-Hand> mc44: A few snd_intel8x0 module blacklist warnings but I always have those and they are HARMLESS :)
+[04:44] <[acid] Neatchee> Howdy.  I have an NTFS partition mounted through ntfs-3g, and I would like to use a loopback share with it through NFS so that I can use certain write functions (specifically mmap), but I can't seem to get the share to mount.  I keep receiving permission denied errors.  I would appreciate a bit of help here :)
+[04:46] <Scapy> ikonia, no it isnt my frined :(
+[04:48] <[acid] Neatchee> Howdy.  I have an NTFS partition mounted through ntfs-3g, and I would like to use a loopback share with it through NFS so that I can use certain write functions (specifically mmap), but I can't seem to get the share to mount.  I keep receiving permission denied errors.  I would appreciate a bit of help here :)
+[04:49] <voids> :)
+[04:50] <mc44> nox-Hand: hmm. I dont know. are you sure you are on the newest kernel? :)
+[04:50] <nox-Hand> mc44: Indeed. I am tryong to edit the uuid to a /dev line :)
+[04:50] <Huffalump> jshriver, then you're farther ahead than I am :)
+[04:54] <Scapy> h0ax, just get it off metasploit man :)
+[04:56] <Scapy> no im straight :)
+[05:03] <nox-Hand> mc44: Not going well :(
+[05:09] <Stormx2> Yo. How can I tell gnumeric not to simplify out "1937/13" into "149". Just leave it in its original form? Hoow? :)
+[05:10] <atomiku> :(
+[05:10] <Lowe> frederific: mine doesnt :(. thanks anyway
+[05:11] <z0man> Much better :)
+[05:11] <CapaH> Maybe someone here knows how to do this, I am downloading an ISO (Ubuntu Feisty 64) --- I have downloaded 694,000 out of 792,000 -- and I *really* dont want to restart the download, is there some way I can do this? :)
+[05:12] <z0man> Cannot seem to control the mixer any more :( Since I used alsamixer..
+[05:13] <CapaH> Well I used firefox originally but I am welcome to use anything to get the last part of the file :)
+[05:16] <pipak> hello :) I have a little question: could anyone point me to a good lightweight IDE to program in perl (no emacs and such for me)?
+[05:17] <verb3k> Rug_: I see ....thanks for your precious time :)
+[05:17] <yasser> i really think etch is better:) did not gimme ANY probs....
+[05:18] <atomiku> soundray: Okay one second mate :)
+[05:19] <pipak> garryFre: indeed it's not very lightweight, but it's still maybe worth a try :)
+[05:31] <atomiku> soundray: why yes it is :)
+[05:31] <nox-Hand> I need help :(
+[05:31] <hansen_> hey guys, buildning a library for Rhythmbox is painfully slow, im on track 1500 out of 40.000 now... whats the deal?:)
+[05:34] <Samuli^> Thanks, SlimeyPete. :)
+[05:42] <cables> hanzomon4, ok, i'll google it :)
+[05:44] <Dr_willis> acidtabs,  you may want to check out  UrbanTerror also. :) its free
+[05:45] <tikka> I have a fresh install of ubuntu, my sound does not work yet.. i have a mixer and a device for alsa and oss.. how can I make it work :)
+[05:49] <Dr_willis> LjL,  perhaps they all got used up. :) heh heh... odd.. that does sound like a dns server issue.
+[05:52] <Stromberg> tokyoahead, maybe add an sudo before that line :)
+[05:53] <Lepht> First time here. Looking for partition support due to the new partition interface. Please help out:)
+[05:56] <Lepht> First time here. Looking for partition support due to the new partition interface. Please help out:)
+[06:03] <Woody_> i hope that gizmo_the_great1 :)
+[06:03] <MFen> well what the heck, nobody ever told me that :)
+[06:07] <spikeb> LjL, but he's going to be talking to those guys :)
+[06:08] <spikeb> soundray, already there :)
+[06:10] <Thaurin> Wow, I guess it's a bit busy with Ubunty problems rigth now. :)
+[06:11] <Thaurin> Anyway, I'm not new to Linux, just haven't used it in years. Ubuntu CD doesn't even boot :(
+[06:19] <bluefox83> someone fubared feisty though, it's very un-cool guys :(
+[06:20] <mrigns> gnome-main-menu isn't working in my feisty :(
+[06:24] <Dr_willis> www.google.com :)
+[06:29] <spikeb> voraistos, good job :)
+[06:32] <dippe2> ok so Ive just started using ubuntu , i didnt take long untill i found a problem. my screen wants a resulution 1680x1050-60Hz , any suggestions? :)   system->PRef. ->screen res. did not help me :(
+[06:33] <jb> hi feisty 64 bit and nx6125 laptop being used here :)
+[06:36] <jb> That is an insulting bot :) I have over 30 years in computer systems :))
+[06:37] <dippe2> ok so Ive just started using ubuntu , i didnt take long untill i found a problem. my screen wants a resulution 1680x1050-60Hz , any suggestions? :)   system->PRef. ->screen res. did not help me :(
+[06:38] <PriceChild> sorry :)
+[06:40] <jshriver> Hi again :)
+[06:41] <PriceChild> :(
+[06:41] <nexus-> i'm getting a ball of a time trying to get the dlink g122 to work with WPA on Feisty :(
+[06:43] <Lopi> i check the version by mc :)
+[06:43] <Dr_willis> kahrytan,  lots of work :)
+[06:43] <bluefox83> gosh, seems like it takes forever in feisty :(
+[06:46] <dannyc_> babo: the comfort of your own home :)
+[06:48] <MadDog011> erUSUL, NVIDIA says I should use the NON LEGACY but wehn I put non legacy on, the XORG says oh no u picked the wrong driver m8 u need the LEGACY :)
+[06:48] <mrmonday> My feisty upgrade failed! :(
+[06:50] <Araiwa> oh dear, it is not a nice release then. :(
+[06:52] <DrNick1> kahrytan: i'll give it a go and see what its like :)
+[06:52] <nox-Hand> Though I truly have no idea :(
+[06:56] <jenda> vox754: :)
+[06:59] <jenda> erUSUL: I expected them to be there too :) But didn't see them... the first time I looked. Now I do. I'm not drunk, I promise ;) ust blind
+[07:00] <makkone-> innervision  dunno :)
+[07:01] <entropy> soundray, thanks man :)
+[07:04] <atomiku> soundray: its still working :)
+[07:08] <lichen> bluefox.. i'm not seeing anything :(
+[07:10] <voidsss> :)))
+[07:11] <PriceChild> jrib, argh he's flooding me in pm now :(
+[07:12] <lichen> hey i still don't see a link.. send again :)
+[07:13] <PriceChild> silver6, argh that's gone... well yeah all mirrors are slow :)
+[07:17] <Rage__> Hi, was just wondering if there is a way to install ubuntu with only xserver all setup and maybe gnome but not all the programs that I dont need so I can install only things I want... Is the best way to do that to in stall server edition and install xserver? TBH I dont even want gnome I use evilwm. :)
+[07:20] <Kragnerac> :(
+[07:21] <Kragnerac> I should've got an nVidia card. Nothing seems to work with ATi. :(
+[07:21] <Rage__> rambo3: Thanks :)
+[07:21] <DrNick1> bluefox83: yep i've noticed that.  i turn it off for movies :)
+[07:22] <bluefox83> DrNick1, so do i:(
+[07:22] <Kragnerac> nVidia GeForce 8800 GTX :)
+[07:22] <DrNick1> bluefox83: it'll get there. but for now, its only a button to click at least :)
+[07:26] <henz> erUSUL: want it in pastebin? :)
+[07:26] <Kragnerac> PriceChild: Meh, i'm considering getting a new pc with that card. :)
+[07:26] <PriceChild> Kragnerac, ah :)
+[07:32] <andy_> eck, ok, I gonna test deluge first :)
+[07:34] <Alan> oh lovely..... vmware drivers not compatible with 2.6.20? :(
+[07:37] <Rage__> rogue780|laptop: np :)
+[07:37] <henz> erUSUL: hanvet been linuxing for a long time almost 3 days now :)
+[07:37] <[acid] Neatchee> so, now that things have calmed down a bit, i'll ask my silly question again... Anyone have any good alternative startup sounds that they prefer?  I can't stand the native one :(
+[07:38] <Rage__> Bo7a: Ok, not prob for me then :) sorry for you though.
+[07:38] <[acid] Neatchee> so much for calmed down :(
+[07:39] <fluid> any of you ever tweak a synaptics touchpad at all? seems like i have to press awfully hard after enabling shmconfig...always had this problem :(
+[07:39] <niriven> pricechild: :)
+[07:49] <ppt> I installed OpenSSH and I want change some text, which displayed after the succesfull login from another PC. In which file can I change it? Thx :)
+[07:53] <shingoki> PriceChild: drop shadows always seemed like the main reason for the whole thing :)
+[07:55] <riesseg_> i need help :(
+[07:59] <Bo7a> ie: perhaps there is a way with a lot of work to go back to xorg 7.1 :) or something far out that i havent thought of.
+[08:01] <shingoki> dv_: or the kde components (kparts I think?) that make konqueror so very very nice to use :)
+[08:02] <PriceChild> ikonia, best you leave it alone please :)
+[08:06] <shingoki> cliebow_: I've definitely had burn errors when writing at high speed, and if you are ever going to notice errors it will be on install discs :)
+[08:06] <deserteagle> :(
+[08:10] <deserteagle> ikonia: so no clue as to why my desktop looks so crappy? when i was using vesa drivers it looks good, now with the nvidia drivers it looks crappy :(
+[08:19] <Phantoms1> I nees asistance instaling a evodo modem with drivers in feisty?:)
+[08:22] <Phantoms1>  I need asistance instaling a evodo modem with drivers in feisty?:)
+[08:24] <LjL> compengi: yes, it has the word "feisty" instead of "edgy" in the repos names :)
+[08:25] <LjL> Gunrun: i'd say so, if they know how to :)
+[08:25] <Phantoms1>  I need asistance instaling a evodo modem with drivers in feisty?:)
+[08:31] <linxeh> ForzaPalermo: that's a swap partition :)
+[08:37] <Enselic_> Eskim0: edit /etc/fstab    sorry :)
+[08:41] <bebleu> It's because cedega is freezing when I click accept :(
+[08:46] <DesertEagle> :(
+[08:48] <dhgwill> EmxBA: I didn't even do that! I clicked on the upgrade button once out of curiosity and now it won't come back :(
+[08:50] <Caramba_> digitalninja: been there, done that...no effect :(
+[08:51] <EmxBA> god luck DesertEagle :)
+[08:53] <crow> :(
+[08:53] <joeamined> how can i make the built in webcam of my HP laptop (dv6000) work in feisty please ? :(
+[08:58] <thickey> now i suck :(
+[08:59] <crow> shane634 i dont have net to install that :(
+[09:07] <Fe2Cl3> question: can I upgrade from cdrom using the regular cd (not alternate)? if so how :)
+[09:08] <ompaul> :)
+[09:13] <ubotu> Don't ask to ask a question. Just ask your question :)
+[09:16] <VSpike> Lowe: true.. i was trying to avoid rebooting right now :)
+[09:17] <Lowe> VSpike: ok :), i've no idea...
+[09:17] <WaZ`> np :)
+[09:18] <ubotu> furu: Don't ask to ask a question. Just ask your question :)
+[09:19] <mpfeif101> and Kevin, sorry I have no more ideas :(
+[09:19] <rohan> mpfeif101: thanks a lot :)
+[09:20] <joeamined> :(
+[09:21] <rohan> mpfeif101: please paste it on pastebin.com :)
+[09:26] <PriceChild> southafrikanse, you don't remember how you fixed it? :(
+[09:28] <Kevin> jshriver lucky you :)
+[09:28] <PriceChild> southafrikanse, that's all i can think of (whoops spamming channel :)
+[09:32] <allquixotic> Scunizi: I read that - VLM can stream video but not audio :(
+[09:35] <riaal> I have an empty (old windows D:) ntfs partion on my main hdd, how do I format it to ext3?
+[09:39] <NET||abuse> Jordan_U, was just looking into xargs for an option :) would even be able to replicate the directory structure :)
+[09:55] <vertana> You did,  I got the message :)
+[09:56] <Solver> I've been using hibernate on wife's lappie but she's sick of how slow it is :)
+[10:01] <Huffalump2> fathefner, ntfs-3g, remember? :)  it works great
+[10:06] <Kaplan_> PriceChild: tx a lot :)
+[10:08] <allquixotic> Scunizi: I found a solution to my problem, a very good one. idjc (Internet DJ Control) is an *excellent* streamer that supports ShoutCast :) I am running JACK on top of dmix in non-realtime, high-latency mode (which is OK for this application) to host the stream. http://sheltered.hobby-site.com:8000/listen.pls :D
+[10:14] <JR> <delire>, thanks that looks great :)
+[10:14] <mrec> beryl looks better :)
+[10:18] <Jordan_U> tunganet, Yup, just a checkbox :)
+[10:19] <Seveas> what_if, no :)
+[10:19] <what_if> Seveas: oh, well hi :) and TY for the edgy version, spot on :)
+[10:20] <tunganet> Jordan_U: it would be hard for me to mess up the upgrade right.. i am really scared :)
+[10:22] <LjL> Rictoo, do you only ask questions, or do you also look at the answers? :)
+[10:22] <Rictoo> PlanetPenguin :)
+[10:23] <mfyz> my ubuntu not booting.. broked after kernel update :(
+[10:23] <allquixotic> Scunizi: going home :) seeya later
+[10:27] <phoenix_G> :)
+[10:30] <mfyz> hmm ok :)
+[10:32] <mfyz> xtknight: because, i changed in fstab and grub`s menu.lst and now kernel not booting. i want to change it back again :) dpkg-reconfigure not worked..
+[10:36] <ubotu> adam: Don't ask to ask a question. Just ask your question :)
+[10:40] <kane77> eck, why not? :(
+[10:42] <Jordan_U> Xyon, Install with the alternate install CD, no GUI == no problem installing :)
+[10:43] <ubuntuserverguy> :)
+[10:45] <AATDark> Xyon: then the link wont help you :(
+[10:47] <ubotu> Blubloblu: Don't ask to ask a question. Just ask your question :)
+[10:49] <Enselic_> Rictoo: might be, but it won't be good to do :)
+[10:49] <temujoe> Enselic_: thanks man :)
+[10:51] <PriceChild> kerik, please read the topic :)
+[10:52] <tom_> LjL, I did what you said... clicked medium... clicked my resolution esced through the rest and now beryl is not working and my resolution is still wrong :(
+[10:52] <PriceChild> kerik, sort of :) Please be patient
+[10:54] <kerik> PriceChild: but actually right now it is downloading pretty heavily..maybe it will work next time..thanx anyways :)
+[10:56] <zbrown> nuOpus:  :)
+[10:57] <zbrown> :)
+[11:07] <arthur_kalm> it never complained when I used nvidia-glx-new (same version).... I'm not sure if I should remove nvidia-kernel-common since it asks to remove linux-generic, linux-restricted-modules-2.6.20-15-generic, linux-restricted-modules-generic, but I think that nvidia-kernel-common is confusing the latest nVidia driver. Any help would be greatly appreciated, I need my second monitor and 1280x1024 resolution :(
+[11:09] <arthur_kalm> it never complained when I used nvidia-glx-new (same version).... I'm not sure if I should remove nvidia-kernel-common since it asks to remove linux-generic, linux-restricted-modules-2.6.20-15-generic, linux-restricted-modules-generic, but I think that nvidia-kernel-common is confusing the latest nVidia driver. Any help would be greatly appreciated, I need my second monitor and 1280x1024 resolution :(
+[11:09] <dcomsa> wxcvbn: how could we help, if you don't what's wrong?:(
+[11:09] <arthur_kalm> jrib and ubotu: sorry :(
+[11:11] <eric> hello, i upgraded to feisty, now i can't boot.... it installed raid, but I don't have raid. I am at rescue prompt, how do I turn off raid/madm or whatever? :)
+[11:13] <eric> hello, i upgraded to feisty, now i can't boot.... it installed raid, but I don't have raid. I am at rescue prompt, how do I turn off raid/madm or whatever? :)
+[11:14] <dcomsa> crzyboon: hmm don't realy know ... i tought it plays anything :)
+[11:14] <eric> hello, i upgraded to feisty, now i can't boot.... it installed raid, but I don't have raid. I am at rescue prompt, how do I turn off raid/madm or whatever? :)
+[11:14] <CirroX> burning my first CD on ubuntu :)
+[11:15] <eric> hello, i upgraded to feisty, now i can't boot.... it installed raid, but I don't have raid. I am at rescue prompt, how do I turn off raid/madm or whatever? :)
+[11:15] <dcomsa> crzyboon: then sorry for my answer :)
+[11:17] <eric> it goes through md: raid messages, then hangs trying to find the root file system (can't find root file system).  there is no raid on this laptop, so not sure why it is loading raid "stuff" :)
+[11:19] <eric> i just went through the upgrad process from edgy and now it thinks it is a raid computer :)  how do I remove the modules that / reconfig it ?
+[11:19] <MrMakeveli> zaphands, k i'll try that too. but its not picking anything up at all :( lemme keep trying
+[11:20] <kzm> slackern: what do you see i dont see? i mostly see people confirming the problem.. its huge though and i run on 640x480 right now... :)
+[11:25] <Gunrun> I am looking at http://www.ubuntu.com/getubuntu/download and don't see them :(
+[11:26] <Gunrun> oh ok :)
+[11:27] <Gunrun> hmm I thought there was a DVD version of ubuntu :(
+[11:27] <PovAddict> Gunrun: there is, didn't find that link so fast :)
+[11:28] <slackern> kzm: oh hehe thats just the regular pastebin site, no idea why it's .nl though :)
+[11:29] <Supaplex> starman: yes, lots of things, but not what you describe. :) even a tarball would be prone to resizing on changes. (unless the file content sizes were the same before and after)
+[11:30] <jrib> arthur_kalm: it's ok, I knew where to look :)
+[11:44] <dcomsa> AATDark: sudo :)
+[11:44] <MrMakeveli> zaphands, yeah i dont hear that :( i tried changing all of them in there to OSS
+[11:49] <MrMakeveli> zaphands, im thinking i should just take this damn sound card out and go from the onboard :(
+[11:53] <slackern> kzm: hehe well this x1950 card is no joyride, trust me about that, i would toss it out for a nvidia card any day :)
+[11:55] <dcomsa> Shoeb: :)
+[11:56] <dcomsa> ulf_am_beat: where are you from? :)
+[11:57] <slackern> kzm: share it with Notchnick  he has the same problem :)

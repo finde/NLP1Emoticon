@@ -1,0 +1,838 @@
+[12:01] <cached> i can answer that one :)
+[12:08] <twobitsprite> can someone please help me, I don't want to have to reinstall... :(
+[12:21] <Polypterus> Thought this channel had to be packed and active now :)
+[12:25] <visik7> :)
+[12:26] <yct> am I the only one waiting for Drake here?:)
+[12:28] <yct> kspath_, I know there's hours to release, but this is the place to be at:)
+[12:29] <Sharjeel> :)
+[12:30] <_clem> ahh.. na.. I was only kidding :)
+[12:32] <_clem> it happened for FC5 though, and as I remember there were leaks on SUSE10.1 as well. People became to go crazy just before the release. Fedora had given a precise time 2pm GMT it was crazy on some forums :)
+[12:33] <Fillado> dammit i can't decided between KDE of Gnome for Dapper :(
+[12:34] <_clem> lmh: then it's lying !!! :(
+[12:35] <_clem> yct: I like reiserfs myself, even though I don't really know why :) I used to be a slackware fan, and Patrick loved Reiserfs... I guess I got that from him.. I don't know much about FS though.
+[12:36] <_clem> yct: I'm on SUSE 10.1 myself :)
+[12:37] <_clem> yct: well.. I need to write a "month with Suse 10.1" article... so unfortunately my good laptop is taken... I'm gonna have to install Ubuntu on another machine in the meantime :((
+[12:38] <_clem> I'm a Kubuntu user myself... but it happens sometimes, I need to make space to test other stuff.. :)
+[12:40] <RandolphCarter> hey Mysta_ :)
+[12:41] <Mysta_> RandolphCarter: I dont know if you remember my problem w/ the Radeon 7000, but I had to end up changing the driver again to vesa :(, but the server is for vmware so thats cool
+[12:47] <RandolphCarter> lmh: np's :)
+[12:54] <[H5N1] > :)
+[12:54] <gnomefreak> Seveas: cant go by that ubuntu has alot of users with 2-3 names in channels at all times :(
+[12:55] <pycs> oh :(
+[01:00] <_clem> Mark1412: astalavista.box.sk ...tsss.. :(
+[01:02] <_clem> kspath_ : you mean before July 2nd ... 00:00:01 am ? (only kidding..) :)
+[01:07] <_clem> via_strass : actually... I don't have a clue :) !!
+[01:21] <lix> k :) thanks!
+[01:23] <ubotu> :)
+[01:26] <Stormx2> oh :(
+[01:26] <mcmahons> so... whens dapper coming out? :)
+[01:27] <mcmahons> Stormx2: i was joking i read it :)
+[01:27] <mcmahons> same to you hyper :)
+[01:27] <mcmahons> Newwbify2: haha who cares shuttleworth's paying for it :)
+[01:31] <Jeeves_> I know that a certain someone isn't going to be able to use nl.archive! :)
+[01:37] <ray__> :)
+[01:41] <kalel> :)
+[01:41] <ray__> i'm trying to make sure i don't run into any problems :)
+[01:41] <mcmahons> ray__: very thorough of you :)
+[01:42] <mcmahons> ray__: no worries :)
+[01:44] <leonardoo> dapper is coming :)
+[01:45] <apokryphos> MTecknology: fresh for dapper :)
+[01:47] <_clem> oh.. :)
+[01:48] <Jowi> MTecknology: i only know of GMT+1 :)
+[01:49] <apokryphos> Guys -- #ubuntu-offtopic is open for general chatter :)
+[01:53] <_clem> Ophiocus : you just get to watch people go crazy I guess :)
+[01:58] <Stormx2> :( But daadddyyyy
+[01:58] <apokryphos> hyperactivecrond: nah, it's ok to have a little hype :)
+[01:59] <Sammi84> heheh according to fridge.ubuntu.com :)
+[01:59] <rackerz> Thankyou :)
+[01:59] <apokryphos> Roger_The_Bum: please use #ubuntu-offtopic for totally unrelated talk :)
+[02:00] <apokryphos> Guys: regarding the release time, please read the TOPIC :)
+[02:01] <crazybob> :)
+[02:01] <_clem> you must hate fridge..... :))))
+[02:02] <bruce89> :(
+[02:03] <apokryphos> Roger_The_Bum: please stop it :)
+[02:05] <apokryphos> I'm sure we'll get way into the 900s at actual release time :)
+[02:06] <hyperactivecrond> :)
+[02:09] <_clem> DrewMarin: although I really like Tennis on the game boy :)
+[02:10] <[zero] > :( I broke my pc
+[02:11] <eyequeue> bimberi, ah yes, makes sense, thanks for reminding me of what i should have already known :)
+[02:13] <LinuxJones> :)
+[02:13] <Jeeves_> Flannel: They've had 8 months to figure that out :)
+[02:13] <_clem> :)
+[02:13] <Jeeves_> Seveas: You were awfully quiet :)
+[02:14] <Hitchhiker> Amusingly, I'm looking to try Ubuntu for the first time today, since I've gotten rather disgusted with SuSE 10.1... synchornicity for dapper :)
+[02:14] <_clem> gnight guys :)
+[02:14] <_clem> I know I know... but I want to review the graphical installer.. :)
+[02:14] <_clem> see you tomorrow. Patience is a vertue (or something like that..). :)
+[02:15] <guano> well ... i guess i found out everything  need to know.. it won't be a midnight release :(
+[02:20] <apokryphos> sexcopter8000m: more than there's ever been :)
+[02:22] <Hitchhiker> Ah, here we are, thanks for the URL :)
+[02:23] <guano> hyperactivecrond :( i've been searching for a "misplaced" final iso ;)
+[02:23] <rixxon> on dapper, multiverse enabled, apt-get updated, unrar not found. suggestions? :)
+[02:24] <Stormx2> I wanted Perky Penguin :(
+[02:26] <rixxon> don't tell me unability to extract a rar archive will be the reason i switch back to windows :(
+[02:26] <Hitchhiker> So it's Gory Gabon after Edgy Eft? :)
+[02:27] <apokryphos> rackerz: no warez talk in here please :)
+[02:28] <apokryphos> T-CAN: indeed, as all Ubuntu releases are :)
+[02:39] <Davey|MbP> FliesLikeABrick: OK :)
+[02:40] <[zero] > so i wont be using it :(
+[02:44] <muszek> Dimitris: thepiratebay.org :)
+[02:45] <Jeeves_> Dimitris: I will. :)
+[02:50] <r4zz> that's pretty cool :)
+[02:55] <xumbi> anyone know what the title will be?  e.g. ubuntu-5.10-install-i386.iso  I'm trying to write a script to download it as soon as it's released :)
+[02:57] <fortgate> OMG irc channels come with topics now?  :)
+[02:58] <ggilbert> Barring any last minute packages, which would just be happily upgraded anyways :)
+[02:59] <ggilbert> Dimitris: In my experience, step one is get a very large glass of beer. :)
+[03:02] <fortgate> bugs:  "cd ~/Desktop ; ln -s ~/SomeDirectory"    as a guess :)
+[03:02] <ggilbert> cluehammer: hopefully soon :)
+[03:06] <ggilbert> exhale: happily both are in the repository, so we can use what we each like :)
+[03:07] <paul_> I just want to say thanks for the help I asked for previously. Up and running like a champ. lol :)
+[03:07] <Efnian_> Bladesonfire, first I tried XChat, I couldn't figure it out. The I Tried XCG, it was so awful I just decided to figure XCHat out then :)
+[03:11] <BadriNarayan> llorT: I just pointed out that your name is an anagram for Troll :) Sorry if you are offended
+[03:20] <edvinasMD5> oh, i already did it :)
+[03:20] <InvisiblePinkUni> FliesLikeABrick: :)
+[03:23] <chapium> dapper was a horrible upgrade for me, it enticed me to mess with things i shouldn't.  Like xgl.  Now my gdm is screwed :(
+[03:26] <rixxon> so what do i apt-get :)
+[03:26] <edvinasMD5> i can add them, but i can't edit them :)
+[03:34] <bkh> So is there a picture of the Dapper Drake? :)
+[03:35] <bkh> hehe... within seconds, I get yes, no, and no idea, it seems :)
+[03:47] <cowbud> delire: is there actually a countdown? :)
+[03:47] <cowbud> indeed there should be :)
+[03:48] <cowbud> I got loads of systems waiting to get the official I know a snapshot would probably work but meh :)
+[03:49] <jdub> todayisagift: always look for packages in ubuntu before going to random websites :)
+[03:49] <cowbud> delire: :)
+[03:50] <Warbo> jrsims: either that or adduser :)
+[03:51] <bimberi> theCore: yw :)
+[03:58] <brad`> i watched it could the hours down from 15 hours, hopeing the release was automated at 0 :)
+[04:02] <bur[n] er> jdub: nice to see yer nick on irc again :)
+[04:03] <Saj> :(
+[04:03] <jdub> threat: warty was released in october 2004 :)
+[04:04] <bimberi> jdub: peaked at ~925 a couple of hours ago :)
+[04:05] <threat> jdub, thank you :)
+[04:05] <Saj> might aswell wait:)
+[04:06] <threat> ok thank you :)
+[04:06] <windex> codergeek42_: uh.. you mean month.year? :)
+[04:07] <threat> or etch :)
+[04:07] <threat> Flannel, except we won't be disapointed :)
+[04:09] <nhaines> Haha, hiya, Omni.  :)
+[04:10] <Saj> :(
+[04:15] <lukaswayne9> eft > drake :)
+[04:16] <lukaswayne9> cached: that's what i'm taking :)
+[04:21] <Saj> :(
+[04:22] <Saj> ok il dl install cd instead then:)
+[04:25] <Saj> cuz ur right guys, itl take hours:( + the system will be jam acked with breezy users upgrading lol
+[04:25] <mcmahons> jdub: cool :)
+[04:27] <EmuMatte> bur[n] er -- kekeke :)
+[04:27] <Viaken> Well awesome. The topic has all I need to know. :)
+[04:27] <Warbo> T-CAN: figuratively you mean, as I am at 3:30am here :)
+[04:30] <lukaswayne9> i think i'll upgrade my server before the rush :)
+[04:33] <lukaswayne9> Upgrading my server to dapper now :)
+[04:35] <guano> i just dist-upgraded a ppc and i'm running true dapper... it's pretty :)
+[04:35] <nhaines> jdub: aww, too bad.  I don't want to pester for ETA, but waiting is easier if you can watch things.  :)
+[04:36] <Viaken> Warbo: It's a laptop with wireless, so it's not a huge issue. :)
+[04:37] <lukaswayne9> FoX_44470: Bonjour :)
+[04:38] <Warbo> "Epiphany has quit unexpectedly" every time I load it :(
+[04:40] <lukaswayne9> FoX_44470: Ah, good! :)
+[04:44] <bimberi> Booo: np :)
+[04:44] <nhaines> Hi, jai  :)
+[04:45] <Booo> i feel like a kid on the night before x-mas :)
+[04:45] <nhaines> I mean jaime, sorry.  :)
+[04:50] <lukaswayne9> T-CAN: Does Archlinux count? :)
+[04:53] <nhaines> Yes, it has a wizard with 7 pages, it asks just a couple questions, and then it goes to work.  :)
+[04:59] <sailorptah> hello :)  I have an Acer TravelMate 8200 running Breezy Badger here, and it can't seem to find the network card, or the battery.  (It thinks it's running on AC power even when unplugged.  The problem is that I can't see how much power the battery has left.)  Help, please?
+[05:02] <Warbo> Shaezsche: Seriously, how hard is it to make a modem that is a modem? :)
+[05:11] <bkh> I certainly learned alot my first time using linux... but then, that was with slackware back around kernel 0.83 or so :)
+[05:17] <intelikey> :)
+[05:20] <lastnode> :)
+[05:25] <nefelim> well i tried to install mandrake on one of my pc i find kde cool but revert back to ubuntu since i find ubuntu more user-friendly so i decided to try kde for ubuntu :)
+[05:27] <nhaines> Eroick, but pretending it isn't, you could go to packages.ubuntu.com and search for it under dapper, if you had to.  :)
+[05:30] <muszek> oh :)
+[05:31] <Josh43> dr_wllis; lol; yeah, you are probly right.. just hoping :)
+[05:33] <Warbo> Roger_The_Bum: Yay for half term! :)
+[05:37] <Soir> FoX_44470: it'll be released as the rest of the world enters June 1, so not long to go :)
+[05:38] <nhaines> keithg, run grub-install.  Might want to check the man page.  :)
+[05:38] <keithg> nhaines:  Thanks.  :)
+[05:43] <nbx909> :)
+[05:44] <earthen_> pike__, you would know how to configure a blutooth mouse would ya? :)
+[05:44] <earthen_> pike__, :( O well
+[05:44] <bkh> Grr... I wish they'd put up the torrent, even without seeding it, so I could start it up and go to bed :)
+[05:49] <nhaines> glick, what are you eating if your vomit is orange?  :)
+[05:58] <Bugs> MTecknology:  asprin :)
+[05:59] <Viaken> heh :) Just checking. I'm not a sed wizard yet, but I'm aspiring.
+[06:00] <pike__> MTecknology: the only thing they really have in common is sucking when compared to vi :)
+[06:03] <windex> Hmmmm: it'll be 24 until its released. :)
+[06:04] <brett> I'm ripping young frankenstein at the moment  :)
+[06:04] <windex> Hmmmm: its 2pm in austraillia, where ubuntu's parent company is. it'll get here eventually. :)
+[06:05] <ggilbert> Hmmmm: you don't need to do a hull reinstall :)
+[06:06] <grv> im disappointed:(
+[06:06] <JabberWokky> tate: It is for somebody's value of midnight.  :)
+[06:06] <DaSkreech> DShepherd: Cool :)
+[06:08] <nhaines> T313C0mun1s7, there was no code freeze.  :)
+[06:16] <nhaines> khermans, use a favor from a friend?  :)
+[06:17] <nhaines> khermans, it's guaranteed, though, if you have a good friend.  :)
+[06:18] <Viaken> No worries! :)
+[06:21] <nhaines> matthew_w, use Upgrade Manager.  :)
+[06:23] <z4k4ri4> Dapper will be released on 6:06, the question is in what timezone :)
+[06:24] <ajax4> Its 6/6 on the East Coast :)
+[06:25] <zcat[1] > JabberWokky: east coast are a little lagged at the moment I guess :)
+[06:26] <intelikey> :)
+[06:26] <nhaines> nbx909, the release candidate one week ago was an attempt to make a gold copy of 6.06, so, we have to wait until the announcemtn.  :)
+[06:28] <intelikey> :)
+[06:29] <Vaske_Car> ok i am downlaoding 6.06 :)
+[06:30] <intelikey> rredd4 that's what eat all the band-narrowness  :)
+[06:32] <jtd> rendo: BT is your friend :)  and I don't mean British Telecom.
+[06:32] <haloe> yeah :)
+[06:33] <intelikey> zcat[1]  ever hear the expression "ask a stupid question, get a ....."    :)
+[06:34] <ubotu> thanks zcat[1]  :)
+[06:34] <Vaske_Car> :)
+[06:36] <intelikey> eigenlambda we shoul code something called "mouse droppings"   that will leave mouse pills in the corner of the screen if the mouse is idle for very long....  :)
+[06:36] <jtd> eigenlambda: I know that :)  I thought "esspresso" was a program.  Heh.
+[06:36] <bimberi> sally__: yw :)
+[06:39] <shrewd> Bilford: thanks for that, i'll wait :(
+[06:39] <jtd> shrewd: I actually just asked a similar question :)
+[06:43] <zcat[1] > yeah, whatever :)
+[06:44] <shrewd> thanks :)
+[06:46] <nhaines> Okay, I've got some stuff to take care of.  Take care, everyone.  :)
+[06:49] <Vaske_Car> Next release should be named Ubuntu Mega, it sound nice :)
+[06:49] <grv> xore:)
+[06:53] <zcat[1] > ummm no sorry, just kidding :)
+[06:54] <Meshezabeel> :)
+[06:55] <jtd> intelikey: ah.  that makes sense.  all depends on gconf :)
+[06:57] <grv> i dont think anyone knows hisakasex:(
+[06:59] <Saj> but thats a dream for now:(
+[07:02] <troy_s> jrsims:  depends on how you read it.  if sun wants to jettison the whole os aspect and focus on pure corp, it is an interesting situation... :)
+[07:05] <vinboy> Saj: x2 is expensive :(
+[07:18] <rendo> Awesome. :)
+[07:20] <Soir> axion`: I have had concern that she's spontaneously going to develop Lain-like tendencies and I'll come back after university one year to a house filled with cabling and pieces of hardware, yes. I'll watch for it. :)
+[07:22] <intelikey> <Saj> ive tried linux many times, <<< i think 'tried' means  saw it some place.....   :)
+[07:24] <GianLuigiBuffon> thks a lot viaken. I hope to leave the noob stat and could help new users :)
+[07:25] <Saj> rendo: i got it sorted now:D 2 hdds is theway. to boot linux or windows i simply switch the hdd for it to look in first...and keep it single boot:) woks like a charm;)
+[07:27] <Viaken> Hentai_Jeff: They are? I was wondering why the latest version didn't get released on Linux. :(
+[07:32] <DarkTower> Hentai_Jeff: with ubuntu preinstalled :)
+[07:35] <rendo> DarkTower: I can't see them doing it though, they can't bloat Ubuntu as easily as they can XP with crap. :)
+[07:36] <jtd> Viaken: that procedure sounds sketchy to me :)
+[07:36] <rpaul> it's been the 1st here for 17 and a 1/2 hours.   why are we wating for the slow people :)
+[07:36] <thug> nbx909 well give me the link then :)
+[07:39] <Saj> viaken: :(
+[07:40] <jtd> I should have had a Dapper release party :)
+[07:41] <jtd> rendo: back it up first, then upgrade her to Ubuntu :)
+[07:42] <troy_s> ray:  done a couple times.  it should seem easy compared to twinview :)
+[07:42] <Unenvarjo> ubuntubes: umm, no. The /var/www/ is visible by default. Just put content in there :)
+[07:42] <jtd> fiendskull9: and by "weird" we mean "not there" :)
+[07:44] <grv> does cedega really not work on pb:(?
+[07:52] <dooglus> lastnode: thanks.  that's a good long name :)
+[07:52] <lastnode> babo, it will be, today :)
+[07:52] <rahonavis> yeh, so ya'll dont lose sleep over it :)
+[07:53] <rendo> If someone renamed an XP install iso to an ubuntu install iso and someone went to install it and installed windows :(
+[07:56] <lastnode> hi Bardamu , how may we help you today?:)
+[07:56] <Bardamu> lastnode,  i don't need help today :)
+[07:56] <neoxan> :)
+[08:00] <lastnode> Hentai_Jeff, just install flight5 and dist-uprade :)
+[08:01] <Linuturk> :(
+[08:02] <rahonavis> so many people are upset it isn't released.  if ya want it that bad you could get the RC and update / upgrade :)
+[08:07] <rahonavis> get RC not beta :)
+[08:10] <rahonavis> person i helped, see the responses :)
+[08:11] <rahonavis> myleftfoot, are they having surgery that requires the final iso immediately ?  ;)  :)
+[08:15] <rahonavis> hehe you all are like counting the minutes in your heads.  i freak out because i have to wait a week to get a top cigarette roller :)
+[08:18] <Corey> Awseome :)
+[08:21] <Corey> Its fully stable o my machine :)
+[08:24] <crimsun> Seveas: :((
+[08:27] <Saj> :(
+[08:27] <ajmitch_> Seveas: just give everyone a pony & a kick :)
+[08:30] <Graig> i cant wait for dapper, and that new nintendo system with that funny controller :)
+[08:33] <Saj> :)
+[08:34] <lastnode> Seveas, apparently, yes :)
+[08:34] <lastnode> jrsims, dapper is coming at its freshest :) there are no separate repos
+[08:35] <lastnode> Seveas, to make room, eh? :)
+[08:35] <jon_> Ah, that's weird.  Dapper doesn't come with X-chat.  Had to install it.  but that's offtopic: my real point: Are you guys doing dapper support right now? or do I have to wait for the official release? :)
+[08:35] <rahonavis> intelikey, yes you are correct :)  perhaps with a goat that is mayor and drinks beer for lunch somewhere down in the rural areas of texas :)
+[08:35] <lastnode> paniq, does anybody really care how many people were in #ubuntu? :)
+[08:36] <lastnode> paniq, ooh, profound. :)
+[08:37] <Jeeves_> Seveas: Watch de traffic peaks on the main ix'es :)
+[08:39] <l_r> :)
+[08:40] <JoseStefan> khermans: don't know perl :(
+[08:40] <lastnode> :)
+[08:40] <jrsims> lastnode: yeah, I just ran it too. :)
+[08:41] <lastnode> so wants to hit up a tropical DRP? - https://wiki.ubuntu.com/SriLankanTeam/DapperReleaseParty :)
+[08:42] <Phlosten> aww no party near me :(
+[08:42] <Phlosten> lastnode, will be a large party with 1 attendee :)
+[08:42] <Saj> fujitso: releasing @ 1st jun....18 minutes till 1st jun in california :)
+[08:43] <digerati> this tomboy is cool :)
+[08:44] <Fujitsu> It's 16:44 here :)
+[08:45] <lastnode> freakabcd, :)
+[08:46] <scheuri> Mithrandir: well, anyway...:)...I am sure you have enough pressure anyway
+[08:48] <Josh43> scheuri: Oh, of course - I'm not arguing, I'm just going over what I'm going to do with dapper final :) Been testing and loving it, now format
+[08:48] <intelikey> scheuri no.  it's not "only you"  :)
+[08:49] <scheuri> Josh43: okay, no worries..:)...I am using it now for a couple of weeks myself...looks very good...still, loads of people complain and I thing that is unfair
+[08:50] <scheuri> Josh43: heh, couldn't point it out better...:)
+[08:53] <tdn> eobanb: hehe. Yeah. I know :)
+[08:54] <tdn> eobanb: heh. Ok. Sorry :)
+[08:56] <herbheart> I think the bot is cool :) . Later guys
+[08:58] <ofer0> I just love ubuntu... :)
+[09:00] <[1] Jess> scheuri:  that's what I was thinking....  but I'm waiting for ubuntu so that xubuntu can get their first release out :)
+[09:01] <VR_> i hate that dapper splashscreen on bootup :(
+[09:02] <tapio_> Oh, that sounds pretty unsecure. I'll read about it before complaining though. Thanks :)
+[09:02] <robitaille> Madpilot:  officially Canonical is based at the Isle of Man...end of the official story  :)
+[09:06] <ice_1963> :)
+[09:08] <JoseStefan> Seveas: don't have salmon :(
+[09:08] <KLineD> later guys, happy dapper day and happy downloading :)
+[09:09] <Jeeves_> lightstar: See topic :)
+[09:09] <mejobloggs> my IP blocks torrents !! :(
+[09:10] <Josh43> voraistos: Case and point:  means system :)
+[09:16] <dholbach> occhi: use http://daniel.holba.ch/blog/?p=14 :)
+[09:16] <rapha> they should release the next version at 0:00 next time  - they would save a lot of bandwidth from all the people reloading all the time or using scripts :))
+[09:18] <occhi> thanks Flannel, ive never used this distro till, about 5 minutes ago. just getting the feel for it and all :)
+[09:19] <scheuri> gambit: easy...:)
+[09:20] <ubuntubes> scheuri : :)
+[09:24] <paniq> :(
+[09:24] <mcmahons> Madpilot: no joke :)
+[09:33] <JoseStefan> :(
+[09:33] <ubuntubes> scheuri : so when I log off windows xp then type in the users username n password, then it cannot.. :(
+[09:39] <tritium> ompaul: duck, by chance?  :)
+[09:40] <shadow_mil> ok cool :)
+[09:40] <tritium> hi dholbach :)
+[09:42] <Fujitsu> DarkTower, this is off-topic :)
+[09:52] <McNutella> Ocult, tough :)
+[09:53] <scheuri> mcmahons: people tend to be lazy when it comes to reading...:)
+[09:55] <mcmahons> how hot is the chick on the server picture on the ubuntu site :)
+[09:58] <philipacamaniac> :)
+[09:58] <seb128> hey jdub :)
+[10:03] <Auckland_Pig> hope it will reach 1000 users :)
+[10:04] <Auckland_Pig> woo hooo 18 hours :)
+[10:06] <dholbach> kakalto: I shouldn't think so :)
+[10:06] <kakalto> Auckland_Pig: might as well be auckland :)
+[10:07] <lsuactiafner> enough stop bot-poking pokings :)
+[10:08] <McNutella> someone shouldnt have mentioned the time command then :)
+[10:08] <scheuri> McNutella: one should think that here are adults...:)
+[10:11] <scheuri> g-nome: I have no idea...never done it myself...:)
+[10:11] <neutrinomass> Healot: Probably. I guess it doesn't modulate anything at all. Anyway, thanks :)
+[10:12] <scheuri> Auckland_Pig: that will stop as of today...:)
+[10:12] <Auckland_Pig> philipacamaniac: so i need not worry after today :)
+[10:12] <Auckland_Pig> :)
+[10:12] <neutrinomass> Healot: Ahh, ok, thanks :) I'm not exactly sure how Adsl works, I have to read up on the subject .
+[10:14] <highvoltage> i think people are waiting for release to blog about it :)
+[10:18] <kevor> Wow, what happened to rhythmbox!!! it's actually perfect now :)
+[10:21] <OffHand> <Auckland_Pig> if you want 2b install it yourself  :)
+[10:27] <mind>  in the tutorial it says that "If you are running Hoary Hedgehog or Breezy Badger, then install nvidia-settings. DO NOT install nvidia-settings in Dapper Drake because it will remove nvidia-glx". how i know what i'm running ? :)
+[10:27] <mcmahons> onkarshinde: oh ok cool :)
+[10:30] <MonsieurBon> I can't wait any longer! :)
+[10:34] <lsuactiafner> or.. try putting an iso together with jigit :)
+[10:35] <McNutella> its been done, in the official ubuntu shop :)
+[10:44] <Kholerabb1> Right :) sorry
+[10:49] <Auckland_Pig> just 34 more users for 1000 :)
+[10:49] <kevor> Wow, cewl that Java is now available via aptitude :)
+[10:51] <Auckland_Pig> :)
+[10:53] <ivoks> so, everyone is excited? :)
+[10:54] <ivoks> Seveas: lots of traffice in here :)
+[10:55] <Big_T> hello ubuntu users! :)
+[10:55] <ivoks> Seveas: and people just coming in :)
+[10:55] <Celestar> ivoks: so I'll wait till then, :)
+[10:56] <apokryphos> flowolf: but gentoo users wouldn't know there's a dpkg-reconfigure for it :)
+[10:57] <ivoks> Celestar: it's based on debian and has commercial support, even sun likes it... i don't see how much better support you can get :)
+[10:57] <JoseStefan> he just haves to set +l to 1499 :(
+[10:58] <K|NgGh0sT> Burgundavia: doesnt help when I'm having issues now :(
+[10:59] <apokryphos> Ed_L: how long is a piece of string? :)
+[11:00] <rob> umm you don't have to wait until Ubuntu is released to use it :)
+[11:02] <apokryphos> :)
+[11:07] <ivoks> relax... few more minutes... grab a coffe :)
+[11:07] <tarzeau> VirtualDarKness: haha :)
+[11:08] <joshhendo> :)
+[11:09] <Celestar> ivoks: nevertheless, it seems I have to get used to ubuntu :)
+[11:09] <ivoks> Celestar: it's the best OS there is :)
+[11:10] <Ed_L> 5 :(
+[11:14] <frenkel> nice :)
+[11:15] <selinium> Seveas. can you send out a /msg to everyone when it is out there? :)
+[11:16] <Josh43> philipacamaniac: indeed :)
+[11:18] <nomis_> :)
+[11:20] <pseudodeadkitty> Wooot! Looks like it's officially party time. :)
+[11:23] <netgrabber> hi ubuntu-6.06-desktop-i386.jigdo is missing :(
+[11:25] <tiagoboldt> http://fridge.ubuntu.com/ <- official anounce :)
+[11:29] <Linuturk> :) desktop i386 started on the torrent for me :)
+[11:31] <Lynoure> ubuntubes: your welcome (though I'm a woman) :)
+[11:32] <ompaul> Seveas, some people are not as lucky as us :)
+[11:33] <Linuturk> Alternate just started up for me :)
+[11:35] <pseudodeadkitty> khermans: 1025 Guiness....now that's a tab. :)
+[11:38] <apokryphos> Soir: about the kubuntu release? Well, those in #kubuntu knew first yeah :)
+[11:38] <thoreauputic> mdz: :)
+[11:38] <apokryphos> mdz: indeed :). Largest channel by quite a bit.
+[11:38] <thoreauputic> hi ompaul :)
+[11:39] <Ng> bbrazil: fair enough, thanks :)
+[11:40] <thoreauputic> ompaul: heheh - bit of excitement in the air :)
+[11:41] <Big_T> thanx :)
+[11:41] <Chousuke> kbrooks: I just happen to have ~1MB/s upload... the limits just suck :(
+[11:41] <Polibio> Godfather-Off, :) no te le
+[11:41] <thoreauputic> protocol1: if you have been dist-upgrading dapper you already have it :)
+[11:42] <Celestar> Seveas: pity :(
+[11:42] <Linuturk> :) just trying to help
+[11:42] <snowblink> Flannel, ajmitch_, cheers. Will install soon. :)
+[11:42] <thoreauputic> guys, use the torrent to spare the servers :)
+[11:44] <thoreauputic> Flannel: :)
+[11:48] <agwibowo> only 6 seeds at the moment... :(
+[11:48] <speedsix> khermans I'm getting errors with the command line transcode so I think a frontend would fail still :(
+[11:51] <Auckland_Pig> please :)
+[11:52] <Big_T> Auckland_Pig at the beginning slow but after a few hours it will be ultra fast :)
+[11:53] <Lynoure> Big_T: congrats for that :)
+[11:54] <ThE-LiGhT> apokryphos, yeah, i fixed it :)
+[12:00] <zcat[1] > I've just started torrenting all the desktop iso's .. good speed into the NZ backbone so hopefully this will help everyone a little :)
+[12:01] <Terminus-> mnk: type 'lsb_release -a' in a console. :)
+[12:02] <Terminus-> Oddie: alternate cd i think. :)
+[12:03] <ajmitch_> zcat[1] : a shame I'm not downloading then :)
+[12:06] <mnk> so it is upgraded then? :)
+[12:06] <lmanul> kestas: Support :)
+[12:07] <zcat[1] > I don't think I've had anything through dist-upgrade for most of the day so I'm probably running what's on the CD now anyhow :)
+[12:09] <Fillado> Afief: Yes, that's the desktop one :)
+[12:10] <zcat[1] > thanks Flannel I didn't know that :)
+[12:11] <zcat[1] > twice the traffic up as down. cool... must be helping someone :)
+[12:12] <ajmitch_> zcat[1] : yeah, I can upload at a whole 50K/sec.. not really worth it :)
+[12:12] <bbrazil> Grunt: there's one in Dublin if you want to fly over :)
+[12:13] <ubotu> thanks zcat[1]  :)
+[12:13] <ubotu> thanks verithrax :)
+[12:14] <apokryphos> dooglus: well I'm a KDE user, so I only have experience with KDE :)
+[12:15] <tubbie> thanks  :)
+[12:16] <CrippsFX> apokryphos, yep. Ya just missed that part of the message in the lines above :)
+[12:18] <apokryphos> twager: this is dapper support :)
+[12:19] <Celestar> :(
+[12:20] <thoreauputic> tubbie: /topic, and yes :))
+[12:20] <kayde> tubbie, yes :)
+[12:22] <apokryphos> Almenfors: oh way, it was taken out :)
+[12:23] <apokryphos> Almenfors: there :)
+[12:24] <thoreauputic> kayde: no worries :)
+[12:27] <thoreauputic> kayde: the channel is kind of busy right now :)
+[12:28] <kayde> thoreauputic, its working....I think :)
+[12:30] <uccoffee_loves_B> [ajmitch_] : no scan result :(
+[12:31] <apokryphos> You can /msg the bot guys :)
+[12:34] <rackerz> dooglus, yes :)
+[12:37] <thoreauputic> apokryphos: OK - just changed it :)
+[12:37] <ROBOd> rixth: why? :)
+[12:38] <apokryphos> rixth: well, time to report bugs :)
+[12:39] <thoreauputic> apokryphos: :)
+[12:40] <dooglus> apokryphos: did you see this?  http://launchpad.net/bugs/47195 :)
+[12:42] <Pecisk> halibut: I think you should give it a shot :)
+[12:43] <derfbugzi> there are no seeders for the dvd at the moment :(
+[12:44] <thoreauputic> kayde: you are doing something wrong :)
+[12:46] <kerb> lol, just when I got a 25mbit server up to seed :)
+[12:46] <thoreauputic> dooglus: fair enough ;) But the alternate CD should work better on low-memory machines for standard installs too :)
+[12:49] <thoreauputic> ska-fan: no problem :)
+[12:49] <ska-fan> :)
+[12:51] <thoreauputic> kayde: I suggest you caome back when the channel is a bit less busy in a day or so :)
+[12:52] <kayde> thoreauputic, :(
+[12:55] <ThE-LiGhT> onkarshinde, i need more 379 mb :(
+[12:58] <leks> :)
+[12:58] <thoreauputic> leks: that's debian, this is ubuntu :)
+[01:00] <IB-> no more #ubuntu+1 ? :)
+[01:03] <apokryphos> negsoul: that doesn't make it okay :)
+[01:05] <rob> gee the au mirror is a bit slow atm :)
+[01:06] <thoreauputic> rob: then seed the torrent :)
+[01:10] <Chousuke> dabaR: it's unlikely I'll transfer completely to Ubuntu, but I'll have to check it out :)
+[01:11] <IB-> is he here now ? :)
+[01:11] <thoreauputic> eXistenZ: I like sylpheed :)
+[01:11] <Chousuke> dabaR: on x86 machines I'd have Ubuntu, but since I can run OS X on my powerbook, I don't have a real need for Ubuntu :)
+[01:13] <brasko> what's the command to update :)
+[01:13] <cy_> hello :)
+[01:15] <rsk> Fastly: no there will be more final releases :)
+[01:15] <cy_> apokryphos; thank you :)
+[01:20] <McNutella> biberao, fabulous :)
+[01:22] <Celestar> sparc release for me :)
+[01:22] <rixth> Torrent is slow :(
+[01:23] <rob> Xore, fun and profit? :(
+[01:23] <thoreauputic> dabaR: yes, there are torrents in .au :)
+[01:24] <jdub> Mulder: desktop CD is more fun :)
+[01:24] <thoreauputic> jdub: congrats on release :)
+[01:24] <Mulder> jdub, yeah i think i'll get desktop heh. i have 1.5gb ram, so not too fussy about it :)
+[01:25] <capitanplaneta> ra, ra, ra! :)
+[01:26] <cached> found one :)
+[01:29] <lilo> congrats, all :)
+[01:29] <thoreauputic> lilo: :)
+[01:29] <lilo> Seveas: yep :)
+[01:30] <lilo> Seveas: knew it had to happen :)
+[01:30] <thoreauputic> it was up to 1024 a while ago :)
+[01:30] <dyn> hi all :)
+[01:30] <lilo> Fujitsu: I believe this is the first time that you guys have been #1.... it's not unexpected, but it's pretty cool :)
+[01:30] <lilo> but this is a record :)
+[01:30] <apokryphos> yeah :)
+[01:32] <lilo> anyway, very neat :)
+[01:32] <rata> dabaR, :). I am triying to change locales for a server in dapper
+[01:33] <dyn> Fillado: it's the collegue's machine.. I think never is the right answer :)
+[01:33] <capitanplaneta> :)
+[01:33] <Fillado> yeah, just take quite a bit moving all the files forwad on the disc :)
+[01:36] <livingdaylight> This day will go down in the anals of history as one of the most important days in the evolution of mankind  :)
+[01:36] <dodgyvile> thoreauputic: I had to reconnect to irc.freenode.org :(
+[01:36] <dyn> Fillado: i see your point :)
+[01:37] <dyn> LinuxJones: it's a great day today, no wonder :)
+[01:40] <thoreauputic> Mulder: :)
+[01:42] <rukuartic> Alright guys I need to head out. Mega congrats for gettin 6.06 out, hope I can help you guys beta the laptops in the future :)
+[01:45] <rohan> congrats on release :)
+[01:46] <Dreamglider> good day everyone :)
+[01:47] <thoreauputic> zanga: your question needs refining I think :)
+[01:47] <neutrinomass> uccoffee_loves_B: ubotu is a bot, not a real person :) 'root' is not enabled on Ubuntu so I guess you will have to use 'sudo'
+[01:49] <tz273> i'm there: but you're not :) php.blabal
+[01:49] <uccoffee_loves_B> :(
+[01:53] <neutrinomass> grimboy: That would imply that all ubiquity bugs that I've seen have been closed. Anyway, I'll try grabbing the LiveCD and hope there will be no problems :)
+[01:54] <Ekushey> cool :)
+[01:56] <rohan> :)
+[01:57] <rohan> tarzeau: did you do !popcon :)
+[01:59] <Fujitsu> Chobo-Mog, certainly :)
+[01:59] <dooglus> noodle: what you really want is my home-made package of the latest emacs21 from CVS :)
+[02:00] <thoreauputic> jdmpike: I assume the package from breezy doesn't quite fit dapper :)
+[02:02] <pseudodeadkitty> Hehehe....the .iso is burning. :)
+[02:03] <rohan> livingdaylight: and, who are you ? :)
+[02:05] <rohan> hypnox: ah, ok :)
+[02:09] <capitanplaneta> Fujitsu: omg! :)
+[02:10] <pseudodeadkitty> It's ready. It's off to install Dapper on a clean partition- wish me luck. :)
+[02:11] <pettman> it is 4 hours before I even can start installing :(
+[02:12] <Chousuke> :(
+[02:14] <threat> 50Kb from the xubuntu site :(
+[02:14] <Sampizcat> threat:  mirrors are you friend :)
+[02:15] <pm> Fujitsu: thanks for reply :)
+[02:17] <scheuri> waym: everything...:)
+[02:19] <Fujitsu> rixth, take a Desktop CD :)
+[02:28] <noodle> how do i reclaim my firefox icon.. was about to read the forum post before it died :(
+[02:28] <Fujitsu> Spaceraver, thanks for not pinging me :) Typos can be useful some times...
+[02:30] <Fujitsu> wheelswitch, file a wishlist bug :)
+[02:30] <Tinned_Tuna> hehe :)
+[02:31] <Fujitsu> thoreauputic, you deserve it :)
+[02:31] <Tinned_Tuna> :)
+[02:31] <Tinned_Tuna> not quite :)
+[02:32] <thoreauputic> bliss_: you're welcome :)
+[02:38] <tubbie> installing win xp pro. hope it  install correctly :)
+[02:39] <livingdaylight> Fujitsu, Thx man  :)
+[02:41] <Kholerabb1> :):):)
+[02:44] <rsk> it just did. :)
+[02:46] <rsk> :)
+[02:47] <tubbie> installing xp in qemu is so slow :(
+[02:52] <aftertaf> changerOfSea, seems so yeah :)
+[02:54] <RandolphCarter> aledie: there you go then :) I just installed from scratch, and my debian_version's testing/unstable also
+[02:54] <rsk> troy_: im gonna have one tonight :)
+[02:54] <McNutella> troy_, having one myself with couple friends in my street, since I provide netaccess to them all via wifi :)
+[03:02] <sybariten> ok i dont wanna be a grumpy bitch... well more than i already am... but couldnt we just keep the "OMG Dapper is so fresh :) :) :) WTF where is the ghayest release partay???!!!" discussions in the ubuntu-offtopic chan?
+[03:03] <MacSlow> kspath, well it feels so strange to see/read all the fuss... I mean.. it feels everybody "around me" tried and installed Dapper druing it dev-phase already :)
+[03:03] <snoops> :)
+[03:04] <snoops> I skipped breezy :)
+[03:06] <kahuna_> err, that without the typos that is :)
+[03:06] <thoreauputic> kahuna_: except for the typo, yes :)
+[03:07] <tanek> wierd... mine does not work good at all :(
+[03:07] <dooglus> snoops: so the installation has been streamlined?  :)
+[03:07] <Most_Wanted> those mirrors are too slow :(
+[03:08] <heanol> snoops, well i did and made my windows unbootable, it sucked :) hehe
+[03:08] <Most_Wanted> hmm as soon as i downloaded it i will throw a mirror up myself :)
+[03:10] <Fee^> kimo: thankee :)
+[03:12] <Jowi> h3sp4wn: yeah, i'm trying to update and install some stuff and the main fr.archive servers are damn slow. then I remembered the date :)
+[03:14] <ivoks> so, 1045 people :)
+[03:14] <ivoks> everybody busy installing? :)
+[03:15] <ivoks> dr_willis: ah, update-manager -d is much nicer :)
+[03:15] <GnarusLeo> Hi, can anyone please descrive how I update my kubuntu breezy to newest dapper? I still want my kde and all :) Anyone?
+[03:16] <theine> dr_willis: :)
+[03:17] <RandolphCarter> snoops: hmm, okay :/ it's really only five minutes work if you fancy trying it though, it comes in handy to know how to repair systems too :)
+[03:17] <GnarusLeo> Hi, can anyone please descrive how I update my kubuntu breezy to newest dapper? I still want my kde and all :) Anyone?
+[03:17] <snoops> yep..but not at 1:14am on a work night RandolphCarter :)
+[03:17] <rackerz> i know how to install stuff myself, just takes me ages :(
+[03:18] <snoops> thanks though RandolphCarter... I appreciate it :)
+[03:23] <Fee^> kimo: apparently i'm current...it doesn't want to upgrade anything else :)
+[03:24] <Celestar> spikeb: guess I gotta be patient then :)
+[03:24] <rackerz> ompual, thanks :)
+[03:25] <rackerz> ok thanks guys :)
+[03:25] <kimo> is this one big busy channel :)
+[03:25] <Fee^> kimo: its a big day :)
+[03:26] <thoreauputic> LinuxJones: too fast :)
+[03:27] <LinuxJones> thoreauputic, I am tweeked out with nictine withdrawls and caffine :)
+[03:28] <RandolphCarter> jsestri2: bingo :)
+[03:30] <linchriss> it mounts a cdimage :)
+[03:32] <kimo> tuxtheslacker: reboot and see for urself, probably nothing though :)
+[03:32] <RandolphCarter> linchriss: np's :) good luck
+[03:38] <charlotte> :)
+[03:38] <[HUN] Big_T> hi ubuntu users! :)
+[03:38] <Celestar> lucasvo: 10 GBps pipe :)
+[03:38] <scheuri> charlotte: time to convert your landlord...:)
+[03:40] <kork> cef: you can actually watch how the data gets from the 2 seeds to the faster peers :)
+[03:41] <rixxon> i broke ubuntu :(
+[03:41] <rixxon> grimboy: probably? im always here. i have no life. :(
+[03:41] <Celestar> :)
+[03:42] <mauti> Celestar: thanks but i am downloading ISOs. Bittorrents are taking twice the time :(
+[03:44] <thoreauputic> ompaul: thanks - just checked it in the man :)
+[03:47] <thoreauputic> :)
+[03:47] <thoreauputic> rixxon: indeed :)
+[03:47] <rixxon> :)
+[03:51] <AJ004> ok downloading em now :)
+[03:54] <spafbnerf> ??? wtf ? :(
+[03:55] <ak7> nclife: snuck up on me too :)
+[03:56] <Celestar> installation is SLOW :(
+[03:58] <Lynoure> WAHa_06x36: :) I guess it's a matter of opinion. One thing I loved aout debian was that I could edit all the configuration files
+[03:59] <void^> thoreauputic: yes, i use urxvt usually :)
+[04:02] <Madeye> MacSlow, few moment for 19mb ? you must be lucky dude, I live with 512 only :(
+[04:07] <hypnox> runes it's not smart, it just dumps everything in there into the homedir :)
+[04:10] <LinuxJones> MacSlow, LowFat is awesome :)
+[04:14] <rackerz> cheers guys :)
+[04:15] <Celestar> jazzido: torrent :)
+[04:15] <Celestar> oh :)
+[04:18] <Celestar> swap accesses the HDD which eats battery :)
+[04:19] <crazy_penguin> a beatifull dapper day for everyone! :)
+[04:19] <Celestar> Frogzoo: I'm talking Ultrasparc :)
+[04:20] <Celestar> Frogzoo: hm .. it even seems to work :)
+[04:21] <Frogzoo> Celestar: cool :)
+[04:22] <rackerz> The Totem Plugin Could Not Startup : Could not establish connection to sound server - can someone help me here? :(
+[04:27] <jazzido> and i'm pretty use i didn't upgrade to dapper :)
+[04:30] <Corey> hey guys all the games I play now are really laggy since i played around wiht the driver settings :(
+[04:31] <spikeb> yup buzzed :)
+[04:31] <tristanmike> viS_, you can "/msg ubotu <factoid>" for a personal one on one encounter with ubotu, just to let you know :)
+[04:35] <Celestar> Hexidigital_: I have no GUI, telnet only :)
+[04:35] <Hexidigital_> Celestar:: :( sorry, dont know how to do it by command line
+[04:36] <Stork> dapper isn't cool :(
+[04:37] <rackerz> dunnix: No i don't think my sound is working :(
+[04:38] <Celestar> I have ssh :)
+[04:39] <Hexidigital_> Celestar:: excellent :)
+[04:39] <Celestar> Hexidigital_: telnet works even if the machine is powered off :)
+[04:40] <Hexidigital_> Celestar:: ah, i see :)
+[04:40] <Celestar> grimboy: yeah :)
+[04:40] <Celestar> grimboy: gotta try samba next :)
+[04:43] <flithm> LinuxJones, weak I'm not downloading the freakin CD... I'll just wait :)
+[04:44] <snoops> Hexidigital_, after the install is complete it says to reboot, and make sure the cd it taken out :)
+[04:44] <LinuxJones> flithm, the demand is insane :)
+[04:45] <Celestar> LinuxJones: ok lets see if I have an X server installed :)
+[04:45] <grimboy> installArchives() failed :(
+[04:46] <NthDegree> kspath, my IP is in that range :)
+[04:47] <Hexidigital_> snoops:: i dont know, sorry :( but dont quit on us, there are lots of brilliant people that answer questions very quickly
+[04:48] <iNiku> The_Machine: I wouldn't sue just yet :)
+[04:49] <The_Machine> haha iNiku :)
+[04:49] <Celestar> apt rocks :)
+[04:50] <The_Machine> i think my list is jacked up :)
+[04:53] <lefty_2nd> Anyone have a link to a guide for running a live cd of ubuntu - wanting to show to work that can run and save documents, update OS and programs, off of just 2 or 3 cds (1386, ppcand possbily amd64) and a USB drive.  Not tried to do this b4 (only got usb drive last week :) ), and want to learn the basics b4 Monday if I can.  Forums a little slow atm or id do a full crawl there :)
+[04:55] <lord_rob> ubuntuNewbee: maybe remove the cd from your drive ? :)
+[04:56] <Lukketto> lenny: it's normal! :)
+[04:57] <tubbie> :(
+[04:58] <snoops> Frogzoo I'm very familar with torrents mate :)
+[04:59] <spikeb> windowmaker rules :)
+[04:59] <spikeb> MrObvious, it's out, and now :)
+[05:00] <MrObvious> I might try it :)
+[05:01] <NthDegree> grimboy:  clean installs are much better than upgrades - much cleaner :)
+[05:02] <MrObvious> I'll even help seed the torrent :)
+[05:05] <spikeb> Celestar, i'm glad my arch is more supported:)
+[05:09] <register_> chapium, ok :) dont know of any howtos or any thing?
+[05:12] <Borney> hi :)
+[05:12] <register_> kbrosnan,  thx :)
+[05:16] <scorpion007> Frogzoo: what do you mean reinstall? I tried reinstalling the whole ubuntu distro with boot loader twice and same result. It just tries to load (and fails) ubuntu after a few seconds... :( I also tried using the install CD in recovery mode but wasn't sure what to do...
+[05:16] <Celestar> DShepherd: that's a crapload of packages :)
+[05:17] <Celestar> DShepherd: lets see what happens :)
+[05:17] <scorpion007> Frogzoo: as part of the system reinstall, the boot loader (LILO) was also reinstalled. It did not improve my situation. Breezy install went a lot smoother with GRUB...I don't have a choice of boot loader here.. :(
+[05:17] <Celestar> I wish I had a faster system HDD :)
+[05:20] <MrObvious> About 60 KB/s now :). Using the torrent as suggested, and I'm uploading about 50KB/s
+[05:20] <Celestar> MrObvious: :)
+[05:21] <scorpion007> krazykit: I did that but it just spits out errors about /proc/devices not being present... :(
+[05:27] <tristanmike> Hobbsee, bleak it is :)
+[05:28] <linchriss> okay.. whats the next release of ubuntu :)
+[05:29] <linchriss> nice.. :)
+[05:34] <tubbie> ok :)
+[05:35] <Nailor> krazykit: Well I'm just fine with lilo, but I just wondered has the default boot loader changed :)
+[05:36] <Diiba> :)
+[05:37] <Nailor> krazykit: Yeah, that's my normal answer to lvm-related stuff too :)
+[05:37] <Nailor> h3sp4wn: I'm just fine with lilo :)
+[05:49] <Celestar> mwe: yes I kind of agree :)
+[05:52] <Diiba> Do the dapper dance :))
+[05:53] <Diiba> :)
+[06:00] <tRSS> thanks alot ! :)
+[06:03] <spikeb> Led_Zeppelin, love your nick btw :)
+[06:04] <lastnode> Led_Zeppelin, i think so :)
+[06:08] <ohzie> Hello! My x-server broke! :) The error is..."Fatal server error: No screens found."
+[06:14] <MrKeuner> csko/ experts do not ask much questions :)
+[06:18] <tubbie> damnit. I need a kernel compiled with gcc-3.4 :(
+[06:18] <tubbie> :(
+[06:20] <salman> :(
+[06:20] <Dkt> salman, I will try :) Thanks.
+[06:23] <yukonho> I've been following that with no success :(
+[06:23] <jra> I'm gonna install -server on hppa, just to be unique. :)
+[06:23] <Coyctecm> visik7: doesn't work :(
+[06:30] <eXIstenZ> dontm, oh yeah :)
+[06:35] <xcomputerman> ok, can someone give me a fast mirror? :)
+[06:36] <hazart> krazykit: okay, that's nice! I really love the simplicity og the ubuntu/debian package system :)
+[06:36] <xcomputerman> dontm: because it is a fresh install :)
+[06:37] <Jowi> DBO: vesa always work :)
+[06:40] <hazart> the others laughed at me when i installed the first ubuntu server, but look whos laughing now :) LTS is great!
+[06:41] <mada> DBO: i'll hang for a little bit and see if there is anything i can lend a hand at :)
+[06:44] <Stormx2> :(
+[06:44] <mada> Stormx2: no you didn't ... its still in the same day :)
+[06:45] <bosco> what time did it come out ??? :) i had to work
+[06:45] <Jowi> orangehaw: "no stretch" sound good :)
+[06:46] <bosco> :(
+[06:47] <neutrinomass> hello tuxmaniac :)
+[06:48] <xcomputerman> soundray: well, it went offtopic when I was making a comment about dvd images being available and my language came into question. :)
+[06:52] <neutrinomass> to0om: Thanks a lot :) Please though do watch your e-mail. Developers will almost certainly have to ask various questions without which they can't really beat the problem ...
+[06:55] <jtd> "kien" and "abla" not being words in Spanish :)
+[06:55] <Marsmensch> soundray: thanks for help, good idea :)
+[07:04] <soundray> sorush20: apparently not, unfortunately :(
+[07:06] <mjmac> BigMonkey: or ask google.  :)
+[07:08] <lefty_2nd> np beginer - had that page open trying to work it out myelf :)
+[07:14] <Unenvarjo> kspath :)
+[07:15] <Unenvarjo> but very nice, apparently the installation detects my integrated wireless card :)
+[07:16] <Unenvarjo> nevermind my recent problem: the problem apparently existed between keyboard and chair :)
+[07:18] <WakoKnight> Ohhh ok, thank you for the information :)
+[07:18] <JohnStax> help! how can I edit my xorg.conf ?? cant do it via su chmod :(
+[07:18] <Jeeves_> JohnStax: You should try editing with an editor :)
+[07:24] <Krpano> i cant find the msttcorefonts with synaptic....i have all the sources enabled tho.... :(
+[07:24] <dixie> super, i will try it :)
+[07:27] <lastnode> zjohnson, good man :)
+[07:29] <r0xoR> SurfnKid, stop thinking about NT my friend :)
+[07:29] <r0xoR> SurfnKid, i don't think you even know what you're talkin about :)
+[07:30] <r0xoR> SurfnKid, yeah so stop thinking about it :)
+[07:31] <thoreauputic> Quick visit... swarm speed on torrent currently 5.7MB/s - I'm uploading at 90KB/sec and now I'm going to bed :)
+[07:32] <r0xoR> SurfnKid, uhhh, yeah you can use power saver mode just like any other computer :)
+[07:32] <thoreauputic> Amaranth: :))
+[07:33] <willmc> ahhh what a lovely release of Ubuntu everyone! lets say thank you in this chat room to show our appreciation to all the hard work that has gone in to making this wonderful release :)
+[07:34] <MrObvious> Ok just asking :)
+[07:34] <spikeh> I have answered the question :)
+[07:37] <r0xoR> spikeh, oh wow sorry, i totally missed that :)
+[07:42] <mada> :(
+[07:44] <[zero] > thankx :)
+[07:46] <r0xoR> jayrod06, i'm gonna put it on an iBook :)
+[07:46] <r0xoR> jayrod06, but not a macbook :(
+[07:46] <jayrod06> roxor: :)
+[07:47] <iNiku> spikeh: ah, got through to the torrents finally :)
+[07:47] <JyZky> nouse thats right windows :()
+[07:48] <mada> JPatch: no worries :)
+[07:49] <mada> r0xoR: i installed Dapper on my iBook G4, works like a dream and with the tutorial on the forums, my airport extreme works too :)
+[07:49] <ubotu> it has been said that fishing is randomly throwing !commands in the channel instead of using /msg ubotu command. Please dont fish for help. either !ask in the channel or msg ubotu < Knows Everything!> :)
+[07:49] <Fee^> PHiSQuaRE: www.ubuntu.com :)
+[07:50] <r0xoR> mada, i joined ppc and it was just you and airo and i was kinda bummed :)
+[07:50] <r0xoR> mada, so it'll be nice to know that someone else on here has done it already :)
+[07:50] <h4ch3r> :)
+[07:51] <apokryphos> h4ch3r: please stop, it spams the channel and is distratcing :)
+[07:51] <r0xoR> h4ch3r, you *can* msg the bot ya know :)
+[07:52] <hazart> DBO: Ok, thanks. :)
+[07:52] <iNiku> oh :)
+[07:52] <r0xoR> mada, ok grea thanks a lot :) ... cheers
+[07:54] <nanotube> nnacht, try installing mplayer to play things. totem ain't that great at playing various codecs :)
+[07:55] <r0xoR> mada, i don't like being stuck with the distro kernel :)
+[07:56] <thug> gnomefreak ok i will freak out too with it on gnome desktop ... i might gonna be a gnomefreak like you after :)
+[07:57] <JPatch> :)
+[07:58] <mada> JPatch: it's a sir ... name's Adam ... just reversed it ;) and you are very welcome, anytime :)
+[08:00] <r0xoR> mada, well that's good news then :)
+[08:00] <Amaranth> gnomefreak: already handled :)
+[08:10] <ubuntu_> I have a terrible problem :(
+[08:11] <jlmr> madmike, but it doesnt, windows doesnt boot... :(
+[08:12] <ubuntu_> stupid windows :(, it doesn't work in my ntfs partition due to a resize partition
+[08:17] <anto9us> st, yes, this is the place to ask about any support issues with ubuntu, I don't know anything about xampp though, try again after waiting a while, someone else might :)
+[08:18] <anto9us> st, another tip, just ask your support question, you didn't really ask one :)
+[08:21] <rukuartic> sinbad444: Its hot stuff :)
+[08:22] <rukuartic> midna: If you shut down and put the CD in, you might be able to boot from CD and install that way :)
+[08:23] <ak7> midna: well, thanks... not sure about the status of my warranty, that's all :(
+[08:25] <sinbad444> DShep,  thx anyways !!  :)
+[08:27] <r0xoR> flask-, hehehe, i fought with my computer a bunch last time... then realized i was just a little bit sped and took a notch of my ego :)
+[08:28] <r0xoR> flask-, lemme know how it works :)
+[08:30] <vermoos> scifi: 14 minutes :)
+[08:33] <ak7> midna: found the problem... was running the md5sum on the torrent I'm still downloading :)
+[08:34] <jab> soundray: ok, thanks :)
+[08:35] <T-CAN> i have linux installed on a 7gig hard :)
+[08:39] <JyZky> Auckland_Pig ok... from where :) ?
+[08:40] <iNiku> rekrutacja: haha, okay, first things first :)
+[08:41] <iNiku> so boring... no updates in over 24 hours, I think :)
+[08:45] <Raskall> rukuartic: I know, but I plan to get more than 10 customers for my company. :)
+[08:54] <soundray> midna: :)
+[08:55] <eugman> Well, yeah rukuartic. But then I'd have to have some common sense to look up and take the initiative. That's never any fun. :)
+[08:57] <Simthumb> rukuartic: ok :)
+[09:03] <siofwolves> 5/5 . Hurry up download I want to burn this to CD and start playing with it!  Much better than windows.< one happy torrenter :)
+[09:05] <lefty_2nd> For anyone like me who is trying to get ubuntu to run from live cd and save settings on usb drive or hdd, read this - https://wiki.ubuntu.com/LiveCDPersistence It worked well :)
+[09:09] <Snake> FunnyHat_Work: I thought you ment that as "Never use shell" as in, never at all :)
+[09:09] <Fee^> :)
+[09:09] <Fee^> i flex command line yo :)
+[09:10] <kirkunit> whoa.. busy in here... i wonder why :)
+[09:10] <johnm1019> jhenn, thanks for the info! :)
+[09:11] <ZeromusMog> I tried putting the SSID and key in by hand and still no go :(
+[09:13] <PHiSQuaRE> I can't say I'm very patient :)
+[09:13] <Fee^> dsas: and if it doesn't? :)
+[09:14] <ZeromusMog> I'm a little dissapointed. I'm excited that the new Ubuntu can find my wireless card out of the box, and I heard it was delayed mostly for wireless support... so why isn't there a wifi manager :(
+[09:15] <ZeromusMog> though to be fair, the liveCD/installer is impressive and sexy as all hell :)
+[09:16] <ZeromusMog> wastrel: my wifi is in there with SSID and password I set :(
+[09:19] <dsas> ZeromusMog: Looks like nm-applet was dropped somewhere along the way. Never realised :)
+[09:21] <Steve123> Hi.  I upgraded from breezy to dapper ( I know, get in line).  During the upgrade process my x server configuration got messed up.  I don't know anything about x servers :).   When I rebooted I got a message telling the xserver could not be started, probably due to a configuration problem.  I would be grateful if somebody could walk me through fixing my x server config files.
+[09:21] <ZeromusMog> Frem: but I want it to manage my wifi? I'm confused :)
+[09:24] <ketsugi> >:(
+[09:24] <yaramaz> frem (: ? can you help me ? :)
+[09:25] <Fee^> dsas: i didn't find a bug there :)
+[09:26] <ZeromusMog> Problem is the few things that don't work aren't just a matter of downloading a driver installer :(
+[09:26] <dsas> Fee^: It it doesn't work and it should and there's no duplicates then file one :)
+[09:28] <neutrinomass> Pilgrim-: The performance difference is small, but amd64 comes with problems :) Flash issues etc. .
+[09:30] <ZeromusMog> gonna reboot and try this network manager business brb all and thanks for your help so far :)
+[09:32] <Ratzilla> im almost done upgrading :)
+[09:36] <profoX`> wastrel: im going to install it on a 512 machine, its for a friend of me :)
+[09:36] <rendo> Okay, then how do I do it on login? :)
+[09:37] <rendo> I did that shachaf, and the script didn't run. :(
+[09:37] <skeltoac> just installed update from breezy badger to dapper... gotta reboot! :)
+[09:40] <ZeromusDesktop> You know guys, I DO live in pretty close to Broadcom's offices, maybe I should go there and raise hell :)
+[09:42] <ZeromusDesktop> asdx, not as many as I hoped there would be :(
+[09:42] <neutrinomas1> Frem: No luck with that :( Thanks anyway, I'll just lurk in here until somebody helps me :)
+[09:42] <ZeromusDesktop> It seems to have better card support but no sort of wifi manager :(
+[09:43] <rackerz> dsas: easyubuntu breaks totem for me :(
+[09:44] <profoX`> T-CAN: sure, but beginners will enjoy ubuntu better i think :) although my first real distribution was debian too, when it still had the bad/uneasy installer
+[09:45] <arcade> Heh, Ubuntu is one of the better distros I've used.. only a few flaws.. (defaults to UTF-8 (blrhg!), not a proper build environment by default, and Ubuntu is Yet Another Distro that hasn't figured out a good way to distribute Good Updates for old releases :)
+[09:46] <rackerz> thanks dsas :)
+[09:47] <pandamonium> is there a way to set a global http proxy? i keep getting "can't resolve http" errors and nothing will update/download. my isp insists on using transparent proxies but the default one i go through is broken :(
+[09:47] <profoX`> T-CAN: i havent tried gentoo MYSELF but thats because i hate the compiling-compiling-compiling :) and arch has speed optimizations by default in the packages for i686
+[09:48] <arcade> soundray: I had to compile my 2.6.14 kernel myself. :)
+[09:49] <ZeromusDesktop> Ah, I haven't used anything but Raid 0 so unfortunately I can't help you :(
+[09:50] <defunkt> the power manager on dapper doesn't work apparently :(
+[09:50] <neutrinomass> h3sp4wn: How do I do that ? :(
+[09:51] <vermoos> scifi: everythings sweet, and i have stuff i didn't have previously :)
+[09:51] <soundray> defunkt: I forgive you :)
+[09:51] <profoX`> I see Ubuntu getting big :)
+[09:51] <scifi> vermoos:  sweet :)
+[09:52] <arcade> neutrinomass: Probably because some default route thing. :)
+[09:52] <Pilgrim-> thank you neutrinomass :)
+[09:53] <Fee^> dsas: i figured it out, i was using the context-menu open-with earlier...not the right-click/open with to change the setting..  fixed :)
+[09:54] <profoXLap> :)
+[09:55] <pandamonium> michaels, sorry no :( but google might be able to help if you search on about:config+firefox
+[09:56] <zcat[1] > arcade: true, if there are opensource drivers ubuntu should definately work torwards including them. Wait a while and they probably will in a kernel update anyhow :)
+[09:56] <neutrinomas1> It didn't work :( Host unreachable ...
+[09:56] <arcade> zcat[1] : Heh, I rather just go through the "lesser pain" which is "do it yourself" - and compile stuff. :)
+[09:58] <neutrinomas1> h3sp4wn: ... ? Any idea (sorry for bugging you but I can't get this sorted out :( )
+[09:59] <neutrinomas1> steve123: It was dpkg-reconfigure, one word :)
+[10:02] <pandamonium> i think it's telling me i'm rubbish and can't be trusted with software :(
+[10:07] <pandamonium> :)
+[10:16] <pandamonium> same thing :(
+[10:17] <scifi> k updated in synaptic, then ran sudo apt-get dist-upgrade again and it downloaded mozilla fine :)
+[10:19] <eggzeck> zcat[1] : "In theory it's automatic"? You need to reorder :)
+[10:20] <zcat[1] > eggzeck: there was something in the website back then about not needing to reorder. Serves me right for actually reading the instructions? :)
+[10:21] <zcat[1] > I think we'll have to burn them, shipit probably won't deliver them in time. Besides we can change the default webpages and do custom labels that way :)
+[10:28] <eXistenZ> gnomefreak, what now? :(
+[10:31] <TaTonka> can any1 help me with my soundcard problem :(
+[10:33] <bina> zerokarmaleft: doesnt it? oh right :)  How come xmms wont play it?
+[10:34] <bina> zerokarmaleft: well, its definitely mp3, i just thought it had some kind of DRM because xmms wasnt playing it, got amarok on it now though :) yay
+[10:37] <ciaron> ah i see, k next question :) this LAMP install thing, is just the same as the basic server install with the 4 packages on top? or is there anything else different about it?
+[10:38] <leks> hell i want an edgy repo :(
+[10:39] <zcat[1] > rackerz: easyubuntu .. :)
+[10:39] <eXistenZ> gnomefreak, haha, I fixed it :)
+[10:40] <bina> zerokarmaleft: sweet its working :) thanks
+[10:41] <revmouse> nnz: We can still be gentlemen :)
+[10:42] <shaitand> dsas, fair enough. :)
+[10:43] <thug> IRC looks like you`re the one who needs help :)
+[10:44] <kane777> thug, so there are two possibilities... try downloading via jigsaw or bittorrent... or there is one more wget... this can resume downloads as well... or there is just one more... ship it cds... but I think you don't want to wait two months... :)
+[10:45] <thug> kane777 :)) i wanna get it done tonight so i can fire up dapper. thanks for you`r help
+[10:45] <r0xoR> ok then :)
+[10:46] <r0xoR> zcat[1] , huh, that's an interesting approach then :)
+[10:46] <dsas> intelikey: Yeah i just realised my mistake :)
+[10:47] <r0xoR> xanavim, yeah, but i usually enjoy having a separate "all i want to do is install" variety :)
+[10:48] <zcat[1] > livingdaylight: upgrading to dapper broke my system too. Backup home (mine was a different partition) and do a clean install.. it's a hassle but I don't expect the path from XP to Vista is going to be better :)
+[10:50] <zcat[1] > I had a lot of crap on my install, gnome, kde, edubuntu, etc. It neaded a reinstall anyhow :)
+[10:51] <erus`> (EE) Failed to load /usr/lib/xorg/modules/extensions/libGLcore.so <- help me :(
+[10:52] <ubotu> dapperbetaupgrade is, like, If you used the upgrade commands, you're up to date :) Sorry, there's no geewhiz "WELCOME TO 6.06!" Screen. =\
+[10:55] <rackerz> yoyoyo: it's probably the best option. it configures everything for you :)
+[10:56] <ciaron> wow sshd isn't installed by default, thats harsh :)
+[10:57] <ivoks> jesus... 1055 people :)
+[10:57] <ciaron> eobanb: true, was just a bit suprised thats all :) it is the server edition after all, but it is more secure yes
+[10:58] <ivoks> eobanb: :)
+[10:59] <scifi> rukuartic: ok sweet, i'll brb after reboot :)
+[11:06] <Snake007uk> eobanb yeah i know... but without forcing a setting... it wont let XGL run normal speed :(
+[11:08] <Snake007uk> eobanb thanks :)
+[11:10] <meads> How do i access it KermitX_? it is installed as ynaptic says so :)
+[11:11] <blaze> ok :)
+[11:13] <blaze> dsas, 10x, i think it's working.. i'll see in a second for sure :)
+[11:13] <meads> I got it KermitX_, thank you so  much :) i now have a camera icon in my panel :) ill test it now
+[11:13] <blaze> dsas, yes :)
+[11:23] <rata> sorry, dpkg-reconfigure locales :)
+[11:25] <popey> grasshopper: on the previous screen there is an "activate" button :)
+[11:25] <rata> pandamonium, in general work, but no with dapper :)
+[11:25] <rata> pandamonium, lot of thanks anyway :)
+[11:26] <scifi> munckfish: i just tried ctrl+alt+f2 and get into terminal :)
+[11:28] <rata> pandamonium, btw, i found it. In dapper there is an other package called localeconf fot doing that :)
+[11:28] <pandamonium> rata, :)
+[11:31] <popey> dhonn: what do you think given the name!? :)
+[11:53] <SurfnKid> penguinwhoflew,  mmm not saavy in that part sorry :(
+[11:56] <nbx909> :)
+[11:59] <petiteconne> crimsun: but if i want to change it? is there no way? :)
