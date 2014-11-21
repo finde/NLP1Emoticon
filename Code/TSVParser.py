@@ -1,4 +1,5 @@
 import csv
+import sys
 import pdb
 from pprint import pprint
 
@@ -8,7 +9,9 @@ from pprint import pprint
 class TSV_Object:
     # Store tsv object
     # One TSV object per tweet
-    def __init__(self, tsv_object):
+    def __init__(self, tsv_object, data_type, emotion):
+        self.data_type = data_type
+        self.emotion = emotion
         self.tsv_object = tsv_object
         self.text = tsv_object[0]
         self.hashtags = tsv_object[1]
@@ -41,6 +44,24 @@ class TSV_Object:
 class TSV_Getter:
     def __init__(self, filename, verbose=0):
         self.all_tsv_objects = []
+        print filename
+        if "ubuntu" in filename:
+            data_type = "ubuntu"
+        elif "twitter" in filename:
+            data_type = "twitter"
+        else:
+            data_type = "unknown"
+
+        if "positive-negative" in filename:
+            emotion = "mixed"
+        elif "positive" in filename:
+            emotion = "positive"
+        elif "negative" in filename:
+            emotion = "negative"
+        elif "neutral" in filename:
+            emotion = "neutral"
+        else:
+            emotion = "unknown"
 
         # Read TSV file:
         with open(filename, 'rb') as tsvIn:
@@ -50,11 +71,11 @@ class TSV_Getter:
                 if (row[0] == 'Text'):
                     continue
                 # Create tsv object of row (which is one tweet)
-                tsv_obj = TSV_Object(row)
+                tsv_obj = TSV_Object(row, data_type, emotion)
                 # Store all tsv objects of this file in this getter class
                 self.all_tsv_objects.append(tsv_obj)
 
-    def get_all_tsv_objects(self, size):
+    def get_all_tsv_objects(self, size=None):
         if size is None:
             size = len(self.all_tsv_objects)
         return self.all_tsv_objects[0:size]
