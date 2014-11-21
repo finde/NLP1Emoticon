@@ -1,0 +1,165 @@
+[12:05] <IncredibleHink> xtknight, ALSA lib confmisc.c:1105:(snd_func_refer) Unable to find definition 'defaults.pcm.front.card'
+[12:05] <IncredibleHink> xtknight, ALSA lib conf.c:3500:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+[12:07] <lbci_irc> download desktop-alternate using bittorrent and upgrade offline... fastest way on release day! I have one computer doing the online update and its been running 9 hours now:(
+[12:45] <ytsestef> any1 know why sometimes I have sound and some other I dont? where's the alsaconf command?? :(
+[12:51] <milage> :(
+[12:55] <DanaG> :(
+[01:18] <Abnaxos> Hi again! Still having problems with network manager since the upgrade to Feisty. :( I could break it down to network manager not receiving any notifications from dhcdbd. It might be related to the following message in the syslog: dhcdbd: message_handler: message handler not found under /com/redhat/dhcp/eth0 for sub-path eth0.dbus.get.reason
+[01:26] <sylvisj> if only 7.04 detected the 8800gts as an 8800gts and didn't try to rape me using nv :(
+[01:26] <breakthru> i have a blank screen with nvidia drivers :( that happens on ubuntu 6.10 and 7.04
+[01:47] <wondering> How would I make a command line only LiveCD that's based on ubuntu-7.04-alternate.iso ? Could someone help me please? I've searched all over Google and I can't seem to find anything :(
+[01:49] <aoirthoir> :(
+[02:16] <jon__> anyone have any suggestions on how to recover from a failed do-release-upgrade on edgy server? mine keeps seg faulting when it is "checking package manager" now :(
+[02:16] <duelboot> slamBrick, did you backup first? :(
+[02:21] <arejay> man, i just want to be able to install audacity :(
+[02:25] <elvenseven> damn im gonna call for quit. livecd goes to login screen which no username or password could access :(
+[02:29] <elvenseven> BYE IM GONNA BUY VISTA :(
+[02:30] <steve_> ok theres definitely something wrong with my graphics drivers or something :(
+[02:47] <TheoMurpse> Wow, the servers really are taking a hit. Right now my upgrade says 14 hours left to finish the upgrade. :(
+[02:50] <[acid] Neatchee> Pie-rate: 'grats.  Wish it did for me :(  What wireless card do you use?
+[02:56] <TheIronChef> lol alright... that suckss ... i just wanna hear music :(
+[03:00] <TheIronChef> this is weird getting used to ... ive used xp since the day it came out and jsut installed feisty today... kinda different :(
+[03:08] <jaz_> rofl ubuntu just ruined my vista :(
+[03:08] <TheIronChef> i like vista :(
+[03:09] <disasm> no it's slowing down :(( was at 500, now it's down to 300 k/s
+[03:26] <TheIronChef> how do i join that :(
+[03:29] <ShiFTKey> IndyGunFreak: thanks, I burned a disk at work, but forgot to bring it home :(
+[03:49] <hagabaka> i'm actually getting segmentation fault when running aptitude, or apt-get :(
+[03:49] <rukuartic> bambie: How is it? I'm still updating :(
+[03:57] <[acid] Neatchee> There's a bad router in the neighborhood and they refuse to fix it :(
+[04:03] <dc> llol: dont rub it in, a lot of us are stuck in a laggy ass dist-update :(
+[04:04] <jrib> delire: unfortunately :(
+[04:13] <yagiska> :( no fun having feisty if i can't download packages... guess i'll just let it sit for a bit
+[04:22] <NickGarvey> have mercy :(
+[04:24] <Ax4> :(
+[04:24] <Nerdz> Damn I would love to use ubuntu :(
+[04:25] <HasratUSA> damn just found out alberto is so busy with school he can't make a version of envy for Feisty :(
+[04:25] <BILL-GATES> I am, ubuntu 6.10 ;) 7.04 not working for me :(
+[04:28] <thepinkc> hi - is there anyone out there that can help me with running ubuntu from the disk I burned? I am having a hard time. :(
+[04:40] <r0bby_> :(
+[04:50] <zntneo> :(
+[04:53] <Humjaba> stefg: :( The mirrors now are crying
+[04:53] <Nerdz> slop: No it's not working :(
+[04:55] <Abom> trying to get an answer to my issue, I can't get online :(
+[04:55] <Humjaba> my windows machine is crying now too... uninstalling office, encoding a dvd and downloading ubuntu install cd... on a single-core amd 3200+ :(
+[05:04] <Abom> pppoe_dude: there's some problem with not having a password with wireless connections :(
+[05:05] <vafada> i'm getting "can't access tty; Job control turned off" when booting LiveCD :(  i have ubuntu ultimate edition right now so i had no problems with previous ubuntu
+[05:23] <RAOF> fulat2k: You can't, sucks to be not runnign Gnome :(
+[05:59] <blrich> RAOF, oh good :( oh well i thought there might be something caus it has nvidia stuff
+[06:16] <labanux> crimsun: the module can't be found.. :(
+[07:01] <ccfiel> raof: yes its support but no tv out :( im planning to replace may windows MCE so i need tv out
+[07:01] <RAOF> ccfiel: Is your card really not supported.  ATI sucks :(
+[07:07] <siti> tom__: yeah :(
+[07:10] <billy> lalala, :(  not cool.
+[07:30] <DaSkreech> Jordan_U: Yeah no Feisty ppc images :(
+[08:03] <Jordan_U> kcowolf, I am sorry, I can't help you there :(
+[08:18] <Absolt> any ideas? :(
+[08:21] <siti> Tarkus: if you remove all the resolutions or comment them out then it should work (in the /etc/X11/xorg.conf) :(
+[08:32] <john_> dam redownload :(
+[09:23] <Donovan_> Use the apt-get commands fail, of course, and php4 seems to be competely removed... :(
+[09:35] <tristanmike> ajax4: no, it's not there, but it's listed in the Support Documentation that comes with Feisty :(
+[09:37] <tristanmike> ajax4: yeah, I've been there, it's not working for me :(
+[09:39] <Donovan_> Tomcat: There is no php4 in feisty, sadly :(
+[09:49] <what_if> anyone had problems with the desktop install with Nvidia ?? edgy never worked for me :(
+[09:50] <what_if> magnetron: my card does not work with the NV driver... just random colors :(
+[10:04] <fluid> only bad thing about this install is that i have to force beryl to render through copy...which makes it slower than it should be :(
+[10:10] <gustavo> medinfo: its done, i just need to know where is my image :(
+[10:20] <gustavo> zilly6_, yeah, really, that sucks :(
+[10:25] <ccfiel> dystopianray: in my ATI card 9250. i used the open source but no tv out :( and in restricted driver its not supported so i will buy one today i want to make sure the one i will buy will run smoothly (6200) do you think?
+[10:27] <ccfiel> dystopianray: i currently have an ati 9250 :( is not supported in restricted.
+[10:29] <Hairulfr> jussi01: No, I haven't, I need the power that photoshop gives... :(
+[10:32] <fluid> its a pain. lol...70 megs of libraries for 32bit support. :(
+[10:40] <jin> :S feisty is so slow compared dapper :(
+[11:06] <TommyTom> ikonia_: from what i understand though, software raid i would have to wipe the whole array. i can do that. 400gb gone :(
+[11:27] <dungodung> :(
+[11:29] <Amec> :(
+[11:52] <mrigns> aaaah this torrent issue annoys me :( the logs won't show any probs
+[12:05] <QwertyM> TheoMurpse: Oh, okay, good if it has a fix, cause am not in a mood to reinstall again :(
+[12:05] <TheoMurpse> QwertyM I've no idea if it has a fix. I'm looking at a black screen right now for the past 10 minutes :(
+[12:26] <mrjones> hello, im looking for a linux distribution for my old pc (700 mhz, 128 mb ram). the download page tells me i nedd 256 minimum :(.......what to do now?
+[12:36] <Stig> Can I install Beryl on Feisty through the Synaptic package manager? or is there a better way? Last time I tried installing it through the terminal following a guide it completely messed up... :(
+[12:39] <M_Fatih> my apt broken :(
+[01:00] <Almindor> hey guys, I still get a strange problem with DHCP on fiesty :( (been having this whole beta)
+[01:08] <kanpachi> hello, i can't extract a bz2 file :( how can i do it?
+[01:45] <ferronica> stefg: right now i am in ubuntu 6.10 :(
+[02:10] <CompuChip> ikonia_ :( so just make a fresh install and then try the upgrade again
+[02:15] <ferronica> there is no way to copy paste my ubuntu 6.10 data to windows :(
+[02:16] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:37] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:41] <JebJoya> LjL: Oh :(
+[02:42] <ndlovu> ikonia_, thanks, I've tried there already :( (seems nobody's home)
+[02:44] <ferran> how can change /dev/eth2 for /dev/eth1?  i have install ubuntu 7.04 with usb net :(
+[02:47] <theoryx> :(
+[03:20] <grumz> so I don't speak very well english :(
+[03:28] <rohan> this codec of snd-hda-intel is bad :( it doesnt automatically mute the laptop speakers when i put in a headphone in the socket
+[03:28] <Chipaca> rohan: snd-hda-intel sucks :(
+[03:28] <rohan> Chipaca: i agree :(
+[03:32] <Chipaca> rohan: I compiled my own kernel :(
+[03:43] <rohan> PirateHead: and how do i close that ? :(
+[03:45] <Michaelx> Hi all... Just installed feisty on my acer 8204, tried to install Beryl and can get it running :(
+[03:56] <Michaelx> Hi All ... Anyone who can maybe help ??? I got 7.04 on my Acer 8204 installed and I can get compiz or Beryl running ... :(
+[04:01] <Michaelx> skinny: I have an Acer Notebook 8204 with an ATI 1600 mobile and 7.04 ... Can get compiz and Beryl running :(
+[04:01] <Michaelx> I mean that I CAN'T get it running :(
+[04:03] <Michaelx> So anyone in here with a Notebook, equipped with an X1600 from ATI who is able to run Beryl or compiz with 7.04 ??? I guess not :(
+[04:06] <Michaelx> ikonia: I already read ALL of the documentation and I wasn able to get it working :(
+[04:09] <rohan> lots of people seem to be having problems with this snd-hda-intel driver .. damn :(
+[04:10] <MyNameEh> the installer crashed when installing grub :(
+[04:10] <rohan> the worst part is that this sound problem is a regression from edgy, where it worked perfectly :(
+[04:17] <southafrikanse> crimsun: But should I move? I don't know :(
+[04:33] <nox-Hand> mc44: i.e same error :(
+[04:38] <atomiku> Progressive: I assume you havent solved the problem yet then :(
+[04:39] <Progressive> atomiku, my live cd works fine, just installing.. :(
+[04:46] <Scapy> ikonia, no it isnt my frined :(
+[05:03] <nox-Hand> mc44: Not going well :(
+[05:10] <atomiku> :(
+[05:10] <Lowe> frederific: mine doesnt :(. thanks anyway
+[05:12] <z0man> Cannot seem to control the mixer any more :( Since I used alsamixer..
+[05:31] <nox-Hand> I need help :(
+[06:11] <Thaurin> Anyway, I'm not new to Linux, just haven't used it in years. Ubuntu CD doesn't even boot :(
+[06:19] <bluefox83> someone fubared feisty though, it's very un-cool guys :(
+[06:20] <mrigns> gnome-main-menu isn't working in my feisty :(
+[06:32] <dippe2> ok so Ive just started using ubuntu , i didnt take long untill i found a problem. my screen wants a resulution 1680x1050-60Hz , any suggestions? :)   system->PRef. ->screen res. did not help me :(
+[06:37] <dippe2> ok so Ive just started using ubuntu , i didnt take long untill i found a problem. my screen wants a resulution 1680x1050-60Hz , any suggestions? :)   system->PRef. ->screen res. did not help me :(
+[06:41] <PriceChild> :(
+[06:41] <nexus-> i'm getting a ball of a time trying to get the dlink g122 to work with WPA on Feisty :(
+[06:43] <bluefox83> gosh, seems like it takes forever in feisty :(
+[06:48] <mrmonday> My feisty upgrade failed! :(
+[06:50] <Araiwa> oh dear, it is not a nice release then. :(
+[06:52] <nox-Hand> Though I truly have no idea :(
+[07:08] <lichen> bluefox.. i'm not seeing anything :(
+[07:11] <PriceChild> jrib, argh he's flooding me in pm now :(
+[07:20] <Kragnerac> :(
+[07:21] <Kragnerac> I should've got an nVidia card. Nothing seems to work with ATi. :(
+[07:22] <bluefox83> DrNick1, so do i:(
+[07:34] <Alan> oh lovely..... vmware drivers not compatible with 2.6.20? :(
+[07:37] <[acid] Neatchee> so, now that things have calmed down a bit, i'll ask my silly question again... Anyone have any good alternative startup sounds that they prefer?  I can't stand the native one :(
+[07:38] <[acid] Neatchee> so much for calmed down :(
+[07:39] <fluid> any of you ever tweak a synaptics touchpad at all? seems like i have to press awfully hard after enabling shmconfig...always had this problem :(
+[07:55] <riesseg_> i need help :(
+[08:06] <deserteagle> :(
+[08:10] <deserteagle> ikonia: so no clue as to why my desktop looks so crappy? when i was using vesa drivers it looks good, now with the nvidia drivers it looks crappy :(
+[08:41] <bebleu> It's because cedega is freezing when I click accept :(
+[08:46] <DesertEagle> :(
+[08:48] <dhgwill> EmxBA: I didn't even do that! I clicked on the upgrade button once out of curiosity and now it won't come back :(
+[08:50] <Caramba_> digitalninja: been there, done that...no effect :(
+[08:53] <crow> :(
+[08:53] <joeamined> how can i make the built in webcam of my HP laptop (dv6000) work in feisty please ? :(
+[08:58] <thickey> now i suck :(
+[08:59] <crow> shane634 i dont have net to install that :(
+[09:19] <mpfeif101> and Kevin, sorry I have no more ideas :(
+[09:20] <joeamined> :(
+[09:26] <PriceChild> southafrikanse, you don't remember how you fixed it? :(
+[09:32] <allquixotic> Scunizi: I read that - VLM can stream video but not audio :(
+[10:23] <mfyz> my ubuntu not booting.. broked after kernel update :(
+[10:40] <kane77> eck, why not? :(
+[10:45] <AATDark> Xyon: then the link wont help you :(
+[10:52] <tom_> LjL, I did what you said... clicked medium... clicked my resolution esced through the rest and now beryl is not working and my resolution is still wrong :(
+[11:07] <arthur_kalm> it never complained when I used nvidia-glx-new (same version).... I'm not sure if I should remove nvidia-kernel-common since it asks to remove linux-generic, linux-restricted-modules-2.6.20-15-generic, linux-restricted-modules-generic, but I think that nvidia-kernel-common is confusing the latest nVidia driver. Any help would be greatly appreciated, I need my second monitor and 1280x1024 resolution :(
+[11:09] <arthur_kalm> it never complained when I used nvidia-glx-new (same version).... I'm not sure if I should remove nvidia-kernel-common since it asks to remove linux-generic, linux-restricted-modules-2.6.20-15-generic, linux-restricted-modules-generic, but I think that nvidia-kernel-common is confusing the latest nVidia driver. Any help would be greatly appreciated, I need my second monitor and 1280x1024 resolution :(
+[11:09] <dcomsa> wxcvbn: how could we help, if you don't what's wrong?:(
+[11:09] <arthur_kalm> jrib and ubotu: sorry :(
+[11:19] <MrMakeveli> zaphands, k i'll try that too. but its not picking anything up at all :( lemme keep trying
+[11:25] <Gunrun> I am looking at http://www.ubuntu.com/getubuntu/download and don't see them :(
+[11:27] <Gunrun> hmm I thought there was a DVD version of ubuntu :(
+[11:44] <MrMakeveli> zaphands, yeah i dont hear that :( i tried changing all of them in there to OSS
+[11:49] <MrMakeveli> zaphands, im thinking i should just take this damn sound card out and go from the onboard :(

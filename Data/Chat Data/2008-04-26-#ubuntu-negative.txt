@@ -1,0 +1,143 @@
+[00:04] <rathel> Hmm.. I need some help with Ubuntu 8.04, I just did a fresh install on my desktop, the install went okay, but everytime I try to boot into it I get the busybox. :(
+[00:39] <joetheodd> Pelo :(. I agree with whoever said releases shouldn't hit the repositories until torrents have been going for a week or so.
+[00:53] <madhamster> astro: ah ok thx. do you pr chance know of a workaround? I bet if I try to fix xp now with the repair thingie it will screw ubuntu up :(
+[01:07] <otarid> MattJ: I do :(
+[01:10] <otarid> :(
+[01:23] <hdevalence> yeah, my laptop spikes to 70C sometimes :(
+[01:23] <otarid> :(
+[01:25] <fmerges> gravemind: another 700 MB :(
+[01:25] <JavaMan22> :(
+[01:41] <WhoNeedszzz> Pelo, those people are idiots :(
+[02:13] <oddalot> bagelong: don't know then sorry :(
+[02:14] <jrabbit> josh04: when i edited and restarted its not an option in the gnome utility to switch >:(
+[02:18] <IntangibleLiquid> gotenks: How do I do that? I have four rectangles in my workspace switcher but can only use 2 of them :(
+[02:35] <MoTec> it's the chenbro nas.. i thought i was getting one with a slot, but no :(
+[03:16] <xrc> fuck even xchat is configured to get to somewhere :(
+[03:22] <Nutzebahn> :(
+[03:35] <lee3008> ralfz i lied :(
+[03:40] <dudus> Led_Zeppelin: :(
+[03:45]  * Konedima just wants some attention :(
+[04:02] <demonspork> agmishra, I can't find any -dev packages for gtk :(
+[05:02] <cybojanek> How do I configure ubuntu and/or mplayer to play in 7.1? Right now its only playing over 2.1 speakers :( ??
+[05:04] <B_166-ER-X> oh, Its either Hardy that still should be in Alpha Release, or 'me'    but its a fresh install. and almost everything is goin haywire.  I dont have any sound, A black screen on 1 on 2 reboot (besides of the Gdm login screen)   ect..ect. I need serious help (mostly with these 2 problems) I'm with Ubuntu since Hoary, and i never seen it this buggy.    :(
+[05:08] <Makgyver> boy I really wish I could get Ubuntu onto my PowerMac :(
+[05:37] <Nikonlappy> roxygirl: that means since you arent in the US you cant watch those videos.  I have that same problem when trying to watch dr who  from the UK :(
+[05:37] <roxygirl> alright, :( thanks bazhang and nikonlappy.
+[05:43] <Daliuso> Is anyone have problems connecting to their protected wireless networks with Hardy? my network uses WPA2 Personal and it doesn't accept the passkey :(
+[05:46] <Daliuso> It must :(
+[05:49] <Assid> seamus7: now if only my usb gprs modem works! :(
+[06:24] <f00f-> i hate this fucking ubuntu shit, low quality releases, almost every single time :(
+[06:44]  * Baby_Shambl3s wishes to help out but dont where to start :(
+[07:14] <dakz0rz> I have a problem, I installed Ubuntu however I can't get a wireless connection working. On the taskbar, I can 'Enable Networking' properly but I can't press 'Enable Wireless'. When I list the devices in terminal a wireless card is there... help :(
+[07:16] <MrRoboto> cool:  gone??? dead??  it wont show on another ubuntu machine I have ... :( ... I just unmounted it ... some hours ago
+[08:05] <Ardin> AH CRAP, ubuntu+1 forwards to this channel now? :(
+[08:06] <JKirk_> help!!!  I just did a fresh install of 8.04 and I can't find file sharing... it was right in the menus in the beta....what happened to it? :(
+[08:11] <JKirk_> that sudo mount doesn't work :(
+[08:20] <JKirk_> no one can help me?  :(
+[08:27] <rahul_> hello. Ubuntu newbie here. I installed 8.04 hoping it would detect pre-installed XP, but now I am unable to boot into XP :(
+[08:31] <Bartosz> cool, I've installed it by EnvyNG it should be correct :(
+[08:53] <JKirk_> can someone PLEASE help me share folders in 8.04?  They seem to have taken out the function in the release... :(
+[09:10] <razel> anyone who knows more about wireless?? :(
+[09:30] <timandtom> rothchild: No idea :( In 7.10, it just automatically asked me if I wanted to enable the restricted drivers for the card, so I did. If I use the "Hardware Testing" option in System>Administrator, then it detects what it is, but that doesn't help any. It just tells me it's name
+[09:37] <timandtom> rothchild: :( The only ones I'm finding for Broadcom is two for the 43xx, I have the 44xx...
+[09:46] <askand> ﻿dystopianray: not for me sadly, tried everything on the net :(
+[10:02] <timandtom> rothchild: If that's the little On/Off button... :( It seems to have been killed as well. Doesn't work. I hit it, and Wireless Network shows up in my networking, but it wont actually find any networks
+[10:06] <askand> dystopianray: sadly it still increase with one every 5 secs :(
+[10:10] <timandtom> rothchild: :( That doesnt work for me
+[10:12] <Tobias> Okay Ubuntu people. Hardy really screwed over my system. I tried to upgrade via commandline because the graphical upgrader kept crashing. Now, I'm stuck with commandline root access and a broken dpkg and X server :(. Is there any way I can tell dpkg to stop acting silly?
+[10:24] <timandtom> rothchild: :( No luck. And I made sure to leave it on when I restarted
+[10:33] <amerio> timandtom: I even tried madwifi irc room but they didnt help much :(
+[10:35] <timandtom> amerio: I've been asking in here for a while too, no one seems to have any idea :( I'm thinking about just going back to 7.10 for a bit, especially if it turns out to be  Ubuntu specifically, not just the card not working at all(Haven't tried on XP yet)
+[10:35] <timandtom> MttJocy: Thanks, already did though. But, that doesn't help me get it working NOW :(
+[10:52] <CapsY> :(
+[11:04] <Exteris> jpatrick, too bad :(
+[11:16] <vistakiller> :(
+[11:18] <kc> xp boot "fixer" killed the data :(
+[11:24] <cappy_> El1: nvidia-glx doesnt work for me, i get same error :(
+[11:40] <IntangibleLiquid> I cannot hibernate or sleep at all :(
+[11:43] <Exteris> linux__alien, hmm there should be a log wth more information :(, but i gtg, sorry
+[11:55] <zeno> otarid: yes, but it did automatically so dont know how to help :(
+[11:56] <otarid> obnibolongo: not for me :(
+[11:58] <zeno> i had to install x86 version, the 64 bit didnt have a wireless driver :(
+[12:01] <otarid> obnibolongo: I only have one computer :(
+[12:09] <g0th> and just sooo many things don't work :(
+[12:14] <zeno> LebLinux: sorry i dont know :( try ##linux
+[12:20] <linux__alien> :(
+[12:20] <linux__alien> i dont know what to do with 8.04 now :(
+[12:20] <zeno> Since theres so many people try to use fewer lines by condensing messages or leaving out things like :(
+[12:27] <mypapit> :(
+[12:27] <zeno> digitalspaghetti: dunno i just know how to edit txt :(
+[12:31] <lartza_> :(
+[12:36] <zeno> materthron: sorry i dunno :( maybe try it as root?
+[12:57] <Drezard> crashanddie, neither worked :(
+[13:00] <MajSh> please anyone... i really need to get the TV OUT working.. it's the last thing that sends me back to windows.. :(
+[13:10] <alex_mayorg1> releases.ubuntu.com is on it's knees :(
+[13:14] <alex_mayorg1> HardyOne, do you have other link? that one would not respond :(
+[13:21] <Drezard> crashanddie, i can view it but i dont know how to mount it :(
+[13:21] <tuxice> :(
+[13:21] <Drezard> crashanddie, i can view it but i dont know how to mount it :(
+[13:23] <g0th> lamothe: it slows my system down and is rather annoying than helpful :(
+[13:23] <andylcp> :(
+[13:26] <brakkvatn> Ceo1: I don't see anything about the wireless card there... I don't know what might be wrong :(
+[13:26] <Ceo1> ok :(
+[13:31] <daedra> no luck getting mpd to start at boot :(
+[13:35] <daniel_hh> lamothe: sure.. but these settings doesn't seem to help :(
+[13:39] <g0th> hmpf, not much help here :(
+[13:47] <itf4n> not sure :(
+[14:02] <QuadF> :(
+[14:28] <g0th> I asked 5 questions and didn't get anyhelp for even one of them :(
+[14:33] <duncan> Lieutenant: burn again the image, i had also this problem, i don't no why :(
+[14:54] <bod_> hey lads -- so since ive upgraded to hardy ive lost all sound and cant find a problem anywhere ive even blacklistedmy onboard card -- when i type aplay -l i get 4/5 listings of the same card,.,.when i type aplayi get -- ALSA lib pcm.c:2106:(snd_pcm_open_conf) Cannot open shared library /usr/lib/alsa-lib/libasound_module_pcm_pulse.so aplay: main:546: audio open error: No such file or directory -- does this mean something to anyo
+[14:54] <otarid> yeah josh04_, I've tried everything :(\
+[15:07] <sCOTTo> hey guys - whats with the 'DESKTOP EFFECTS'- they wont turn on in my ubuntu box ???? :(
+[15:31] <dan> bresero burnt it and then a checked, corrupted files :(
+[15:34] <albech> graingert: didnt work after i upgraded :(
+[16:32] <PhotoJim> hilts50: np, good luck.  and wish me luck, I still can't update to hoary.  my repository is choking. :( :)
+[16:33] <hilts50> PhotoJim:  :(  good luck
+[16:38] <gapagos> movie editor can't open avi files :(
+[16:40] <aroo> El1, sorry I don't know how to control where the hardware manager looks :(
+[16:45] <weaver> hi. Ubuntu 8.04 won't install the bootloader during the installation, and manual bootloader install doesn't work :(
+[16:53] <ENFEFI> Hello!! Maybe someone could help me and explain something to me. I'm using Ubuntu 8.04 and my laptop has a wireless card. When I type lspci -v this is what I got: Broadcom Corporation BCM4306 802.11b/g Wireless LAN Controller (rev 03). But now when I try to install the firmware I see there are two options: bcm43xx-fwcutter and b43-fwcutter. I don't know which one is the right choice to me :(
+[16:57] <crispy--> Hey, im trying to install 8.04 using just grub and the alternative iso file. Ive tried to do as described here: http://www.ubuntugeek.com/install-ubuntukubuntuedubuntuxubuntu-without-cdrom-drive.html but this does not work for 8.04 :(
+[16:58] <N1NCHN41L5> i have im a neb - even had code written fro mem didint work :(
+[17:01] <J-Unit> mut80r, Nith, thx :) i should be geting high speed rely soon (im on dial-up sadly :()
+[17:02] <J-Unit> crashanddie, mut80r, u ppl r so luky :(
+[17:03] <herghost> mut80r - same error - the corrupt file is stopping all apt-get operations from completing :(
+[17:09] <GoodJob> i can't find XMMS2! :(
+[17:14] <crispy--> Hey, im trying to install 8.04 using just grub and the alternative iso file. Ive tried to do as described here: http://www.ubuntugeek.com/install-ubuntukubuntuedubuntuxubuntu-without-cdrom-drive.html but this does not work for 8.04 :(
+[18:00] <strange_loop> dalton2345: it does not run inside qemu :(
+[18:18] <OllieA> amenado: None of the specified resolutions appear in drop down box anyway :(
+[18:27] <Marce_> zog, but i wanted to have propertary drivers working :(
+[18:27] <dinho-br> Kr0ntab: as I said, I have a dual-boot with Windows, and it is working... :(
+[18:33] <gor1> mindlord: if u moved the machine, I'd check that a/ your heatsink hasnt come loose, and b/ nothing else is loose while you're at it, especiall ythe graphics card if AGP, (unscrew, undo clip at far end, resinsert and screw in again)   and   seeing u have a 1GHz cpu, is the heatsink pase old? 5 mins poking around might be worth it, intermittent lockups drive u crazy :(
+[18:39] <BlackIrish> finally, my ubuntu is so messed up I couldn't even open Pidgin :(
+[19:15] <delfick> hmmm, there we go, firefox-2 can be installed from the official ubuntu repoes but not the iinet ones :(
+[19:34] <gnomefreak> bigtimer121: thats always fun :(
+[19:44] <z0g> FFS. getting tired of the WSOD after installing ATi's driver.. It does it with the ATI driver from ATi itself and the one from the apt source. :(
+[20:00] <cellofellow> tech0007: my VTs don't work. :( My geforce go 6100 and usplash make the VTs stop working.
+[20:09] <dogo> Yes, but most my stuff is on ntfs :(
+[20:10] <graphikeye> im doing the alternate cd upgrade from 7.10 to 8.04 and I definitely wouldn't recommend it... :(
+[20:27] <Level15> the download link is broken :(
+[20:33] <x1250_> me cai :(
+[21:04] <ttt--> jk :(
+[21:11] <aboo0ood> Jordan_U, sad enough :(
+[21:14] <jagggy> zvacet, its for the xfire plugin :(
+[21:35] <QuadF> of course no answer :(
+[21:35] <whac_> i am going back to 7.10 :(
+[21:36] <whac_> SuperLag: the sound dont work, thanks to pulseaudio :(
+[21:38] <SuperLag> I must be insane. :()
+[21:40] <xubean> zvacet: that's exactly what I'm saying... the update manager tells me i'm uptodate version wise as well.. i mean, it doesn't show a new version available!!! :(
+[21:46] <xubean> zvacet: I tried everything from that guide... not working :( same thing!
+[21:55] <terrestre> i cant setup my internet sharing :( someone knows a good firewall?
+[21:56] <xubean> zvacet: i'lll keep trying though! :(
+[22:01] <daemon3> How long is everybody else's upgrade taking?  Mine's taking about 10 hours, and I have a pretty fast connection. :(
+[22:11] <veneboy> :(
+[22:27] <VseSlav> MrObvious :(
+[22:54] <loosid> :( <--- Sad face
+[23:21] <Wolf23> bruenig:  the channel is on invite? :(
+[23:22] <bigtimer121> :(
+[23:24] <Bidget> I was updating to hardy and it failed :(
+[23:44] <GIn> using pulseaudio is really a bad move :(
+[23:45] <shane2peru> Kasio, hmm, I'm not sure, that is odd, I didn't do any upgrades. :(  sorry.
+[23:45] <Kasio> to the forums :(
+[23:54] <androver> Byan: sorry then, i'm really not sure :(

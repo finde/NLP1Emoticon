@@ -1,0 +1,311 @@
+[12:12] <^_^> this name is taken :(
+[12:15] <RandolphCarter> hmm, so it can't be missing the nvidia kmod :(
+[12:17] <varunvarde2007> :(
+[12:27] <Nintendud> :(
+[12:29] <HellDragon> :(
+[12:30] <Nintendud> RandolphCarter: :(
+[12:34] <Nintendud> :(
+[12:46] <HellDragon> can anyone help me :(
+[12:47] <HellDragon> :((((((((((((((
+[12:47] <Knorrie> HellDragon: you're a dragon from hell, you shouldn't :(((((((
+[12:52] <RandolphCarter> ack, no it won't, you need -F 32 :( (my bad)
+[12:53] <Nintendud> :(
+[12:54] <Nintendud> same problem :(
+[12:54] <Nintendud> :(
+[12:57] <Nintendud> I really want to get mplayer back :(
+[12:58] <Nintendud> amphi: aww. :(
+[01:11] <maike-maus> soundray: network / internet doesn't want to work :(
+[01:15] <HellDragon> :(
+[01:29] <Nintendud> I can't win :(
+[02:35] <knoppix_> :(
+[03:13] <HellDragon> :(
+[03:50] <Old> I cant, it's annoying :((
+[05:58] <linux_newbie2> Managu: they both fail when installing the base system :(
+[07:18] <amphi> rob138: couldn't get it to work here :(
+[07:27] <HellDragon> ::(
+[08:11] <T`> anyone know how to turn the fan off on a laptop? its ALWAYS on for me :(
+[08:55] <HellDragon> :(
+[09:00] <HellDragon> :(
+[11:48] <monteiro> all programs related to gnome, are printing always in "normal" quality, i've configured cups in  gnome to print "draft", xpdf prints draft, but not all the applications :(, anyone how to solve this?
+[11:56] <johannes_erik> grrr serious problems routing eth0 traffic to pp0 , done all the nat set up and setup masq, tcpdump shows traffic from the network but not that traffic moved onto the internet ppp0 :( any advice?
+[11:59] <spikeb> not me :(
+[01:10] <johannes_erik> brn ok sry , seems gcc is at fault :(
+[01:51] <johannes_erik> trym hmm i dont think so :(
+[01:53] <johannes_erik> trym think u have to build it in and compile :(
+[02:31] <Tenshi> hyphenated, and they get ugly really quickly :(
+[02:37] <Evanescent> but it's mainly based in windows :(
+[04:05] <mauricio> es que me estan diciendo que me vaya a un salon de spanol :(
+[04:06] <gnomefreak> ubotu sorry :(
+[04:15] <Corey> I had to delete my windows partion ! :( !
+[05:18] <Yannig> (ups, forget it :()
+[05:26] <papillon> rubso, My battery on Ubuntu don't last more than 1h, and on W$ it works more than 2 :( I wish to know if there is a good app for power save :D
+[05:36] <disu> :(
+[06:23] <g0dchild> anyt help would be greatly appreciated- i've been at it now for almost a week :(
+[07:02] <rafal_> hello, I deletes garbage from pulpit :( - where can I get him back?
+[08:00] <tanek> is the useless synaptics touchpad support just something u have to live with? :(
+[08:15] <Pyru> :(
+[08:22] <cjfp> Flannel: and I don't know how to get it :(
+[08:37] <plbgnr> does anybody use irda port (usb to irda device)  ? I can see my mobile phone in irdadump output, but, can't find software for further work :(
+[09:10] <gnomefreak> :(
+[09:24] <acke> Maybe i can rotate the screen to get to the controlls on the bottom.. :(
+[09:34] <LinuxJones> abrar, it's listed in my startup programs, dunno what to tell you :(
+[10:28] <galo> hmm, i followed the instructions from java-sun and doesn't work :(
+[11:00] <hmm> okay okay, but u have to admire the easy structure of the page, sorry but i had a look at the official guides :(
+[11:02] <gnomefreak> Madpilot: sorry he had to leave :(
+[11:12] <gnomefreak> Arrick: not much longer :(
+[01:07] <aqui1a> if by repos, you mean 'Adept', i cant see it :(
+[01:23] <spikeb> there's no IBM debs for PPC in multiverse :(
+[02:32] <Aqua> i dont' have the patience for linux :(
+[03:17] <tsume> frantic: I don't...  :(
+[03:17] <tsume> frantic: I don't know what ubuntu does, but it does it wrong :(
+[04:37] <Desh> slavik: how would I open it? It says I do not have permission. :(
+[04:51] <katie_> is there a way to get the lexmark x74 scanner to work in ubuntu? :(
+[05:02] <katie_> frozen bubble has no sound :(
+[05:03] <slavik> katie_: don't have the time :(
+[05:09] <wizzlefish> awww man! The Uncyclopedia says that Ubuntu is gay :(
+[05:17] <slavik> ry, I am not the kernel expert :(
+[05:19] <slavik> ry, this is why I feel said (I don't know :()
+[05:23] <katie_> guess ill have to uninstall ubuntu :((
+[05:23] <katie_> katie_;  wont work with my printer scanner :((
+[05:25] <katie_> slavik:  they have a linux development kit for 3 printers out of 100 :(
+[05:26] <slavik> katie_: I would suggest hp but I doubt it's an option :(
+[05:27] <katie_> tritium: nope printer not listed there :(
+[05:27] <katie_> tritium:  and i got everything else working too :(
+[05:45] <slavik> ray_: no idea ... no nvidia cards here :(
+[06:17] <anjin_> Can anybody help me get K3b working properly?  When I try to burn, I get permission errors.  "Cdrecord has no permission to open this device".  I've tried changing permissions in K3bsetup .. didn't seem to work :(
+[06:24] <anjin_> Can anybody help me get K3b working properly?  When I try to burn, I get permission errors.  "Cdrecord has no permission to open this device".  I've tried changing permissions in K3bsetup .. didn't seem to work :(
+[06:32] <anjin_> DIdn't work :(
+[06:35] <Dr_Willis> lwizardl,  if ya have a pwoer failure.. ya box may not boot all the way to ssh. :( that was my prob last week when i had a power outage.. had to plug in a monitor/keyboard to see what was going on
+[06:36] <anjin_> Can anyone help me get K3b to work properly?  When I try to burn, I get "CDrecord has no permission to open this device".  I tried adding my account to the cdrom group... but that didn't work.  Any suggestions?  The default burning software in Ubuntu doesn't do everything I need it to :(
+[06:39] <anjin_> Can anyone help me get K3b to work properly?  When I try to burn, I get "CDrecord has no permission to open this device".  I tried adding my account to the cdrom group... but that didn't work.  Any suggestions?  The default burning software in Ubuntu doesn't do everything I need it to :(
+[06:41] <anjin_> Can anyone help me get K3b to work properly?  When I try to burn, I get "CDrecord has no permission to open this device".  I tried adding my account to the cdrom group... but that didn't work.  Any suggestions?  The default burning software in Ubuntu doesn't do everything I need it to :(
+[06:43] <dli> DJ_Danni, don't repeat :( this is an english channel anyway
+[06:44] <anjin_> Ok then.. are there any other cd/dvd burning packages other than K3b that I can try?  I need something that will recognize and burn various image types, as well as write VIDEO_TS dvd folders, etc... I can't get K3b to work and nobody here seems willing to help :(
+[06:55] <anjin_> Ok, I'm gonna try logging out and back in again... but it probably won't work.  Ah well... looks like I'm stuck burning in XP instead :(
+[07:05] <anjin_> No dice.  Graveman wouldn't work either. :(
+[07:08] <anjin_> Bah, I give up.  :(
+[07:22] <cackette> arg, another error :(
+[07:47] <Thlayli> today i wanted to install ethereal, and recognized the port is broken :(
+[07:50] <Thlayli> you know, xorg 7.0 was developed for linux only :(
+[07:58] <dli> sakka, hard, if you don't know how to upgrade your kernel :( try bcm43.sf.net
+[09:03] <freakabcd> uh. ok. Do I have to go to school too? :(
+[10:00] <kuja> :(
+[10:18] <kuja> Flannel: Modified /etc/hosts but still getting that error :(
+[10:27] <B1zz> yeap :(
+[11:43] <doubler> :(
+[12:21] <Thlayli> can't try xgl :(
+[01:18] <Corey> but it froze :(
+[01:18] <ndlovu> Corey :(
+[01:40] <sovieticool> now to linux :(
+[01:48] <sovieticool> o i can't mount my floopy :(
+[02:09] <sovieticool> and fllopy don't work :((
+[02:14] <sovieticool> :(((
+[03:31] <Thlayli> i can't locate it :(
+[03:33] <Thlayli> update-menus not found :(
+[03:50] <mo^> :(
+[04:09] <gnomefreak> senjin: i said pastebin :(
+[05:47] <Raskall> Nailor: :(
+[06:12] <blaze> i want someone to help me install my video drivers for ubuntu, because i've asked 3-4 times and nobody helped me :(
+[06:31] <gnomefreak> something didnt turn out right :(
+[06:43] <aaron> dapper is cancelled :(
+[10:05] <rajeev> jared_, i dont know how to run it..:(
+[10:12] <sibblegp> it only happens on this Ubuntu computer :(
+[10:13] <dli> soundray, how to get windows work with grub on it? :(
+[10:46] <rajeev> crimsun: there is no any way to get the sound in breezy? :(
+[11:17] <linchris> My computer hangs when I try to boot the 2.6.15-23 kernel that I got with depper.. :(
+[11:21] <ramvi> What's up with the new xgl/compiz update? It was yesterdays or todays... Xgl stoped working :( Have anyone else experienced problems?
+[11:26] <andrejkw> I can't figure out whats wrong :(
+[11:30] <rajeev> crimsun: i recieved an error msg after that..:(
+[11:51] <kbrooks> nickrud: no :(
+[12:06] <astrisk> plz any one help me...:(
+[12:23] <tHeDvL> please help me :(
+[12:50] <ndlovu> okay, using the live cd, is there any way I can get commandline access to a samba share? nautilus can connect, but then I can't do anything from a terminal :(
+[12:54] <andrejkw> I can't figure out whats wrong :(
+[02:14] <Clint-> Flannel, , I having a bad day, I lost my dog :(
+[02:15] <Clint-> :(
+[02:33] <cackette> but DHCP changed my IP :(
+[02:37] <dli> amphi, yes, hardware is okay, but lenovo doesn't support linux :(
+[03:18] <T`> amphi, there is no dpkg in there :(
+[03:20] <[NP] Tangent> :(
+[03:27] <Antoni0> i need help :(
+[05:18] <ollo82> but there is no option to execute a command when its plugged out :(
+[05:28] <KyoLptp`> ALSA lib pcm_dmix.c:819:(snd_pcm_dmix_open) unable to open slave
+[05:34] <KyoLptp`> :(
+[06:07] <slackern> heres a sample from the logs. May 24 05:36 : problems opening audio device while playing "little_smelly_monkey.mp3"ALSA lib confmisc.c:672:(snd_func_card_driver) cannot find card '0'
+[06:38] <Corey> jackson: im not sure its a game called Artifact it installed alright then it wont load in terminal :(
+[06:54] <Corey> no i dont :(
+[06:57] <Corey> no they dont :(
+[07:12] <phrowzen> i gotta run windows tablet pc ed. on mine though :( *sniffle*
+[07:15] <Hexidigital> _nano_::  ndiswrapper caused me to reinstall ubuntu :(
+[07:15] <Hexidigital> _nano_::  yep... on dapper also... reverted to breezy... still no luck... then re-reverted to MS XP :(
+[07:16] <phrowzen> IcemanV9, i would like to try it to be honest, i mean im sure i could get it to work, but i dont think i would reach the full functionality as i would in windows, by installing it i thought i would only be doing it out of curiousity.. and i dont have enough time to reconfigure everything :(
+[07:33] <Hexidigital> paradizelost::  if i can only get my broadcom drivers to work on my laptop...  :(
+[07:58] <Corey> ET didnt work very well :(
+[10:24] <Snake007uk> carthik_zZz its ntfs :(
+[10:24] <mantice> Hey guys I started installing ubuntu and It hanged at 72% installing packages :(
+[10:57] <dli> Ng, I don't know :( because I always use root, while some smart asses want to keep using root as a top secret
+[11:03] <B1zz> sadley no i think misplaced.... :(
+[12:37] <dli> spacey, it's not a tech problem :(
+[01:08] <dli> l1lk1ll, don't try it :( it's for alpha testing only
+[01:11] <l1lk1ll> :(
+[01:12] <dli> sangenfant, X should be easy nowadays :(
+[01:29] <dli> PuGz, acx100 is not in stable kernel :(
+[01:30] <dli> Corey, don't repeat :( heard
+[01:32] <dli> PuGz, hard time then :( you may have to read bugs/mailing list at acx100.sf.net
+[01:41] <dli> saquib, I don't know :( you may try googling " linux games "
+[02:38] <zizie> :((
+[02:41] <zizie> Ng : yes that correct but in bad situation this box will use by other person :((
+[02:50] <gnomefreak> DBO: :( yeah it should
+[03:08] <gnomefreak> i didnt :(
+[03:08] <zizie> alfredn : that is  my prob :((
+[03:24] <gnomefreak> http://cdimage.ubuntu.com/daily-live/current/ <<normal :(
+[03:24] <gnomefreak> CarlFK: dont ask :(
+[03:26] <gnomefreak> ok thats not normal :(
+[05:19] <Corey> Frogzoo: not working :(
+[06:06] <rajeev> crimsun: i didnt get the sound :(
+[07:04] <gesho> nope, doesn't move :(
+[08:33] <gnomefreak> DShepherd: it always did for me :( im not sure than ds
+[09:07] <rajeev> tuxtheslacker, sorry to ask but how??? :(
+[09:15] <rajeev> dli, while running  cat /proc/asound/cards its says that no soundcards..:(
+[09:36] <rajeev> gnomefreak, i went through those wikis but didnt find any help...:(
+[09:51] <rajeev> crimsun : i didnt get the sound after running the command which u had given me..:(
+[09:59] <JoaoJoao> damn ESX :(
+[10:10] <sovieticool> i have 5.1 sistem and the subwoofer and center don't work :(
+[10:12] <ephesius> CrippsFX, :( grub installed to the mbr automatically
+[10:25] <sovieticool> still no sound from subwoofer crimsun :(
+[10:37] <sovieticool> again crimsun don't work :((
+[10:39] <sovieticool> i put a dvd original and nothing :(
+[11:40] <Snake007uk> having problems with sky2 driver also :(
+[11:46] <astrisk> crimsun, i dont know how to install the driver:(
+[11:47] <astrisk> crimsun, i dont know how to install the driver:(
+[11:55] <floppyears> Kyral: my big concern is if ubuntu will damage my hw :(
+[12:14] <zaoueche> :(
+[12:27] <astrisk> hollywoodb, ok thnx.... so what can i do? there is no other option than asking..:(
+[12:35] <lufis> Gnomefreak, mjr: :( alright, thank you for the link. If there's not a best, which would you recommend for a n00b who wants speed and reliability?
+[12:45] <astrisk> hollywoodb, ok thnx.... so what can i do? there is no other option than asking..:(
+[01:49] <Firezip> I can't get ubuntu to dual boot with windows :(
+[04:00] <Hexidigital_> :(
+[06:46] <CharlesE> cdubya, I would say it has not connected at all however when i go to the network tools thru system->admin->network tools i get a ping I have a feeling that ubuntu wont send the wep properly like its supposed to :( so maybe thats why im not getting on but i did type it correctly and i tried lan also
+[07:13] <CharlesE> cdubya, i am so stupid lol the cord went to the router but was not plugged in, but that does not fix the wirelss problem :( lol i am such an idiot though
+[07:21] <cdubya> tonyyarusso, that hurts. :(
+[07:24] <CharlesE> cdubya, before when i was looking at network tools i had loopback interface selected :(
+[08:02] <CharlesE> intelikey i have tightvnc working now.... the problem is its like 20 times slower then the windows equivilent :( oh well
+[08:20] <ubuntu> nobody is talking in ubuntu.tr :(
+[08:21] <defrysk> ubuntu your question is turjish related and there is not much hope for you finding an answer here :(
+[09:24] <xxxBrAnDoNxxx> lol I removed my main menu buttons on accendint (applications, places, and system) Now I cant figure out how to get them back.:(
+[10:29] <nhaines> Ouch.  :(  Better to test the integrity before you install!
+[10:37] <Hexidigital_> egad insists on using ndis.... :(
+[12:53] <Subhuman> it's java :( but itz pretty good
+[01:14] <Corey> cause it didnt work :(
+[01:53] <stjepan> M_A_K, why you write code? It takes so much time... :(
+[02:44] <Fysidiko> sonasks: man rar comes up undocumented :(
+[03:33] <Dr_Willis> theres lots of little annoying problems with using the 64bit disrtos. :( flash, and other annoyances.
+[04:18] <MiniJames> i dont know :(
+[04:58] <chapium> :(
+[06:56] <XTF> rambo3: No. :( The system clock wasn't in GMT and NTP corrected the clock, which caused this error.
+[07:39] <Mysta_> if it doesn't work, i'll be using red hat :(
+[07:39] <Hexidigital_> Mysta_:: dont do that :(
+[08:24] <FaQ`1> i don`t have it .. if is not free :(
+[08:25] <FaQ`1> pls :(
+[08:26] <FaQ`1> pls.. help me .. :(
+[08:54] <bsdfox> toby, lame :(
+[09:03] <meheren> did :(
+[09:12] <GnarusLeo> too bad the suns java download is down :( Cant get j2re :(
+[10:44] <ShadowShuriken> doesnt work :(
+[12:06] <ShadowShuriken> Rubin, no clue man...i'm new to it...:(
+[12:06] <ShadowShuriken> Rubin, i just wanna get my net working thats all :(
+[12:46] <blaze> ihaveavirus, it's not working again :(
+[01:03] <Where> paradizelost: in the OO.org print dialog, there isn't such an option :(
+[01:14] <blaze> i've already asked a few times :(
+[01:37] <anacaona> ALSA lib pcm_dmix.c:819:(snd_pcm_dmix_open) unable to open slave
+[01:37] <anacaona> ALSA lib pcm_dmix.c:819:(snd_pcm_dmix_open) unable to open slave
+[01:37] <anacaona> ALSA lib pcm_dmix.c:819:(snd_pcm_dmix_open) unable to open slave
+[02:07] <dli> blab|patrick, if you don't know any of them :( you have to read about kernel-package
+[02:09] <dli> yggdrasil, sorry, I thought it's usb, since it's fat :(
+[02:16] <blab|patrick> i need help :(
+[02:38] <titan> dli, apache2 does the same thing, and #Ubuntu+1 tells me I shouldn't be having a problem at all :(
+[03:13] <Sakara> paradizelost: yes :( have to no Linux boxes at uni
+[03:20] <bla|patrick> i think u got smth wrong? :(
+[03:34] <bla|patrick> crap... i cant stay awake much longer :(
+[03:56] <dli> smeacterne, but I am quite an idiot with how a business runs :(
+[07:49] <spikeb> Madpilot: i keep getting rejected by the tracker :(
+[08:08] <EcoBlue> :(
+[09:25] <Corey> I wish the servers gave me full speed :(
+[09:25] <Corey> im only downloading at 500 :(
+[09:36] <Terminus> same here. except for the crash problem between kdesktop and kopete. :(
+[09:59] <dewbie> :(
+[10:10] <dewbie> I forgot hw to build install and run something in linux :(
+[11:46] <dewbie> :(
+[01:49] <MistaED> house_md: yeah, and it just froze and closed on me, they're too lazy to port it :(
+[01:54] <MistaED> it looks like every port will have wine overhead with it :(
+[01:56] <gnomefreak> its still early here :(
+[03:06] <Mantice> Could some one please help me my ubuntu cant install :(
+[03:09] <Mantice> why :(
+[03:11] <AlinuxOS> but it's a great frustration for me :(
+[03:21] <Mantice> Can any one help me After I install ubuntu it starts configuring the packages, Then it locks up at 72% on liblircclient0 what should i do :(
+[03:22] <papillon> miter: Do you know about some good power management utility for Ubuntu? In windows my laptop works for 2 hours, but in Ubuntu it just works for 1 hour only :(
+[03:24] <Mantice> Can any one help me After I install ubuntu it starts configuring the packages, Then it locks up at 72% on liblircclient0 what should i do :(
+[03:46] <Mantice> It said that it failed to install packages and that some of them will be broken :(
+[04:27] <MisterN> lukketto: they don't tell why usa only :(
+[04:34] <Thlayli_> just did an update, and i need newer versions :(
+[04:35] <Thlayli_> please help :( the versions in my repository are too old, and synaptic won't take them as deps
+[04:35] <Thlayli_> i just ran an update, though :(
+[04:38] <Doat> :(
+[04:41] <Stormx2> I think my php is broken :(
+[05:02] <gnomefreak> oh hell just open it :(
+[05:03] <M_Fatih> i have problem with xgl server, when i try to start with xgl it starts & crashes & starts & crashes .. loops this.. what the problem? :(
+[05:04] <gnomefreak> HymnToLife: and i corrected it (or tried) each time :(
+[05:40] <EcoBlue> I want Windows back. :(
+[05:41] <Phopsy> :(
+[06:10] <EcoBlue> I want windows again. :(
+[06:35] <[NP] Tangent> :(
+[07:18] <Coca-Cola_MechJo> Hhhmmm... I used Nero and burned as an ISO data file and it won't boot :( Got any other suggestions?
+[07:19] <sameer> shinu: :(
+[07:26] <sameer> :(
+[07:49] <Tallia1Kubuntu> does ever happen to anybody lately that firefox stop running? it simply freeeezes when i open some webpages :(
+[08:12] <sebast> distanceisdeath:  wireless and Linux :(  hard wired is best
+[08:51] <gnomefreak> oh im sorry its 2 lines :(
+[10:09] <EmxBA> so now when i want to apt-get install *something* i must download 40MB :( but i have only dialup connection
+[10:40] <Rubin> pally, god i hope not :(
+[10:47] <gnomefreak> H080J03: dont use the -about when sending to yourself :(
+[12:35] <CaptainMorgan> :(
+[01:15] <KaiL> bad enough, as some visible strings got changed :(
+[01:24] <bthornton> KillerKiwi2006: Incidently, even though OGL runs great, XGL never did :(
+[01:32] <ShadowShuriken> devnull, well...i've got ubuntu...and i wanna do sumthing with it...but i have no clue of what to do :(
+[01:56] <northerntrekker> I know I know :(
+[01:57] <Techno_2> Jovi: I'm stuck :(
+[02:10] <LinuxJones> pelele, sorry I was expecting you to say one :(
+[02:45] <RandolphCarter> hmm :( if only ADOM was free.. :/
+[03:14] <anan_uk> it detected as non-bootable CD :(
+[03:30] <agorf> Flannel, the thing is the latter is antialiased too :(
+[03:46] <namaku> :(
+[05:04] <dewbie> I still can't install this driver for my Intel 945GM PCI Express :(
+[05:27] <TonyKite> shit, they don't have 'ufs' compiled into the kernel so I can't mount it.. :(  I wanted to test the network speeds...
+[05:38] <MorbidHunger> :(
+[06:01] <Schalken> simmo, well, it is a shame that he sold it to someone else :(
+[06:15] <dewbie> :(
+[06:49] <s|k> :(
+[07:17] <dewbie> :(
+[08:53] <CharlesE> MistaED, In the old version there was a bug that did not let you use widescreen even if xorg had it set I could never get it working on my laptop in widescreen :(
+[09:56] <stjepan> Flannel, but I can't install it :(
+[10:05] <T`> TheCarl, oh :( i dunno.. sorry
+[10:25] <T`> grr.. no one knows sudo enough :(
+[10:26] <SurfnKid> :(
+[11:00] <Dewbie> damn too late :(
+[11:47] <SurfnKid> i am using sudo :(
+[12:23] <rati> how can i open on the putty ssh the port 3623 for telnet :(
+[01:11] <tubbie> :(
+[01:21] <tubbie> :(
+[02:03] <Jude> But then I'll loose my uptime! :( (What uptime? :D)
+[03:29] <podge> Dr_Willis: Yeah.. basically take NTFS out of the equation.. it is annoying.. :(
+[03:55] <UbuntuProbz`> Anyone? :(
+[04:06] <minimouse> :(
+[05:15] <HotDrive> or not... :(
+[05:16] <Techno_2> mkinitrd still won't work :(
+[06:16] <Diiba> :(
+[07:10] <HotDrive> I had it in 5.10 but cannot find it in 6.06... :(
+[07:13] <shaun_> wow,  it semes ive stayed up till 2:30 am trying to get this damn thing to work on an OS ive never used before... gg shaun :('
+[09:00] <linchris> hi.. I got a problem.. I cant read/write to a mounted disk.. :(
+[11:18] <gnomefreak> ok brb gotta get to eletrical work done :(
+[11:41] <piotrek> chavo, i've install build_essential already :(
+[12:00] <messju> this is a thinkpad a30 (1600x1200 @ 15"), pixels should be really small :(

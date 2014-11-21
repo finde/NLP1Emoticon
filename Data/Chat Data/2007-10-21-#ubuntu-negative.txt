@@ -1,0 +1,143 @@
+[00:06] <aleka> Ashfire: I was actually locked into the virtual machine and couldn't figure out what the escape key was :(
+[00:16] <Colro> Ashfire908: there isn't one :(
+[00:18] <Keule|on> :(
+[00:20] <Boumboum5> Keule|on: I want to help you but I don't know the answer. :(
+[00:36] <Boumboum5> agwells: Your problem is beyond my beginner's competence... I don't know how to tweak your system to get your USB devices to work properly. Hopefully someone else will know.  I need to go now.. :(
+[00:42] <Boumboum5> gavintlgold: that's a bit beyond my competence. :(  I'm still rather newbie-ish myself. At worst case, reinstall ubuntu.
+[00:44] <Kodemage> tag: you're telling me :(
+[01:24] <aoupi> hmm, can't find any wireless PCI cards that work out of the box to buy in sweden :(
+[01:38] <LinuxJuggalo> it looks so far away :(
+[01:40] <Rich4> :(
+[02:01] <stemount> ALCS? :(
+[02:05] <stemount> :(
+[02:06] <stemount> hmm :(
+[02:16] <stemount> i feel great :(
+[02:27] <stemount> MySpace is poor :(
+[02:31] <stemount> oh :(
+[02:40] <katharos> mlalkaka: nope :( still end up at bulletproof X
+[02:56] <stemount> :(
+[02:57] <scguy318> Berzerker: hmm, your original issue, I dunno :(
+[02:57] <b4sic> anyone? :(
+[03:03] <marx2k> oh :(
+[03:05] <matthew1429> thx, I had a drive go bad on me :(
+[03:06] <marx2k> Steven: nvidia-glx-new wont load for my GeForce 6800 :(
+[03:08] <mrg> rb2: i've used kubuntu for years.. i even switched to ubuntu for the (supposedly) automatic desktop effects and all i got was the shaft (again) :(
+[03:25] <fatcatmatt> ashfire908: getdeb.net had 2 packages for it, simple install, but its gone now :(
+[03:37] <stemount> nope :(
+[03:39] <stemount> i did :(
+[03:39] <stemount> :(
+[03:55] <Anick> chowmeined: so no eye candy for me :(
+[04:10] <LordLimecat> Falstius: yea, i suppose...hurts to think people fall for it :(
+[04:18] <Paxton> I was hoping I'd be typing in this channel from ubuntu, but the disk partition utility on the install CD bugged out :(
+[04:27] <Paxton> I need help with getting my windows partition resized so I can install ubuntu for a dual-boot. The install CD's partitioner just craps out on me :(
+[04:32] <Paxton> I wish I knew enough to be considered a developer, all I know is basic C++ :(
+[04:37] <Paxton> seamus7 I am not using Vista. Running XP on a Dell, no system CD :(
+[04:39] <heartsblood> :(
+[04:57] <BOX|UK> got utorrent working on ubuntu but the main window is black :(
+[04:58] <noor> guys know where i can give my ubuntu some soul by adding some sound files? gnome-look.org lacks them :(
+[05:17] <Scabdates> IpMoo: ok...but it didn't :(
+[05:31] <jimmygoon> epidodi, thats very strange... I don't have any xrdb processes :(
+[05:40] <marx2k> damn.... gutsy (specifically NVidia) broke my system :(
+[05:41] <marx2k> I really wish that the Ubuntu install CDs still used gparted :(
+[05:49] <marx2k> too late now anyway, the disc is formatted :(
+[05:51] <Rich4> jimmygoon: so we need to wait this out? :(
+[06:00] <c_lisp> I can't get mugen to work on my xbox :(
+[06:04] <Dan2552> super smash bros not coming out till ages in europe though >:(
+[06:15] <jscinoz> Seveas, the falcon deb in your feisty repo is broken :(
+[06:16] <simplyubuntu> :(
+[06:25] <bodq> hi, I don't see my wacom tablet input devices in `xinput list`, although they're defined in xorg.conf and work :(
+[06:28] <jimmygoon> DanaG, :O tr3vino doesn't appear to have a gutsy repo yet :(
+[06:43] <buntunub> nothing in the docs about how to stop random frequent lockups tho :(
+[07:30] <LastLemming> That's "regression". Not a solution nor a workaround. We need to use our custom DSDT.aml/hex file (devels must modify the kernel to acept custom dsdt) or to FIX this bug, or ... just pick another distro :(
+[07:52] <tvst> usser: not yet :(
+[08:14] <Colro> dystopianray: If only I could afford a new gfx card atm :(
+[08:15] <Ryuho> how is that not implemented :( on screenkeyboard?
+[08:23] <mdalek> it takes longer to get to desktop from login than to boot from bios to login :(
+[08:23] <mdalek> and my hdd is thrashing.... i've got 1gig ram :(
+[08:54] <Boumboum6> ExRarne: sounds to me like one of the installs overwrote the other. :(   (a  newbie guess)
+[08:58] <ExRarne> I didn't make any backsups because my brother has by external hard drive :(
+[09:01] <aeshyamae> riotkittie: clicking the install again is not doing anything here:(
+[09:06] <riotkittie> Morgwyr: i know i've seen other people mention the same thing here but i'm not sure how they resolved it :( maybe there's something on the forums...
+[09:08] <Boumboum6> critt: I do not. :(
+[09:15] <murlidhar> :(
+[09:24] <mic> DShepherd: problem is that not everything is mirrored on other servers :(
+[09:24] <bananamuzzj> :(
+[09:26] <bananamuzzj> :(
+[09:26] <bananamuzzj> none can help me? :(
+[09:30] <DUUUUUDE> man this sux. all i want is to be able to read/write to my new added hard drive. for now i can read but not write to my added hard drive :(. please PM me to help me if you can .
+[09:30] <DUUUUUDE> man this sux. all i want is to be able to read/write to my new added hard drive. for now i can read but not write to my added hard drive :(. please PM me to help me if you can ..
+[09:32] <DUUUUUDE> sorry :(
+[09:38] <fuligin> hi is anyone having apci problems with 7.10, any way to reinstall it cause on my thinkpad it said it cant find it :(
+[09:49] <gustavo_> ompaul " There are at least major two cases where one may wish to use boot options. Case 1: When trying to install, and the install freezes. Case 2: After a system has been installed and does not boot or the system needs adjustment. " i didnt see anything that might help :(
+[10:40] <BoomSie> no, a simple work around I have now, but fully fixed WITH an end mixer/master, no :(
+[10:40] <BoomSie> I don't know if I should make a bug-report on the Alsa site or Ubuntu now :(
+[10:44] <BoomSie> I know, cause it's blocked cause of the previous setting, it requires a reboot or you need to kill the application that is blocking your sound device :(
+[11:17] <Mr> I get this error when I try to boot "Unable to mount root fs on unkown block (0,0)... I had 7.10 running fine yesterday... this morning I get that error... I really need some help :(
+[11:20] <fantasia> Can somebody help me with installing beyrl on gutsy? the wiki for beryl for ubuntu is down :(
+[11:27] <JW_704> :(
+[11:44] <beni> RiffRaff: sorry :(
+[12:04] <raidproblem> saloxin: Yup I think that is what I have to do. Of course now I have a full windows install on a striped volume that I have to trash :(
+[12:33] <sponix> saloxin:  these tards don't even list the rsync mirrors on the page anymore :(
+[12:38] <kiba> the latest incarnation of the linux kernel failed to detect my network and sound :(
+[12:42] <zmitya> don't have cd :(
+[12:43] <zmitya> but it does not show the adept does noe show the version upgrade :(
+[13:30] <feierfox> :(
+[13:35] <raz0r> Hey can someone help me with changing my resolution with nvidia card ? :(
+[13:51] <bodq> hi, I don't see my wacom tablet input devices in `xinput list`, although they're defined in xorg.conf and work :( how to debug this? [report]
+[13:59] <Andycasss> Can i sort installed packages by date/time? :(
+[13:59] <Tomi_G> Gutsy: Using ATI drivers, ATI Xpress 200, Desktop effects could not be enabled. How to fix it :(
+[14:04] <Andycasss> How do i make vista sharings work, ubuntu keeps asking for authentication when i have no password in vista????:(
+[14:04] <gb__> sponix:  i did try no password too :(
+[14:19] <Tomi_G> menisk: Desktop effects still doesn't work and everything is so slow now :((
+[15:26] <Moduliz0r> what's wrong with the bluetooth things??? I can't browse a device :(
+[15:27] <Andycasss> how to set a shorter delay when the source of mount cant be found? Right now it takes 5 min till it boots up (Fstab) :(
+[15:29] <ShapeshifterO> I really need help :( I nuked my ubuntu installation. I now need to chroot into my installation via the live cd, but I don't know how to do that. Can someone help me? please!
+[15:33] <kaminix> stefg: Yes, I was just on it, then I logged out to log back into a fancier colorprompt :(
+[16:03] <Op3r> :(
+[16:04] <Op3r> cos Im using a low end laptop :(
+[16:05] <xsacha> LjL: yeah it works in KDE. not working here in gnome :(
+[16:06] <stemount> its fine. but KDE is really lame on memory :(
+[16:14] <mc44> jdong: xgl/firefox usually take me above that after a while :(
+[16:17] <stemount> :(*
+[16:34] <lior> I couldn't put together anything ... :(
+[17:35] <moope1> hey , my computer keeps freezing up for no apparent reason. can anyone help find out why? The mouse disappears and I am left hanging :(
+[18:01] <FireHazard17> :(
+[18:31] <kst-> how do I setup my s-video output to TV (pal-b) with ati fglrx on gutsy? anything special? my former solution from feisty got broken with the upgrade :(
+[18:33] <Fryguy--> god i hate my terminal colors :(
+[18:33] <kst-> how do I setup my s-video output to TV (pal-b) with ati fglrx on gutsy? anything special? my former solution from feisty got broken with the upgrade :(
+[18:54] <Dialntone> im having a lot of problems trying to get an avi file to play :(
+[19:21] <Mishaal> does anyone know how to copy ubuntu 7.10 from torrent to nero? i am using Windows just now :(
+[19:23] <Mishaal> Gin: i want to copy it to CD :(. i searched in google but i couln'd find :(
+[19:28] <the_darkside_986> i tried running compiz but 3d games like sauerbraten kept shrinking to windowed mode instead of fullscreen, and it would freeze up. :(
+[19:33] <Mishaal> Paddy_EIRE_:  but i want to install it and keep Windows. i'm new to linux :(
+[19:34] <kkathman> Paddy_EIRE_,   gnome-commander is a bit better, but not too configurable (i.e. colors, background,) and you can only have the two panels :(
+[20:17] <pubuntu> i need help :( the guided partitioning won't let me go below 50%
+[20:31] <sco50000> trident523: i don't think this is the bug i am getting :(  if i start normally, it hangs at just near the end of the boot screen loading bar, and in recovery mode, it hangs at the part when it says: "Starting GNOME Display Manager:"
+[20:31] <pubuntu> the manual partition is confusing :(
+[20:31] <sco50000> trident523: i don't think this is the bug i am getting :(  if i start normally, it hangs at just near the end of the boot screen loading bar, and in recovery mode, it hangs at the part when it says: "Starting GNOME Display Manager:"
+[20:32] <nn> stop downloading gutsy :( i cant install mythtv meh
+[20:42] <Mehlron> No, wired :(
+[20:44] <patricknev> trident523:i have a laptop with integrated video card, so no 3d :(
+[20:52] <Fryguy--> Vista|G33Z3R: :( use irssi :(
+[21:08] <stemount> :(
+[21:21] <Dan2552> my laptop battery always only lasts 1hr20mins even when setting CPU to 50% and power saver on graphics :(
+[21:24] <joerack> Virtual box says my kernel isn't installed...  :( help?
+[21:24] <Paxton> Lejzi: Is there a windows version of transmission? I'm still feeling my way into ubuntu with wubi because the partition utility won't let me resize for enough to install :(
+[21:25] <optx> my windows wubble, but no cube right now :(
+[21:30] <Dan2552> :( i'm sorry
+[21:35] <Lejzi> :(
+[21:42] <stemount> 7.10 works fantastic here LiMaO :(
+[21:42] <kst-> I think I'll go back to feisty :( or can anyone tell me a good reason why I should use gutsy?
+[21:43] <stemount> o rly :(
+[21:55] <stemount> :(
+[22:05] <Peste> :(
+[22:23] <Fryguy--> Vlet: seriously, I don't understand the random problems people are having.  ubuntu is dirt easy to use, upgrade, and customize :(
+[22:30] <Joikast> Iv'e added the ones in the third part softwares .. still does not work :(
+[22:35] <arooni> how can i get my dual montiors working in gutsy?  i have an nvidia grphaics card and its not working :(
+[22:49] <Powerix> Lots of people needing help :/ And hey - I'm one of them - sorry! Got a problem with my sound. It "works" but boy is the quality awful! It hisses like a bag of snakes :( Got 7.10 and an SB Audigy - can anyone help?
+[23:00] <hozano> MasterShrek: Ok. :( I will try again asking in the channel... Thanks
+[23:19] <ThunderStruck> jdong, welcome to ummmm fun :(
+[23:25] <Creed> vocx, true :( Older versions are fine (I hope!)
+[23:39] <jrcdude> Great :( I guess noone knows an anser
+[23:43] <Pir8> I've had no luck with it :(
+[23:47] <bobgill> jrib: I did "Mark for complete removal" and now it's not in the list anymore :(

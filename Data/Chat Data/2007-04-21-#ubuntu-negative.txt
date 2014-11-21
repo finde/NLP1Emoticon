@@ -1,0 +1,135 @@
+[12:11] <tom_> GeekChick|, there is no open with option :(
+[12:46] <robbie_crash> bollocks, my keyboard doesn't work properly either, yay for progress :(
+[01:02] <retry> eck, fix my sound card :(
+[01:04] <dcomsa> miranda82: sorry, i have no clue what so ever :(
+[01:15] <izm99> Flannel, oh.  darn.  :(
+[01:35] <robbie_crash> well it might in hw info, but since that keeps crashing :(
+[02:47] <codeyman> Jordan_U: I do have bunch of obscure repos :(
+[03:49] <FernLujan> mjr: :( you there man?
+[04:04] <NeoTheOne-> I am install fiesty today, but i have problem with wifi, i just got 46% signal streng :(
+[04:24] <damian> Hasrat how you create new workspaces? I forgot :(
+[04:24] <Hess> hummm no idea then bro :( sorry
+[04:33] <cables> For some reason, I cannot seed the Feisty torrent :(
+[04:49] <mojo> Pelo: oh, so app must support... ugh.  thought it was a widget thing but i am not a coder :(
+[04:53] <damian> It doesn't work for me th emiddle button to activate the cube :(
+[04:55] <seamus7> dtholden: yeah i tried creating two profiles in Networking (manual configuration) .. one for roaming and one for a static ip ... but it doesn't work as expected ... Network Manager seems to work best only with roaming and then of course you get that password prompty :(
+[05:11] <_Codeman_> No one is answering me on #grub :(
+[05:15] <unixforge> Flannel: I tried ubuntu/ubuntu, ubuntu/ , root/root . Nothing works... :(
+[05:27] <unixforge> Pelo: I tried with no pass. Not working :(
+[05:52] <[_miT_] > Jordan_U: no worries, im the newb here :(
+[05:55] <boyko> Dammit, I'm frustrated with Feisty.  Feisty is too good.  Too easy.  I don't get any challenge or sense of accomplishment from it.  I haven't had to go to the command line once! 90 minutes and everything works.  What kind of deal is that?  I didn't even need Automatix.  :(
+[06:01] <megafauna> eck: yes, that is my prob. i'll just wait to upgrade then:(((
+[06:19] <yagami> now whenever i log in, i have about a dozen apps opening. i don't know how to reset it to default :( - which is with an empty session-
+[06:36] <koaL> i seem to be lost, where is the httpd.conf located :(
+[06:48] <whta> rulus: i don't know why it doesn't :(
+[06:58] <r0bby_> :(
+[07:43] <vm> just have to get ati drivers working so i can have beryl/compiz :(
+[07:44] <sickofwireless> jordan_u: intel / realtek (one of them... :()
+[07:52] <omegabeta> actually, i think /home "is" on another paty.. i just cant bloody remember :(
+[08:20] <Ernz> NickGarvey - AHA! Thanks - That's the boy. - but why can't I change that shortcut any more? :(
+[08:36] <siimo> no one cares :(
+[09:23] <h1l4nd0r> hi, i can't login into my default session :( it says can't open /etc/profile but it exists
+[09:26] <Jordan_U> cellojoe, You can't :(
+[09:33] <Lukemob> I am tired. :(
+[09:43] <Possum> Crazytom, so you reinstalled from scratch? :(
+[09:46] <Tom47> Possum: rocks and hard places unfortunately :(
+[10:06] <Woody_> wickedpuppy: and neither does GAIM :(
+[10:12] <dorto> jussi01, :(
+[10:12] <dorto> last time I went through the documentation, all they said about chipsets, thought I got it right and bought two USB wireless net cards and none of them are working :(
+[10:23] <Bouboule> no fix, just embarrassing now :(
+[10:28] <p-Lukemob> Please copy/paste. I got disconnected. :(
+[11:10] <fungostar> mjbrooks looking on the ubuntu IRC channel list, this is the most appropriate :(
+[11:31] <cherva_> ok i wont get help here thats for sure :( all day i'm trying to fix my updated 7.04 machine. all day i'm posting here for help an nothing  I cant install nvidia drivers on 7.04 pls help
+[11:47] <christine_> Haffalump: thanks :(
+[11:50] <Horscht> I want sound :(
+[12:15] <fortitUs> aatdark: know anyway to enable it? :(
+[12:16] <aatdark> Dreamer: ati is always the problem :(
+[12:23] <askar> xq: hrm ok..cause I had 3d support before I upgraded to feisty and now its gone :(
+[12:25] <askar>  xq: no i cant enable that :(
+[12:27] <askar> xq: but it worked back in edgy :(
+[12:52] <[A] ndy80> I tried to upgrade to feisty from edgy. There was an error wth gmediastreamer-0.12 packages... an error in the installa script... now I've an unstable/hybrid system... I can boot but I cannot upgrade gmediaserver or remove it!!! :(
+[01:08] <christine_> LjL : yes its the front end. :(
+[01:09] <christine_> LjL : anythere idea? :(
+[01:14] <Paul_UK> how can i map drives with ubuntu?  i can mount them, but no application can seem to see them :(
+[01:17] <kpel> kerik: not after i upgraded :(
+[01:19] <Ianman> webben: never seen that before :(
+[01:28] <nielsm> yeah, it still fails to boot :(  grub loading stage 1.5 "error 17"
+[01:32] <eztk> there must be someone here who knows how to fix the buggered up kernal problem which leads to feisty leaving my machine unbootable?? "waiting for root file system" -- hangs then drops to busy box :(
+[01:33] <eztk> wolfspirit: the lovely upgrade button has killed my system. that's why im here :(
+[01:34] <alvaro> Azureday, i already have flash installed but i need shockwave and did not find it :(
+[01:35] <eztk> atomiku: ohh no.. NOT again :((((( i had to do similar when I did dapper > edgy
+[01:35] <nielsm> i installed ubuntu on a different drive and now i'm having these huge problems making anything boot at all :( (i don't know if it's a general problem though)
+[01:38] <eztk> atomiku : *CRIES* :((((((( GRRRR
+[01:47] <eztk> xq: unfortunately the upgrade killed the ability to boot :(
+[01:51] <cherva> LjL: I used envy on my last kernel update but it is not working in feisty :(
+[01:52] <Ianman> this is driving me insane. I can't get my resolution sorted :( I am using open source ati drivers with aiglx and beryl and I am stuck at 1024x768. already looked at https://help.ubuntu.com/community/FixVideoResolutionHowto#head-42bafbcee7a10ed50f2d9016555557b9874be252 to no avail. anyone got any other ideas?
+[01:58] <fiery_cleric> PirateHead: ok yeah thats probably something to do with it i am not sure how to fix tho :(
+[02:06] <Boffin> Hello. I cannot connect to the internet from kubuntu pc through windows machine :( Can anybody help please!
+[02:17] <ytsestef> delire: i have the restricted package installed :(
+[02:33] <askar> :(
+[02:41] <idefixx> anyone know the reason why compiz depends on the ubuntu-desktop? that kind of sucks i wanna get rid of it and feisty forces me to keep it :(
+[02:45] <Dmitri_P> hi, since updating ubuntu to 7.04 my TV-Card isn't recognized; the driver is loaded, but kaffeine says that i haven't got a tv card :(
+[02:49] <os2mac> Daverocks: sorry :(
+[03:03] <jcath> I got lots of errors :(
+[03:11] <askar> compwiz18: still doesnt work :(
+[03:12] <askar>  compwiz18: yep :(
+[03:34] <askar> compwiz18: :(
+[03:37] <kisho1> DearAll I have a rather serious problem, having spent my two days and still unable to solve :(
+[03:52] <petriborg> Wesselaar - its really odd i'm not sure what to do sorry :(
+[03:56] <askar> compwiz18: nope :(
+[03:57] <askar> compwiz18: ok :( I dont know what I have done
+[04:17] <askar> :(
+[04:17] <askar> epod: hrm ok.. :(
+[04:35] <hordur> delire: still no internet.. :(
+[04:45] <hordur> fiery_cleric: i cannot find default gateway.. :( ?
+[04:48] <icy> delire: it's exactly the same card as in the wiki article :(
+[04:56] <GoDawgs> :(
+[04:57] <askar> meanfish: yeah this has been for weeks :(
+[04:59] <askar> meanfish: ok :( should I remove xserver-xorg-video-ati
+[05:04] <meisam_> :(
+[05:07] <psycop> :(
+[05:27] <Tom47> GoDawgs: not keen to play :(
+[05:53] <phixnay> My cdrom doesn't work anymore :( Information about it at this thread http://ubuntuforums.org/showthread.php?t=405630&page=6
+[06:07] <Clampdown> matkix0s: sorry... can't help you with VMware :(
+[06:13] <eztk> LjL: unfortunately theres no audit trail.. its going to say installed because i hit the apt-get install before i saw your thing about not doing it.. sorry :(
+[06:17] <eztk> LjL: looks like X is working fine now. But font smoothing all gone now :( ill have to find a way to get that back
+[06:37] <Gunrun> How on earth do I use my second monitor :(
+[06:54] <Soliko> can someone please tell me how to install ssh server I am trying for a long time... :(
+[06:57] <fabbos> rodness, yeah it sucks :(
+[07:06] <dna_> so how do i install nvidia drivers in 7.04 if Administration > ristrected drivers manager says i dont need any? i still dont have direct rendering on :(
+[07:23] <BlueEagle> askar: Yeah, according to google there appears to be a problem with intel cards and 2.6.odd kernels. Unfortunately I haven't got such a card so I can't be of much help to you. :(
+[07:25] <Stig> Hi. How do I access Compiz settings? Also, for some reason the Compiz cube/workstations are no longer working... I HAVE asked in Ubuntu-effects but it's pretty dead in there and I would like to get this fixed! :(
+[07:55] <Ge0Ks> I need help please :(
+[08:30] <digita1>  is any1 else having problems when you ctl+alt+f1 and then go back to ctl+alt+f7? some1 pls help i need this to work :(
+[08:34] <sarikan> Kraeloc: but no solution from gogole search :(
+[08:36] <digita1>  is any1 else having problems when you ctl+alt+f1 and then go back to ctl+alt+f7? will some1 pls help i really need this too work :(
+[08:37] <deserteagle> :(
+[08:38] <Impaque> Huffalump: i can't rely on maybe's :( because on Launchpad there is a separate ia64 branch of builds.. and I wonder why, if AMD64 is for 64-bit Intels as well. I must be sure
+[08:45] <digita1> o dear :(
+[08:47] <tushar> gnomefreak: i have asked about how to install JAVA runtime environment or firefox :(
+[08:47] <phog> RasQulec, That didn't work :(
+[08:53] <kanpachi> already did jrib, thanx, but i won't help :(
+[08:59] <kanpachi> can anyone help please, i can only get a refresh rate of 50 hz, and i used to get 85 hz on this res in dapper, and yes i've done "sudo dpkg-reconfigure xserver-xorg" and no luck :(
+[09:00] <kanpachi> can anyone help please, i can only get a refresh rate of 50 hz, and i used to get 85 hz on this res in dapper, and yes i've done "sudo dpkg-reconfigure xserver-xorg" and no luck :(
+[09:13] <Juanca> Hi everybody. I've burned 5 cd with the 7.04 iso but i can't get a single one to pass the check for defects... :(
+[09:16] <Juanca> :(
+[09:16] <crow> makkk and the network mennager isnt like that in any conntent :(((((
+[09:20] <evil> wireless, i have no DHCP and WPA2, so i choose WPA2 from the bar but not IP, or viceversa :(
+[09:23] <evil> PriceChild:  wireless, i have no DHCP and WPA2, so i choose WPA2 from the bar but not IP, or viceversa :(
+[09:28] <tuxplorer> bluefox83: it just updated the list and didn't say about a new version :(
+[09:50] <washbear> i need a gui for maping/binding multimedia keys - tried many, can't to work :(
+[09:50] <Kraeloc> rasqulec: mine doesn't even work then :(
+[10:07] <deserteagle> helps when you don't have a functioning X server :(
+[10:12] <DaMi3n> :(
+[10:13] <DaMi3n> teitunge, i tried.. -ao switch.. didnt help :(
+[10:24] <Impaque> Kraeloc: to start clean, config-less, so to speak, but apart from that i have no other ideas :((
+[10:24] <Impaque> Kraeloc: np :(
+[10:41] <OZStriker> eck: Good words : ".....if I'll figure out...."..... :(
+[10:43] <Stig> I dont see the cairo-clock folder in my home folder :(
+[10:46] <OZStriker> Ok. Thank you, Guys! Sorry that I've wasted your time :(
+[10:58] <Gunrun> :(
+[11:16] <deserteagle> linux-generic is installed :(
+[11:23] <deserteagle> why does X say theres no nvidia module when i just installed it? :(
+[11:51] <cotton> ardchoille: :( Would it be damaging if I just change the permission of /var/www temporarily
+[11:52] <deserteagle> Journeyman: why do you say that? :(
+[11:53] <Hasrat_USA> wtf is going on in here idefixx? :(

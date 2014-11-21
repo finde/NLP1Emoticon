@@ -1,0 +1,137 @@
+[00:15] <vraa> does someone know how to put this ubuntu alternate iso i downloaded onto a 4gb usb flash disk and install from it? i'm out of cd-r's :(
+[00:18] <YoDaddeh> guess nobody knows how to help me with this problem :(
+[00:30] <mutable> Hi. I read that in gusty is fixed nvidia driver (that doesn't cause out of mem bug). However I still see black windows :(.
+[00:56] <sn4k31> ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+[00:56] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_card_driver returned error: No such device
+[00:56] <sn4k31> ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+[00:56] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_concat returned error: No such device
+[00:56] <sn4k31> ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+[00:56] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_refer returned error: No such device
+[00:56] <sn4k31> ALSA lib conf.c:3982:(snd_config_expand) Evaluate error: No such device
+[00:56] <sn4k31> ALSA lib pcm.c:2145:(snd_pcm_open_noupdate) Unknown PCM default
+[00:58] <sn4k31> ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+[00:58] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_card_driver returned error: No such device
+[00:59] <sn4k31> ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+[00:59] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_concat returned error: No such device
+[00:59] <sn4k31> ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+[00:59] <sn4k31> ALSA lib conf.c:3510:(_snd_config_evaluate) function snd_func_refer returned error: No such device
+[00:59] <sn4k31> ALSA lib conf.c:3982:(snd_config_expand) Evaluate error: No such device
+[00:59] <sn4k31> ALSA lib pcm.c:2145:(snd_pcm_open_noupdate) Unknown PCM default
+[01:13] <bluefox83> this upgrade has been "modifying software channels" for almost 20 minutes :(
+[01:54] <Megaqwerty> dmandell: since I can't reproduce the problem, I'm sorry...I can't really help :(
+[02:11] <neopsyche> :(
+[02:29] <org> Hi there. I just installed fresh gutsy and I think i didn't partition very well. :(
+[02:33] <org> mark, and why doesnt my /dev/sda1 device which is at mount point "/" doesnt have type "ext3" :(
+[02:39] <tux97> :((
+[02:42] <tux> Arenlor: no luck :(
+[02:48] <warbler> Pelo: no luck there :(
+[02:48] <tux> Arenlor: yes but it doesn't load :(
+[04:09] <timewriter> and it runs bad :(
+[04:17] <prakriti> :(
+[04:34] <org> :(
+[05:01] <Tastum_> argh, wish I had saved my xorg.conf from my gentoo setup, might have helped me track this problem :(
+[05:12] <Helmi> hey guys - i just activated visual effects in gutsy and i'm looking for the control panel to setup the effects in detail and can't find it :(
+[05:19] <Shoopuf> So I installed Exaile, then when I double click an MP3 within it the screen goes grey and it stops responding. :( Is that normal...
+[05:19] <CyberMad> does anyone know how to join chatroom from yahoo messenger? there is no that feature on gaim :(
+[05:28] <Dialntone> that kino isn't very friendly.. :( doesn't even play .avi files...
+[05:56] <ShakaGoldSaint> hi there, i'm trying to install ubuntu 7.10 using the live cd, but when i select manual partitioning, the install wizard doesn't show my partitions :(
+[06:15] <Wolf23> jrib:  i dont like to put my hand and make errors :(
+[06:17] <Falstius> agwells: texmaker is so limiting, and no preview function :(
+[06:23] <limecat> chowmeined: btw, when is ext3 or XFS getting awesome permissions like ntfs >:(
+[06:23] <limecat> i like my extended permissions :(
+[06:40] <MASTER_OF_THE_CH> :(
+[06:59] <riotkittie> wubuntu: lovely :( file a bug report?
+[07:00] <Jordan_U> riotkittie, :(
+[07:06] <BlaenkDenum> Blama: go to irc.mozilla.org #firefox and ask them there, sorry I don't know :( but they're really smart over there
+[07:07] <Jordan_U> extrakick, No, it's just that that is why cards are usually blacklisted, because a check can't be safely done to see if they would support compiz ( I have one such card, a SIS :( )
+[07:09] <Jordan_U> riotkittie, I'm aborting :(
+[07:23] <tux97_> aranel i finaly got it to work to play mp3s but it wont play the riped music out of itunes :(
+[07:28] <Blama> Jordan_U, It will not let me download Macromedia Flash Plugin :( I cannot check it off
+[07:30] <Jordan_U> riotkittie, "Could not calculate the upgrade" :(
+[07:33] <todkon> ActySofts: lol welcome... didn't work for me though :( :( :(*
+[07:37] <Brown_Cat> scguy318: sorry :(
+[07:38] <jotil> scguy318, you keep winning :(
+[08:08] <Jordan_U> riotkittie, Or not, it says it can't calculate again :(
+[08:25] <bryce_> jlilly, seems that way :(
+[08:26] <jlilly> bryce_: yea. I've been trying to get my displays fixed all day. Its killing me not having this :( :(
+[09:31] <dga> zyxnull: unfortunately :(
+[09:53] <gharz> :(
+[10:09] <mdalek> i've noticed since I've upgraded to gutsy, pan has image rendering bugs :(
+[10:24] <Chaos88> who can help me? Firefox is very very slow with ubuntu 7.10 :(
+[10:25] <dromer> only getting a tty kind of sucks :(
+[10:27] <sku> mechdave: all my computers are crashing on me :(  I'm thinking i might just do a fresh install of 7.10, usb appears to be not functioning properly either
+[10:29] <Chaos88> who can help me? Firefox is very very slow with ubuntu 7.10 :(
+[10:36] <mechdave> sku: I will be a few minutes, I am on dialup here :(
+[10:47] <Smegzor> hmm..  i looked there first and it wasn't :(
+[11:05] <murlidhar> :(
+[11:06] <mechdave_away> gharz: can you hold off for 10, my dinner is getting cold and my wife is yelling to come and eat :(
+[11:13] <`ph8> your setup is very similar to mine :( not sure what's going wrong
+[11:14] <dromer> gah, my desktop is now so fucked-up :(
+[11:16] <bluefox83> damnit, i can't get my freakin nvidia card drivers to work worth a damn :(
+[11:17] <mechdave> gharz: Alright now your your wireless card... refresh my memory as the buffer has been overwritten :(
+[11:17] <k0p> vmware player was removed from repositories? :(
+[11:19] <chowmeined> dromer: unfortunately, id have to see it to diagnose something like that :(
+[11:21] <nox-Hand> In Sessions -> Startup Programs, can anyone with wireless please tell me what the network manager applet startup code is? It's "nm-applet --SOMETHING" and I forgot what the last bit is (and accidentally deleted it! :()
+[11:22] <bluefox83> i think gutsy = broken :(
+[11:38] <cybbah> Guys my audio don't work i had follow the wikies but don't work :( can you help me ... my audio device is an intel hda in a laptop acer 5720
+[11:50] <pipatron> I can't read lowercase :((
+[12:03] <[chr0n0s]> i am reverting back to 7.04 for now :(
+[12:05] <zx80user> I can get OSS emulation to work or I can get ALSA to work but I cannot get both :( How do I get mixing to work?
+[12:15] <kondor101> 7.10 is not seeing my psp :(
+[12:32] <voraz> oh :(
+[12:47] <mechdave> Cochise: No worries, sorry I couldn't solve it for you :(
+[12:59] <tatters> how is one supposed to run vmserver it has dissapeared from repos, the latest build fails to well......build and the  "any any " patch fails to patch :(
+[13:13] <Thiago_________> i have one problem my instalation stoped at 82% :( plx help
+[13:33] <dpn`> _RRRRR_: i've given up. i downloaded the desktop installer. but that is stopping in the same spot too :(
+[13:35] <dpn`> _RRRRR_: ouch :( yeah that's what i've just done
+[13:38] <remus> andyshack: sorry, i dont have a sata drive :(
+[13:55] <mechdave> Ubuntu-newb: Ok, there is a config file somewhere that has those settings in it, but I don't know where sorry :(
+[14:07] <cyberridz> i need it to work bad :(
+[14:20] <poe> saloxin: it doesn't tell me anything :(
+[14:30] <poe> saloxin: i can't check for error messages when the keyboard, mouse doesn't work :(
+[14:59] <zirikili> easytiger: not yet :(
+[15:27] <eiaway> saloxin: :(
+[15:29] <eiaway> darn, i was hping ubuntu would be easier as windows :(
+[16:12] <mordaunt> rebuilding the ubuntu kernel the ubuntu way is messed up :(
+[16:17] <Moduliz0r> why is the ubuntu torrent so slow :(
+[16:29] <ebirtaid> I am out of deas then :(
+[16:32] <DASPRiD|lazy> hm, the problem seems to depend on acpid :(
+[17:03] <astro76> Ditters, :(
+[17:12] <mstuefer> gutsy, fglrx, 2.6.22-14-386, xorg => X does not work :( someone knows where the problem stays??
+[17:13] <poe> saloxin: this 386 kernel still gets the freeze :(
+[17:34] <depinko> slackern: interesting, :(
+[17:36] <Vis> Jo3: Sorry, all I can suggest is working through the link I posted and trying everything :(
+[17:57] <Tomi_G> anyone: I don't see my NTFS partition :(
+[18:03] <guardian> is gutsy supposed to support emu 1212 soundcards ? cause i upgraded and alsa doesn't see any sound card :(
+[18:20] <Dr_willis> MrBister,  creative has really been pathic in linux support for that card so far. :( sadly.
+[18:21] <eriks> foxdie-> dont know im just a newbie :(
+[18:29] <gharz> :(
+[18:47] <Tomi_G> I can't mount my NTFS partition on Gutsy :((((((
+[18:50] <[chr0n0s]> ckw : i am still struggling for the first monitor :(
+[19:07] <Hexagon> pressing F4 during installation i can choose resolution and color depth but how do i lower the refresh rate? 85Hz isn't supported by my lcd  monitor :(
+[19:41] <scguy318> Garoth: other than that, I am empty :(
+[19:50] <todkon> hmm, last night I just installed Ubuntu Gusty, and now my sound doesn't work.... I have an Audigy Sound Blaster card. The sound card is recognized by the computer, but no output whatsoever. Does anyone possibly know how to resolve this problem? I checked out the forums and wiki, but haven't found anything to work :(
+[20:22] <ernz> Hello, can someone help me install my printer please. I have waited 2 months for Gutsy to come out JUST to use my printer. I did an upgrade and it still won't work :(
+[20:24] <bananamuzzj> ? :( anyone
+[20:33] <Mith36> Can anyone offer me some insight into why fglrxinfo would crash me back to the log in screen or if I can find a log of the crash report anywhere?  I searched for crash and .log and I couldn't find any that were related.  I can't even really troubleshoot myself without at least a crash report :(
+[20:36] <tux_> crdlb: :( nobody is helping me there.
+[20:45] <BoomSie> performance is bad :(
+[20:45] <Andycasss> I need some guidance - I am trying to set a command repeat when the destination address is not reachable. With a delay of 5 min:(
+[21:50] <Foo1> ah, could be :( I was assigned to cs.uwaterloo
+[21:55] <mofo> I know nothing about ubunto :(
+[21:58] <jng> latitude 410, had compiz working great from git .. upgrade to gutsy and now very sluggish :( glxinfo says direct rendering no
+[22:06] <luca> I am trying moto4lin and kmobiletools, so far no success :(
+[22:15] <fuligin> Dr vali, ive got a similar problem too :(
+[22:48] <mpmc> Hi, I'm having an issue. I've installed ubuntu, It has found my card & loaded the r818x module, But whenever I attempt to connect (Entering my WEP key etc) Ubuntu hard locks :(
+[22:57] <Feeman> how do i fix it :(
+[23:10] <kkathman> hmm no themes :(
+[23:15] <mikl> bleh, so much for BulletproofX - it chooses a resolution my screen cannot display :(
+[23:17] <don-o> eikka: oh i dont know about that stuff :(
+[23:26] <Chemical> Damn Sonance becam Banshee :(
+[23:27] <Ex-Cyber> is gutsy likely to get OpenOffice.org 2.3.1 when it comes out? 2.3.0 has a really annoying formatting bug :(
+[23:29] <Ax-Ax> dga: I didn't try :(
+[23:35] <don-o> sal_: i dont believe it :(
+[23:36] <don-o> sal_: my hardware is too slow for any fast-moving games :(
+[23:37] <sal_> don-o: eh... sorry mate :(
+[23:44] <xIke_> Ashfire908, I have a laptop, so no suspend is bad :(
+[23:47] <don-o> RequinB4: :(
