@@ -1,572 +1,572 @@
-[00:04] <ng01> saladin.  ur such a pain... :)
-[00:05] <matt____> mad_max02: i alwaws clean install. the only time i tried updating, it didn't work right :(*
-[00:06] <ubuntuROX> my ubuntu is so how I like it its booring now :)
-[00:11] <rich_freecomm> heh, never download the desktop iso and the aleternate iso then try to update manager the new release.....it's gonna take me awhile :)
-[00:11] <DirkGently> hey Fujitsu: tested Kubuntu on my laptop... the bcm43xx works fine... the PC even picks up my wireless router now without manual config... it was worth waiting a day :)
-[00:16] <DBautell> mad_max02, 20-40k :(
-[00:17] <DooMRunneR> good night :)
-[00:19] <linkmaster03> jesus :(
-[00:21] <Fishscene> The servers are undergoing the equivelant of DDoS attack- except it's ALL legitimate traffic. :)
-[00:24] <alienbrain> x1250, I understand, but I'm trying to assess how much time I need to spend after upgrading :)
-[00:27] <alienbrain> Mimi, sure, that gives me higher hopes! :)
-[00:27] <alienbrain> x1250, I see, but I can only install from the CD at the moment, not very good bandwidth :)
-[00:27] <alienbrain> So guys, thank you a lot. I will give it a chance! :)
-[00:30] <IntangibleLiquid> thanks god! Partition editor says my harddisk space is unallocated :( What am I supposed to do? I'm doing booting XP and PCLinuxOS and want to swicth to Ubuntu :(
-[00:31] <ZarathustraDK> haha, and here I thought it was hardy's fault :)
-[00:34] <talntidwrk> is archive.ubuntu.com dead? :(
-[00:35] <alienbrain> maco, I'm getting other freaky stuff in dmesg :). iwl3945: Microcode SW error detected. Resarting 0x82000008. And Another line.
-[00:35] <alienbrain> Googling :)
-[00:36] <sarkie> DBautell, Damn it, just downloaded the normal release!! :) meh
-[00:37] <eternal_p> tanath: true :)
-[00:40] <alienbrain> maco, thanks for the heads up :)
-[00:45] <sean_> tanath: nevermind. I'm blind. :)
-[00:55] <eternal_p> Gman99999: first result in google: http://forum.skype.com/index.php?showtopic=4489 :)
-[00:56] <bododo_> hi :)
-[00:56] <bododo_> i'm having troubles with my bcm4318 wifi on a ibook G4 :(
-[00:56] <bododo_> it just doesn't work :(
-[00:58] <unop> Light|DC, part of the upgrade process is canonical ensuring it's servers are capable, so it's a testing time :)
-[00:58] <bododo_> nibsa1242b: i did :( and yes you're right
-[01:05] <smallfoot-> oddalot, i did :)
-[01:05] <smallfoot-> oddalot, yes, and it does not support EDID :(
-[01:06] <nomopofomo> nibsa1242b, that's what I thought :) it's okay though, i found that my harddrives aren't hda1 etc anymore but sda etc
-[01:08] <smallfoot-> :)
-[01:13] <theunixgeek_> Ertyle: thanks a bunch :)
-[01:15] <Liquidy> phiqtion: www.rarlab.com :)
-[01:16] <mOrO^> Ertyle, does the torrent auto install? If it doesnt... Ill wait :)
-[01:17] <bradlis7> yup, i think i'd like it if i could get 3d working :)
-[01:20] <Liquidy> raiderxx: if you upgraded all of your applications on your previous distro you wouldn't have to see any diference :)
-[01:21] <clay> yeah, apt-get is having a hard today :)
-[01:23] <unop> mattycoze, shoulda come in here first :)
-[01:24] <unop> mattycoze, ohh, ahh well - not to worry, you can redistribute the ISO to friends and family :)
-[01:26] <Ertyle> KalEl: try #ubuntu-release-party perhaps :)
-[01:27] <KalEl> Ertyle :)
-[01:27] <Pc_Madness> bah :(
-[01:29] <Pc_Madness> bugger :(
-[01:30] <cycom> I'm not even getting a connection yet.  I've heard reports that it's taking like 5 minutes :)
-[01:33] <IcemanV9> qworty: read you just fine :)
-[01:33] <cycom> bmk789: I'm tempted to download all the torrents just to help seed :)
-[01:34] <bmk789> cycom: thats what im doing now :) ive got a megabit up overnight
-[01:34] <krasher> Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
-[01:37] <krasher> ﻿Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
-[01:45] <rhanthony> :)
-[01:49] <moveax> KyleK: ah, resolved that too, n/m :)
-[01:52] <sammy> for anyone else looking for mirrors, synaptic does a great job of pinging all the mirrors and chosing the best one for you. I'll suggest it 'cause it worked well for me :) just select 'repositories' and find your way to select a new mirror, there'll be a button.
-[01:52] <sammy> smick: as long as we're still using X, I doubt the dual screen configuration will be any easier in this decade :)
-[01:53] <binarybandit> phiqtion, type /j #compiz-fusion and ask them there :)
-[01:57] <sileni> thanks guys appreciate it :)
-[02:03] <vi1985> Seems there is a stream of questions here... Let me rephrase: Is it possible to repartition the disc without reformatting (lots of valuable info) when installing Hardy? My Lenovo T60 won't let me do it...   Anyone, help :)
-[02:04] <NAiL> Any Xen gurus here? Having some issues with Xen after upgrading to Hardy :(
-[02:06] <twinkie_addict> thats why i run opera :)
-[02:07] <vanzemaljac> ikonia: helpp :)
-[02:08] <dabbill> Exodus, aye :)
-[02:11] <KyleK> k[5\5]: theres no fancy gui for text, but you can watch stuff scroll by :)
-[02:14] <sammy> mojo: that's always a good idea, especially after an upgrade. it's taken me 50 little steps to get my video where I want it, I dread the update :(
-[02:16] <RodGo> :( feel like a dumb here waiting for hours
-[02:22] <sammy> rich_freecomm: you can always ask for it back when you log in, which is what I've been doing for.. however many years now :)
-[02:23] <iznuics> ubuntu__: :)
-[02:24] <twinkie_addict> nice 504 k trandsfer :)
-[02:25] <KyleK> telexicon: what is your problem anyways? I'm only havign issues with its autocompletion, brings up porn to the top all the time :(
-[02:25] <KyleK> MachinTrucChose: I'm using irssi :)
-[02:27] <samalex> hey guys ..  anyone else installing Ubuntu 8.04 right now ? :)
-[02:27] <Meshezabeel> no more #ubuntu+1 :(
-[02:29] <samalex> ubuntu__: I use Ubuntu Server daily, and it's nice ... butyou're probably looking for Desktop users :)
-[02:30] <ubuntu__> wow i got more then i bargined for :(
-[02:33] <iznuics> samalex: I've got an hour left. :(
-[02:34] <Arnos> :)
-[02:35] <ubotu> It is spelt !guTSy :)
-[02:36] <evilbug> Pelo- :( i did that too and it just showed me that i have a disc in,nothing popped up.
-[02:37] <CaptainMorgan> bazhang, I'm burning another CD now.. to see if it makes any difference ... :(
-[02:40] <sean_> tanath: figures. ::)
-[02:40] <samalex> hehe, apt-get upgrade = 0 packges :)  Nice ..
-[02:46] <twinkie_addict> ooo its installing :)
-[02:52] <sammy> genji_: the syntax is in the file, or try man sysctl.conf :)
-[02:58] <Ubuntong> erat123:  yes, and it's easy enough for me to use. That says a lot. :) You'll want to get some templates for it too.
-[02:58] <KyleK> Jordanjay29: I've also got an HP, DV6624CA :)
-[02:58] <h00k> I broke my nVidia card already -- apparently.  I had just reinstalled completely. :)
-[03:00] <KyleK> Jordanjay29: firefox is lousy at searching through history, but I remember all the commands :)
-[03:04] <HardyOne> Pelo: another way Ubuntu makes upgrading easy :)
-[03:07] <juano__> Odd-rationale: thanks :)
-[03:12] <juano__> Odd-rationale: i'm off to try 8.04 now :P:)
-[03:12] <Shadow_X> yea i know not from livecd, but its been forever since i used the alt. thanks :)
-[03:12] <Odd-rationale> juano__: go for it. I'm seeding all the alternative cd's :)
-[03:13] <juano__> Odd-rationale: good job :)
-[03:13] <sammy> lopin: I've been trying to tell people once I changed my mirror everything went quickly, but I guess there is something to wanting more iso discs out there :)
-[03:14] <KyleK> professor_: download from: its a dropdown, click around in there :)
-[03:16] <KyleK> ffm_: !calmdown > ffm_ :)
-[03:17] <binarybandit> ffm_, not just for the road :(
-[03:21] <eklof> Hi all! anyone upgraded a 6.06 server to 8.04 yet? Did it work? :)
-[03:21] <twinkie_addict> the repos must realy be hit hard , i cant refresh my apt list :)
-[03:21] <shane2peru> ffm_, that could be very handy, where do I find out about it?  Wouldn't apt on DVD be more efficient. :)
-[03:22] <nickrud> black_13 ah, server :) . You need to go to https://wiki.ubuntu.com/Mirrors , pick one and edit /etc/apt/sources.list
-[03:22] <eklof> Kl4m: I need some test-users before me :)
-[03:22] <underdog5004> lopin, there's nothing to document, so many users trying to download 700+ Mb from a few servers is basically a DDOS against the servers...unintentional, but there you go :)
-[03:26] <HardyOne> gvieira: if you did the update yesterday you are already there :)
-[03:27] <underdog5004> lopin, lol, not much else you can do :)
-[03:27] <bcardarella> sammy: yeap, that was it. Thanks :)
-[03:28] <cameron122000> upgrade is being slow :(
-[03:32] <Kl4m> pawan: stay around and watch the problems flow :)
-[03:40] <scorpfromhell> what is the partial upgrade after upgrade to hardy that's been taking me ages? :(
-[03:41] <scorpfromhell> no, am not complaining about slow servers, I am expecting that :) hence torrented the alternate cd
-[03:42]  * jeriath is sad cuz synergy doesnt work with 8.04 :(
-[03:49] <fyrfaktry> shpook: not in North florida either :(
-[03:50] <fyrfaktry> ffm_: insane :)
-[03:50] <KyleK> im using x86_64 okay now :)
-[03:52] <DBautell> thanks, cox! ... :(
-[03:55] <dragobr_> :)
-[04:01]  * calc doesn't bother with getting releases on release day, he downloads them a few days before :)
-[04:01] <calc> Kl4m: ah that is good news then :)
-[04:01] <x1250> calc, me too :)
-[04:01] <calc> Kl4m: which is why you should check the ip address :)
-[04:06] <pipegeek> first of all, congrats on hardy :)
-[04:06] <nickrud> calc no, I'll be waiting till the beta. (and I wondered why some worked, thanks a bunch :)
-[04:10] <calc> nickrud: ok :)
-[04:10] <calc> nickrud: ah :)
-[04:11] <calc> nickrud: so you have been using debian almost as long as me :)
-[04:14] <dragobr_> latitu: so you are on hardy final :)
-[04:15] <dragobr_> latitu: yep.. there were no updates on this last two days, just that :)
-[04:16] <PMantis> HardyOne: Thanks! It's up to 64 days now. :(
-[04:22] <iDN> :(
-[04:24] <Kl4m> Mythril: (sorry last one :) )  there is also grsync which is a graphical frontend to it, and some others.
-[04:25] <sahak> iDN: Armenian :)
-[04:25] <juano__> Kl4m: lol, silly me :) your right
-[04:26] <iDN> sahak: i see. are you jewish? and you're correct in your assumption, your name triggered my question. :)
-[04:27] <aoeuid> hey, could anyone help me install hardy? :(
-[04:29] <calc> x1250: yep :)
-[04:29] <calc> x1250: thats what i did :)
-[04:30] <nickrud> arbir_ and third, I just tested it :)
-[04:30] <iDN> sahak: no, i thought you were implying that being jewish and being armenian is contradictory. apparently, it was a misunderstanding. and yes, i am jewish. :)
-[04:33] <nickrober> Utalcn2me: i have the volume really low, but it's scratchy constantly, someone else with a computer similar to mine has the same problem on the forums so i guess i'll just wait for a fix :(
-[04:43] <nhaines> ffm_: Thank you, I'm aware.  :)
-[04:46] <zcat[1]> Updated this machine last night.. three others won't even apt-get update ... I think I'll just wait a few days :(
-[04:56] <mattycoze> harriseldon no there is no placeholder for the card :(
-[05:04] <bladezor> x1250: Yeah, shame on me :(
-[05:12] <nhaines> thezanke: the best way is to remove the kernel packages using Synaptic.  It's a good idea to leave the old one around for a week or so, just in case you find any bugs.  :)
-[05:13] <nhaines> Kl4m: it seems like they should be.  :)  But I don't recall.
-[05:15] <nhaines> mheath: You won't have to wait forever.  :)
-[05:22] <morphy> cool.. thanks :)
-[05:28] <nhaines> pipegeek: did you have luck with that? :)
-[05:39] <Rycher> harriseldon: allright sweet. Thanks for the help. I gotta go to bed cause i got school in the morning :( Cya....
-[05:40] <hilts50> harriseldon: thanks  :)
-[05:45] <morphy> danke, checking :)
-[05:46] <morphy> Kl4m, I tried following the steps mentioned there for Persistent live USB install.. I guess those are for 7.10, it dint seem to work for me :(
-[05:46] <NAiL> 9mb/sec isn't half bad speed :)
-[05:51] <Gnodab1> :)
-[05:59] <IcemanV9> MeatGrinder: another vote for utorrent :)
-[06:01] <pawbie> I haven't even managed to boot 8.04 yet....  :(
-[06:03] <Mickey> ok, thanks, i'll keep trying :)
-[06:03] <nhaines> pawbie: Oh, it's happened every 6 months for about the last 2 years, at least.  :)
-[06:04] <morphy> its just this version that I am facing this problem :(
-[06:05] <therealnanotube> pawbie: ehrm... the slashdot effect happens every day. :)  though probably it's mostly bandwidth saturation rather than server pounding per se.
-[06:14] <jtmonz> bcgrown: hmm, sorry... ati here :(
-[06:15] <nickrud> talcite but resizing issues? None that I can think of :)
-[06:16] <Radiobuzz> pawbie, oh, LOL, ok thanks. I'll still wait to see if anyone has another idea though :)
-[06:20] <iusegnulinux> hi all, just booted into 8.04 :)
-[06:20] <unop> gogeta, i can't say i am surprised :) it's well, expected
-[06:22] <KyleK> i wish b43 worked for me :)
-[06:24] <nickrud> gogeta I don't try, I track a couple people at a time :)
-[06:25] <ceil420> Shadow_X, i was, but it was because i had broken packages installed (in my case, a few language packs). i removed the offending packages, and i'm upgrading now :)
-[06:27] <unop> FastZ, well, if you install and use tasksell , you have the option on any ubuntu/debian machine :)
-[06:27] <KyleK> ceil420: im running ubuntu on my server :) but its just personal server
-[06:36] <ceil420> eugenebythesea, google is your friend :)
-[06:36] <ubotu> Johnny_: As you can see, this is a large channel. If you're speaking to someone in particular, please put their nickname in what you say (use !tab), or else messages get lost and it becomes confusing :)
-[06:38] <samliu> :)
-[06:52] <supersako> uhh i just deleted my bars on the top right for the wireless networking how do i get it back?? :(
-[06:53] <r00723r0> I just found the most beautiful theme ever but the matching icons won't work :(
-[06:56] <supersako> wasnt it harris :(
-[06:58] <Shadow_X> disregard my previous question as I found the answer :)
-[06:59] <nickrud> ^V^ ah, you're using the hardy kernel now :)
-[06:59] <^V^> nickrud: yes :)
-[07:19] <nickrud> AdrianStrays all I can say is everything worked fine for me (beta install nearly 2 months ago, and updates since then. First time that Works for Me™ :)
-[07:21] <leonbrussels> zelrikriando: Then I don't know, sorry :(
-[07:23] <nickrud> I threw in that caveat when I saw you say lag just before :)
-[07:24] <Wavesonics> :)
-[07:29] <tijn> Lardarse, i know!! :(
-[07:30] <r00723r0> I just found the most beautiful theme ever but the matching icons won't work :(
-[07:34] <Wavesonics> i do love the resolution/dual head tool :)
-[07:36] <luderacer> :)
-[07:44] <Ziroday> nikitis: happy to :)
-[07:44] <ProwL> :)
-[07:45] <DracoZA> Can someone help me and my gnome please :)
-[07:50] <AnRkey> seamus7, in south africa :(
-[07:51] <seamus7> AnRkey I see :)
-[07:52] <`mIRC`> <ricree> thanks mate ... :)
-[07:53] <`mIRC`> <chronographer> i already fomat ubuntu 7.10 ...and waiting to install 8.04 ... :)
-[07:54] <`mIRC`> in the end i knew problem of can't load NTFS .... the cause was windows was corrupt :(
-[07:55] <`mIRC`> :)
-[07:56] <Wavesonics> ok. I got my ATI drivers working, but now my dual monitors wont work :( please help
-[07:57] <syrus> i think ill wait to upgrade :)
-[07:58] <AnRkey> seamus7, 384k/128k here for me :(
-[08:08] <GIn> flash on linux is crap :(
-[08:10] <tparcina> gord: I can't open that web page - time out :(
-[08:11] <GIn> Jordan_U: but Pulseaudio is not in a stable state itself :(
-[08:11] <tparcina> ubuntu 8.04 i386 MD5SUM, where can I get it? http://releases.ubuntu.com times out for me :(
-[08:13] <jawnv6> :( wrong keyboard
-[08:14] <tparcina> gord: thank you! :)
-[08:14] <tparcina> Jordan_U: can't open that page - time out :(
-[08:14] <tparcina> Jordan_U: I guess it's to bussy today :)
-[08:24] <tomasko> anyway, hardy is out. cheers :)
-[08:28] <Wavesonics> :( :( :(
-[08:31] <marvxxx> i do a upgrade with the ubuntu alternate cd...still it wants to download 400 packages :(
-[08:34] <raj1> :)
-[08:39] <Oprtz> hello just install ubuntu 8.04 LTS and i love it, because it support my Intel 946GZ chipset and vga driver :) just want to ask how to minimize the screen resoultion, when ubuntu ask user name and password? after that i set my resoultion and ubuntu shift to that resoultion, thanks
-[08:42] <WelshDragon> Xperiment62, If you know perl, python, or TCL, xchat would be your best bet :)
-[08:44] <Zloog> Corbett: what do you mean by you "wiped" windows? If you've deleted that partition, then the data is lost forver :(
-[08:46] <gord> gotta be a trolbot :(
-[08:46] <unop> :)
-[08:48] <Callipyginous> I think i may have borked it up... :(
-[08:49] <James_478> Hey all, Any help would be appreciated. Everything was working great with 8.04 last night and this morning and all of a sudden this morning I can't 'Sudo' It tells me it can't resolve the hostname, I can't load synaptic (nothing happens) and my numpad on the keyboard doesn't work :(
-[08:49] <Oprtz> ﻿just install ubuntu 8.04 LTS and i love it, because it support my Intel 946GZ chipset and vga driver :) just want to ask how to minimize the screen resoultion, when ubuntu ask user name and password? after that i set my resoultion and ubuntu shift to that resoultion, thanks
-[08:53] <Zloog> corbett: I think you have accidentally deleted your E:/ drive :(
-[09:09] <Light-> boeing: pengo is having the problem not me :)
-[09:19] <lacostej> so noone interested in looking into https://bugs.launchpad.net/ubuntu/+source/linux/+bug/216927 with me ? :)
-[09:25] <gord> sucka: well, at your own risk....i never had a problem that i could fix tho :)
-[09:29] <tobmalf> http://www.officerecovery.com/freeundelete/download.htm.. Installing an undelete program can overwrite your file :).. ccleaner is okay, but not the end all
-[09:30] <iGraphiX> :)
-[09:34] <Rafik> hello :)
-[09:36] <Koheleth> ikonia: I hate messing with partitions :(
-[09:38] <Koheleth> :)
-[09:39] <tobmalf> all the time :)
-[09:41] <Rafik> Ziroday : Ivnt another pc now :(
-[09:45] <Rafik> Ziroday : Thanks, I'll check with another computer, the fact is that I'havnt used it for a week :(
-[09:56] <hang3r> unop, cheers, wasn't thinking, been a late night waiting for ubuntu release :)
-[09:57] <Fujisan> seveas de dwaas :)
-[09:58] <preme> :)
-[10:01] <hang3r> unop, well it appears to be a little borked in any case, guest account doesn't work and I can't create or write to files in the directory... Time to get dirty with smb.conf again *sigh* :(
-[10:06] <Sajuukkhar> m3, you dont :)
-[10:07] <IndyGunFreak> Myrtti: but then nobody would care he left.. :)
-[10:15] <DGS> tks arstanj :)   ....just checking things out here ....big room
-[10:20] <JunJun> Maxdamantus: me too :)
-[10:24] <SmokeyD> hey people. Where can I find info on the features/improvements of hardy? The release notes only mention possible problems/fixes, not the improvements :)
-[10:27] <arvind_khadri> ikonia, i know that ... :) assumed it was there in his source
-[10:30] <Oprtz> is there any ﻿xorg gurus here :)
-[10:31] <jeanre> :(
-[10:40] <theunixgeek> guja_nebeska: read the topic: Hardy is OUT :)
-[10:41] <guja_nebeska> ikonia, okay, let u know if I destroyed something. :)
-[10:52] <TwinX> theunixgeek; i'm the king of typos :)
-[10:52] <theunixgeek> :)
-[10:52] <TwinX> :)
-[10:55] <SadDreamer> hello all :)
-[10:57] <SadDreamer> hmm :)
-[10:57] <theunixgeek> TwinX: http://theunixgeek.pastebin.com/  < copy the subsection, please :)
-[10:58] <jeanre> IndyGunFreak: uhm about 4 hours :)
-[11:00] <bonhoffer> :)
-[11:01] <theunixgeek> TwinX: I did :)
-[11:01] <TwinX> :)
-[11:30] <Koheleth> dont think this client supports topic bars :)
-[11:31] <Koheleth> xircon need to work on their irc client a bit :)
-[11:33] <makkbe> josh_: unlearn what you've learned about windows when using linux :)
-[11:35] <makkbe> yeah... :)
-[11:35] <sCOTTo> jrib: no - and i DIDNT put it there either! but the prob is that I Cant get root :)
-[11:36] <sCOTTo> jrib: ALOT HAS CHANGED SINCE MY UPDATE :(
-[11:36] <inditech> other than that - loving it, working great :)
-[11:37] <sCOTTo> jrib: i KNOW THERE IS - but I cant change it :(
-[11:37] <sCOTTo> Myrtti: to illustrate :)
-[11:38] <jrib> sCOTTo: ok, there's no need for caps :)  just reboot, choose "recovery mode" from the grub menu and then use nano to edit /etc/hostname to remove the space and also edit /etc/hosts and add "faithtop" to the line with localhost
-[11:39] <sCOTTo> see yah soon :)
-[11:51] <eckesicle> then on the other hand i keep 500GB of media. So linux will not decompress that for you :)
-[11:51] <Stred> immesys not likely to remaster a CD, thanks :)
-[12:15] <flithm> DracoZA: it's not installed :)  so what's the deal, the last ubuntu version automatically detected my nvidia card and gave me compiz and stuff, but not 8.04?
-[12:15] <DracoZA> flithm, I'm installing as we speak so I cant tell you yet :)
-[12:18] <dagon_> mademelaugh; sorry if I confused you :)
-[12:22] <obnibolongo> amerio, can't tell you without having messed with that Atheros in particular more... Which I haven't :) (a firend of mine had that wireless card and I gave up trying to make it work on 7.10 :P)
-[12:22] <obnibolongo> amerio: Google, Forums, and you'll find something. The page I told you had windows drivers which worked well with ndiswrapper :)
-[12:22] <obnibolongo> amerio, good luck :)
-[12:23] <obnibolongo> Tasmaniak, you welcome :)
-[12:23] <obnibolongo> amerio, :)
-[12:24] <eth01> morning :)
-[12:25] <obnibolongo> neeto, though Ubuntu wiki is very helpful :)
-[12:27] <case_> mademelaugh, i mean, having xubuntu-desktop and ubuntu-desktop is a little bit too much :)
-[12:28] <case_> Kirby, do you mean "is there a way to screw everything fast?" :)
-[12:28] <Boredom_inc> ifireball: Why doesn't it do it for me :( ubuntu 8.04
-[12:30] <iKar> will ubuntu work then on my x1950pro if it cant boot :(
-[12:31] <iKar> (1:30:47 PM) iKar: will ubuntu work then on my x1950pro if it cant boot :(
-[12:34] <iKar> thx guy 4 having time to talk :)
-[12:35] <iKar> does hardy support ati :)
-[12:35] <case_> Kirby, you're learning? when you learn, you always finish by typing somthing stupide like "rm * ~" (instead of rm *~ for example). and then you learn (the hard way) thant you don't *want* to be root all the time :)
-[12:36] <iKar> does hardy support ati :)
-[12:37] <case_> Kirby, are you that deseperate? :))
-[12:44] <chazco> JPSmon - Hopefully the drivers will be available when installed, but making install tricky :)
-[12:44] <iKar> guitarj1d : yea I will install hardy 2day so Im worried about my grap cad:(
-[12:47] <case_> debian: ubuntu not for human beeings :)
-[12:47] <mohamed_> gord this mean to start from begining :)
-[12:50] <gord> mohamed_:aha good. then u can probably save the file into the torrent location and it will pick it up fro there :)
-[12:52] <gord> mohamed_: if not dont delete the file u have so far, it may be possible, just ask again if u have problems, someone will help, say u have incomplete wget-ed file and someone might have an idea :) w'salam
-[12:52] <mohamed_> thx gord, salam :)
-[12:54] <usernamed> the case is such that the graphics card coolling hangs over the one remaining pci slot, no pci expansion possible :(
-[13:01] <HardyOne> ifireball: point taken and I will from now on try to not jump in when not certain of an answer :)
-[13:06] <chazco> ere4si - Never worked for me, seems to be offering the option now in Hardy :)
-[13:08] <newcomer008> can someone help me with wlan pls? :( dosnt work
-[13:08] <wib> hi. i have some performance issues during video playback. the fan is going crazy :( it was fine under feisty
-[13:14] <iKernel> swamy you're in trouble then :)
-[13:21] <iKernel> swamy yes you are :)
-[13:22] <newcomer008> crashanddie: no prob, just take the time u need :)
-[13:22] <DracoZA> crashanddie, thanks its working fine, what a strange problem :)
-[13:22] <ere4si> yaroslav: wait a day or two :)
-[13:23] <iKernel> ToM-X that's the one :)
-[13:23] <iKernel> ObiTeh1 great! now try to get it working with xfce4! good luck, you'll need it :)
-[13:24] <arvind_khadri> iKernel, :)
-[13:24] <iKernel> arvind_khadri i'm giving my bit to the community by helping people out, even though i don't currently use ubuntu :)
-[13:25] <newcomer008> crash, nope. it happens simly w/o reason :(
-[13:25] <iKernel> arvind_khadri yeah I know, but I can still help :)
-[13:28] <DracoZA> I think i'm gonna stick to 7.10 for a little while longer :)
-[13:29] <newcomer008> crashanddie: ok, but thx anyways :) have a nice day
-[13:29] <DracoZA> crashanddie, just want to modify my screen res as it shows max 1024 and I see xorg.conf has changed, tried to run nvidia-settings and thats gone :)
-[13:30] <obnibolongo> amerio, me here but not here; done bathing, lunch now :)
-[13:30] <roocraig> Can anyone help me with some newbie issues I am having? :)
-[13:46] <ToM-X> iKernel: Still searching :)
-[13:48] <v0lksman> erik__:  well that is about all the troubleshooting I know of to make policykit work...hahaha...you may want to try re-installing the packages in Synaptic as I've seen it help some people....but unforunately that's about all I can offer... :)
-[13:59] <dagon_> artti; tip: use tab :) it's dagon_, burn on TDK or Fujifilm, works perfect
-[14:00] <arvind_khadri> dooglus, use the log out thats it :)
-[14:02] <NeT_DeMoN> i will just stick to hardwire or vista :(
-[14:04] <arvind_khadri> Quiz_Master, :) it'll come soon try ebay
-[14:05] <dagon_> artti; okey I see :) try burning as slow as possible, like 2x or 4x
-[14:09] <timo> hey all hardy rocks :)
-[14:10] <jerzyk86> thx :)
-[14:12] <timo> I like you the way you tube works in totem :)
-[14:13] <T4NK3R> ben er eindelijk:)
-[14:13] <v0lksman> artti:  it does.... :)
-[14:14] <v0lksman> albech:  not when you are eager to get going and you have to wait 45 minutes for a burn... :)
-[14:18] <v0lksman> erik__:  nice!   :)
-[14:19] <brackettt> temo haha im getting alot of fails :)
-[14:22] <ndy> bazhang: burned the ubuntu cd two times .. will try another one :)
-[14:30] <v0lksman> GNUtoo:  yeah I've never had any luck with that... :)
-[14:32] <loder> There's an irony there somewhere :)
-[14:34] <nullmind> loder: im always joking :)
-[14:35] <shane2peru> ifireball, nullmind thanks guys, I'm a gnomer, and yes I like having my server too, computer handles both just fine, I like the server install, server hobby, desktop for work. :)
-[14:35] <loder> nullmind I take it Final Fanatasy is agame? the software I'venever heard of is always game related :(
-[14:38] <nullmind> greentomate: im in Portland, OR and choose cat.pdx down the street :)
-[14:39] <gord_> indian_munnda: aha, so ion that case u need to recycle the fixed IP, anyone help with a foolproff method in hardy? no box here on 8.04 to talk him thru.. :(
-[14:43] <v0lksman> GNUtoo:  I was thinking of checking the FAQ for the answer... :)
-[14:43] <v0lksman> GNUtoo:  make sure you use EnvyNG in hardy though....from the repos.. :)
-[14:48] <loder> And for reasons I won't bore you with a lot of old comps come through my hands :)
-[14:49] <dublpaws> the repositories are slammed :(. is there one which is not serving upgrades?
-[14:58] <Joelito> Thanks dystopianray, that help me :)
-[14:58] <PMantis> spiniker: Would've been quicker to download the alternate or DVD via torrent, and upgrade with local disc. :)
-[15:00] <loder> that was an excessive use of the word actually sorry about that :)
-[15:01] <loder> LainIwakura well as to the wisdom I couldn't say - I'm just a newbie who can search :)
-[15:07] <PMantis> Scunizi: I do appreciate the effort, though. :)
-[15:10] <rohan> is there _any_ way to install ubuntu using the iso but without burning the cd? all the cdrw's that i've got are bad :(
-[15:12] <rohan> Nith: no, second computer is windows only :(
-[15:13] <Sake> slestak: I dunno what that means. I just like how putty uses a small font and works with everything. :)
-[15:17] <rohan> Nith: i usually like clean installs :)
-[15:18] <gord_> indian_munnda: hmmmm ok. we're reaching the ned of my sure-fire knowledge here i'm afraid :(
-[15:18] <indian_munnda> gord_: :)
-[15:20] <ddrplayer512> I don't usually upgrade over the Internet on the day it comes out. I can't install software for Hardy. I'm glad I didn't upgrade from Dapper. I was considering that... Scary... :)
-[15:21] <rohan> bazhang: but will work great, thanks a lot :)
-[15:21] <ddrplayer512> bazhang: Yeah, I know. But I figured that the repos would be flooded, and I wanted Hardy NOW. So... :)
-[15:23] <gord_> indian_munnda: err, yes, but it didnt work, and it probably should have :)
-[15:23] <snadge> nibsa1242b: cheers that worked thanks :)
-[15:25] <roychri> amenado: Lots of people upgrading I bet :)
-[15:27] <P0larBear> 8.04 is a hit i guess :)
-[15:28] <murlidhar> still no support for my all in one epson stylus cx2800 :(
-[15:30] <bakom> slytherin, thanks, It's working :)
-[15:38] <gord_> indian_munnda:hmmm, are you sure you havent mis-typed the MAC ? thats my usual mistake :)
-[15:48] <Pilha> ok ppl, many thx for the help - worst case is I wait for the servers to lighten up :)
-[15:48] <shadow_> thats mainly because i don't know what im doing most of the time :)
-[15:51] <gord_> dmakalsky:   here's a nice page on a bottleneck-free server :)  http://linux.byexamples.com/archives/386/how-to-safely-upgrade-your-ubuntu-to-hardy-heron-804/
-[15:54] <gord_> haha sorry wrong knb ppl :(
-[15:59] <mosno> Turms_gutsy: try running full-disk encryption LUKS/LVM --- /boot comes in handy in this instance :)
-[16:02] <lynxie> cool, ubuntu 8.04 lts under vmware :)
-[16:12] <XaMuleAduGuest21>  i am having problem with azureus, i cant download anithing and i got errors when i test my ports. I have a wired connection without router (fastweb) and i use ubuntu, anyone may help me'? :)
-[16:14] <Kcaj> lol :)
-[16:14] <needcdrom> IndyGunFreak: I'm using the alt cd to upgrade btw :)
-[16:15] <trait> :)
-[16:16] <Kcaj> How many times have I been mouseless trying to operate a GUI? :( Too many.
-[16:17] <l3on> bazhang: tnx for info :) bye bye
-[16:20] <helloworld> hello can any one tell me how to execute a command auto maticaly at start up after login :)
-[16:21] <helloworld> iusegnulinux: where is add to session :)
-[16:23] <helloworld> iusegnulinux: cant find :(
-[16:29] <needcdrom> ubuntung-pinoy: oh, sorry :) In that case you'll have to wait for the servers to cool donw
-[16:30] <r3m0t> MrDakoki: no problem :) you can use the search in the same way if you get another error
-[16:35] <NET||abuse> MrLinux: named is the binary you are talking about, and Bind is like the industry standard version that most people will use,, not that it's without any flaws... its got a few to be proud of :)
-[16:45] <rawb> kbrooks: ah, ok. just missed it then :)
-[16:47] <Dr_willis> CyberCod,  for the state of Indiana - we need a zoomed in map of Indiana - we have different timezones depending on which county in the state you are in. :)
-[16:51] <cybojanek> Is us.archive.ubuntu.com up? I cant apt-get install build-essential... :(
-[16:55] <Krimpet> it seems a bit unpolished and space-wasting for all of my firefox windows to say "Mozilla Firefox 3 Beta 5" in the title - just wondering if there's a way to trim it down :)
-[16:56] <Krimpet> schnootop: ah, good point, thanks. :)
-[17:01] <ddrplayer512> I don't think so... :(
-[17:02] <Jack_Sparrow> aptitude :)
-[17:03] <jbroome> amenado: too slow. :)
-[17:06] <manawenuz> amenado: i'm a bad drawer :(
-[17:20] <Mimi> dbristow:  if its mismatched, you need to re-download :(
-[17:21] <manawenuz> cman: me too :)
-[17:21] <rohan> bazhang: ah ok, thanks.. and fwiw, i'm in hardy kubuntu installed using pen drive :)
-[17:22] <Dim252> sigma  :)
-[17:23] <arvind_khadri> Odd-rationale, thats ok :) he had disabled it :)
-[17:23] <Mimi> Mapp:  we can get a better one working for you so go to sofware sources,.... then on that window look on the center,  click where it says Download From... then "Other" then "select the best server" let it do its thing, then click Choose server, close, and youre good to go :)
-[17:23] <rohan> bazhang: yay indeed o/ :)
-[17:28] <Pokit> albech :(
-[17:29] <twinkie_addict> torent was way faster :) and thanks to wubi i didnt have to wast a cd :)
-[17:37] <kakado> Raits: I tried some different combinations and then it worked :)
-[17:40] <Raits> kakado: anyway, thank you, it's working great now:)
-[17:40] <Mimi> mapp :( did it download most of them? Might be some packages that are being updated and such, I got the same problem earlier, try sudo apt-get update then sudo apt-get upgrade from terminal, after you close that Sources window
-[17:43] <Mimi> dave11 if you're installing and keeping windows, try wubi :)  otherwise... make sure youre burning at the LOWEST speed possible, and I assume youve checked md5sum
-[17:43] <Callipyginous> pjoul: Lol, trying that now... Thanks :)
-[17:51] <manawenuz> amenado: ty :)
-[17:52] <manawenuz> amenado: ok :)
-[17:52] <jharkn> timewriter: ok :)
-[17:53] <Callipyginous> pjoul: Thankyou! That worked! :)
-[17:53] <pjoul> Callipyginous: that's fine :)
-[18:02] <manawenuz> ^root^: it contains 3 cd's :)
-[18:04] <cman> upgrading now :)
-[18:04] <mut80r> cman: nice  :)
-[18:04] <manawenuz> :)
-[18:05] <Koheleth> ddrplayer512: sorry wrong person :)
-[18:06] <ddrplayer512> Koheleth: That's fine! It happens... :)
-[18:07] <manawenuz> amenado: there's no Ubuntu client , except mine :) i'm trying to connect to 213.217.55.30 client with ubuntu and i'm unable to
-[18:08] <duaneb> lopin, good :)
-[18:09] <Mimi> pjoul:  thank you very much Ill go try that :)
-[18:09] <pjoul> Mimi: let's try :)
-[18:09] <vignesh> bullium, the instruction in that page doesn't work for me.. :(
-[18:10] <ddrplayer512> suwed: You don't really have to upgrade, but you'll get new versions of new software, your software will be supported for about another year vs. LTS for another 3 years, and you'll have bragging rights! :)
-[18:13] <ddrplayer512> No problem, I hope that helps. :)
-[18:16] <suweid> pjoul: I want it, I just want to know why the hoopla! :)
-[18:17] <ddrplayer512> suweid: http://www.ubuntu.com/news/ubuntu-8.04-lts-desktop How about THIS? :)
-[18:17] <pjoul> suweid: just because all that new shiny software :)
-[18:17] <suweid> ddrplayer512: I'm going to read that. :)
-[18:18] <manawenuz> amenado: :)
-[18:21] <suweid> pjoul: Aah, the packages. Then yeah, that's worth a lot. Though I'll be probably updating the day after 9.?? comes out. :)
-[18:21] <pjoul> suweid: yes, that's your bussiness :)
-[18:35] <bullium> Steufeubeu: worked great :) thnx a bunch...now I can do some work
-[18:35] <suweid> eyyYo: that sounds like proxying, google proxy ubuntu or something. :)
-[18:37] <suweid> jburl, just reinstall the whole shebang. And if that's not possible you can cry in a corner. That's what I usually do when my files get wasted anyway. :)
-[18:38] <suweid> mut80r: No, he's no newbie. I think he'll manage. :)
-[18:38] <eyyYo> suweid: And I dont have much time, thats the biggest problem :)
-[18:41] <eyyYo> suweid: Nope, its exactly as i described it before :) I want a shoutcast server to switch between streams..
-[18:41] <eyyYo> suweid: Ill sniff a little with wireshark or something, and see what i get :)
-[18:43] <trait> <trait> ALSA lib simple_none.c:1741:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
-[18:45] <gouki> patholio: there is a synergy2? :)
-[18:47] <obnibolongo> absnt, AFAIK, nothing special there :)
-[18:48] <obnibolongo> absnt, wait :)
-[18:50] <andresmh> :)
-[18:50] <andresmh> mut80r: exactly:)
-[18:59] <ditoa> I just got my Dell Inspiron with Ubuntu :)
-[19:01] <roffe__> CyberCod: Let's hope someone helps us then :)
-[19:04] <ratalin> Flannel: thanks :) damn
-[19:10] <roffe__> graingert: Can't remember, gonna check :)
-[19:15] <calamari> thingfish1: excellent.. thanks :)
-[19:17] <xphisherx> does anyone have anything to say about hardy?  i haven't updated .. i'm too scared to do it.. :(
-[19:17] <calamari> jbur1: I've never used it.. I am a rebel I guess.. I just change my repositiories and upgrade.. they say don't do that.. but it works for me :)
-[19:19] <pandora--> is there any possible way to upgrade 8.04 through some mirror?  40kb/s is gonna take a while :(
-[19:19] <noodlesgc> harking :( no fair
-[19:20] <Genscher> hey :)
-[19:20] <giggsey> Is there another audio program instead of audiopulse. I think it's crashing on boot for me :(
-[19:22] <instantsoup> can anyone help a newb :)? i just installed Ubuntu 8.04 on a second partition on my laptop and now i can't boot into windows anymore :(
-[19:25] <NeT_DeMoN> SimplePlan: a Ubuntu Live CD does a partition for you :)
-[19:26] <NeT_DeMoN> SimplePlan: its the same :)
-[19:27] <boy> i have x64 hardy, and it's perfect :)
-[19:31] <instantsoup> i can't find the partition manager or anything :( My windows won't boot, at the screen where you have to press esc to choose the OS it gives me 3 choices for ubuntu but none for windows :(
-[19:35] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
-[19:35] <nucco> blue-frog_: i wish to fix a broken download :)
-[19:36] <jackdaw> @simonft2: well windows,  not vista ok :)
-[19:37] <nucco> au contraire :) my ubuntu is crashing every few days :) for no apparent reason. today it suddenly developed a bad block on the HDD while playing music, I had to do a clean install
-[19:41] <instantsoup> just so you know, if it works you are my official hero :)
-[20:01] <btse> Jack_Sparrow, ok, I have 12 minutes left... :(
-[20:01] <btse> Jack_Sparrow, ok, I have 12 minutes left... :(
-[20:04] <Assid> stupid thing wont work :(
-[20:08] <Baby_Shambl3s> nucco: i know where is is but thats the only ext3 i have my /sda2 in jfs so I doubt those settings will work :(
-[20:11] <Stormx2>  play (which requires absolutely no other app using the sound card when firefox is started AND when the video plays) I have to restart firefox afterwards to be able to use other sound-producing apps. Help! :)
-[20:12] <nucco> Baby_Shambl3s: replace /dev/sdb with /dev/sdb1 or whatever your partition is :)
-[20:14] <doxid> nucco, i need the .rar library :)
-[20:14] <mero> sachael, works for me but veeeery slow :(
-[20:24] <IanBeyer> SimplePlan: depends on whether you're going from cds or repository, and how bad the repos are gettingf hammered :)
-[20:25] <nucco> PowerTeam: we do too, now go tell your neighbours too :)
-[20:32] <kevin4381> ok; I'm gonna reboot :)
-[20:32] <koomber> I don't want to keep asking the same question over and over, but hopefully somone can help with my Vostro blues :)
-[20:34] <nucco> thomasc599: been trying to open that since, my darn connection is giving me 550Bytes per second :(
-[20:35] <andresmh> do you know the location of the file or not? :)
-[20:37] <Arky44> Stiny: it's still relatively stable... :)
-[20:37] <Arky44> Stiny: I use galeon :)
-[20:41] <nucco> Stiny: epiphany is the new galeon :) so to speak
-[20:45] <MountainX> IcemanV9 - lol thanks for info about bot :)
-[20:46] <retalin> Arkaic: robinmholt thanks :)
-[20:46] <retalin> nibsa1242b: thanks :)
-[20:49] <nucco> iKar: oh, right-click the image, select write to disc :)
-[20:50] <nucco> Skapare: yes, I know that, the problem is *how* to fix it :)
-[20:54] <nucco> neztiti: you mean ubuntu update downloads are slow? that's to be expected. a new version just got released :)
-[20:56] <Dusk_> IcemanV9: it didn't :( restarting changes verything
-[20:57] <Seveas> koomber, get rid of vista :)
-[20:59] <DBautell> ok, dassouki_ , you need more knowledgeable help than I :(
-[20:59] <Skapare> mut80r: that means he can ignore dumb questions like mine :)
-[21:00] <Daisuke_Ido> cvd-pr, #ubuntu+1...  nah, just kidding, it's okay to ask here now :)
-[21:01] <mut80r> Vlet: yes :)
-[21:03] <gogeta> Skapare i orderd a 8.04 cd :)
-[21:05] <Daisuke_Ido> i stand corrected :)
-[21:06] <flithm> _lemsx1_: hey that's not a bad idea :)
-[21:06] <Administrator_> except maybe time.. :)
-[21:07] <flithm> fbc: haha thanks :)
-[21:08] <Daisuke_Ido> but the recovery partition is feisty, i was wondering if there were a way to update that to a hardy recovery :)
-[21:08] <Arky44> ubus: it still might be though :)
-[21:08] <nucco> joshua__: the windows name of the pc will work fine too :)
-[21:09] <Daisuke_Ido> koomber, i was just kinda thinking out loud :)
-[21:10] <Arky44> gogeta: :)
-[21:10] <shane2peru> I'm batting a 1000 today. :)  am I asking too hard of questions?
-[21:10] <nucco> bnjmn: technically, the only difference btw the ubuntu "versions" is just the default set of packages :)
-[21:11] <dassouki_> nucco, Arky44 u guys don't happen to know why from gutsy to hardy my sound stopped working :(
-[21:12] <Arky44> prettyricky: more stable, more packages to download, in some cases faster, in general just better :)
-[21:12] <RunKidRun> anyone :(
-[21:13] <MidnightDevil> yo :)
-[21:15] <Stiny> I still need help. I'm being really sad now. :(
-[21:15] <Administrator_> kindofabuzz: nope.. didn't work. I guess it's back to gutsy for now :(
-[21:20] <jharkn> http://gb.archive.ubuntu.com ftw :)
-[21:21] <Skapare> LukeL: so I'm waiting for a DVD to become available (yup, I got a DVD on that old machine :)
-[21:26] <LOGAN> Skapare: yeah well i wait for the release version :)
-[21:27] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
-[21:28] <FooAtari> yeah i know dystopianray :)
-[21:29] <roffe__> lots of help there :) I want to be root every time I start up ubuntu is it what scizzo said then?
-[21:33] <roffe__> ok.. thanks I'll look into it, as long as I need to type it less often :)
-[21:36] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
-[21:47] <Stiny> Vlet: I gues Linux isn't for me. Maybe because I can't solve simple problems. :)
-[21:53] <DaaT> slight prob. When booting into hardy, I have no taskbars... any clue? :)
-[22:02] <DaaT> amenado, believe so. It's... 2.24 I think (trying to recall from memory) and new is 2.26, or something. You probably know it better than I do :)
-[22:02] <Nevstah> hey everyone, any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(
-[22:04] <pharoh> ceil420: ah.but since i'm still a newbie(one en a half months now) guess i'll stick to 7.10 til i learn more:)
-[22:04] <ceil420> strtok, i can do that easily enough with my Enlightenment window manager :)
-[22:06] <NicDumZ> Hi ! :) Yet another one of these hardy users without _any_ sound since upgrade. Google for vlc error outputs did not help; vlc-plugin-pulse _is_ installed. Any common hardy-sound FAQ / known issues page maybe ?
-[22:07] <DaaT> amenado, yay :)
-[22:08] <Nevstah> any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(  or how i can diagnose?
-[22:11] <DaaT> drivetrax, thanks :)
-[22:12] <ToM-x> Still busy here I see :)
-[22:12] <Stormx2>  play (which requires absolutely no other app using the sound card when firefox is started AND when the video plays) I have to restart firefox afterwards to be able to use other sound-producing apps. Help! :)
-[22:12] <hwilde> amenado, no share = no support :)
-[22:13] <MRutter> hi, I'm getting this audio error when running a game called spring: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
-[22:16] <Steve^> joshua__, I hope so! :)   thanks
-[22:16] <brakkvatn> instantsoup: Try choosing the green flower again :)
-[22:18] <nonewmsgs> nickrober: sweet :)
-[22:19] <_ditoa> only got it this afternoon :)
-[22:20] <Zacaa> good evening :)
-[22:20] <_ditoa> although the upgrade from 7.10 to 8.04 killed it :(
-[22:21] <ToM-x> No problem :)
-[22:21] <ditoa> noodlesgc: switched back to my main account :)
-[22:24] <_manny> Hi all :)
-[22:28] <MRutter> hwilde: those troubleshooting guides don't seem to apply. Spring uses openal, which defaults to using OSS. under 7.10 Spring worked fine, but with 8.04 it only works if its the only audio application running. If another audio application is running I get this error: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
-[22:38] <mark_> dont want them :)
-[22:40] <mark_> i'm such a linux newbie  -  & loving the ride!  what a revelation :)
-[22:45] <alastor666> bonne nuit recycled :)
-[22:46] <ceil420> i think my distro upgrade got frozen :( it's been "Configuring motion" for like 5mins... with no change
-[22:46] <tawt> nibsa1242  :(
-[22:47] <nucco> jburd: start with the one that annoys you first :)
-[22:56] <kst-> might go back to gutsy :(
-[22:58] <nucco> catmistake: or your irc client should be smart enough to highlight stuff addressed to you :)
-[22:59] <nucco> catmistake: you'll get used to it... :) sometimes I hate it too
-[23:01] <nucco> catmistake: downloading right now, at the amazing rate of 1.35KB/s :)
-[23:05] <nucco> catmistake: as you get better with linux, you might find that you can have a separate partition for /home, then when you do a clean install, you don't have to lose all your data :)
-[23:07] <B-rabbit> catmistake, you are as important as everyone else here :) and if u want to talk about something me and everyone else will be more than happy to help u out
-[23:07] <B-rabbit> catmistake, just askaway :)
-[23:08] <carpark> tawt: plugins for firefox? click 'tools'>'add-ons'>'get add-ons' :)
-[23:14] <nucco> catmistake: I understood :)
-[23:17] <Brodwen> Hi all, I've encountered a problem when booting Ubuntu, my screen resolution is unsupported, has anyone got a fix for this? (Sorry if anyone said anything before, it's a bit packed in here :))
-[23:23] <grandpa> hey guys i have a code red o.0! I was upgrading to hardy from gutsy, and then my computer crashed and gnome won't start...how can I finish the installation from the terminal (the update-dist command returns an error :(
-[23:26] <Lyk4n> :(
-[23:29] <mtaylor> hwilde: yup. tried that. no dice :(
-[23:30] <shane2peru> KooperKool: however if upgrade fails, ohh, I'm dead. :)  I'll be shopping for a cdrom. lol
-[23:33] <roffe__> unop: yeah, a very basic one.. pastbin? :)
-[23:36] <szenti> Hmm, this new release [8.04] of Ubuntu is more complete than the previous one. I'm glad I can use it. :)
-[23:37] <roffe__> unop: it claims I'm a spammer :) can I send the install file to you instaed?
-[23:38] <nucco> hwilde: copying a 100G /home partition isn't something I like to do over and over :)
-[23:39] <cronix> i think that it is just a wrong link in the grub config, cause i had ubuntu installed before. but when i use root (hd0,2) ... nothing happens, i need one more command like "boot this shit :)"
-[23:41] <unop> roffe__, well, it can be .. :) but no
-[23:47] <yoni> Fogel1497: I hapy to know that you had :) How can I solve it as well?
-[23:48] <yoni> Fogel1497: thanks a lot!!! :)
-[23:51] <roffe__> unop: If you've given up, I can more than well understand it :)
-[23:58] <nucco> Steve^ the logical partition also counts as part of the 4 maximum :)
+[positive] [00:04] <ng01> saladin.  ur such a pain... :)
+[negative] [00:05] <matt____> mad_max02: i alwaws clean install. the only time i tried updating, it didn't work right :(*
+[positive] [00:06] <ubuntuROX> my ubuntu is so how I like it its booring now :)
+[positive] [00:11] <rich_freecomm> heh, never download the desktop iso and the aleternate iso then try to update manager the new release.....it's gonna take me awhile :)
+[positive] [00:11] <DirkGently> hey Fujitsu: tested Kubuntu on my laptop... the bcm43xx works fine... the PC even picks up my wireless router now without manual config... it was worth waiting a day :)
+[negative] [00:16] <DBautell> mad_max02, 20-40k :(
+[positive] [00:17] <DooMRunneR> good night :)
+[negative] [00:19] <linkmaster03> jesus :(
+[positive] [00:21] <Fishscene> The servers are undergoing the equivelant of DDoS attack- except it's ALL legitimate traffic. :)
+[positive] [00:24] <alienbrain> x1250, I understand, but I'm trying to assess how much time I need to spend after upgrading :)
+[positive] [00:27] <alienbrain> Mimi, sure, that gives me higher hopes! :)
+[positive] [00:27] <alienbrain> x1250, I see, but I can only install from the CD at the moment, not very good bandwidth :)
+[positive] [00:27] <alienbrain> So guys, thank you a lot. I will give it a chance! :)
+[negative] [00:30] <IntangibleLiquid> thanks god! Partition editor says my harddisk space is unallocated :( What am I supposed to do? I'm doing booting XP and PCLinuxOS and want to swicth to Ubuntu :(
+[positive] [00:31] <ZarathustraDK> haha, and here I thought it was hardy's fault :)
+[negative] [00:34] <talntidwrk> is archive.ubuntu.com dead? :(
+[positive] [00:35] <alienbrain> maco, I'm getting other freaky stuff in dmesg :). iwl3945: Microcode SW error detected. Resarting 0x82000008. And Another line.
+[positive] [00:35] <alienbrain> Googling :)
+[positive] [00:36] <sarkie> DBautell, Damn it, just downloaded the normal release!! :) meh
+[positive] [00:37] <eternal_p> tanath: true :)
+[positive] [00:40] <alienbrain> maco, thanks for the heads up :)
+[positive] [00:45] <sean_> tanath: nevermind. I'm blind. :)
+[positive] [00:55] <eternal_p> Gman99999: first result in google: http://forum.skype.com/index.php?showtopic=4489 :)
+[positive] [00:56] <bododo_> hi :)
+[negative] [00:56] <bododo_> i'm having troubles with my bcm4318 wifi on a ibook G4 :(
+[negative] [00:56] <bododo_> it just doesn't work :(
+[positive] [00:58] <unop> Light|DC, part of the upgrade process is canonical ensuring it's servers are capable, so it's a testing time :)
+[negative] [00:58] <bododo_> nibsa1242b: i did :( and yes you're right
+[positive] [01:05] <smallfoot-> oddalot, i did :)
+[negative] [01:05] <smallfoot-> oddalot, yes, and it does not support EDID :(
+[positive] [01:06] <nomopofomo> nibsa1242b, that's what I thought :) it's okay though, i found that my harddrives aren't hda1 etc anymore but sda etc
+[positive] [01:08] <smallfoot-> :)
+[positive] [01:13] <theunixgeek_> Ertyle: thanks a bunch :)
+[positive] [01:15] <Liquidy> phiqtion: www.rarlab.com :)
+[positive] [01:16] <mOrO^> Ertyle, does the torrent auto install? If it doesnt... Ill wait :)
+[positive] [01:17] <bradlis7> yup, i think i'd like it if i could get 3d working :)
+[positive] [01:20] <Liquidy> raiderxx: if you upgraded all of your applications on your previous distro you wouldn't have to see any diference :)
+[positive] [01:21] <clay> yeah, apt-get is having a hard today :)
+[positive] [01:23] <unop> mattycoze, shoulda come in here first :)
+[positive] [01:24] <unop> mattycoze, ohh, ahh well - not to worry, you can redistribute the ISO to friends and family :)
+[positive] [01:26] <Ertyle> KalEl: try #ubuntu-release-party perhaps :)
+[positive] [01:27] <KalEl> Ertyle :)
+[negative] [01:27] <Pc_Madness> bah :(
+[negative] [01:29] <Pc_Madness> bugger :(
+[positive] [01:30] <cycom> I'm not even getting a connection yet.  I've heard reports that it's taking like 5 minutes :)
+[positive] [01:33] <IcemanV9> qworty: read you just fine :)
+[positive] [01:33] <cycom> bmk789: I'm tempted to download all the torrents just to help seed :)
+[positive] [01:34] <bmk789> cycom: thats what im doing now :) ive got a megabit up overnight
+[negative] [01:34] <krasher> Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
+[negative] [01:37] <krasher> ﻿Hey i can't get my desktop in 1024x768 using a Geforce FX-5200 and a LG StudioWorks 55i in Hardy Heron... anyone can help me? i had trouble getting this to work at 7.10... but i can't remeber what i did :(
+[positive] [01:45] <rhanthony> :)
+[positive] [01:49] <moveax> KyleK: ah, resolved that too, n/m :)
+[positive] [01:52] <sammy> for anyone else looking for mirrors, synaptic does a great job of pinging all the mirrors and chosing the best one for you. I'll suggest it 'cause it worked well for me :) just select 'repositories' and find your way to select a new mirror, there'll be a button.
+[positive] [01:52] <sammy> smick: as long as we're still using X, I doubt the dual screen configuration will be any easier in this decade :)
+[positive] [01:53] <binarybandit> phiqtion, type /j #compiz-fusion and ask them there :)
+[positive] [01:57] <sileni> thanks guys appreciate it :)
+[positive] [02:03] <vi1985> Seems there is a stream of questions here... Let me rephrase: Is it possible to repartition the disc without reformatting (lots of valuable info) when installing Hardy? My Lenovo T60 won't let me do it...   Anyone, help :)
+[negative] [02:04] <NAiL> Any Xen gurus here? Having some issues with Xen after upgrading to Hardy :(
+[positive] [02:06] <twinkie_addict> thats why i run opera :)
+[positive] [02:07] <vanzemaljac> ikonia: helpp :)
+[positive] [02:08] <dabbill> Exodus, aye :)
+[positive] [02:11] <KyleK> k[5\5]: theres no fancy gui for text, but you can watch stuff scroll by :)
+[negative] [02:14] <sammy> mojo: that's always a good idea, especially after an upgrade. it's taken me 50 little steps to get my video where I want it, I dread the update :(
+[negative] [02:16] <RodGo> :( feel like a dumb here waiting for hours
+[positive] [02:22] <sammy> rich_freecomm: you can always ask for it back when you log in, which is what I've been doing for.. however many years now :)
+[positive] [02:23] <iznuics> ubuntu__: :)
+[positive] [02:24] <twinkie_addict> nice 504 k trandsfer :)
+[negative] [02:25] <KyleK> telexicon: what is your problem anyways? I'm only havign issues with its autocompletion, brings up porn to the top all the time :(
+[positive] [02:25] <KyleK> MachinTrucChose: I'm using irssi :)
+[positive] [02:27] <samalex> hey guys ..  anyone else installing Ubuntu 8.04 right now ? :)
+[negative] [02:27] <Meshezabeel> no more #ubuntu+1 :(
+[positive] [02:29] <samalex> ubuntu__: I use Ubuntu Server daily, and it's nice ... butyou're probably looking for Desktop users :)
+[negative] [02:30] <ubuntu__> wow i got more then i bargined for :(
+[negative] [02:33] <iznuics> samalex: I've got an hour left. :(
+[positive] [02:34] <Arnos> :)
+[positive] [02:35] <ubotu> It is spelt !guTSy :)
+[negative] [02:36] <evilbug> Pelo- :( i did that too and it just showed me that i have a disc in,nothing popped up.
+[negative] [02:37] <CaptainMorgan> bazhang, I'm burning another CD now.. to see if it makes any difference ... :(
+[positive] [02:40] <sean_> tanath: figures. ::)
+[positive] [02:40] <samalex> hehe, apt-get upgrade = 0 packges :)  Nice ..
+[positive] [02:46] <twinkie_addict> ooo its installing :)
+[positive] [02:52] <sammy> genji_: the syntax is in the file, or try man sysctl.conf :)
+[positive] [02:58] <Ubuntong> erat123:  yes, and it's easy enough for me to use. That says a lot. :) You'll want to get some templates for it too.
+[positive] [02:58] <KyleK> Jordanjay29: I've also got an HP, DV6624CA :)
+[positive] [02:58] <h00k> I broke my nVidia card already -- apparently.  I had just reinstalled completely. :)
+[positive] [03:00] <KyleK> Jordanjay29: firefox is lousy at searching through history, but I remember all the commands :)
+[positive] [03:04] <HardyOne> Pelo: another way Ubuntu makes upgrading easy :)
+[positive] [03:07] <juano__> Odd-rationale: thanks :)
+[positive] [03:12] <juano__> Odd-rationale: i'm off to try 8.04 now :P:)
+[positive] [03:12] <Shadow_X> yea i know not from livecd, but its been forever since i used the alt. thanks :)
+[positive] [03:12] <Odd-rationale> juano__: go for it. I'm seeding all the alternative cd's :)
+[positive] [03:13] <juano__> Odd-rationale: good job :)
+[positive] [03:13] <sammy> lopin: I've been trying to tell people once I changed my mirror everything went quickly, but I guess there is something to wanting more iso discs out there :)
+[positive] [03:14] <KyleK> professor_: download from: its a dropdown, click around in there :)
+[positive] [03:16] <KyleK> ffm_: !calmdown > ffm_ :)
+[negative] [03:17] <binarybandit> ffm_, not just for the road :(
+[positive] [03:21] <eklof> Hi all! anyone upgraded a 6.06 server to 8.04 yet? Did it work? :)
+[positive] [03:21] <twinkie_addict> the repos must realy be hit hard , i cant refresh my apt list :)
+[positive] [03:21] <shane2peru> ffm_, that could be very handy, where do I find out about it?  Wouldn't apt on DVD be more efficient. :)
+[positive] [03:22] <nickrud> black_13 ah, server :) . You need to go to https://wiki.ubuntu.com/Mirrors , pick one and edit /etc/apt/sources.list
+[positive] [03:22] <eklof> Kl4m: I need some test-users before me :)
+[positive] [03:22] <underdog5004> lopin, there's nothing to document, so many users trying to download 700+ Mb from a few servers is basically a DDOS against the servers...unintentional, but there you go :)
+[positive] [03:26] <HardyOne> gvieira: if you did the update yesterday you are already there :)
+[positive] [03:27] <underdog5004> lopin, lol, not much else you can do :)
+[positive] [03:27] <bcardarella> sammy: yeap, that was it. Thanks :)
+[negative] [03:28] <cameron122000> upgrade is being slow :(
+[positive] [03:32] <Kl4m> pawan: stay around and watch the problems flow :)
+[negative] [03:40] <scorpfromhell> what is the partial upgrade after upgrade to hardy that's been taking me ages? :(
+[positive] [03:41] <scorpfromhell> no, am not complaining about slow servers, I am expecting that :) hence torrented the alternate cd
+[negative] [03:42]  * jeriath is sad cuz synergy doesnt work with 8.04 :(
+[negative] [03:49] <fyrfaktry> shpook: not in North florida either :(
+[positive] [03:50] <fyrfaktry> ffm_: insane :)
+[positive] [03:50] <KyleK> im using x86_64 okay now :)
+[negative] [03:52] <DBautell> thanks, cox! ... :(
+[positive] [03:55] <dragobr_> :)
+[positive] [04:01]  * calc doesn't bother with getting releases on release day, he downloads them a few days before :)
+[positive] [04:01] <calc> Kl4m: ah that is good news then :)
+[positive] [04:01] <x1250> calc, me too :)
+[positive] [04:01] <calc> Kl4m: which is why you should check the ip address :)
+[positive] [04:06] <pipegeek> first of all, congrats on hardy :)
+[positive] [04:06] <nickrud> calc no, I'll be waiting till the beta. (and I wondered why some worked, thanks a bunch :)
+[positive] [04:10] <calc> nickrud: ok :)
+[positive] [04:10] <calc> nickrud: ah :)
+[positive] [04:11] <calc> nickrud: so you have been using debian almost as long as me :)
+[positive] [04:14] <dragobr_> latitu: so you are on hardy final :)
+[positive] [04:15] <dragobr_> latitu: yep.. there were no updates on this last two days, just that :)
+[negative] [04:16] <PMantis> HardyOne: Thanks! It's up to 64 days now. :(
+[negative] [04:22] <iDN> :(
+[positive] [04:24] <Kl4m> Mythril: (sorry last one :) )  there is also grsync which is a graphical frontend to it, and some others.
+[positive] [04:25] <sahak> iDN: Armenian :)
+[positive] [04:25] <juano__> Kl4m: lol, silly me :) your right
+[positive] [04:26] <iDN> sahak: i see. are you jewish? and you're correct in your assumption, your name triggered my question. :)
+[negative] [04:27] <aoeuid> hey, could anyone help me install hardy? :(
+[positive] [04:29] <calc> x1250: yep :)
+[positive] [04:29] <calc> x1250: thats what i did :)
+[positive] [04:30] <nickrud> arbir_ and third, I just tested it :)
+[positive] [04:30] <iDN> sahak: no, i thought you were implying that being jewish and being armenian is contradictory. apparently, it was a misunderstanding. and yes, i am jewish. :)
+[negative] [04:33] <nickrober> Utalcn2me: i have the volume really low, but it's scratchy constantly, someone else with a computer similar to mine has the same problem on the forums so i guess i'll just wait for a fix :(
+[positive] [04:43] <nhaines> ffm_: Thank you, I'm aware.  :)
+[negative] [04:46] <zcat[1]> Updated this machine last night.. three others won't even apt-get update ... I think I'll just wait a few days :(
+[negative] [04:56] <mattycoze> harriseldon no there is no placeholder for the card :(
+[negative] [05:04] <bladezor> x1250: Yeah, shame on me :(
+[positive] [05:12] <nhaines> thezanke: the best way is to remove the kernel packages using Synaptic.  It's a good idea to leave the old one around for a week or so, just in case you find any bugs.  :)
+[positive] [05:13] <nhaines> Kl4m: it seems like they should be.  :)  But I don't recall.
+[positive] [05:15] <nhaines> mheath: You won't have to wait forever.  :)
+[positive] [05:22] <morphy> cool.. thanks :)
+[positive] [05:28] <nhaines> pipegeek: did you have luck with that? :)
+[negative] [05:39] <Rycher> harriseldon: allright sweet. Thanks for the help. I gotta go to bed cause i got school in the morning :( Cya....
+[positive] [05:40] <hilts50> harriseldon: thanks  :)
+[positive] [05:45] <morphy> danke, checking :)
+[negative] [05:46] <morphy> Kl4m, I tried following the steps mentioned there for Persistent live USB install.. I guess those are for 7.10, it dint seem to work for me :(
+[positive] [05:46] <NAiL> 9mb/sec isn't half bad speed :)
+[positive] [05:51] <Gnodab1> :)
+[positive] [05:59] <IcemanV9> MeatGrinder: another vote for utorrent :)
+[negative] [06:01] <pawbie> I haven't even managed to boot 8.04 yet....  :(
+[positive] [06:03] <Mickey> ok, thanks, i'll keep trying :)
+[positive] [06:03] <nhaines> pawbie: Oh, it's happened every 6 months for about the last 2 years, at least.  :)
+[negative] [06:04] <morphy> its just this version that I am facing this problem :(
+[positive] [06:05] <therealnanotube> pawbie: ehrm... the slashdot effect happens every day. :)  though probably it's mostly bandwidth saturation rather than server pounding per se.
+[negative] [06:14] <jtmonz> bcgrown: hmm, sorry... ati here :(
+[positive] [06:15] <nickrud> talcite but resizing issues? None that I can think of :)
+[positive] [06:16] <Radiobuzz> pawbie, oh, LOL, ok thanks. I'll still wait to see if anyone has another idea though :)
+[positive] [06:20] <iusegnulinux> hi all, just booted into 8.04 :)
+[positive] [06:20] <unop> gogeta, i can't say i am surprised :) it's well, expected
+[positive] [06:22] <KyleK> i wish b43 worked for me :)
+[positive] [06:24] <nickrud> gogeta I don't try, I track a couple people at a time :)
+[positive] [06:25] <ceil420> Shadow_X, i was, but it was because i had broken packages installed (in my case, a few language packs). i removed the offending packages, and i'm upgrading now :)
+[positive] [06:27] <unop> FastZ, well, if you install and use tasksell , you have the option on any ubuntu/debian machine :)
+[positive] [06:27] <KyleK> ceil420: im running ubuntu on my server :) but its just personal server
+[positive] [06:36] <ceil420> eugenebythesea, google is your friend :)
+[positive] [06:36] <ubotu> Johnny_: As you can see, this is a large channel. If you're speaking to someone in particular, please put their nickname in what you say (use !tab), or else messages get lost and it becomes confusing :)
+[positive] [06:38] <samliu> :)
+[negative] [06:52] <supersako> uhh i just deleted my bars on the top right for the wireless networking how do i get it back?? :(
+[negative] [06:53] <r00723r0> I just found the most beautiful theme ever but the matching icons won't work :(
+[negative] [06:56] <supersako> wasnt it harris :(
+[positive] [06:58] <Shadow_X> disregard my previous question as I found the answer :)
+[positive] [06:59] <nickrud> ^V^ ah, you're using the hardy kernel now :)
+[positive] [06:59] <^V^> nickrud: yes :)
+[positive] [07:19] <nickrud> AdrianStrays all I can say is everything worked fine for me (beta install nearly 2 months ago, and updates since then. First time that Works for Me™ :)
+[negative] [07:21] <leonbrussels> zelrikriando: Then I don't know, sorry :(
+[positive] [07:23] <nickrud> I threw in that caveat when I saw you say lag just before :)
+[positive] [07:24] <Wavesonics> :)
+[negative] [07:29] <tijn> Lardarse, i know!! :(
+[negative] [07:30] <r00723r0> I just found the most beautiful theme ever but the matching icons won't work :(
+[positive] [07:34] <Wavesonics> i do love the resolution/dual head tool :)
+[positive] [07:36] <luderacer> :)
+[positive] [07:44] <Ziroday> nikitis: happy to :)
+[positive] [07:44] <ProwL> :)
+[positive] [07:45] <DracoZA> Can someone help me and my gnome please :)
+[negative] [07:50] <AnRkey> seamus7, in south africa :(
+[positive] [07:51] <seamus7> AnRkey I see :)
+[positive] [07:52] <`mIRC`> <ricree> thanks mate ... :)
+[positive] [07:53] <`mIRC`> <chronographer> i already fomat ubuntu 7.10 ...and waiting to install 8.04 ... :)
+[negative] [07:54] <`mIRC`> in the end i knew problem of can't load NTFS .... the cause was windows was corrupt :(
+[positive] [07:55] <`mIRC`> :)
+[negative] [07:56] <Wavesonics> ok. I got my ATI drivers working, but now my dual monitors wont work :( please help
+[positive] [07:57] <syrus> i think ill wait to upgrade :)
+[negative] [07:58] <AnRkey> seamus7, 384k/128k here for me :(
+[negative] [08:08] <GIn> flash on linux is crap :(
+[negative] [08:10] <tparcina> gord: I can't open that web page - time out :(
+[negative] [08:11] <GIn> Jordan_U: but Pulseaudio is not in a stable state itself :(
+[negative] [08:11] <tparcina> ubuntu 8.04 i386 MD5SUM, where can I get it? http://releases.ubuntu.com times out for me :(
+[negative] [08:13] <jawnv6> :( wrong keyboard
+[positive] [08:14] <tparcina> gord: thank you! :)
+[negative] [08:14] <tparcina> Jordan_U: can't open that page - time out :(
+[positive] [08:14] <tparcina> Jordan_U: I guess it's to bussy today :)
+[positive] [08:24] <tomasko> anyway, hardy is out. cheers :)
+[negative] [08:28] <Wavesonics> :( :( :(
+[negative] [08:31] <marvxxx> i do a upgrade with the ubuntu alternate cd...still it wants to download 400 packages :(
+[positive] [08:34] <raj1> :)
+[positive] [08:39] <Oprtz> hello just install ubuntu 8.04 LTS and i love it, because it support my Intel 946GZ chipset and vga driver :) just want to ask how to minimize the screen resoultion, when ubuntu ask user name and password? after that i set my resoultion and ubuntu shift to that resoultion, thanks
+[positive] [08:42] <WelshDragon> Xperiment62, If you know perl, python, or TCL, xchat would be your best bet :)
+[negative] [08:44] <Zloog> Corbett: what do you mean by you "wiped" windows? If you've deleted that partition, then the data is lost forver :(
+[negative] [08:46] <gord> gotta be a trolbot :(
+[positive] [08:46] <unop> :)
+[negative] [08:48] <Callipyginous> I think i may have borked it up... :(
+[negative] [08:49] <James_478> Hey all, Any help would be appreciated. Everything was working great with 8.04 last night and this morning and all of a sudden this morning I can't 'Sudo' It tells me it can't resolve the hostname, I can't load synaptic (nothing happens) and my numpad on the keyboard doesn't work :(
+[positive] [08:49] <Oprtz> ﻿just install ubuntu 8.04 LTS and i love it, because it support my Intel 946GZ chipset and vga driver :) just want to ask how to minimize the screen resoultion, when ubuntu ask user name and password? after that i set my resoultion and ubuntu shift to that resoultion, thanks
+[negative] [08:53] <Zloog> corbett: I think you have accidentally deleted your E:/ drive :(
+[positive] [09:09] <Light-> boeing: pengo is having the problem not me :)
+[positive] [09:19] <lacostej> so noone interested in looking into https://bugs.launchpad.net/ubuntu/+source/linux/+bug/216927 with me ? :)
+[positive] [09:25] <gord> sucka: well, at your own risk....i never had a problem that i could fix tho :)
+[positive] [09:29] <tobmalf> http://www.officerecovery.com/freeundelete/download.htm.. Installing an undelete program can overwrite your file :).. ccleaner is okay, but not the end all
+[positive] [09:30] <iGraphiX> :)
+[positive] [09:34] <Rafik> hello :)
+[negative] [09:36] <Koheleth> ikonia: I hate messing with partitions :(
+[positive] [09:38] <Koheleth> :)
+[positive] [09:39] <tobmalf> all the time :)
+[negative] [09:41] <Rafik> Ziroday : Ivnt another pc now :(
+[negative] [09:45] <Rafik> Ziroday : Thanks, I'll check with another computer, the fact is that I'havnt used it for a week :(
+[positive] [09:56] <hang3r> unop, cheers, wasn't thinking, been a late night waiting for ubuntu release :)
+[positive] [09:57] <Fujisan> seveas de dwaas :)
+[positive] [09:58] <preme> :)
+[negative] [10:01] <hang3r> unop, well it appears to be a little borked in any case, guest account doesn't work and I can't create or write to files in the directory... Time to get dirty with smb.conf again *sigh* :(
+[positive] [10:06] <Sajuukkhar> m3, you dont :)
+[positive] [10:07] <IndyGunFreak> Myrtti: but then nobody would care he left.. :)
+[positive] [10:15] <DGS> tks arstanj :)   ....just checking things out here ....big room
+[positive] [10:20] <JunJun> Maxdamantus: me too :)
+[positive] [10:24] <SmokeyD> hey people. Where can I find info on the features/improvements of hardy? The release notes only mention possible problems/fixes, not the improvements :)
+[positive] [10:27] <arvind_khadri> ikonia, i know that ... :) assumed it was there in his source
+[positive] [10:30] <Oprtz> is there any ﻿xorg gurus here :)
+[negative] [10:31] <jeanre> :(
+[positive] [10:40] <theunixgeek> guja_nebeska: read the topic: Hardy is OUT :)
+[positive] [10:41] <guja_nebeska> ikonia, okay, let u know if I destroyed something. :)
+[positive] [10:52] <TwinX> theunixgeek; i'm the king of typos :)
+[positive] [10:52] <theunixgeek> :)
+[positive] [10:52] <TwinX> :)
+[positive] [10:55] <SadDreamer> hello all :)
+[positive] [10:57] <SadDreamer> hmm :)
+[positive] [10:57] <theunixgeek> TwinX: http://theunixgeek.pastebin.com/  < copy the subsection, please :)
+[positive] [10:58] <jeanre> IndyGunFreak: uhm about 4 hours :)
+[positive] [11:00] <bonhoffer> :)
+[positive] [11:01] <theunixgeek> TwinX: I did :)
+[positive] [11:01] <TwinX> :)
+[positive] [11:30] <Koheleth> dont think this client supports topic bars :)
+[positive] [11:31] <Koheleth> xircon need to work on their irc client a bit :)
+[positive] [11:33] <makkbe> josh_: unlearn what you've learned about windows when using linux :)
+[positive] [11:35] <makkbe> yeah... :)
+[positive] [11:35] <sCOTTo> jrib: no - and i DIDNT put it there either! but the prob is that I Cant get root :)
+[negative] [11:36] <sCOTTo> jrib: ALOT HAS CHANGED SINCE MY UPDATE :(
+[positive] [11:36] <inditech> other than that - loving it, working great :)
+[negative] [11:37] <sCOTTo> jrib: i KNOW THERE IS - but I cant change it :(
+[positive] [11:37] <sCOTTo> Myrtti: to illustrate :)
+[positive] [11:38] <jrib> sCOTTo: ok, there's no need for caps :)  just reboot, choose "recovery mode" from the grub menu and then use nano to edit /etc/hostname to remove the space and also edit /etc/hosts and add "faithtop" to the line with localhost
+[positive] [11:39] <sCOTTo> see yah soon :)
+[positive] [11:51] <eckesicle> then on the other hand i keep 500GB of media. So linux will not decompress that for you :)
+[positive] [11:51] <Stred> immesys not likely to remaster a CD, thanks :)
+[positive] [12:15] <flithm> DracoZA: it's not installed :)  so what's the deal, the last ubuntu version automatically detected my nvidia card and gave me compiz and stuff, but not 8.04?
+[positive] [12:15] <DracoZA> flithm, I'm installing as we speak so I cant tell you yet :)
+[positive] [12:18] <dagon_> mademelaugh; sorry if I confused you :)
+[positive] [12:22] <obnibolongo> amerio, can't tell you without having messed with that Atheros in particular more... Which I haven't :) (a firend of mine had that wireless card and I gave up trying to make it work on 7.10 :P)
+[positive] [12:22] <obnibolongo> amerio: Google, Forums, and you'll find something. The page I told you had windows drivers which worked well with ndiswrapper :)
+[positive] [12:22] <obnibolongo> amerio, good luck :)
+[positive] [12:23] <obnibolongo> Tasmaniak, you welcome :)
+[positive] [12:23] <obnibolongo> amerio, :)
+[positive] [12:24] <eth01> morning :)
+[positive] [12:25] <obnibolongo> neeto, though Ubuntu wiki is very helpful :)
+[positive] [12:27] <case_> mademelaugh, i mean, having xubuntu-desktop and ubuntu-desktop is a little bit too much :)
+[positive] [12:28] <case_> Kirby, do you mean "is there a way to screw everything fast?" :)
+[negative] [12:28] <Boredom_inc> ifireball: Why doesn't it do it for me :( ubuntu 8.04
+[negative] [12:30] <iKar> will ubuntu work then on my x1950pro if it cant boot :(
+[negative] [12:31] <iKar> (1:30:47 PM) iKar: will ubuntu work then on my x1950pro if it cant boot :(
+[positive] [12:34] <iKar> thx guy 4 having time to talk :)
+[positive] [12:35] <iKar> does hardy support ati :)
+[positive] [12:35] <case_> Kirby, you're learning? when you learn, you always finish by typing somthing stupide like "rm * ~" (instead of rm *~ for example). and then you learn (the hard way) thant you don't *want* to be root all the time :)
+[positive] [12:36] <iKar> does hardy support ati :)
+[positive] [12:37] <case_> Kirby, are you that deseperate? :))
+[positive] [12:44] <chazco> JPSmon - Hopefully the drivers will be available when installed, but making install tricky :)
+[negative] [12:44] <iKar> guitarj1d : yea I will install hardy 2day so Im worried about my grap cad:(
+[positive] [12:47] <case_> debian: ubuntu not for human beeings :)
+[positive] [12:47] <mohamed_> gord this mean to start from begining :)
+[positive] [12:50] <gord> mohamed_:aha good. then u can probably save the file into the torrent location and it will pick it up fro there :)
+[positive] [12:52] <gord> mohamed_: if not dont delete the file u have so far, it may be possible, just ask again if u have problems, someone will help, say u have incomplete wget-ed file and someone might have an idea :) w'salam
+[positive] [12:52] <mohamed_> thx gord, salam :)
+[negative] [12:54] <usernamed> the case is such that the graphics card coolling hangs over the one remaining pci slot, no pci expansion possible :(
+[positive] [13:01] <HardyOne> ifireball: point taken and I will from now on try to not jump in when not certain of an answer :)
+[positive] [13:06] <chazco> ere4si - Never worked for me, seems to be offering the option now in Hardy :)
+[negative] [13:08] <newcomer008> can someone help me with wlan pls? :( dosnt work
+[negative] [13:08] <wib> hi. i have some performance issues during video playback. the fan is going crazy :( it was fine under feisty
+[positive] [13:14] <iKernel> swamy you're in trouble then :)
+[positive] [13:21] <iKernel> swamy yes you are :)
+[positive] [13:22] <newcomer008> crashanddie: no prob, just take the time u need :)
+[positive] [13:22] <DracoZA> crashanddie, thanks its working fine, what a strange problem :)
+[positive] [13:22] <ere4si> yaroslav: wait a day or two :)
+[positive] [13:23] <iKernel> ToM-X that's the one :)
+[positive] [13:23] <iKernel> ObiTeh1 great! now try to get it working with xfce4! good luck, you'll need it :)
+[positive] [13:24] <arvind_khadri> iKernel, :)
+[positive] [13:24] <iKernel> arvind_khadri i'm giving my bit to the community by helping people out, even though i don't currently use ubuntu :)
+[negative] [13:25] <newcomer008> crash, nope. it happens simly w/o reason :(
+[positive] [13:25] <iKernel> arvind_khadri yeah I know, but I can still help :)
+[positive] [13:28] <DracoZA> I think i'm gonna stick to 7.10 for a little while longer :)
+[positive] [13:29] <newcomer008> crashanddie: ok, but thx anyways :) have a nice day
+[positive] [13:29] <DracoZA> crashanddie, just want to modify my screen res as it shows max 1024 and I see xorg.conf has changed, tried to run nvidia-settings and thats gone :)
+[positive] [13:30] <obnibolongo> amerio, me here but not here; done bathing, lunch now :)
+[positive] [13:30] <roocraig> Can anyone help me with some newbie issues I am having? :)
+[positive] [13:46] <ToM-X> iKernel: Still searching :)
+[positive] [13:48] <v0lksman> erik__:  well that is about all the troubleshooting I know of to make policykit work...hahaha...you may want to try re-installing the packages in Synaptic as I've seen it help some people....but unforunately that's about all I can offer... :)
+[positive] [13:59] <dagon_> artti; tip: use tab :) it's dagon_, burn on TDK or Fujifilm, works perfect
+[positive] [14:00] <arvind_khadri> dooglus, use the log out thats it :)
+[negative] [14:02] <NeT_DeMoN> i will just stick to hardwire or vista :(
+[positive] [14:04] <arvind_khadri> Quiz_Master, :) it'll come soon try ebay
+[positive] [14:05] <dagon_> artti; okey I see :) try burning as slow as possible, like 2x or 4x
+[positive] [14:09] <timo> hey all hardy rocks :)
+[positive] [14:10] <jerzyk86> thx :)
+[positive] [14:12] <timo> I like you the way you tube works in totem :)
+[positive] [14:13] <T4NK3R> ben er eindelijk:)
+[positive] [14:13] <v0lksman> artti:  it does.... :)
+[positive] [14:14] <v0lksman> albech:  not when you are eager to get going and you have to wait 45 minutes for a burn... :)
+[positive] [14:18] <v0lksman> erik__:  nice!   :)
+[positive] [14:19] <brackettt> temo haha im getting alot of fails :)
+[positive] [14:22] <ndy> bazhang: burned the ubuntu cd two times .. will try another one :)
+[positive] [14:30] <v0lksman> GNUtoo:  yeah I've never had any luck with that... :)
+[positive] [14:32] <loder> There's an irony there somewhere :)
+[positive] [14:34] <nullmind> loder: im always joking :)
+[positive] [14:35] <shane2peru> ifireball, nullmind thanks guys, I'm a gnomer, and yes I like having my server too, computer handles both just fine, I like the server install, server hobby, desktop for work. :)
+[negative] [14:35] <loder> nullmind I take it Final Fanatasy is agame? the software I'venever heard of is always game related :(
+[positive] [14:38] <nullmind> greentomate: im in Portland, OR and choose cat.pdx down the street :)
+[negative] [14:39] <gord_> indian_munnda: aha, so ion that case u need to recycle the fixed IP, anyone help with a foolproff method in hardy? no box here on 8.04 to talk him thru.. :(
+[positive] [14:43] <v0lksman> GNUtoo:  I was thinking of checking the FAQ for the answer... :)
+[positive] [14:43] <v0lksman> GNUtoo:  make sure you use EnvyNG in hardy though....from the repos.. :)
+[positive] [14:48] <loder> And for reasons I won't bore you with a lot of old comps come through my hands :)
+[negative] [14:49] <dublpaws> the repositories are slammed :(. is there one which is not serving upgrades?
+[positive] [14:58] <Joelito> Thanks dystopianray, that help me :)
+[positive] [14:58] <PMantis> spiniker: Would've been quicker to download the alternate or DVD via torrent, and upgrade with local disc. :)
+[positive] [15:00] <loder> that was an excessive use of the word actually sorry about that :)
+[positive] [15:01] <loder> LainIwakura well as to the wisdom I couldn't say - I'm just a newbie who can search :)
+[positive] [15:07] <PMantis> Scunizi: I do appreciate the effort, though. :)
+[negative] [15:10] <rohan> is there _any_ way to install ubuntu using the iso but without burning the cd? all the cdrw's that i've got are bad :(
+[negative] [15:12] <rohan> Nith: no, second computer is windows only :(
+[positive] [15:13] <Sake> slestak: I dunno what that means. I just like how putty uses a small font and works with everything. :)
+[positive] [15:17] <rohan> Nith: i usually like clean installs :)
+[negative] [15:18] <gord_> indian_munnda: hmmmm ok. we're reaching the ned of my sure-fire knowledge here i'm afraid :(
+[positive] [15:18] <indian_munnda> gord_: :)
+[positive] [15:20] <ddrplayer512> I don't usually upgrade over the Internet on the day it comes out. I can't install software for Hardy. I'm glad I didn't upgrade from Dapper. I was considering that... Scary... :)
+[positive] [15:21] <rohan> bazhang: but will work great, thanks a lot :)
+[positive] [15:21] <ddrplayer512> bazhang: Yeah, I know. But I figured that the repos would be flooded, and I wanted Hardy NOW. So... :)
+[positive] [15:23] <gord_> indian_munnda: err, yes, but it didnt work, and it probably should have :)
+[positive] [15:23] <snadge> nibsa1242b: cheers that worked thanks :)
+[positive] [15:25] <roychri> amenado: Lots of people upgrading I bet :)
+[positive] [15:27] <P0larBear> 8.04 is a hit i guess :)
+[negative] [15:28] <murlidhar> still no support for my all in one epson stylus cx2800 :(
+[positive] [15:30] <bakom> slytherin, thanks, It's working :)
+[positive] [15:38] <gord_> indian_munnda:hmmm, are you sure you havent mis-typed the MAC ? thats my usual mistake :)
+[positive] [15:48] <Pilha> ok ppl, many thx for the help - worst case is I wait for the servers to lighten up :)
+[positive] [15:48] <shadow_> thats mainly because i don't know what im doing most of the time :)
+[positive] [15:51] <gord_> dmakalsky:   here's a nice page on a bottleneck-free server :)  http://linux.byexamples.com/archives/386/how-to-safely-upgrade-your-ubuntu-to-hardy-heron-804/
+[negative] [15:54] <gord_> haha sorry wrong knb ppl :(
+[positive] [15:59] <mosno> Turms_gutsy: try running full-disk encryption LUKS/LVM --- /boot comes in handy in this instance :)
+[positive] [16:02] <lynxie> cool, ubuntu 8.04 lts under vmware :)
+[positive] [16:12] <XaMuleAduGuest21>  i am having problem with azureus, i cant download anithing and i got errors when i test my ports. I have a wired connection without router (fastweb) and i use ubuntu, anyone may help me'? :)
+[positive] [16:14] <Kcaj> lol :)
+[positive] [16:14] <needcdrom> IndyGunFreak: I'm using the alt cd to upgrade btw :)
+[positive] [16:15] <trait> :)
+[negative] [16:16] <Kcaj> How many times have I been mouseless trying to operate a GUI? :( Too many.
+[positive] [16:17] <l3on> bazhang: tnx for info :) bye bye
+[positive] [16:20] <helloworld> hello can any one tell me how to execute a command auto maticaly at start up after login :)
+[positive] [16:21] <helloworld> iusegnulinux: where is add to session :)
+[negative] [16:23] <helloworld> iusegnulinux: cant find :(
+[positive] [16:29] <needcdrom> ubuntung-pinoy: oh, sorry :) In that case you'll have to wait for the servers to cool donw
+[positive] [16:30] <r3m0t> MrDakoki: no problem :) you can use the search in the same way if you get another error
+[positive] [16:35] <NET||abuse> MrLinux: named is the binary you are talking about, and Bind is like the industry standard version that most people will use,, not that it's without any flaws... its got a few to be proud of :)
+[positive] [16:45] <rawb> kbrooks: ah, ok. just missed it then :)
+[positive] [16:47] <Dr_willis> CyberCod,  for the state of Indiana - we need a zoomed in map of Indiana - we have different timezones depending on which county in the state you are in. :)
+[negative] [16:51] <cybojanek> Is us.archive.ubuntu.com up? I cant apt-get install build-essential... :(
+[positive] [16:55] <Krimpet> it seems a bit unpolished and space-wasting for all of my firefox windows to say "Mozilla Firefox 3 Beta 5" in the title - just wondering if there's a way to trim it down :)
+[positive] [16:56] <Krimpet> schnootop: ah, good point, thanks. :)
+[negative] [17:01] <ddrplayer512> I don't think so... :(
+[positive] [17:02] <Jack_Sparrow> aptitude :)
+[positive] [17:03] <jbroome> amenado: too slow. :)
+[negative] [17:06] <manawenuz> amenado: i'm a bad drawer :(
+[negative] [17:20] <Mimi> dbristow:  if its mismatched, you need to re-download :(
+[positive] [17:21] <manawenuz> cman: me too :)
+[positive] [17:21] <rohan> bazhang: ah ok, thanks.. and fwiw, i'm in hardy kubuntu installed using pen drive :)
+[positive] [17:22] <Dim252> sigma  :)
+[positive] [17:23] <arvind_khadri> Odd-rationale, thats ok :) he had disabled it :)
+[positive] [17:23] <Mimi> Mapp:  we can get a better one working for you so go to sofware sources,.... then on that window look on the center,  click where it says Download From... then "Other" then "select the best server" let it do its thing, then click Choose server, close, and youre good to go :)
+[positive] [17:23] <rohan> bazhang: yay indeed o/ :)
+[negative] [17:28] <Pokit> albech :(
+[positive] [17:29] <twinkie_addict> torent was way faster :) and thanks to wubi i didnt have to wast a cd :)
+[positive] [17:37] <kakado> Raits: I tried some different combinations and then it worked :)
+[positive] [17:40] <Raits> kakado: anyway, thank you, it's working great now:)
+[negative] [17:40] <Mimi> mapp :( did it download most of them? Might be some packages that are being updated and such, I got the same problem earlier, try sudo apt-get update then sudo apt-get upgrade from terminal, after you close that Sources window
+[positive] [17:43] <Mimi> dave11 if you're installing and keeping windows, try wubi :)  otherwise... make sure youre burning at the LOWEST speed possible, and I assume youve checked md5sum
+[positive] [17:43] <Callipyginous> pjoul: Lol, trying that now... Thanks :)
+[positive] [17:51] <manawenuz> amenado: ty :)
+[positive] [17:52] <manawenuz> amenado: ok :)
+[positive] [17:52] <jharkn> timewriter: ok :)
+[positive] [17:53] <Callipyginous> pjoul: Thankyou! That worked! :)
+[positive] [17:53] <pjoul> Callipyginous: that's fine :)
+[positive] [18:02] <manawenuz> ^root^: it contains 3 cd's :)
+[positive] [18:04] <cman> upgrading now :)
+[positive] [18:04] <mut80r> cman: nice  :)
+[positive] [18:04] <manawenuz> :)
+[positive] [18:05] <Koheleth> ddrplayer512: sorry wrong person :)
+[positive] [18:06] <ddrplayer512> Koheleth: That's fine! It happens... :)
+[positive] [18:07] <manawenuz> amenado: there's no Ubuntu client , except mine :) i'm trying to connect to 213.217.55.30 client with ubuntu and i'm unable to
+[positive] [18:08] <duaneb> lopin, good :)
+[positive] [18:09] <Mimi> pjoul:  thank you very much Ill go try that :)
+[positive] [18:09] <pjoul> Mimi: let's try :)
+[negative] [18:09] <vignesh> bullium, the instruction in that page doesn't work for me.. :(
+[positive] [18:10] <ddrplayer512> suwed: You don't really have to upgrade, but you'll get new versions of new software, your software will be supported for about another year vs. LTS for another 3 years, and you'll have bragging rights! :)
+[positive] [18:13] <ddrplayer512> No problem, I hope that helps. :)
+[positive] [18:16] <suweid> pjoul: I want it, I just want to know why the hoopla! :)
+[positive] [18:17] <ddrplayer512> suweid: http://www.ubuntu.com/news/ubuntu-8.04-lts-desktop How about THIS? :)
+[positive] [18:17] <pjoul> suweid: just because all that new shiny software :)
+[positive] [18:17] <suweid> ddrplayer512: I'm going to read that. :)
+[positive] [18:18] <manawenuz> amenado: :)
+[positive] [18:21] <suweid> pjoul: Aah, the packages. Then yeah, that's worth a lot. Though I'll be probably updating the day after 9.?? comes out. :)
+[positive] [18:21] <pjoul> suweid: yes, that's your bussiness :)
+[positive] [18:35] <bullium> Steufeubeu: worked great :) thnx a bunch...now I can do some work
+[positive] [18:35] <suweid> eyyYo: that sounds like proxying, google proxy ubuntu or something. :)
+[positive] [18:37] <suweid> jburl, just reinstall the whole shebang. And if that's not possible you can cry in a corner. That's what I usually do when my files get wasted anyway. :)
+[positive] [18:38] <suweid> mut80r: No, he's no newbie. I think he'll manage. :)
+[positive] [18:38] <eyyYo> suweid: And I dont have much time, thats the biggest problem :)
+[positive] [18:41] <eyyYo> suweid: Nope, its exactly as i described it before :) I want a shoutcast server to switch between streams..
+[positive] [18:41] <eyyYo> suweid: Ill sniff a little with wireshark or something, and see what i get :)
+[negative] [18:43] <trait> <trait> ALSA lib simple_none.c:1741:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+[positive] [18:45] <gouki> patholio: there is a synergy2? :)
+[positive] [18:47] <obnibolongo> absnt, AFAIK, nothing special there :)
+[positive] [18:48] <obnibolongo> absnt, wait :)
+[positive] [18:50] <andresmh> :)
+[positive] [18:50] <andresmh> mut80r: exactly:)
+[positive] [18:59] <ditoa> I just got my Dell Inspiron with Ubuntu :)
+[positive] [19:01] <roffe__> CyberCod: Let's hope someone helps us then :)
+[positive] [19:04] <ratalin> Flannel: thanks :) damn
+[positive] [19:10] <roffe__> graingert: Can't remember, gonna check :)
+[positive] [19:15] <calamari> thingfish1: excellent.. thanks :)
+[negative] [19:17] <xphisherx> does anyone have anything to say about hardy?  i haven't updated .. i'm too scared to do it.. :(
+[positive] [19:17] <calamari> jbur1: I've never used it.. I am a rebel I guess.. I just change my repositiories and upgrade.. they say don't do that.. but it works for me :)
+[negative] [19:19] <pandora--> is there any possible way to upgrade 8.04 through some mirror?  40kb/s is gonna take a while :(
+[negative] [19:19] <noodlesgc> harking :( no fair
+[positive] [19:20] <Genscher> hey :)
+[negative] [19:20] <giggsey> Is there another audio program instead of audiopulse. I think it's crashing on boot for me :(
+[negative] [positive] [19:22] <instantsoup> can anyone help a newb :)? i just installed Ubuntu 8.04 on a second partition on my laptop and now i can't boot into windows anymore :(
+[positive] [19:25] <NeT_DeMoN> SimplePlan: a Ubuntu Live CD does a partition for you :)
+[positive] [19:26] <NeT_DeMoN> SimplePlan: its the same :)
+[positive] [19:27] <boy> i have x64 hardy, and it's perfect :)
+[negative] [19:31] <instantsoup> i can't find the partition manager or anything :( My windows won't boot, at the screen where you have to press esc to choose the OS it gives me 3 choices for ubuntu but none for windows :(
+[negative] [19:35] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+[positive] [19:35] <nucco> blue-frog_: i wish to fix a broken download :)
+[positive] [19:36] <jackdaw> @simonft2: well windows,  not vista ok :)
+[positive] [19:37] <nucco> au contraire :) my ubuntu is crashing every few days :) for no apparent reason. today it suddenly developed a bad block on the HDD while playing music, I had to do a clean install
+[positive] [19:41] <instantsoup> just so you know, if it works you are my official hero :)
+[negative] [20:01] <btse> Jack_Sparrow, ok, I have 12 minutes left... :(
+[negative] [20:01] <btse> Jack_Sparrow, ok, I have 12 minutes left... :(
+[negative] [20:04] <Assid> stupid thing wont work :(
+[negative] [20:08] <Baby_Shambl3s> nucco: i know where is is but thats the only ext3 i have my /sda2 in jfs so I doubt those settings will work :(
+[positive] [20:11] <Stormx2>  play (which requires absolutely no other app using the sound card when firefox is started AND when the video plays) I have to restart firefox afterwards to be able to use other sound-producing apps. Help! :)
+[positive] [20:12] <nucco> Baby_Shambl3s: replace /dev/sdb with /dev/sdb1 or whatever your partition is :)
+[positive] [20:14] <doxid> nucco, i need the .rar library :)
+[negative] [20:14] <mero> sachael, works for me but veeeery slow :(
+[positive] [20:24] <IanBeyer> SimplePlan: depends on whether you're going from cds or repository, and how bad the repos are gettingf hammered :)
+[positive] [20:25] <nucco> PowerTeam: we do too, now go tell your neighbours too :)
+[positive] [20:32] <kevin4381> ok; I'm gonna reboot :)
+[positive] [20:32] <koomber> I don't want to keep asking the same question over and over, but hopefully somone can help with my Vostro blues :)
+[negative] [20:34] <nucco> thomasc599: been trying to open that since, my darn connection is giving me 550Bytes per second :(
+[positive] [20:35] <andresmh> do you know the location of the file or not? :)
+[positive] [20:37] <Arky44> Stiny: it's still relatively stable... :)
+[positive] [20:37] <Arky44> Stiny: I use galeon :)
+[positive] [20:41] <nucco> Stiny: epiphany is the new galeon :) so to speak
+[positive] [20:45] <MountainX> IcemanV9 - lol thanks for info about bot :)
+[positive] [20:46] <retalin> Arkaic: robinmholt thanks :)
+[positive] [20:46] <retalin> nibsa1242b: thanks :)
+[positive] [20:49] <nucco> iKar: oh, right-click the image, select write to disc :)
+[positive] [20:50] <nucco> Skapare: yes, I know that, the problem is *how* to fix it :)
+[positive] [20:54] <nucco> neztiti: you mean ubuntu update downloads are slow? that's to be expected. a new version just got released :)
+[negative] [20:56] <Dusk_> IcemanV9: it didn't :( restarting changes verything
+[positive] [20:57] <Seveas> koomber, get rid of vista :)
+[negative] [20:59] <DBautell> ok, dassouki_ , you need more knowledgeable help than I :(
+[positive] [20:59] <Skapare> mut80r: that means he can ignore dumb questions like mine :)
+[positive] [21:00] <Daisuke_Ido> cvd-pr, #ubuntu+1...  nah, just kidding, it's okay to ask here now :)
+[positive] [21:01] <mut80r> Vlet: yes :)
+[positive] [21:03] <gogeta> Skapare i orderd a 8.04 cd :)
+[positive] [21:05] <Daisuke_Ido> i stand corrected :)
+[positive] [21:06] <flithm> _lemsx1_: hey that's not a bad idea :)
+[positive] [21:06] <Administrator_> except maybe time.. :)
+[positive] [21:07] <flithm> fbc: haha thanks :)
+[positive] [21:08] <Daisuke_Ido> but the recovery partition is feisty, i was wondering if there were a way to update that to a hardy recovery :)
+[positive] [21:08] <Arky44> ubus: it still might be though :)
+[positive] [21:08] <nucco> joshua__: the windows name of the pc will work fine too :)
+[positive] [21:09] <Daisuke_Ido> koomber, i was just kinda thinking out loud :)
+[positive] [21:10] <Arky44> gogeta: :)
+[positive] [21:10] <shane2peru> I'm batting a 1000 today. :)  am I asking too hard of questions?
+[positive] [21:10] <nucco> bnjmn: technically, the only difference btw the ubuntu "versions" is just the default set of packages :)
+[negative] [21:11] <dassouki_> nucco, Arky44 u guys don't happen to know why from gutsy to hardy my sound stopped working :(
+[positive] [21:12] <Arky44> prettyricky: more stable, more packages to download, in some cases faster, in general just better :)
+[negative] [21:12] <RunKidRun> anyone :(
+[positive] [21:13] <MidnightDevil> yo :)
+[negative] [21:15] <Stiny> I still need help. I'm being really sad now. :(
+[negative] [21:15] <Administrator_> kindofabuzz: nope.. didn't work. I guess it's back to gutsy for now :(
+[positive] [21:20] <jharkn> http://gb.archive.ubuntu.com ftw :)
+[positive] [21:21] <Skapare> LukeL: so I'm waiting for a DVD to become available (yup, I got a DVD on that old machine :)
+[positive] [21:26] <LOGAN> Skapare: yeah well i wait for the release version :)
+[negative] [21:27] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+[positive] [21:28] <FooAtari> yeah i know dystopianray :)
+[positive] [21:29] <roffe__> lots of help there :) I want to be root every time I start up ubuntu is it what scizzo said then?
+[positive] [21:33] <roffe__> ok.. thanks I'll look into it, as long as I need to type it less often :)
+[negative] [21:36] <trait> ALSA lib simple_none.c:1738:(simple_add1) helem (MIXER,'Headphone Playback Switch',0,2,0) appears twice or more
+[positive] [21:47] <Stiny> Vlet: I gues Linux isn't for me. Maybe because I can't solve simple problems. :)
+[positive] [21:53] <DaaT> slight prob. When booting into hardy, I have no taskbars... any clue? :)
+[positive] [22:02] <DaaT> amenado, believe so. It's... 2.24 I think (trying to recall from memory) and new is 2.26, or something. You probably know it better than I do :)
+[negative] [22:02] <Nevstah> hey everyone, any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(
+[positive] [22:04] <pharoh> ceil420: ah.but since i'm still a newbie(one en a half months now) guess i'll stick to 7.10 til i learn more:)
+[positive] [22:04] <ceil420> strtok, i can do that easily enough with my Enlightenment window manager :)
+[positive] [22:06] <NicDumZ> Hi ! :) Yet another one of these hardy users without _any_ sound since upgrade. Google for vlc error outputs did not help; vlc-plugin-pulse _is_ installed. Any common hardy-sound FAQ / known issues page maybe ?
+[positive] [22:07] <DaaT> amenado, yay :)
+[negative] [22:08] <Nevstah> any reason why i should be getting slow LAN speed since 8.04 upgrade? i get about 800KB/s up / 1MB/s down :(  or how i can diagnose?
+[positive] [22:11] <DaaT> drivetrax, thanks :)
+[positive] [22:12] <ToM-x> Still busy here I see :)
+[positive] [22:12] <Stormx2>  play (which requires absolutely no other app using the sound card when firefox is started AND when the video plays) I have to restart firefox afterwards to be able to use other sound-producing apps. Help! :)
+[positive] [22:12] <hwilde> amenado, no share = no support :)
+[negative] [22:13] <MRutter> hi, I'm getting this audio error when running a game called spring: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
+[positive] [22:16] <Steve^> joshua__, I hope so! :)   thanks
+[positive] [22:16] <brakkvatn> instantsoup: Try choosing the green flower again :)
+[positive] [22:18] <nonewmsgs> nickrober: sweet :)
+[positive] [22:19] <_ditoa> only got it this afternoon :)
+[positive] [22:20] <Zacaa> good evening :)
+[negative] [22:20] <_ditoa> although the upgrade from 7.10 to 8.04 killed it :(
+[positive] [22:21] <ToM-x> No problem :)
+[positive] [22:21] <ditoa> noodlesgc: switched back to my main account :)
+[positive] [22:24] <_manny> Hi all :)
+[negative] [22:28] <MRutter> hwilde: those troubleshooting guides don't seem to apply. Spring uses openal, which defaults to using OSS. under 7.10 Spring worked fine, but with 8.04 it only works if its the only audio application running. If another audio application is running I get this error: ALSA lib pcm_dmix.c:874:(snd_pcm_dmix_open) unable to open slave
+[positive] [22:38] <mark_> dont want them :)
+[positive] [22:40] <mark_> i'm such a linux newbie  -  & loving the ride!  what a revelation :)
+[positive] [22:45] <alastor666> bonne nuit recycled :)
+[negative] [22:46] <ceil420> i think my distro upgrade got frozen :( it's been "Configuring motion" for like 5mins... with no change
+[negative] [22:46] <tawt> nibsa1242  :(
+[positive] [22:47] <nucco> jburd: start with the one that annoys you first :)
+[negative] [22:56] <kst-> might go back to gutsy :(
+[positive] [22:58] <nucco> catmistake: or your irc client should be smart enough to highlight stuff addressed to you :)
+[positive] [22:59] <nucco> catmistake: you'll get used to it... :) sometimes I hate it too
+[positive] [23:01] <nucco> catmistake: downloading right now, at the amazing rate of 1.35KB/s :)
+[positive] [23:05] <nucco> catmistake: as you get better with linux, you might find that you can have a separate partition for /home, then when you do a clean install, you don't have to lose all your data :)
+[positive] [23:07] <B-rabbit> catmistake, you are as important as everyone else here :) and if u want to talk about something me and everyone else will be more than happy to help u out
+[positive] [23:07] <B-rabbit> catmistake, just askaway :)
+[positive] [23:08] <carpark> tawt: plugins for firefox? click 'tools'>'add-ons'>'get add-ons' :)
+[positive] [23:14] <nucco> catmistake: I understood :)
+[positive] [23:17] <Brodwen> Hi all, I've encountered a problem when booting Ubuntu, my screen resolution is unsupported, has anyone got a fix for this? (Sorry if anyone said anything before, it's a bit packed in here :))
+[negative] [23:23] <grandpa> hey guys i have a code red o.0! I was upgrading to hardy from gutsy, and then my computer crashed and gnome won't start...how can I finish the installation from the terminal (the update-dist command returns an error :(
+[negative] [23:26] <Lyk4n> :(
+[negative] [23:29] <mtaylor> hwilde: yup. tried that. no dice :(
+[positive] [23:30] <shane2peru> KooperKool: however if upgrade fails, ohh, I'm dead. :)  I'll be shopping for a cdrom. lol
+[positive] [23:33] <roffe__> unop: yeah, a very basic one.. pastbin? :)
+[positive] [23:36] <szenti> Hmm, this new release [8.04] of Ubuntu is more complete than the previous one. I'm glad I can use it. :)
+[positive] [23:37] <roffe__> unop: it claims I'm a spammer :) can I send the install file to you instaed?
+[positive] [23:38] <nucco> hwilde: copying a 100G /home partition isn't something I like to do over and over :)
+[positive] [23:39] <cronix> i think that it is just a wrong link in the grub config, cause i had ubuntu installed before. but when i use root (hd0,2) ... nothing happens, i need one more command like "boot this shit :)"
+[positive] [23:41] <unop> roffe__, well, it can be .. :) but no
+[positive] [23:47] <yoni> Fogel1497: I hapy to know that you had :) How can I solve it as well?
+[positive] [23:48] <yoni> Fogel1497: thanks a lot!!! :)
+[positive] [23:51] <roffe__> unop: If you've given up, I can more than well understand it :)
+[positive] [23:58] <nucco> Steve^ the logical partition also counts as part of the 4 maximum :)

@@ -1,466 +1,466 @@
-[12:01] <necr0mancer> deserteagle: I tried using alsamixer and the pcm channel is not muted.  Any other suggestions? :(
-[12:02] <NeoTheOne-> i hate this bug :((
-[12:04] <necr0mancer> deserteagle: I tried using alsamixer and the pcm channel is not muted.  Any other suggestions? :(
-[12:11] <ardchoille> cotton: You're welcome :)
-[12:13] <ajehuk> sacater - thats some lag there :)
-[12:16] <zcat[1] > I have a bunck of 'copy protected' DVD's here... dvdrip can't handle them, but vlc can. And will even dump them to file for me :)
-[12:17] <ajehuk> sacater - sorry for not being more help :)
-[12:17] <ardchoille> Derek_Russo: :(
-[12:20] <razzia> my wlancard wont work :( - ive tried so much.. im using the new ubuntu and i have an Atheros Communications, Inc. AR5005G 802.11abg NIC (rev 01) card
-[12:24] <spikeb> ghostkernel: congrats :)
-[12:24] <ghostkernel> goodbye to slackware :)
-[12:25] <ubotu> raquen: Don't ask to ask a question. Just ask your question :)
-[12:26] <teethdood> man, I only got the Basic version :(
-[12:29] <yigal> ziadoz: just don't use network manager :)
-[12:30] <zcat[1] > greg_g, I've only had experience with one; 915 iirc... not sure of the technical details but I installed edgy with beryl, vlc, codecs, etc.. and it everything was accelerated out of the box. Awesome. Until I tried to run some games :(
-[12:32] <Goldy> dannydrift: i think so, if not you can download the nvidia drivers easily :)
-[12:33] <Gigi> mine too :)
-[12:33] <deserteagle> i wish my X could get fixed :(
-[12:35] <zcat[1] > rene-, dual-boot :)
-[12:37] <avb> kernel06: congratulations :)
-[12:42] <digin4> :)
-[12:43] <carlhempel> banshee is a C# app ... so if you hate everything from MS .. you may want to steer clear ... jk :)
-[12:43] <selinuxium> Hi all, I have a broken upgrade one my laptop. There was a power out during the install. TO complicate things further, i do not have a cd rom drive at home as docking station at work but I do have the ISO on the HD. SO firstly can I muont the iso at /media/cdrom so the update can find the files it needs, and I need help getting past a broken bzip2 package! Any takers? :)
-[12:45] <kernel06> avb: andale mono looks good :) how about document font
-[12:45] <kernel06> avb: i'm using the same :) thanks
-[12:53] <BlueScreenKid> tnx seth . you just made me realise i need to edit my menu.lst to my wife can access windoze without any menu choices :))
-[12:59] <BlueScreenKid> Hor|zon .. any reason why ? or have i lived in the dark ages to long :))
-[12:59] <BlueScreenKid> Hor|zon .. what are the benifits of not switching to root .. sorry i come from the debian age :)
-[01:00] <kitche> BlueScreenKid: jsut sudo -i :)
-[01:01] <ardchoille> Vluid_: :)
-[01:01] <ardchoille> BlueScreenKid: :)
-[01:02] <idefixx> ffm: in that case im confused too :)
-[01:11] <yigal> IncredibleHink: you do have cpio installed :)
-[01:16] <ClayPigeon> Toshiba Laptop M30 604. First time Linux OS (for me) and everything works. :) Thanks for a great OS!!!
-[01:21] <BlueScreenKid> yuckity ... yuckity .. yuck ... to get my ati 9600xt to work properly i had to use non-open source drivers ... where on edgy i could use open source .. why this backwards step :(
-[01:28] <lando__> i took away my own permission to access administrationi settings :(
-[01:33] <yigal> Beastage: nice :)
-[01:34] <lando__> it says to contact admin :(
-[01:41] <iain> ajehuk> done :)
-[01:43] <iain> ajehuk> there you go :)
-[01:45] <Gigi> This darn thing is crazy but nice.  I work a lot with the computer writing reports and doing investments.  This stuff will make it funnier :)  I have Linux Ubuntu since 2 years and I even remember what are blue dead screens and erros
-[01:47] <Morris_The_Cat> :)
-[01:48] <ubotu> sethp: Don't ask to ask a question. Just ask your question :)
-[01:51] <LoneShadow> I was under the impression, feisty was meant to invite people who dont want to mess with config files :)
-[01:54] <ajehuk> ah iain - see the bot above :)
-[01:56] <iain> ajehuk> thanks for all your help bro. I appreciate it :)
-[01:57] <idefixx> ajehuk: bookmark :)
-[01:59] <dagma1> hi people :) im very new to ubuntu or even the linux based OS. so i downloaded the live cd of kubuntu. i put it in my cd rom and reboot my system. then it starts kubuntu checking my system, loading and then it just stops i get a black screen with just the cursor there. what ever i type doesn't work (or i don't type the right command). can anyone help me??? please
-[02:01] <Ax4> nihil_, no sweat :)
-[02:10] <DB42> but everything seems to be working ok :)
-[02:14] <DB42> welp, going to sleep soon, night :)
-[02:21] <eXcAliBuR> :(
-[02:29] <ajehuk> Dante123 :)
-[02:32] <Abom> ahh this is it, thanks wastrel, I saw this before :)
-[02:33] <zazeem> :(
-[02:34] <ubotu> debaser: Don't ask to ask a question. Just ask your question :)
-[02:36] <TirEoghain> I was able to download the ISO in 27mins, I am in Ireland and I guess the Irish mirrors just aren't that busy :)
-[02:38] <VividHazE> I entered the IP address and it still didn't work :(
-[02:40] <VividHazE> :)
-[02:40] <Ax4> zipped20x, yes, im finding it for you, sec :)
-[02:41] <rookiehwm> my keyboard shortcut isn't working :( alt-f2 is still opening the gnome terminal, not aterm
-[02:41] <stp2007> randomwalker, I was doing the other stuff on my other laptop :)
-[02:48] <ubotu> mistaWAC: Don't ask to ask a question. Just ask your question :)
-[02:50] <NobleCommerc1> nope :(
-[02:54] <Impaque> TirEoghain: no idea :( try following the guide again, sorry
-[03:08] <randomwalker> eck: that wasn't me :)
-[03:08] <Stormx2> debaser: Great album :)
-[03:11] <VividHazE> Impaque: Am I screwed then, I was hoping to have all my files on the one computer so the other computers and laptops in the house could read it from them :(
-[03:23] <ardchoille> Kevin: You're welcome :)
-[03:27] <Ax4> eck, http://rafb.net/p/9pFspp21.html <---- if you have a sec :)
-[03:31] <Fujitsu> zipped20x: They're called stable for a reason :)
-[03:34] <Ax4> k :)
-[03:36] <Ax4> eck, Fujitsu , libssl-dev did the trick! :)
-[03:36] <Fujitsu> Ax4: Great :)
-[03:42] <mzaza> SmSpillaz: it's just when ubuntuforums had the tags for fiesty i found a topic for solving this problem easily. its just they removed the tags i can't find it :(
-[03:43] <Fin> calculator:  Try k3b? :)
-[03:43] <delmorep> mzaza: you might try beryl instead -- its in the repos now, remove compiz first.... ive never had any problems with beryl... but i had so many problems with compiz :( sometimes the close-X's on progams dont work... similar black screen problems that youve had too
-[03:44] <NemesisD> randomwalker, very interesting >:)
-[03:45] <Brade1> :)
-[03:45] <delmorep> :) i cant believe they went with compiz... i know it has a better long term value... but im pretty sure the beryl team thought it was gonna be them... was probably a harsh letdown
-[03:48] <tom_> :(
-[03:50] <KevinOoO> :)
-[03:53] <NemesisD> blazemonger, im sorry to hear that :(
-[03:56] <ubotu> Don't ask to ask a question. Just ask your question :)
-[03:57] <Jordan_U_> blazemonger, You could find the developers responsible for midi hardware support and donate testing time / money / hardware ( they can't make it work if they don't have it :)
-[03:57] <dudu1982> hehehe :)
-[03:57] <randomwalker> NemesisD: :( so its either keyboard shortcuts or snazzy effects
-[04:03] <rbrtoclto> pelo: sweet, that's done the trick :)
-[04:03] <KevinOoO> :) sorry
-[04:04] <BSG76> my mythtv settop has been working amazingly for last 4 years now :)
-[04:04] <rbrtoclto> xt: had any problems?  there was a race condition between some scripts in the beta that caused 9/10 boots to fail, I've only booted twice running feisty release and one has failed :(
-[04:04] <Tom47> BSG76 oops sorry you are the expert :)
-[04:04] <BSG76> no backend in on a my machine in the living room :)
-[04:05] <BSG76> lol been using myth since early versions .. I just don't know how it is setup in ubuntu :) ... normally use gentoo .. love ubuntu though :)
-[04:06] <BSG76> thanks ubotu .. I visited that already .. it's very basic at best :)
-[04:08] <BSG76> however my lack of knowledge of ubuntu is surely haunting me right now :)
-[04:11] <delmorep> Impaque: awesome! thanks a million my friend :)
-[04:18] <Jordan_U_> delmorep, wget -c for bad connections ( will keep re-trying ) :)
-[04:21] <locke1689> msand: depends :)
-[04:26] <Jordan_U_> jimmygoon, I disagree about using NDIS wrapper :) But in what way won't it remove ( and BTW there is an official broadcom firmware package in the Ubuntu repos )
-[04:26] <vadvad> hi! new user in need here :)
-[04:27] <dager> vavad, just ask :)
-[04:30] <behdad> :))) Available space : 0 , thanku all
-[04:31] <DeadCowBoy> umop already too late for that :(
-[04:31] <stelios> Ax4: i know but it's not working anymore :)
-[04:32] <behdad> towsonu2003: thanku man i got it its free space is 0 now :)
-[04:34] <Jordan_U> jimmygoon, probably a good idea, I can't think of what that package could have been trying to do, it should be very simple, but if whoever made it didn't know that such a thing already existed they probably can't be trusted to greatly :)
-[04:36] <vadvad> i trust u :)
-[04:42] <huXfluX> zeroday: thank you! the toshiba sound fix worked like a charm :)
-[04:43] <Ax4> stelios, you can go into control panel -> administrative tools -> computer management -> disk management -> and select the partition, then "SHRINK" it down, then reboot using the ubuntu live cd and partition the ubuntu install into that empty space you make :)
-[04:44] <stelios> Ax4: may i ask why is needed to shrink the partition?(sorry i'm new to this :)
-[04:47] <ubotu> zazeem: Don't ask to ask a question. Just ask your question :)
-[04:49] <zazeem> :(
-[04:56] <towsonu2003> behdad, be careful not to delete everything in your way :)
-[04:56] <zazeem> southafrikanse: probably, ubuntu is much more fun though :)
-[04:57] <behdad> towsonu2003: :)) man i have to submit 3 asignments and 2 projects i was going to install 7.04 , thanks god for ur help
-[04:58] <towsonu2003> behdad, you're welcome :)
-[04:58] <stelios> :( i'm lost
-[05:00] <zazeem> southafrikanse: i remember a lot though :)
-[05:03] <zazeem> Burgundavia: ok thanks :)
-[05:03] <behdad> cotton: what do u mean by cant do this :) ?
-[05:10] <zak_> NBrepresent, trace bitmap? if you mean trace a bitmap [ie vectorise it] , inkscape will... but if you mean something else, it's probably not in my brain :)
-[05:15] <GionnyBoss> linoleum: anjuta is similar to kdevelop... consider eclipse with c plugin. I use this for my university. There's a good debugger inside, too :)
-[05:17] <linoleum> GionnyBoss: tkx mate I definitly going to try this one too :)
-[05:17] <aubade> xtknight: I do. :(
-[05:19] <Possum> zak_, yea, I found a link here, thanks :) https://help.ubuntu.com/community/HowToMD5SUM
-[05:28] <GionnyBoss> xtknight: this IS a weird thing. I spent 2 days to understand why it didn't work and then I found this cool 915resolution thing :)
-[05:34] <oswaldo> :(
-[05:34] <NemesisD> mysql killed my feisty upgrade :(
-[05:37] <bobesponja> my mouse doesn't work as before, I can't open tabs by clicking on the mouse wheel and I can't past by clicking on the mouse wheel, any idea how to fix it, it's really annoying :(
-[05:44] <xange> xtknight: i dunno, I have a Samsung Syncmaster 930b if that means anything to you :)
-[05:45] <xange> xtknight: if you give me a link..sure :)
-[05:47] <ReePigBree> I can not freshclam in the terminal! :(
-[06:03] <reubs> xtknight: thanks alot tho :) i think its disabled by default as the hyperthreading is a security risk
-[06:05] <GionnyBoss> acidtabs: do you have 3d drivers installed and configured correctly for your graphic card? and then be sure that you installed SDL :)
-[06:14] <bobesponja> clicking with my mouse wheel still not working :(
-[06:14] <MrBarkyVonShnauz> Kazol, I would like to thank you for posting a message to me.  atleast I know now that my posts are making it abroad.  :)
-[06:14] <mister_roboto> cesar_: i don't know why but i find it kind of irritating. the old way was much more readable :)
-[06:28] <bulmer> MrBarkyVonShnauz: only if we knew the answers :)
-[06:33] <concept10> xtknight, but I have HT tired head now :)
-[06:40] <zeb_se> thanks mates :) i give it a try then
-[06:42] <blazemonger> :(
-[06:44] <MrTexor> :(
-[06:44] <xjkx> Please check what mp3 player came by default :(
-[06:44] <MrTexor> ok, I'm stupid.. but I cant find the llink for the torrent file :(
-[06:50] <xjkx> no..i mean by default :((((
-[06:53] <bofh80> sam__, one way to find out :) i believe so, but i might be wrong
-[06:58] <CarlFK> n2diy: you have no clue, do you ? :)
-[07:02] <n2diy> CarlFK: Ok, then your right, I don't have a clue! :) Are the other boxes playing with winders?
-[07:05] <xtknight> ive had that :(
-[07:06] <bofh80> Ademan, i had high hopes for evolution, it has a few nice tricks up it sleeve, but it's pants :)
-[07:07] <liz> yes yes :)
-[07:09] <CarlFK> bulmer: huh - maybe Ill just give it a shot :)
-[07:10] <liz> cisoleap=the proprietary :(
-[07:20] <bofh80> xtknight, ahh the old -phigh , never ever bloody worked for me. bloody thing . . :)
-[07:26] <xtknight> :)
-[07:55] <Kellster> Crazytom - looks like it did SOMETHING :)
-[07:57] <compwiz18> xtknight, thanks for your help :)
-[08:00] <Lunarspore> crdlb: ah thanks :)
-[08:01] <Burgundavia> Amaranth: I think crimsun has alsa highlighted :)
-[08:06] <kkathman> thank you crimsun  :)
-[08:17] <drumline_> Although, I still want it.  :)
-[08:22] <ubotu> FernLujan: Don't ask to ask a question. Just ask your question :)
-[08:30] <FernLujan> crdbl: yep :) got it. thanks a bunch
-[08:31] <r_rehashed> my MD5 checksum didn't match for Feisty! :(
-[08:33] <FernLujan> crdbl: thanks for your help :)
-[08:36] <DARKGuy> _3uG_: I'm out of ideas =/ I'd say use envy to uninstall everything nvidia-related, remove linux-restricted-modules, restart comp and try installing the nvidia driver... that's what I did anyways =/ other than that, I have no idea :(
-[08:40] <DaMi3n> they dont work :(
-[08:41] <nemo_home> liquiddoom: see above :)
-[08:45] <DaMi3n> liquiddoom, didnt work :( says [mntent] : line 16 in /etc/fstab is bad
-[08:48] <kkathman> liquiddoom,  thanks :)
-[08:50] <endlessurf> i lost my sound :(..
-[08:56] <zcat[1] > DShepherd, rofl.. obvious things first :)
-[08:57] <DaMi3n> liquiddoom, found a way to use spaces :) have to use \040 instead of "\ "
-[08:59] <DARKGuy> _3uG_: I'm sorry then :(... basically, all you have to do is to remove anything ubuntu related to nvidia, and just reinstall the nvidia driver - I admit, they made it damn harder now >.<
-[09:28] <Toumaz> Jordan_U: Thanks. I'll go try it now :)
-[09:30] <Possum> wow, beryl looks good :)
-[09:36] <blazemonger> i dont have an apple :(
-[09:37] <blazemonger> i should have gotten an apple like myd j friends said :(
-[09:38] <blazemonger> i only have XP  pro for a dell computer :(
-[09:38] <blazemonger> :(
-[09:42] <T0uCH> :(
-[09:45] <blazemonger> none of them work properly with my audio card :(
-[09:45] <blazemonger> the latency is weak :(
-[09:46] <blazemonger> god i should have learned something about PC's :(
-[09:49] <blazemonger> and i cant return it now :(
-[09:50] <darnell> i would like one of them to be able to dial out, but i dont want to buy minutes :)
-[09:52] <CapaH> ElllisD: Note: I am using Feisty :)
-[09:52] <blazemonger> :(
-[09:58] <blazemonger> now i gotta save a few pennies or sell  some of my old synths :(
-[10:05] <DaMi3n> magnetron, ah oki.. trying now.. thanks :)
-[10:07] <DaMi3n> magnetron, just the pm.. am reading :)
-[10:19] <Bogaurd> thanks :)
-[10:20] <yag4mi> problem: why can't i login to the new user i created? :(
-[10:21] <Seveas> hi Hobbsee :)
-[10:23] <Bogaurd> magnetron: awesome! thanks :)
-[10:24] <Seveas> Draconicus, refreshing :)
-[10:24] <Bogaurd> magnetron: oh. my fault. sorry :)
-[10:26] <fortitUs> help? :(
-[10:27] <ubotu> CapaH: Don't ask to ask a question. Just ask your question :)
-[10:29] <fortitUs> :)
-[10:31] <Seveas> arooni, if you're in europe use se.archive.ubuntu.com, really fast :)
-[10:32] <fortitUs> anyone can help me with my gcc? :(
-[10:33] <tsmithe> sacater, alsamixer is provided by alsautils :)
-[10:35] <ubotu> Draconicus: Don't ask to ask a question. Just ask your question :)
-[10:35] <tsmithe> umop, no that would be silly :)
-[10:36] <DaMi3n> :(
-[10:37] <tsmithe> :)
-[10:40] <DaMi3n> clearzen, oki :)
-[10:41] <tsmithe> ok :)
-[10:41] <CapaH> I get: ALSA lib pcm_dmix.c:865:(snd_pcm_dmix_open) unable to open slave   (then next line)   Playback pen error: -16,Device or resource busy
-[10:42] <tsmithe> CapaH, ok cool. :)
-[10:43] <tsmithe> i've got to go, but should be back in half an hour :)
-[10:45] <tsmithe> hajiki, but as i'm going out, my irc client will keep the url in a safe place while i'm gone :)
-[10:45] <tsmithe> so hajiki; please pm me it :)
-[10:45] <hajiki> :(
-[10:52] <DaMi3n> clearzen, thank you :)
-[10:57] <Choinix> Hello :)
-[11:05] <Crazy_Freak> hi, I need help, can anyone help me? :)
-[11:05] <ubotu> Crazy_Freak: Don't ask to ask a question. Just ask your question :)
-[11:07] <ubotu> SarahDavies: Don't ask to ask a question. Just ask your question :)
-[11:12] <r00tintheb0x> :)
-[11:21] <fiery_cleric> Danltn: i would just unplug it just in case :)
-[11:23] <fortitUs> :)
-[11:23] <kiba-kun_> i need help :(
-[11:26] <kritzstapf> hm, no acrobat reader debs in feisty? :(
-[11:34] <Strayker> TNWA: go to www.vmware.com, you can download and install the Workstation version.  It works really well :)
-[11:35] <ivoks> dale: yeah, but you don't have win api :)
-[11:36] <zcat[1] > some live cd's like puppy load themselves fully into ram; those you can eject the disk and burn on the same drive :)
-[11:36] <surviver> liquiddoom, oke i search out :)
-[11:38] <Strayker> YMWA:  it's a beta test version, it's free and fully functional.  I have just been using it, it works perfectly :)
-[11:38] <surviver> liquiddoom, thx let me see:)
-[11:38] <threw> r00tintheb0x: i tried to install k3b and there is not enough free space when using livecd :(
-[11:39] <Strayker> hahah, I have Compiz working perfectly on the liveCD :)
-[11:40] <surviver> liquiddoom, idd i saw it, it looks like it :)
-[11:40] <YNWA> strayker: lol, you type a different name every time :) anyway, it says I have only 30 days http://www.vmware.com/download/ws/eval.html
-[11:41] <threw> r00tintheb0x: same error :(
-[11:43] <threw> r00tintheb0x: thank you :)
-[11:46] <slackern> Trist_an, ahh i just saw something about trash and desktop :)
-[11:46] <Strayker> YNWA: oops, sorry :)  Bugger, so it will expire after 30 days?  Well that blows goats!  I can always hust install the VMware player then :)
-[11:47] <YNWA> strayker: no probs :)
-[11:49] <Strayker> YNWA: yeah, yeah, my fingers are too fat for the keyboard :)  It should have been "Just"!
-[11:50] <Strayker> YNWA: I need a "Homer Simpson fat bastards keyboard" :)
-[11:53] <slackern> wow finally found where to disable join/part in xchat, only took me a week :)
-[11:55] <buster_> meh :( so noone using twinview?
-[11:59] <nehuen> a newbie seeks help :)
-[11:59] <kevin_u_> velko, okey, i search a bit then :)
-[12:02] <nehuen> ok..no prob..thanx anyway :)
-[12:05] <NemesisD> ndiswrapper is determined to not let me get any sleep :(
-[12:06] <YNWA> I simply need a "kick-start" on how to install a driver. I downloaded the zip file, un-zipped it, and... here's the bit where i need help :)
-[12:08] <frolle> chowmeined: :)
-[12:14] <frolle> chowmeined: what do you mean by that? :)
-[12:15] <nehuen> ok..no problem..thanx anyway :)!
-[12:16] <nehuen> thanx muxx...I'll be nback :)
-[12:16] <LegionX> kevin_u__: all i know is that i got beryl working, and i never did with an earlier version of ubuntu :) is there a linux wow client?
-[12:17] <frolle> chowmeined: do you have some nice bash scripts for it aswel? :)
-[12:18] <LegionX> kevin_u__: oh.. wine.. i hoped there were a real linux client :)
-[12:22] <frolle> chowmeined: its ok :)
-[12:25] <kerik> Stew2: ahhh! :)
-[12:27] <cheeko> 0.72 :(
-[12:35] <spikeb> darksoft: i just woke up :) drinking coffee and helping out
-[12:43] <darksoft> flaguentwankertest: You don't need the iso to upgrade, you can do it through System -> Administration -> Update Manager. :)
-[12:52] <ubotu> goyo: Don't ask to ask a question. Just ask your question :)
-[12:53] <darksoft> I'll see you all in the next version, last machine to upgrade :) l8r
-[01:08] <YNWA> I clicked on it and it opened :)
-[01:12] <YNWA> I'm running ubuntu on it...? :)
-[01:13] <YNWA> velko: oh, thanks :)
-[01:13] <ju_> antidrugue: same error :( ...
-[01:16] <ju_> antidrugue: ok, thanks for your help :)
-[01:18] <Lcarsdata> okay. :(
-[01:21] <kritzstapf> freeware, just apt-get dist-upgrade? :)
-[01:24] <klee_> hello all :)
-[01:33] <umarmung> surviver: hard to say what's wrong without looking at the ds file. And I don't use gaim, so I can't give you a working example. :)
-[01:35] <christine_> rambo3: no i dont think so. :( gnome panel is on top of mythtv
-[01:37] <surviver> umarmung, iam quiet new to all this :) as u can see:d
-[01:40] <umarmung> surviver: irssi is nice, yes :)
-[01:42] <surviver> umarmung, ill search out later now i know bit more :)
-[01:44] <suntoucher> Copolycube, much appreciated.  :)
-[01:45] <suntoucher> It's in french, but I know how to use a translation engine.  :)
-[01:46] <haru> IdleOne, thanks a lot.. i just finished it now :)
-[01:48] <CapaH> cat /proc/kcore > /dev/audio (turn your volume down) == very interesting :)
-[01:50] <sebusssss> preadaeus poland:) olsztyn
-[01:53] <MrEgg964> Hi all :) I'm trying to mount a samba network drive on Feisty. This used to work fine in Edgy, but after I have done a clean install of Feisty, I can't mount it anymore although my fstab is configured the same way it was in Edgy. Any suggestion anyone?
-[02:09] <trol0s_> r00tintheb0x: easy to use as well? :)
-[02:11] <Baktaah> Could someone help me install java :(
-[02:12] <LjL> Samuli^: it's not there by default IIRC, but you can activate it... click on something :) don't remember what
-[02:18] <trol0s_> LjL: I see. Thanks very much. I'm new to this as you can understand :)
-[02:24] <MrEgg964> HI all :) I need some help mounting a network drive with Feisty. The following fstab command used to work fine under Edgy, but returns an error under Feisty : //192.168.71.119/MusicCenter /mnt/MusicCenter cifs credentials=/root/.credentials,iocharset=utf8,file_mode=0777,dir_mode=0777 0 0
-[02:31] <BlueEagle> predaeus: It happens. :)
-[02:32] <ompaul> crazy_penguin, perhaps :)
-[02:36] <Baktaah> jrib  roger :)
-[02:38] <surviver> jrib, just sec it works half :) but iam quiet busy ill talk u later if i see u :)
-[02:40] <MenZa> np :)
-[02:41] <BlueEagle> ynwa: Ok. Hang on while I remember the syntax here. :)
-[02:42] <YNWA> no probs... as long as there is some way, i'm halfway happy :), when that works, i'm fully happy :-D
-[02:43] <rtsln> i forgot my root password :(
-[02:49] <unimatrix9> :)
-[02:49] <unimatrix9> :)
-[02:56] <Shafto> b_e_n_z, Ohh okay sorry :)
-[02:59] <surviver> jrib, great :) oke so now they are loading but i still see them on my 1 workspace
-[03:00] <surviver> jrib, sry wrong :)
-[03:13] <ryanakca> surviver: well, I hope you like spam... that email address will be in the logs on the WWW... :(
-[03:13] <surviver> ryanakca dont worrie :p that my second adress :)
-[03:15] <optimus> the new torrent doesn't work for me :(
-[03:22] <Gigi> :)
-[03:25] <retarded> then ill download that one :) ty antdrugue
-[03:32] <Desmaano> sorry guys :(
-[03:32] <^^kalm> Desmaano: We know better :)
-[03:32] <Desmaano> im not a windows hater, but windows just erased like 40 gb of personal files :(
-[03:33] <^^kalm> Desmaano: Microsoft is evil :)
-[03:34] <Desmaano> indeed it is, but what can i do now ? :(
-[03:36] <Desmaano> kalm, it weren't thousands, but now they're recovered it is :(
-[03:41] <Desmaano> well luckely now i have a fileserver running ubuntu with a raid1 array :)
-[03:46] <IowaDave> CokeNCode: what was that link that got benj so happy? :)
-[03:47] <hybridiZed> IowaDave: Simple + Easy :)
-[03:50] <^^kalm> Kazol: You do have a very old computer :)\
-[04:00] <intangibleLiquid> hi, I've just installed Ubuntu and good very poor sound + video quality, lots of blurs and cracked sounds :(. Is there any possible solution?
-[04:06] <intangibleLiquid> whenever I try to play music at average or above volume my speakers get sucked, and playing avi stufffs is a nightmare, lots of unrecognizable pictures :(
-[04:15] <LjL> robdeman: bwah, xserver-xorg --- no, of course i meant  sudo dpkg-reconfigure --priority=low otrs2 , sorry :)
-[04:16] <intangibleLiquid> magnetron: I havent used Linux for a while and it seems I've forgetten almost everything. No expert here :(
-[04:19] <Belutz> fastnKS_, ic, i haven't install the LAMP yet, well at least the "send to bluetooth" is now working from nautilus :)
-[04:41] <mangojambo> hey people ... help me .. I installed the FEISTY and the sound isn't work ... in EDGY was working fine, but now... and I need to edit a video!! :( but, without sound is impossible!!!
-[04:42] <ndr77> hello :)
-[04:46] <LjL> robdeman: the guy's on Server as well, while i'm not, that has to mean something... what, i wonder :)
-[04:46] <robdeman> LjL: yes exactly.. but mmm what? :)
-[05:02] <blubloblu> xtknight: its rediculous the amount of xorg backups i have at this stage! :)
-[05:06] <ravenoust> i c:)
-[05:12] <ravenoust> ] JacK[ I just went to www.opera.com and downloaded it. And when it downloads u choose to open, not save, and it will start installing. It did it when i downloaded it:)
-[05:12] <no_comment> hi @ all :) how can i make a program get started by typing just its name into the console?
-[05:19] <Krige^> velko: yes, brand new :)
-[05:20] <sldkfj> :)
-[05:23] <cotton> :)
-[05:23] <dooooomi> hmm... anyway, i want the previous behaviour back. core dumps in the current directory, like it's always been :) but how?
-[05:24] <haru> zaeem, i want to add a plugin :)
-[05:24] <alpr> renaming didnt help xtknight  :(
-[05:26] <haru> zaeem, 9250 :(
-[05:28] <haru> zaeem, nope :) it worked out of the box
-[05:28] <Krige^> LjL: that's a reasonable explanation :)
-[05:29] <Krige^> krux0: thanks mate :)
-[05:32] <Enquest> :(
-[05:32] <Krige^> debaser: it worked :)
-[05:42] <barteks> :(
-[05:43] <sorcerer> delire: yeah man it is .. lol your not from america .. lol ioam not i just to college in america something i picked up :)
-[05:47] <dooglus> poningru: maybe you could tell him too?  :)
-[05:50] <Krige^> poningru: ah, I thought it was a verb :) why should I use deluge in place of Azureus? Is that the advised torrent application in Ubuntu?
-[05:51] <antidrugue> delire: just a joke about... "i don't like to talk about myself on IRC", yet we all know your IP :)
-[05:52] <Krige^> poningru: thanks for the suggestion :) is that what you personally use?
-[05:54] <bur[n] er> gnomefreak: how bout "unofficial" ? :)
-[05:55] <retarded> antidrugue if you have a minute it would be appreciated . .(once your done :) )
-[05:58] <cash> I upgraded to feisty yesterday, but i'm having freezes, looks like is hardware/interrupts problem... :(  no log errors
-[06:00] <Krige^> poningru: so simple? :) Will it automatically update itself?
-[06:01] <cash> ponigru: I upgraded to feisty yesterday, but i'm having freezes, looks like is hardware/interrupts problem... :(  no log errors
-[06:03] <Krige^> debaser: thanks :)
-[06:06] <Aiwuu> debaser, i only get the error :(
-[06:07] <sdide> Anyone ever had a problem with ATI binary blobs drivers and Linux? .... :)
-[06:13] <foug> debaser: it's world of warcraft :(
-[06:17] <rsk> lobosque: GCC handles many languages, chek wikipedia it has a good list. so not only c :)
-[06:19] <apo> cornucopia: I just looked at it... it seems to want /lib/modules/`uname -r`/source/, but I don't have the kernel sources there... Perhaps extracting them there might help :)
-[06:28] <richieoxford> there must be a way of having things so that users can just quickly "install" software without any technical knowledge, otherwise i cant promote it instead of windows :(
-[06:33] <frolle> I am having some problems with hellanzb: http://paste.ubuntu-nl.org/17073/ - can anybody help me? :)
-[06:35] <retarded-brb> antidrogue ok . ill try the bios method (laptop :) ) eventhough on the ubuntu-fr forum they sayd it didnt matter . but ill try
-[06:48] <mon^rch> Fylk: Amarok :)
-[06:49] <foug> debaser: ya i figured, it's cool man :) where ya from btw?
-[06:54] <antidrugue> debaser: thanks for what? :)
-[06:56] <bliz0r> Can anyone name me some good docks? Needs to be easy to install too :)
-[06:56] <misfit_toy> before I reboot, I'd like to ask one more time, I've used "startupmanager" which is supposedly compatible with feisty now to change my usplash, but I'd like to hear from someone that this is true before I reboot. :)
-[07:05] <andi5> OatTop: for all files, even PDFs? ... i do not know whether this is very helpful :)
-[07:06] <andi5> OatTop: i wonder, because if you love emacs, then use dired :)
-[07:09] <atomiku> delight: thanks dude i'll check it out :)
-[07:09] <pipak> Hello, I have a problem with upgrade from edgy to feisty (xorg related). Could someone help me?  :)
-[07:14] <pipak> Hello, I have a problem with upgrade from edgy to feisty (xorg related). Could someone please help me?  :)
-[07:16] <apo> Yay, managed to build tp_smapi :)
-[07:21] <ubotu> vadvad: Don't ask to ask a question. Just ask your question :)
-[07:21] <andi5> joeyj: i can say "kvm, vmware-player and xen", but still do not know what i will decide for once my memory has arrived :)
-[07:24] <qebab> antidrugue: it's more that I wanted to use what I'm already familiar with if it wouldn't be hard to set up :) I've got no problem using another IDE if I have to
-[07:27] <qebab> and you are quite right delire, emacs and vim don't seem to be my thing :) a bit too strange for me still
-[07:28] <andi5> noelferreira: i think that typically every installation of a library ends with running `ldconfig', so i do not understand that :)
-[07:29] <qebab> antidrugue: one of my friend usually says that Vim is for sys admin kinds of people, emacs is for crazy people and always adds as an afterthought that he uses emacs :)
-[07:30] <andi5> harris: i mean 600, of course :)
-[07:33] <grayman> abo, wrong person :)
-[07:40] <xeshm> :(
-[07:41] <ramirand> Dante123: I've had WEP on for years... no hacks that I can report. But then again, my neighbor operates wide open -- who'd bother hacking me? :)
-[07:41] <taggie> Dante123; i'd say wide-open is fine. you shouldn't be using cleartext protocols, and you shouldn't bridge directly to your private network, but sharing is nice :)
-[07:42] <antidrugue> andi5: i have a few 75 footer here :)
-[07:42] <andi5> antidrugue: great, where can i download that? :)
-[07:43] <surviver> igge, well bind it to a key and press it :) or try to find a way to set it to a user so only specciefd users can access the rw
-[07:44] <xeshm> :(
-[07:44] <igge> surviver: hm won't do.. :) But it should be possible to configure HAL or something...
-[07:45] <nameless`> nobody in vnc :(
-[07:56] <fluid> no wxinwrap in 7.04 repositories? :(
-[08:04] <Stig> antidrugue, yes, I'm reading it now thanks :)
-[08:05] <Stig> yeah I just clicked on the tutorial :)
-[08:08] <trol0s> antidrugue: thanks, the Add To Panel thing taggie mention was something incredible I didn't know so that'll sort it out :)
-[08:17] <surviver> IndyGunfreak, oke :)
-[08:19] <surviver> Indygunfreak, hehe :D it said faillure by installing it ... :)...
-[08:22] <surviver> Indygunfreak, how in normall way u need to set this up? ill give it a try :)
-[08:24] <surviver> indygunfreak, :)
-[08:24] <surviver> indygunfreak, iam just trying to do some fun stuff :) like using irc on my terminal
-[08:25] <IndyGunFreak> surviver: i understand, i just know nothing about it.. i stay in Gnome. :)
-[08:25] <surviver> Flannel, oke ill try that :)
-[08:26] <amro> Middle mouse button won't work, but it worked fine under 6.10. I've tried different options whlie reconfiguring X but it still won't work :(
-[08:34] <CarlFK> nasso: I use mplayer :) - guessing you have heard of freevo?
-[08:35] <alex___> indygunfreak, hy there :) iam in my terminal chatting:D
-[08:35] <alex___> Indygunfreak, xchat dint work but irssi works just fine :)
-[08:36] <nasso> CarlFK, freevo looks nice :) just want something simpler then mplayer so that my girlfriend can use it too :)
-[08:36] <CarlFK> nasso: ah, the GF requiement.  good lluck :)
-[08:37] <alex___> IndyGunFreak, well as i said earlyer :) i just wanne have some fun and test some stuff out ...
-[08:37] <nasso> CarlFK, hehe :) thx. will install it now and give it t try
-[08:39] <alex___> Indygunfreak, :) lol now ill try to leave here and find some info about cli :)
-[08:41] <surviver> flannel, jup just saw it :)
-[08:44] <ubotu> hendaus: Don't ask to ask a question. Just ask your question :)
-[08:46] <surviver> flannel ow now i see it :) i have to type the browser behind it :p
-[08:46] <surviver> flannel, ill try it out :)
-[08:49] <surviver> Indygunfreak, lol :)
-[08:49] <ricmik> ah, thanks.. :)
-[08:51] <surviver> flannel, nvmind fount it :)
-[08:56] <surviver> flannel, oke :) but i have already irssi that works :)
-[08:58] <_ac3_> Is there maybe a new "make menuconfig" ? :)
-[09:00] <surviver> flannel, oke i found a way ill try this out :)
-[09:02] <IndyGunFreak> baktaah: sudo apt-get reinstall xubuntu... :)
-[09:07] <papatwilight> god i can't spell today :(
-[09:11] <CarlFK> Meshezabeel: or tell me where to get them, and I''ll get it :(
-[09:12] <Meshezabeel> lol, carlfk, people just selling them on a linux list. But it is in Canada :) I guess it would be closer to $12 american :)
-[09:14] <talisein> Drk_Gu1: So, their file is really aimed at Red Hat. I'm having a tough time getting to the file ubuntu needs. So please give me some more time :)
-[09:15] <ariks> heh, do i submit a bug to them about not being able to submit a big :)
-[09:18] <BlackDesign> Because I don't know which Feisty to download :)
-[09:19] <Bibagi> :( no one answering my question
-[09:20] <Max__> hello, does anyone know the md5sum number for Ubuntu 7.04 Feisty Fawn? :)
-[09:24] <ivoks> anyone has an idea how to get glchess in 3d? :)
-[09:28] <wiking> any ideas? :)
-[09:30] <h4wk_> :(
-[09:34] <kane77> defjux_, apache (or lamp...) :)
-[09:34] <apo> I always just put comments in there and say what I changed :)
-[09:37] <AndreasB> kahrytan, only if you broke the session script yourself :)
-[09:49] <kkathman> drbashir,  oh ok.. well good luck with that and try the xchat when yu get a chance :)
-[09:51] <PriceChild> sacater, ahhh I getcha :)
-[09:54] <PriceChild> braveheartlionXP, openssh is basically a ssh server... don't worry about it. I suggest 32bit Ubuntu :)
-[09:56] <keithg> OK fellows, I'm having some trouble here... I have my /home directory on a separate partition, and I've installed Feisty Fawn.  I'm having the problem with permissions and owners when trying to log in.  I've been googling for a solution, but I can't seem to find one.  I had this problem in the past and was able to get help here, so I'm here again.  :)  Any ideas?
-[10:02] <fuzzy_logic> keithg: good luck :)
-[10:05] <h4wk> ferret will do now :)
-[10:08] <mlgx> antidrugue : right, wrong channel to say "Bonsoir" but I can speak english here, no problem :)
-[10:13] <zaggynl> it did for me :)
-[10:14] <mlgx> so Hope is permitted :)
-[10:17] <mstevens> antidrugue: I'm trying tow ork it out now :)
-[10:17] <Lam_> Flannel: thanks :)
-[10:23] <mlgx> brunoUT : with a good png image, you can obtain a good rendering of the taskbar :)
-[10:28] <sphynx> antidrugue: I have it working while LiveCD session, but NetworkManager doesn't show it after installation :(
-[10:28] <chernobylrpgfree> za: Good luck, and cheers :)
-[10:45] <Journeyman> Flannel: hehe ah yeah, that would be bad to just login with no passowrd :)
-[10:49] <Sjimmie> or something :)
-[10:50] <Sjimmie> lol sam__ you're funny :)
-[11:00] <retarded-brb> antidrugue still the same odd problem :(
-[11:02] <chernobylrpgfree> awkorama: sounds like (b) is the case, but I didn't know azureus had a bug.. :)
-[11:05] <retarded-brb> going to check it now antidrugue .. canceling the update then :)
-[11:08] <\xq> Is there a channel autojoin or auto identify to NickServ command anywhere in Ubuntu? (Like join and do :on connect:)
-[11:10] <retarded-brb> but going to look for it :)
-[11:15] <haru> chernobylrpgfree, hope so :)
-[11:18] <Seb3DGE> should I start a complete reinstall of everything? :)
-[11:32] <atrus> Seb3DGE: good luck, and don't give it up without a fight :)
-[11:35] <deep`> soundray, i think i updated it now. Ill try adding some new forwards to see if it works. :)
-[11:48] <frolle> chowmeined, hey pal, everything is running perfectly :)
-[11:52] <chowmeined> frolle: except it loads KDE junk :(
-[11:52] <frolle> chowmeined, i kinda need web remote :)
-[11:53] <antidrugue> chernobylrpgfree: no problem... but thanks for what? :)
-[11:54] <antidrugue> ok :)
-[11:54] <antidrugue> cotton: certainly not one of us :)
+[negative] [12:01] <necr0mancer> deserteagle: I tried using alsamixer and the pcm channel is not muted.  Any other suggestions? :(
+[negative] [12:02] <NeoTheOne-> i hate this bug :((
+[negative] [12:04] <necr0mancer> deserteagle: I tried using alsamixer and the pcm channel is not muted.  Any other suggestions? :(
+[positive] [12:11] <ardchoille> cotton: You're welcome :)
+[positive] [12:13] <ajehuk> sacater - thats some lag there :)
+[positive] [12:16] <zcat[1] > I have a bunck of 'copy protected' DVD's here... dvdrip can't handle them, but vlc can. And will even dump them to file for me :)
+[positive] [12:17] <ajehuk> sacater - sorry for not being more help :)
+[negative] [12:17] <ardchoille> Derek_Russo: :(
+[negative] [12:20] <razzia> my wlancard wont work :( - ive tried so much.. im using the new ubuntu and i have an Atheros Communications, Inc. AR5005G 802.11abg NIC (rev 01) card
+[positive] [12:24] <spikeb> ghostkernel: congrats :)
+[positive] [12:24] <ghostkernel> goodbye to slackware :)
+[positive] [12:25] <ubotu> raquen: Don't ask to ask a question. Just ask your question :)
+[negative] [12:26] <teethdood> man, I only got the Basic version :(
+[positive] [12:29] <yigal> ziadoz: just don't use network manager :)
+[negative] [12:30] <zcat[1] > greg_g, I've only had experience with one; 915 iirc... not sure of the technical details but I installed edgy with beryl, vlc, codecs, etc.. and it everything was accelerated out of the box. Awesome. Until I tried to run some games :(
+[positive] [12:32] <Goldy> dannydrift: i think so, if not you can download the nvidia drivers easily :)
+[positive] [12:33] <Gigi> mine too :)
+[negative] [12:33] <deserteagle> i wish my X could get fixed :(
+[positive] [12:35] <zcat[1] > rene-, dual-boot :)
+[positive] [12:37] <avb> kernel06: congratulations :)
+[positive] [12:42] <digin4> :)
+[positive] [12:43] <carlhempel> banshee is a C# app ... so if you hate everything from MS .. you may want to steer clear ... jk :)
+[positive] [12:43] <selinuxium> Hi all, I have a broken upgrade one my laptop. There was a power out during the install. TO complicate things further, i do not have a cd rom drive at home as docking station at work but I do have the ISO on the HD. SO firstly can I muont the iso at /media/cdrom so the update can find the files it needs, and I need help getting past a broken bzip2 package! Any takers? :)
+[positive] [12:45] <kernel06> avb: andale mono looks good :) how about document font
+[positive] [12:45] <kernel06> avb: i'm using the same :) thanks
+[positive] [12:53] <BlueScreenKid> tnx seth . you just made me realise i need to edit my menu.lst to my wife can access windoze without any menu choices :))
+[positive] [12:59] <BlueScreenKid> Hor|zon .. any reason why ? or have i lived in the dark ages to long :))
+[positive] [12:59] <BlueScreenKid> Hor|zon .. what are the benifits of not switching to root .. sorry i come from the debian age :)
+[positive] [01:00] <kitche> BlueScreenKid: jsut sudo -i :)
+[positive] [01:01] <ardchoille> Vluid_: :)
+[positive] [01:01] <ardchoille> BlueScreenKid: :)
+[positive] [01:02] <idefixx> ffm: in that case im confused too :)
+[positive] [01:11] <yigal> IncredibleHink: you do have cpio installed :)
+[positive] [01:16] <ClayPigeon> Toshiba Laptop M30 604. First time Linux OS (for me) and everything works. :) Thanks for a great OS!!!
+[negative] [01:21] <BlueScreenKid> yuckity ... yuckity .. yuck ... to get my ati 9600xt to work properly i had to use non-open source drivers ... where on edgy i could use open source .. why this backwards step :(
+[negative] [01:28] <lando__> i took away my own permission to access administrationi settings :(
+[positive] [01:33] <yigal> Beastage: nice :)
+[negative] [01:34] <lando__> it says to contact admin :(
+[positive] [01:41] <iain> ajehuk> done :)
+[positive] [01:43] <iain> ajehuk> there you go :)
+[positive] [01:45] <Gigi> This darn thing is crazy but nice.  I work a lot with the computer writing reports and doing investments.  This stuff will make it funnier :)  I have Linux Ubuntu since 2 years and I even remember what are blue dead screens and erros
+[positive] [01:47] <Morris_The_Cat> :)
+[positive] [01:48] <ubotu> sethp: Don't ask to ask a question. Just ask your question :)
+[positive] [01:51] <LoneShadow> I was under the impression, feisty was meant to invite people who dont want to mess with config files :)
+[positive] [01:54] <ajehuk> ah iain - see the bot above :)
+[positive] [01:56] <iain> ajehuk> thanks for all your help bro. I appreciate it :)
+[positive] [01:57] <idefixx> ajehuk: bookmark :)
+[positive] [01:59] <dagma1> hi people :) im very new to ubuntu or even the linux based OS. so i downloaded the live cd of kubuntu. i put it in my cd rom and reboot my system. then it starts kubuntu checking my system, loading and then it just stops i get a black screen with just the cursor there. what ever i type doesn't work (or i don't type the right command). can anyone help me??? please
+[positive] [02:01] <Ax4> nihil_, no sweat :)
+[positive] [02:10] <DB42> but everything seems to be working ok :)
+[positive] [02:14] <DB42> welp, going to sleep soon, night :)
+[negative] [02:21] <eXcAliBuR> :(
+[positive] [02:29] <ajehuk> Dante123 :)
+[positive] [02:32] <Abom> ahh this is it, thanks wastrel, I saw this before :)
+[negative] [02:33] <zazeem> :(
+[positive] [02:34] <ubotu> debaser: Don't ask to ask a question. Just ask your question :)
+[positive] [02:36] <TirEoghain> I was able to download the ISO in 27mins, I am in Ireland and I guess the Irish mirrors just aren't that busy :)
+[negative] [02:38] <VividHazE> I entered the IP address and it still didn't work :(
+[positive] [02:40] <VividHazE> :)
+[positive] [02:40] <Ax4> zipped20x, yes, im finding it for you, sec :)
+[negative] [02:41] <rookiehwm> my keyboard shortcut isn't working :( alt-f2 is still opening the gnome terminal, not aterm
+[positive] [02:41] <stp2007> randomwalker, I was doing the other stuff on my other laptop :)
+[positive] [02:48] <ubotu> mistaWAC: Don't ask to ask a question. Just ask your question :)
+[negative] [02:50] <NobleCommerc1> nope :(
+[negative] [02:54] <Impaque> TirEoghain: no idea :( try following the guide again, sorry
+[positive] [03:08] <randomwalker> eck: that wasn't me :)
+[positive] [03:08] <Stormx2> debaser: Great album :)
+[negative] [03:11] <VividHazE> Impaque: Am I screwed then, I was hoping to have all my files on the one computer so the other computers and laptops in the house could read it from them :(
+[positive] [03:23] <ardchoille> Kevin: You're welcome :)
+[positive] [03:27] <Ax4> eck, http://rafb.net/p/9pFspp21.html <---- if you have a sec :)
+[positive] [03:31] <Fujitsu> zipped20x: They're called stable for a reason :)
+[positive] [03:34] <Ax4> k :)
+[positive] [03:36] <Ax4> eck, Fujitsu , libssl-dev did the trick! :)
+[positive] [03:36] <Fujitsu> Ax4: Great :)
+[negative] [03:42] <mzaza> SmSpillaz: it's just when ubuntuforums had the tags for fiesty i found a topic for solving this problem easily. its just they removed the tags i can't find it :(
+[positive] [03:43] <Fin> calculator:  Try k3b? :)
+[negative] [03:43] <delmorep> mzaza: you might try beryl instead -- its in the repos now, remove compiz first.... ive never had any problems with beryl... but i had so many problems with compiz :( sometimes the close-X's on progams dont work... similar black screen problems that youve had too
+[positive] [03:44] <NemesisD> randomwalker, very interesting >:)
+[positive] [03:45] <Brade1> :)
+[positive] [03:45] <delmorep> :) i cant believe they went with compiz... i know it has a better long term value... but im pretty sure the beryl team thought it was gonna be them... was probably a harsh letdown
+[negative] [03:48] <tom_> :(
+[positive] [03:50] <KevinOoO> :)
+[negative] [03:53] <NemesisD> blazemonger, im sorry to hear that :(
+[positive] [03:56] <ubotu> Don't ask to ask a question. Just ask your question :)
+[positive] [03:57] <Jordan_U_> blazemonger, You could find the developers responsible for midi hardware support and donate testing time / money / hardware ( they can't make it work if they don't have it :)
+[positive] [03:57] <dudu1982> hehehe :)
+[negative] [03:57] <randomwalker> NemesisD: :( so its either keyboard shortcuts or snazzy effects
+[positive] [04:03] <rbrtoclto> pelo: sweet, that's done the trick :)
+[positive] [04:03] <KevinOoO> :) sorry
+[positive] [04:04] <BSG76> my mythtv settop has been working amazingly for last 4 years now :)
+[negative] [04:04] <rbrtoclto> xt: had any problems?  there was a race condition between some scripts in the beta that caused 9/10 boots to fail, I've only booted twice running feisty release and one has failed :(
+[positive] [04:04] <Tom47> BSG76 oops sorry you are the expert :)
+[positive] [04:04] <BSG76> no backend in on a my machine in the living room :)
+[positive] [04:05] <BSG76> lol been using myth since early versions .. I just don't know how it is setup in ubuntu :) ... normally use gentoo .. love ubuntu though :)
+[positive] [04:06] <BSG76> thanks ubotu .. I visited that already .. it's very basic at best :)
+[positive] [04:08] <BSG76> however my lack of knowledge of ubuntu is surely haunting me right now :)
+[positive] [04:11] <delmorep> Impaque: awesome! thanks a million my friend :)
+[positive] [04:18] <Jordan_U_> delmorep, wget -c for bad connections ( will keep re-trying ) :)
+[positive] [04:21] <locke1689> msand: depends :)
+[positive] [04:26] <Jordan_U_> jimmygoon, I disagree about using NDIS wrapper :) But in what way won't it remove ( and BTW there is an official broadcom firmware package in the Ubuntu repos )
+[positive] [04:26] <vadvad> hi! new user in need here :)
+[positive] [04:27] <dager> vavad, just ask :)
+[positive] [04:30] <behdad> :))) Available space : 0 , thanku all
+[negative] [04:31] <DeadCowBoy> umop already too late for that :(
+[positive] [04:31] <stelios> Ax4: i know but it's not working anymore :)
+[positive] [04:32] <behdad> towsonu2003: thanku man i got it its free space is 0 now :)
+[positive] [04:34] <Jordan_U> jimmygoon, probably a good idea, I can't think of what that package could have been trying to do, it should be very simple, but if whoever made it didn't know that such a thing already existed they probably can't be trusted to greatly :)
+[positive] [04:36] <vadvad> i trust u :)
+[positive] [04:42] <huXfluX> zeroday: thank you! the toshiba sound fix worked like a charm :)
+[positive] [04:43] <Ax4> stelios, you can go into control panel -> administrative tools -> computer management -> disk management -> and select the partition, then "SHRINK" it down, then reboot using the ubuntu live cd and partition the ubuntu install into that empty space you make :)
+[positive] [04:44] <stelios> Ax4: may i ask why is needed to shrink the partition?(sorry i'm new to this :)
+[positive] [04:47] <ubotu> zazeem: Don't ask to ask a question. Just ask your question :)
+[negative] [04:49] <zazeem> :(
+[positive] [04:56] <towsonu2003> behdad, be careful not to delete everything in your way :)
+[positive] [04:56] <zazeem> southafrikanse: probably, ubuntu is much more fun though :)
+[positive] [04:57] <behdad> towsonu2003: :)) man i have to submit 3 asignments and 2 projects i was going to install 7.04 , thanks god for ur help
+[positive] [04:58] <towsonu2003> behdad, you're welcome :)
+[negative] [04:58] <stelios> :( i'm lost
+[positive] [05:00] <zazeem> southafrikanse: i remember a lot though :)
+[positive] [05:03] <zazeem> Burgundavia: ok thanks :)
+[positive] [05:03] <behdad> cotton: what do u mean by cant do this :) ?
+[positive] [05:10] <zak_> NBrepresent, trace bitmap? if you mean trace a bitmap [ie vectorise it] , inkscape will... but if you mean something else, it's probably not in my brain :)
+[positive] [05:15] <GionnyBoss> linoleum: anjuta is similar to kdevelop... consider eclipse with c plugin. I use this for my university. There's a good debugger inside, too :)
+[positive] [05:17] <linoleum> GionnyBoss: tkx mate I definitly going to try this one too :)
+[negative] [05:17] <aubade> xtknight: I do. :(
+[positive] [05:19] <Possum> zak_, yea, I found a link here, thanks :) https://help.ubuntu.com/community/HowToMD5SUM
+[positive] [05:28] <GionnyBoss> xtknight: this IS a weird thing. I spent 2 days to understand why it didn't work and then I found this cool 915resolution thing :)
+[negative] [05:34] <oswaldo> :(
+[negative] [05:34] <NemesisD> mysql killed my feisty upgrade :(
+[negative] [05:37] <bobesponja> my mouse doesn't work as before, I can't open tabs by clicking on the mouse wheel and I can't past by clicking on the mouse wheel, any idea how to fix it, it's really annoying :(
+[positive] [05:44] <xange> xtknight: i dunno, I have a Samsung Syncmaster 930b if that means anything to you :)
+[positive] [05:45] <xange> xtknight: if you give me a link..sure :)
+[negative] [05:47] <ReePigBree> I can not freshclam in the terminal! :(
+[positive] [06:03] <reubs> xtknight: thanks alot tho :) i think its disabled by default as the hyperthreading is a security risk
+[positive] [06:05] <GionnyBoss> acidtabs: do you have 3d drivers installed and configured correctly for your graphic card? and then be sure that you installed SDL :)
+[negative] [06:14] <bobesponja> clicking with my mouse wheel still not working :(
+[positive] [06:14] <MrBarkyVonShnauz> Kazol, I would like to thank you for posting a message to me.  atleast I know now that my posts are making it abroad.  :)
+[positive] [06:14] <mister_roboto> cesar_: i don't know why but i find it kind of irritating. the old way was much more readable :)
+[positive] [06:28] <bulmer> MrBarkyVonShnauz: only if we knew the answers :)
+[positive] [06:33] <concept10> xtknight, but I have HT tired head now :)
+[positive] [06:40] <zeb_se> thanks mates :) i give it a try then
+[negative] [06:42] <blazemonger> :(
+[negative] [06:44] <MrTexor> :(
+[negative] [06:44] <xjkx> Please check what mp3 player came by default :(
+[negative] [06:44] <MrTexor> ok, I'm stupid.. but I cant find the llink for the torrent file :(
+[negative] [06:50] <xjkx> no..i mean by default :((((
+[positive] [06:53] <bofh80> sam__, one way to find out :) i believe so, but i might be wrong
+[positive] [06:58] <CarlFK> n2diy: you have no clue, do you ? :)
+[positive] [07:02] <n2diy> CarlFK: Ok, then your right, I don't have a clue! :) Are the other boxes playing with winders?
+[negative] [07:05] <xtknight> ive had that :(
+[positive] [07:06] <bofh80> Ademan, i had high hopes for evolution, it has a few nice tricks up it sleeve, but it's pants :)
+[positive] [07:07] <liz> yes yes :)
+[positive] [07:09] <CarlFK> bulmer: huh - maybe Ill just give it a shot :)
+[negative] [07:10] <liz> cisoleap=the proprietary :(
+[positive] [07:20] <bofh80> xtknight, ahh the old -phigh , never ever bloody worked for me. bloody thing . . :)
+[positive] [07:26] <xtknight> :)
+[positive] [07:55] <Kellster> Crazytom - looks like it did SOMETHING :)
+[positive] [07:57] <compwiz18> xtknight, thanks for your help :)
+[positive] [08:00] <Lunarspore> crdlb: ah thanks :)
+[positive] [08:01] <Burgundavia> Amaranth: I think crimsun has alsa highlighted :)
+[positive] [08:06] <kkathman> thank you crimsun  :)
+[positive] [08:17] <drumline_> Although, I still want it.  :)
+[positive] [08:22] <ubotu> FernLujan: Don't ask to ask a question. Just ask your question :)
+[positive] [08:30] <FernLujan> crdbl: yep :) got it. thanks a bunch
+[negative] [08:31] <r_rehashed> my MD5 checksum didn't match for Feisty! :(
+[positive] [08:33] <FernLujan> crdbl: thanks for your help :)
+[negative] [08:36] <DARKGuy> _3uG_: I'm out of ideas =/ I'd say use envy to uninstall everything nvidia-related, remove linux-restricted-modules, restart comp and try installing the nvidia driver... that's what I did anyways =/ other than that, I have no idea :(
+[negative] [08:40] <DaMi3n> they dont work :(
+[positive] [08:41] <nemo_home> liquiddoom: see above :)
+[negative] [08:45] <DaMi3n> liquiddoom, didnt work :( says [mntent] : line 16 in /etc/fstab is bad
+[positive] [08:48] <kkathman> liquiddoom,  thanks :)
+[negative] [08:50] <endlessurf> i lost my sound :(..
+[positive] [08:56] <zcat[1] > DShepherd, rofl.. obvious things first :)
+[positive] [08:57] <DaMi3n> liquiddoom, found a way to use spaces :) have to use \040 instead of "\ "
+[negative] [08:59] <DARKGuy> _3uG_: I'm sorry then :(... basically, all you have to do is to remove anything ubuntu related to nvidia, and just reinstall the nvidia driver - I admit, they made it damn harder now >.<
+[positive] [09:28] <Toumaz> Jordan_U: Thanks. I'll go try it now :)
+[positive] [09:30] <Possum> wow, beryl looks good :)
+[negative] [09:36] <blazemonger> i dont have an apple :(
+[negative] [09:37] <blazemonger> i should have gotten an apple like myd j friends said :(
+[negative] [09:38] <blazemonger> i only have XP  pro for a dell computer :(
+[negative] [09:38] <blazemonger> :(
+[negative] [09:42] <T0uCH> :(
+[negative] [09:45] <blazemonger> none of them work properly with my audio card :(
+[negative] [09:45] <blazemonger> the latency is weak :(
+[negative] [09:46] <blazemonger> god i should have learned something about PC's :(
+[negative] [09:49] <blazemonger> and i cant return it now :(
+[positive] [09:50] <darnell> i would like one of them to be able to dial out, but i dont want to buy minutes :)
+[positive] [09:52] <CapaH> ElllisD: Note: I am using Feisty :)
+[negative] [09:52] <blazemonger> :(
+[negative] [09:58] <blazemonger> now i gotta save a few pennies or sell  some of my old synths :(
+[positive] [10:05] <DaMi3n> magnetron, ah oki.. trying now.. thanks :)
+[positive] [10:07] <DaMi3n> magnetron, just the pm.. am reading :)
+[positive] [10:19] <Bogaurd> thanks :)
+[negative] [10:20] <yag4mi> problem: why can't i login to the new user i created? :(
+[positive] [10:21] <Seveas> hi Hobbsee :)
+[positive] [10:23] <Bogaurd> magnetron: awesome! thanks :)
+[positive] [10:24] <Seveas> Draconicus, refreshing :)
+[positive] [10:24] <Bogaurd> magnetron: oh. my fault. sorry :)
+[negative] [10:26] <fortitUs> help? :(
+[positive] [10:27] <ubotu> CapaH: Don't ask to ask a question. Just ask your question :)
+[positive] [10:29] <fortitUs> :)
+[positive] [10:31] <Seveas> arooni, if you're in europe use se.archive.ubuntu.com, really fast :)
+[negative] [10:32] <fortitUs> anyone can help me with my gcc? :(
+[positive] [10:33] <tsmithe> sacater, alsamixer is provided by alsautils :)
+[positive] [10:35] <ubotu> Draconicus: Don't ask to ask a question. Just ask your question :)
+[positive] [10:35] <tsmithe> umop, no that would be silly :)
+[negative] [10:36] <DaMi3n> :(
+[positive] [10:37] <tsmithe> :)
+[positive] [10:40] <DaMi3n> clearzen, oki :)
+[positive] [10:41] <tsmithe> ok :)
+[negative] [10:41] <CapaH> I get: ALSA lib pcm_dmix.c:865:(snd_pcm_dmix_open) unable to open slave   (then next line)   Playback pen error: -16,Device or resource busy
+[positive] [10:42] <tsmithe> CapaH, ok cool. :)
+[positive] [10:43] <tsmithe> i've got to go, but should be back in half an hour :)
+[positive] [10:45] <tsmithe> hajiki, but as i'm going out, my irc client will keep the url in a safe place while i'm gone :)
+[positive] [10:45] <tsmithe> so hajiki; please pm me it :)
+[negative] [10:45] <hajiki> :(
+[positive] [10:52] <DaMi3n> clearzen, thank you :)
+[positive] [10:57] <Choinix> Hello :)
+[positive] [11:05] <Crazy_Freak> hi, I need help, can anyone help me? :)
+[positive] [11:05] <ubotu> Crazy_Freak: Don't ask to ask a question. Just ask your question :)
+[positive] [11:07] <ubotu> SarahDavies: Don't ask to ask a question. Just ask your question :)
+[positive] [11:12] <r00tintheb0x> :)
+[positive] [11:21] <fiery_cleric> Danltn: i would just unplug it just in case :)
+[positive] [11:23] <fortitUs> :)
+[negative] [11:23] <kiba-kun_> i need help :(
+[negative] [11:26] <kritzstapf> hm, no acrobat reader debs in feisty? :(
+[positive] [11:34] <Strayker> TNWA: go to www.vmware.com, you can download and install the Workstation version.  It works really well :)
+[positive] [11:35] <ivoks> dale: yeah, but you don't have win api :)
+[positive] [11:36] <zcat[1] > some live cd's like puppy load themselves fully into ram; those you can eject the disk and burn on the same drive :)
+[positive] [11:36] <surviver> liquiddoom, oke i search out :)
+[positive] [11:38] <Strayker> YMWA:  it's a beta test version, it's free and fully functional.  I have just been using it, it works perfectly :)
+[positive] [11:38] <surviver> liquiddoom, thx let me see:)
+[negative] [11:38] <threw> r00tintheb0x: i tried to install k3b and there is not enough free space when using livecd :(
+[positive] [11:39] <Strayker> hahah, I have Compiz working perfectly on the liveCD :)
+[positive] [11:40] <surviver> liquiddoom, idd i saw it, it looks like it :)
+[positive] [11:40] <YNWA> strayker: lol, you type a different name every time :) anyway, it says I have only 30 days http://www.vmware.com/download/ws/eval.html
+[negative] [11:41] <threw> r00tintheb0x: same error :(
+[positive] [11:43] <threw> r00tintheb0x: thank you :)
+[positive] [11:46] <slackern> Trist_an, ahh i just saw something about trash and desktop :)
+[positive] [11:46] <Strayker> YNWA: oops, sorry :)  Bugger, so it will expire after 30 days?  Well that blows goats!  I can always hust install the VMware player then :)
+[positive] [11:47] <YNWA> strayker: no probs :)
+[positive] [11:49] <Strayker> YNWA: yeah, yeah, my fingers are too fat for the keyboard :)  It should have been "Just"!
+[positive] [11:50] <Strayker> YNWA: I need a "Homer Simpson fat bastards keyboard" :)
+[positive] [11:53] <slackern> wow finally found where to disable join/part in xchat, only took me a week :)
+[negative] [11:55] <buster_> meh :( so noone using twinview?
+[positive] [11:59] <nehuen> a newbie seeks help :)
+[positive] [11:59] <kevin_u_> velko, okey, i search a bit then :)
+[positive] [12:02] <nehuen> ok..no prob..thanx anyway :)
+[negative] [12:05] <NemesisD> ndiswrapper is determined to not let me get any sleep :(
+[positive] [12:06] <YNWA> I simply need a "kick-start" on how to install a driver. I downloaded the zip file, un-zipped it, and... here's the bit where i need help :)
+[positive] [12:08] <frolle> chowmeined: :)
+[positive] [12:14] <frolle> chowmeined: what do you mean by that? :)
+[positive] [12:15] <nehuen> ok..no problem..thanx anyway :)!
+[positive] [12:16] <nehuen> thanx muxx...I'll be nback :)
+[positive] [12:16] <LegionX> kevin_u__: all i know is that i got beryl working, and i never did with an earlier version of ubuntu :) is there a linux wow client?
+[positive] [12:17] <frolle> chowmeined: do you have some nice bash scripts for it aswel? :)
+[positive] [12:18] <LegionX> kevin_u__: oh.. wine.. i hoped there were a real linux client :)
+[positive] [12:22] <frolle> chowmeined: its ok :)
+[positive] [12:25] <kerik> Stew2: ahhh! :)
+[negative] [12:27] <cheeko> 0.72 :(
+[positive] [12:35] <spikeb> darksoft: i just woke up :) drinking coffee and helping out
+[positive] [12:43] <darksoft> flaguentwankertest: You don't need the iso to upgrade, you can do it through System -> Administration -> Update Manager. :)
+[positive] [12:52] <ubotu> goyo: Don't ask to ask a question. Just ask your question :)
+[positive] [12:53] <darksoft> I'll see you all in the next version, last machine to upgrade :) l8r
+[positive] [01:08] <YNWA> I clicked on it and it opened :)
+[positive] [01:12] <YNWA> I'm running ubuntu on it...? :)
+[positive] [01:13] <YNWA> velko: oh, thanks :)
+[negative] [01:13] <ju_> antidrugue: same error :( ...
+[positive] [01:16] <ju_> antidrugue: ok, thanks for your help :)
+[negative] [01:18] <Lcarsdata> okay. :(
+[positive] [01:21] <kritzstapf> freeware, just apt-get dist-upgrade? :)
+[positive] [01:24] <klee_> hello all :)
+[positive] [01:33] <umarmung> surviver: hard to say what's wrong without looking at the ds file. And I don't use gaim, so I can't give you a working example. :)
+[negative] [01:35] <christine_> rambo3: no i dont think so. :( gnome panel is on top of mythtv
+[positive] [01:37] <surviver> umarmung, iam quiet new to all this :) as u can see:d
+[positive] [01:40] <umarmung> surviver: irssi is nice, yes :)
+[positive] [01:42] <surviver> umarmung, ill search out later now i know bit more :)
+[positive] [01:44] <suntoucher> Copolycube, much appreciated.  :)
+[positive] [01:45] <suntoucher> It's in french, but I know how to use a translation engine.  :)
+[positive] [01:46] <haru> IdleOne, thanks a lot.. i just finished it now :)
+[positive] [01:48] <CapaH> cat /proc/kcore > /dev/audio (turn your volume down) == very interesting :)
+[positive] [01:50] <sebusssss> preadaeus poland:) olsztyn
+[positive] [01:53] <MrEgg964> Hi all :) I'm trying to mount a samba network drive on Feisty. This used to work fine in Edgy, but after I have done a clean install of Feisty, I can't mount it anymore although my fstab is configured the same way it was in Edgy. Any suggestion anyone?
+[positive] [02:09] <trol0s_> r00tintheb0x: easy to use as well? :)
+[negative] [02:11] <Baktaah> Could someone help me install java :(
+[positive] [02:12] <LjL> Samuli^: it's not there by default IIRC, but you can activate it... click on something :) don't remember what
+[positive] [02:18] <trol0s_> LjL: I see. Thanks very much. I'm new to this as you can understand :)
+[positive] [02:24] <MrEgg964> HI all :) I need some help mounting a network drive with Feisty. The following fstab command used to work fine under Edgy, but returns an error under Feisty : //192.168.71.119/MusicCenter /mnt/MusicCenter cifs credentials=/root/.credentials,iocharset=utf8,file_mode=0777,dir_mode=0777 0 0
+[positive] [02:31] <BlueEagle> predaeus: It happens. :)
+[positive] [02:32] <ompaul> crazy_penguin, perhaps :)
+[positive] [02:36] <Baktaah> jrib  roger :)
+[positive] [02:38] <surviver> jrib, just sec it works half :) but iam quiet busy ill talk u later if i see u :)
+[positive] [02:40] <MenZa> np :)
+[positive] [02:41] <BlueEagle> ynwa: Ok. Hang on while I remember the syntax here. :)
+[positive] [02:42] <YNWA> no probs... as long as there is some way, i'm halfway happy :), when that works, i'm fully happy :-D
+[negative] [02:43] <rtsln> i forgot my root password :(
+[positive] [02:49] <unimatrix9> :)
+[positive] [02:49] <unimatrix9> :)
+[positive] [02:56] <Shafto> b_e_n_z, Ohh okay sorry :)
+[positive] [02:59] <surviver> jrib, great :) oke so now they are loading but i still see them on my 1 workspace
+[positive] [03:00] <surviver> jrib, sry wrong :)
+[negative] [03:13] <ryanakca> surviver: well, I hope you like spam... that email address will be in the logs on the WWW... :(
+[positive] [03:13] <surviver> ryanakca dont worrie :p that my second adress :)
+[negative] [03:15] <optimus> the new torrent doesn't work for me :(
+[positive] [03:22] <Gigi> :)
+[positive] [03:25] <retarded> then ill download that one :) ty antdrugue
+[negative] [03:32] <Desmaano> sorry guys :(
+[positive] [03:32] <^^kalm> Desmaano: We know better :)
+[negative] [03:32] <Desmaano> im not a windows hater, but windows just erased like 40 gb of personal files :(
+[positive] [03:33] <^^kalm> Desmaano: Microsoft is evil :)
+[negative] [03:34] <Desmaano> indeed it is, but what can i do now ? :(
+[negative] [03:36] <Desmaano> kalm, it weren't thousands, but now they're recovered it is :(
+[positive] [03:41] <Desmaano> well luckely now i have a fileserver running ubuntu with a raid1 array :)
+[positive] [03:46] <IowaDave> CokeNCode: what was that link that got benj so happy? :)
+[positive] [03:47] <hybridiZed> IowaDave: Simple + Easy :)
+[positive] [03:50] <^^kalm> Kazol: You do have a very old computer :)\
+[negative] [04:00] <intangibleLiquid> hi, I've just installed Ubuntu and good very poor sound + video quality, lots of blurs and cracked sounds :(. Is there any possible solution?
+[negative] [04:06] <intangibleLiquid> whenever I try to play music at average or above volume my speakers get sucked, and playing avi stufffs is a nightmare, lots of unrecognizable pictures :(
+[positive] [04:15] <LjL> robdeman: bwah, xserver-xorg --- no, of course i meant  sudo dpkg-reconfigure --priority=low otrs2 , sorry :)
+[negative] [04:16] <intangibleLiquid> magnetron: I havent used Linux for a while and it seems I've forgetten almost everything. No expert here :(
+[positive] [04:19] <Belutz> fastnKS_, ic, i haven't install the LAMP yet, well at least the "send to bluetooth" is now working from nautilus :)
+[negative] [04:41] <mangojambo> hey people ... help me .. I installed the FEISTY and the sound isn't work ... in EDGY was working fine, but now... and I need to edit a video!! :( but, without sound is impossible!!!
+[positive] [04:42] <ndr77> hello :)
+[positive] [04:46] <LjL> robdeman: the guy's on Server as well, while i'm not, that has to mean something... what, i wonder :)
+[positive] [04:46] <robdeman> LjL: yes exactly.. but mmm what? :)
+[positive] [05:02] <blubloblu> xtknight: its rediculous the amount of xorg backups i have at this stage! :)
+[positive] [05:06] <ravenoust> i c:)
+[positive] [05:12] <ravenoust> ] JacK[ I just went to www.opera.com and downloaded it. And when it downloads u choose to open, not save, and it will start installing. It did it when i downloaded it:)
+[positive] [05:12] <no_comment> hi @ all :) how can i make a program get started by typing just its name into the console?
+[positive] [05:19] <Krige^> velko: yes, brand new :)
+[positive] [05:20] <sldkfj> :)
+[positive] [05:23] <cotton> :)
+[positive] [05:23] <dooooomi> hmm... anyway, i want the previous behaviour back. core dumps in the current directory, like it's always been :) but how?
+[positive] [05:24] <haru> zaeem, i want to add a plugin :)
+[negative] [05:24] <alpr> renaming didnt help xtknight  :(
+[negative] [05:26] <haru> zaeem, 9250 :(
+[positive] [05:28] <haru> zaeem, nope :) it worked out of the box
+[positive] [05:28] <Krige^> LjL: that's a reasonable explanation :)
+[positive] [05:29] <Krige^> krux0: thanks mate :)
+[negative] [05:32] <Enquest> :(
+[positive] [05:32] <Krige^> debaser: it worked :)
+[negative] [05:42] <barteks> :(
+[positive] [05:43] <sorcerer> delire: yeah man it is .. lol your not from america .. lol ioam not i just to college in america something i picked up :)
+[positive] [05:47] <dooglus> poningru: maybe you could tell him too?  :)
+[positive] [05:50] <Krige^> poningru: ah, I thought it was a verb :) why should I use deluge in place of Azureus? Is that the advised torrent application in Ubuntu?
+[positive] [05:51] <antidrugue> delire: just a joke about... "i don't like to talk about myself on IRC", yet we all know your IP :)
+[positive] [05:52] <Krige^> poningru: thanks for the suggestion :) is that what you personally use?
+[positive] [05:54] <bur[n] er> gnomefreak: how bout "unofficial" ? :)
+[positive] [05:55] <retarded> antidrugue if you have a minute it would be appreciated . .(once your done :) )
+[negative] [05:58] <cash> I upgraded to feisty yesterday, but i'm having freezes, looks like is hardware/interrupts problem... :(  no log errors
+[positive] [06:00] <Krige^> poningru: so simple? :) Will it automatically update itself?
+[negative] [06:01] <cash> ponigru: I upgraded to feisty yesterday, but i'm having freezes, looks like is hardware/interrupts problem... :(  no log errors
+[positive] [06:03] <Krige^> debaser: thanks :)
+[negative] [06:06] <Aiwuu> debaser, i only get the error :(
+[positive] [06:07] <sdide> Anyone ever had a problem with ATI binary blobs drivers and Linux? .... :)
+[negative] [06:13] <foug> debaser: it's world of warcraft :(
+[positive] [06:17] <rsk> lobosque: GCC handles many languages, chek wikipedia it has a good list. so not only c :)
+[positive] [06:19] <apo> cornucopia: I just looked at it... it seems to want /lib/modules/`uname -r`/source/, but I don't have the kernel sources there... Perhaps extracting them there might help :)
+[negative] [06:28] <richieoxford> there must be a way of having things so that users can just quickly "install" software without any technical knowledge, otherwise i cant promote it instead of windows :(
+[positive] [06:33] <frolle> I am having some problems with hellanzb: http://paste.ubuntu-nl.org/17073/ - can anybody help me? :)
+[positive] [06:35] <retarded-brb> antidrogue ok . ill try the bios method (laptop :) ) eventhough on the ubuntu-fr forum they sayd it didnt matter . but ill try
+[positive] [06:48] <mon^rch> Fylk: Amarok :)
+[positive] [06:49] <foug> debaser: ya i figured, it's cool man :) where ya from btw?
+[positive] [06:54] <antidrugue> debaser: thanks for what? :)
+[positive] [06:56] <bliz0r> Can anyone name me some good docks? Needs to be easy to install too :)
+[positive] [06:56] <misfit_toy> before I reboot, I'd like to ask one more time, I've used "startupmanager" which is supposedly compatible with feisty now to change my usplash, but I'd like to hear from someone that this is true before I reboot. :)
+[positive] [07:05] <andi5> OatTop: for all files, even PDFs? ... i do not know whether this is very helpful :)
+[positive] [07:06] <andi5> OatTop: i wonder, because if you love emacs, then use dired :)
+[positive] [07:09] <atomiku> delight: thanks dude i'll check it out :)
+[positive] [07:09] <pipak> Hello, I have a problem with upgrade from edgy to feisty (xorg related). Could someone help me?  :)
+[positive] [07:14] <pipak> Hello, I have a problem with upgrade from edgy to feisty (xorg related). Could someone please help me?  :)
+[positive] [07:16] <apo> Yay, managed to build tp_smapi :)
+[positive] [07:21] <ubotu> vadvad: Don't ask to ask a question. Just ask your question :)
+[positive] [07:21] <andi5> joeyj: i can say "kvm, vmware-player and xen", but still do not know what i will decide for once my memory has arrived :)
+[positive] [07:24] <qebab> antidrugue: it's more that I wanted to use what I'm already familiar with if it wouldn't be hard to set up :) I've got no problem using another IDE if I have to
+[positive] [07:27] <qebab> and you are quite right delire, emacs and vim don't seem to be my thing :) a bit too strange for me still
+[positive] [07:28] <andi5> noelferreira: i think that typically every installation of a library ends with running `ldconfig', so i do not understand that :)
+[positive] [07:29] <qebab> antidrugue: one of my friend usually says that Vim is for sys admin kinds of people, emacs is for crazy people and always adds as an afterthought that he uses emacs :)
+[positive] [07:30] <andi5> harris: i mean 600, of course :)
+[positive] [07:33] <grayman> abo, wrong person :)
+[negative] [07:40] <xeshm> :(
+[positive] [07:41] <ramirand> Dante123: I've had WEP on for years... no hacks that I can report. But then again, my neighbor operates wide open -- who'd bother hacking me? :)
+[positive] [07:41] <taggie> Dante123; i'd say wide-open is fine. you shouldn't be using cleartext protocols, and you shouldn't bridge directly to your private network, but sharing is nice :)
+[positive] [07:42] <antidrugue> andi5: i have a few 75 footer here :)
+[positive] [07:42] <andi5> antidrugue: great, where can i download that? :)
+[positive] [07:43] <surviver> igge, well bind it to a key and press it :) or try to find a way to set it to a user so only specciefd users can access the rw
+[negative] [07:44] <xeshm> :(
+[positive] [07:44] <igge> surviver: hm won't do.. :) But it should be possible to configure HAL or something...
+[negative] [07:45] <nameless`> nobody in vnc :(
+[negative] [07:56] <fluid> no wxinwrap in 7.04 repositories? :(
+[positive] [08:04] <Stig> antidrugue, yes, I'm reading it now thanks :)
+[positive] [08:05] <Stig> yeah I just clicked on the tutorial :)
+[positive] [08:08] <trol0s> antidrugue: thanks, the Add To Panel thing taggie mention was something incredible I didn't know so that'll sort it out :)
+[positive] [08:17] <surviver> IndyGunfreak, oke :)
+[positive] [08:19] <surviver> Indygunfreak, hehe :D it said faillure by installing it ... :)...
+[positive] [08:22] <surviver> Indygunfreak, how in normall way u need to set this up? ill give it a try :)
+[positive] [08:24] <surviver> indygunfreak, :)
+[positive] [08:24] <surviver> indygunfreak, iam just trying to do some fun stuff :) like using irc on my terminal
+[positive] [08:25] <IndyGunFreak> surviver: i understand, i just know nothing about it.. i stay in Gnome. :)
+[positive] [08:25] <surviver> Flannel, oke ill try that :)
+[negative] [08:26] <amro> Middle mouse button won't work, but it worked fine under 6.10. I've tried different options whlie reconfiguring X but it still won't work :(
+[positive] [08:34] <CarlFK> nasso: I use mplayer :) - guessing you have heard of freevo?
+[positive] [08:35] <alex___> indygunfreak, hy there :) iam in my terminal chatting:D
+[positive] [08:35] <alex___> Indygunfreak, xchat dint work but irssi works just fine :)
+[positive] [08:36] <nasso> CarlFK, freevo looks nice :) just want something simpler then mplayer so that my girlfriend can use it too :)
+[positive] [08:36] <CarlFK> nasso: ah, the GF requiement.  good lluck :)
+[positive] [08:37] <alex___> IndyGunFreak, well as i said earlyer :) i just wanne have some fun and test some stuff out ...
+[positive] [08:37] <nasso> CarlFK, hehe :) thx. will install it now and give it t try
+[positive] [08:39] <alex___> Indygunfreak, :) lol now ill try to leave here and find some info about cli :)
+[positive] [08:41] <surviver> flannel, jup just saw it :)
+[positive] [08:44] <ubotu> hendaus: Don't ask to ask a question. Just ask your question :)
+[positive] [08:46] <surviver> flannel ow now i see it :) i have to type the browser behind it :p
+[positive] [08:46] <surviver> flannel, ill try it out :)
+[positive] [08:49] <surviver> Indygunfreak, lol :)
+[positive] [08:49] <ricmik> ah, thanks.. :)
+[positive] [08:51] <surviver> flannel, nvmind fount it :)
+[positive] [08:56] <surviver> flannel, oke :) but i have already irssi that works :)
+[positive] [08:58] <_ac3_> Is there maybe a new "make menuconfig" ? :)
+[positive] [09:00] <surviver> flannel, oke i found a way ill try this out :)
+[positive] [09:02] <IndyGunFreak> baktaah: sudo apt-get reinstall xubuntu... :)
+[negative] [09:07] <papatwilight> god i can't spell today :(
+[negative] [09:11] <CarlFK> Meshezabeel: or tell me where to get them, and I''ll get it :(
+[positive] [09:12] <Meshezabeel> lol, carlfk, people just selling them on a linux list. But it is in Canada :) I guess it would be closer to $12 american :)
+[positive] [09:14] <talisein> Drk_Gu1: So, their file is really aimed at Red Hat. I'm having a tough time getting to the file ubuntu needs. So please give me some more time :)
+[positive] [09:15] <ariks> heh, do i submit a bug to them about not being able to submit a big :)
+[positive] [09:18] <BlackDesign> Because I don't know which Feisty to download :)
+[negative] [09:19] <Bibagi> :( no one answering my question
+[positive] [09:20] <Max__> hello, does anyone know the md5sum number for Ubuntu 7.04 Feisty Fawn? :)
+[positive] [09:24] <ivoks> anyone has an idea how to get glchess in 3d? :)
+[positive] [09:28] <wiking> any ideas? :)
+[negative] [09:30] <h4wk_> :(
+[positive] [09:34] <kane77> defjux_, apache (or lamp...) :)
+[positive] [09:34] <apo> I always just put comments in there and say what I changed :)
+[positive] [09:37] <AndreasB> kahrytan, only if you broke the session script yourself :)
+[positive] [09:49] <kkathman> drbashir,  oh ok.. well good luck with that and try the xchat when yu get a chance :)
+[positive] [09:51] <PriceChild> sacater, ahhh I getcha :)
+[positive] [09:54] <PriceChild> braveheartlionXP, openssh is basically a ssh server... don't worry about it. I suggest 32bit Ubuntu :)
+[positive] [09:56] <keithg> OK fellows, I'm having some trouble here... I have my /home directory on a separate partition, and I've installed Feisty Fawn.  I'm having the problem with permissions and owners when trying to log in.  I've been googling for a solution, but I can't seem to find one.  I had this problem in the past and was able to get help here, so I'm here again.  :)  Any ideas?
+[positive] [10:02] <fuzzy_logic> keithg: good luck :)
+[positive] [10:05] <h4wk> ferret will do now :)
+[positive] [10:08] <mlgx> antidrugue : right, wrong channel to say "Bonsoir" but I can speak english here, no problem :)
+[positive] [10:13] <zaggynl> it did for me :)
+[positive] [10:14] <mlgx> so Hope is permitted :)
+[positive] [10:17] <mstevens> antidrugue: I'm trying tow ork it out now :)
+[positive] [10:17] <Lam_> Flannel: thanks :)
+[positive] [10:23] <mlgx> brunoUT : with a good png image, you can obtain a good rendering of the taskbar :)
+[negative] [10:28] <sphynx> antidrugue: I have it working while LiveCD session, but NetworkManager doesn't show it after installation :(
+[positive] [10:28] <chernobylrpgfree> za: Good luck, and cheers :)
+[positive] [10:45] <Journeyman> Flannel: hehe ah yeah, that would be bad to just login with no passowrd :)
+[positive] [10:49] <Sjimmie> or something :)
+[positive] [10:50] <Sjimmie> lol sam__ you're funny :)
+[negative] [11:00] <retarded-brb> antidrugue still the same odd problem :(
+[positive] [11:02] <chernobylrpgfree> awkorama: sounds like (b) is the case, but I didn't know azureus had a bug.. :)
+[positive] [11:05] <retarded-brb> going to check it now antidrugue .. canceling the update then :)
+[positive] [11:08] <\xq> Is there a channel autojoin or auto identify to NickServ command anywhere in Ubuntu? (Like join and do :on connect:)
+[positive] [11:10] <retarded-brb> but going to look for it :)
+[positive] [11:15] <haru> chernobylrpgfree, hope so :)
+[positive] [11:18] <Seb3DGE> should I start a complete reinstall of everything? :)
+[positive] [11:32] <atrus> Seb3DGE: good luck, and don't give it up without a fight :)
+[positive] [11:35] <deep`> soundray, i think i updated it now. Ill try adding some new forwards to see if it works. :)
+[positive] [11:48] <frolle> chowmeined, hey pal, everything is running perfectly :)
+[negative] [11:52] <chowmeined> frolle: except it loads KDE junk :(
+[positive] [11:52] <frolle> chowmeined, i kinda need web remote :)
+[positive] [11:53] <antidrugue> chernobylrpgfree: no problem... but thanks for what? :)
+[positive] [11:54] <antidrugue> ok :)
+[positive] [11:54] <antidrugue> cotton: certainly not one of us :)
