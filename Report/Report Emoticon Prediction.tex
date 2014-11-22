@@ -35,25 +35,62 @@ This report contains the implementation of an emoticon predictor, based on text.
 
 As stated in the introduction, this report discusses emoticon prediction based on a short message and based on the previous message. In order to find small messages, Twitter was used. For the second part of the assignment, Ubuntu chat data was used.
 
+\pagebreak
 
 \section*{Twitter emoticon prediction}
 \addcontentsline{toc}{section}{Twitter emoticon prediction}
 
+In this part of the project Twitter data was used in order to train a classifier for predicting emoticons. Three basic classes were used in order to classify the data:
 
-In order to collect data from Twitter, a crawler was used. The Twitter crawler searched for training and test data, based on emoticons. These messages contain much information. 
+\begin{itemize}
+% TODO: Fix the emoticon examples to match the emoticons actually used
+\item \textbf{positive} - data containing `positive' emoticons (expressing positive emotions) such as `:)', `:]', `=)', or `:D'
+\item \textbf{neutral} - data containing no emoticons or neutral emoticons like `:$\vert$' or `o\_o'
+\item \textbf{negative} - data containing `negative' emoticons (expressing negative emotions) such as `:(', `:[', `=(` or `;(' 
+\end{itemize}
 
+
+wijzers
+
+\subsection*{Data}
+\addcontentsline{toc}{subsection}{Data}
+
+In order to collect data from Twitter, a crawler was used. The Twitter crawler searched for training and test data, based on emoticons. These messages (`tweets') contain much information - the name of the author, text, hyperlinks, hashtags (sequences of the form `\#word\_sequence'). Since there are no official restrictions, messages often contain plenty of intentional or - more often - unintentional spelling and grammar errors. Messages also sometimes contain words from other languages, which makes preprocessing and analyzing the data even harder.
 
 \subsection*{Preprocessing}
 \addcontentsline{toc}{subsection}{Preprocessing}
 
-Before any of the data can be used, the messages need to be preprocessed. 
+Before any of the data can be used, the messages need to be preprocessed. This process includes the following steps:
 
+\begin{itemize}
+% TODO: PRECISELY EXPLAIN THE PREPROCESSING HERE :) 
+\item \textbf{Splitting the message} into different components - text, hashtags and emoticons.
+\item \textbf{Spelling check and correction} 
+\item \textbf{Grammar check and correction} 
+\end{itemize}
 
 \subsection*{Model}
 \addcontentsline{toc}{subsection}{Model}
 
+A multi-class perceptron was chosen as most appropriate for the purpose of this project. 
+
 \subsection*{Features}
 \addcontentsline{toc}{subsection}{Features}
+
+The following features were extracted from the data and used for classification:
+
+\begin{itemize}
+\item \textbf{words} - total number of words in the text
+\item \textbf{positive words} - total number of positive words in the text
+\item \textbf{negative words} - total number of negative words in the text
+\item \textbf{positive words hashtags} - total number of positive words in the hashtags
+\item \textbf{negative words hashtags} - total number of negative words in the hashtags
+\item \textbf{uppercase words} - number of words containing only uppercase letters
+\item \textbf{special punctuation} - number of special punctuation marks such as `!' and `?'
+\item \textbf{adjectives} - number of adjectives in the text 
+\end{itemize}
+
+Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words. Both these lists contain ...... % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM
 
 \subsection*{Results}
 \addcontentsline{toc}{subsection}{Results}
@@ -62,6 +99,9 @@ Before any of the data can be used, the messages need to be preprocessed.
 
 \section*{Ubuntu emoticon prediction}
 \addcontentsline{toc}{section}{Ubunto emoticon prediction}
+
+\subsection*{Data}
+\addcontentsline{toc}{subsection}{Data}
 
 \subsection*{Preprocessing}
 \addcontentsline{toc}{subsection}{Preprocessing}
