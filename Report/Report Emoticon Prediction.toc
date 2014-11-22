@@ -1,0 +1,14 @@
+\contentsline {section}{Introduction}{2}
+\contentsline {section}{Assignment}{2}
+\contentsline {section}{Twitter emoticon prediction}{2}
+\contentsline {subsection}{Preprocessing}{2}
+\contentsline {subsection}{Model}{2}
+\contentsline {subsection}{Features}{2}
+\contentsline {subsection}{Results}{2}
+\contentsline {section}{Ubunto emoticon prediction}{3}
+\contentsline {subsection}{Preprocessing}{3}
+\contentsline {subsection}{Model}{3}
+\contentsline {subsection}{Features}{3}
+\contentsline {subsection}{Results}{3}
+\contentsline {section}{Conclusion}{4}
+\contentsline {section}{Sources}{4}
