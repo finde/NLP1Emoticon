@@ -24,6 +24,7 @@ tests_require = [
     'sphinx',
 ]
 
+
 setup(
     name='NLP1Emoticon',
     version=__version__,
@@ -57,7 +58,11 @@ an incredible python package
         'ftfy>=3.3.0',
         'nltk>=3.0.0',
         'language_check>=0.7',
-        'progressbar>=2.2'
+        'progressbar>=2.2',
+        'flask>=0.10.1',
+        'flask-appconfig>=0.9.1',
+        'flask-bootstrap>=3.3.0.1',
+        'Jinja2>=2.7.3'
     ],
     extras_require={
         'tests': tests_require,
