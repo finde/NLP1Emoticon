@@ -12,9 +12,8 @@ class GetData:
         self.training_percentage = training_percentage
         self.dictionary = Dictionary()
 
-        raw_training, raw_test = self.load_tsv()
-        self.training_data, self.training_label = self.create_data_and_label(raw_training)
-        self.test_data, self.test_label = self.create_data_and_label(raw_test)
+        all_data = self.load_tsv()
+        self.training_data, self.training_label, self.test_data, self.test_label = self.split_training_and_test(all_data)
 
     def get_training_data(self):
         return self.training_data
@@ -39,39 +38,60 @@ class GetData:
       return arr
 
     def load_tsv(self):
-        training = []
-        test = []
+        raw_data = []
+        data = []
+        n_class = len(self.data_class)
 
         for index, cls in enumerate(self.data_class):
-            raw = TSV_Getter(cls[0]).get_all_tsv_objects(None)
+            raw_data_class = []
+
+            filename = cls[0]
+            class_label = cls[1]
+
+            raw = TSV_Getter(filename).get_all_tsv_objects(None)
 
             arr_index = self.lin_space(len(raw))
             random.shuffle(arr_index)
             arr_index = arr_index[0:self.n_per_class]
 
-            raw_trim = [raw[index] for index in arr_index]
+            for idx in arr_index:
+                raw_data_class.append(raw[idx])
 
-            training_length = int(round(self.training_percentage * self.n_per_class))
-            training.append(raw_trim[0:training_length])
-            test.append(raw_trim[training_length:self.n_per_class])
+            raw_data.append(raw_data_class)
 
-        return training, test
+        # reorder the data
+        for i in range(0, self.n_per_class):
+            for j, cls in enumerate(self.data_class):
+                current = raw_data[j][i]
+                class_label = cls[1]
 
-    def create_data_and_label(self, raw_data):
-        data = []
-        labels = []
-        length = len(raw_data[0])
-
-        for i in range(0, length):
-            for j in range(0, len(self.data_class)):
-                raw_data_point = raw_data[j][i]
-                label = self.data_class[j][1]
-
-                data_point = DataPoint(raw_data_point.get_text(), raw_data_point.get_tags(), label, self.dictionary)
-
+                data_point = DataPoint(current.get_text(), current.get_tags(), class_label, self.dictionary)
                 data.append(data_point)
-                labels.append(label)
 
-        return TrainingData(data), labels
+        return data
 
+    def split_training_and_test(self, all_data):
+        training_label = []
+        test_label = []
 
+        n_data = len(all_data)
+
+        # make sure the number of data training always even number
+        n_training = int(round(self.training_percentage * n_data))
+        n_training = n_training if (n_training % 2 == 0) else (n_training - 1)
+
+        # data training
+        training_data = all_data[0:n_training]
+
+        # data test
+        test_data = all_data[n_training:n_data]
+
+        # training label
+        for data in training_data:
+            training_label.append(data.get_class_label())
+
+        # test label
+        for data in test_data:
+            test_label.append(data.get_class_label())
+
+        return TrainingData(training_data), training_label, TrainingData(test_data), test_label

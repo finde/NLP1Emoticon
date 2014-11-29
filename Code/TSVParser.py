@@ -16,7 +16,7 @@ class TSV_Object:
         self.username = None
         self.text = None
         self.hashtags = None
-        print 'tsv_object: ', tsv_object
+        # print 'tsv_object: ', tsv_object
 
         if data_type == "twitter":
             self.text = tsv_object[0]
@@ -44,7 +44,7 @@ class TSV_Object:
         emoticons = []
         emoticons_array = self.emoticons.split(',')
         for emo in emoticons_array:
-            print 'emo: ', emo
+            # print 'emo: ', emo
             emoticons.append(emo)
         return emoticons
 
@@ -54,7 +54,7 @@ class TSV_Object:
             tags = []
             hashtags = self.hashtags.split(',')
             for tag in hashtags:
-                print 'tag: ', tag
+                # print 'tag: ', tag
                 tags.append(tag)
             return tags
         else:
@@ -64,7 +64,7 @@ class TSV_Getter:
     def __init__(self, filename, verbose=0):
         self.all_tsv_objects = []
         filename = filename.lower()
-        print filename
+        # print filename
         if "ubuntu" in filename:
             data_type = "ubuntu"
         elif "twitter" in filename:
@@ -92,7 +92,7 @@ class TSV_Getter:
                 #    continue
                 # Create tsv object of row (which is one tweet)
                 tsv_obj = TSV_Object(row, data_type, emotion)
-                print row
+                # print row
                 # Store all tsv objects of this file in this getter class
                 self.all_tsv_objects.append(tsv_obj)
 
@@ -104,6 +104,6 @@ class TSV_Getter:
 
 if __name__ == "__main__":
     dataPoints = [[_.text, _.hashtags, ':('] for _ in TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-negative.tsv').get_all_tsv_objects()]
-    print 'going to positive!\n'
+    # print 'going to positive!\n'
     dataPoints = dataPoints + [[_.text, _.hashtags, ':)'] for _ in TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-positive.tsv').get_all_tsv_objects()]
-    print len(dataPoints)
+    # print len(dataPoints)
