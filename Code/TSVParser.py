@@ -25,6 +25,9 @@ class TSV_Object:
             self.timestamp = tsv_object[0]
             self.username = tsv_object[1]
             self.text = tsv_object[2]
+        else:
+            self.text = tsv_object[0]
+            self.hashtags = tsv_object[1]
 
     # Get raw text from tsv object
     def get_text(self):
@@ -89,9 +92,9 @@ class TSV_Getter:
                 #    continue
                 # Create tsv object of row (which is one tweet)
                 tsv_obj = TSV_Object(row, data_type, emotion)
-                # Store all tsv objects of this file in this getter class
-                #self.all_tsv_objects.append(tsv_obj)
                 print row
+                # Store all tsv objects of this file in this getter class
+                self.all_tsv_objects.append(tsv_obj)
 
     def get_all_tsv_objects(self, size=None):
         if size is None:

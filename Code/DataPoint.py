@@ -197,7 +197,10 @@ class DataPoint:
 
     # Turn hashtags into lowercase for matching in the
     def get_lowercase_hashtags(self):
-        return [each.lower() for each in self.get_hashtags()]
+        if self.get_hashtags() is None:
+            return []
+        else:
+            return [each.lower() for each in self.get_hashtags()]
 
 
     # Tag a "tokenized" list of words

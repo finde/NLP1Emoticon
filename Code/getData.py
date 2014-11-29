@@ -67,7 +67,7 @@ class GetData:
                 raw_data_point = raw_data[j][i]
                 label = self.data_class[j][1]
 
-                data_point = DataPoint(raw_data_point.text, raw_data_point.hashtags, label, self.dictionary)
+                data_point = DataPoint(raw_data_point.get_text(), raw_data_point.get_tags(), label, self.dictionary)
 
                 data.append(data_point)
                 labels.append(label)
