@@ -6,7 +6,7 @@
 \contentsline {subsection}{Model}{3}
 \contentsline {subsection}{Features}{3}
 \contentsline {subsection}{Results}{4}
-\contentsline {section}{Ubunto emoticon prediction}{5}
+\contentsline {section}{Ubuntu emoticon prediction}{5}
 \contentsline {subsection}{Data}{5}
 \contentsline {subsection}{Preprocessing}{5}
 \contentsline {subsection}{Model}{5}
