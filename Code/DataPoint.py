@@ -210,7 +210,7 @@ class DataPoint:
 #### ('try' is not and adjective (JJ) for sure..)
 #### Check how to properly use the pos_tag function!!!
     def pos_tag_data_string(self):
-        split = self.split_sentence(lowercase = True, without_punctuation = False)
+        split = self.split_sentence(lowercase=True, without_punctuation=False)
         return nltk.pos_tag(split)
 
 

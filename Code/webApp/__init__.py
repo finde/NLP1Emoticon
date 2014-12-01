@@ -13,18 +13,15 @@ def create_app(configfile=None):
         '6Lfol9cSAAAAADAkodaYl9wvQCwBMr3qGR_PPHcw'
 
     @app.route('/')
-    @app.route('/nlp1')
     def index():
         return render_template('index.html')
 
     @app.route('/averaged-multiclass-perceptron')
-    @app.route('/nlp1/averaged-multiclass-perceptron')
     def amp():
         # TODO: make an API to show the demo
         return render_template('amp.html')
 
     @app.route('/hidden-markov-model')
-    @app.route('/nlp1/hidden-markov-model')
     def hmm():
         return render_template('hmm.html')
 

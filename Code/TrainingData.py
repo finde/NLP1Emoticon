@@ -19,7 +19,7 @@ class TrainingData:
                                     "positive_words": 3,
                                     "positive_words_hashtags": 4,
                                     "negative_words_hashtags": 5,
-                                    "uppercase_words" :6,
+                                    "uppercase_words" : 6,
                                     "special_punctuation": 7,
                                     "adjectives": 8}
 

@@ -6,19 +6,23 @@ import ftfy  # http://ftfy.readthedocs.org/en/latest/
 import progressbar
 
 
-class Preprocessor:
-    def __init__(self, class_label):
-        filename = class_label + '_raw.json'
-        self.filename = class_label + '.json'
+class DataPreprocessor:
+    def __init__(self, _class_label=None):
+        if _class_label is not None:
+            self.class_label = _class_label
+            filename = _class_label + '_raw.json'
+            self.filename = _class_label + '.json'
 
-        if os.path.isfile(filename) and os.access(filename, os.R_OK):
-            # load json dump into variable
-            f = open(filename, 'r')
-            self.statuses = json.load(f)
-            f.close()
+            if os.path.isfile(filename) and os.access(filename, os.R_OK):
+                # load json dump into variable
+                f = open(filename, 'r')
+                self.statuses = json.load(f)
+                f.close()
+        else:
+            self.class_label = "unknown"
 
-    @staticmethod
-    def remove_hashtags(text):
+    # public function
+    def remove_hashtags(self, text):
         hashtags = [tag.strip("#") for tag in text.split() if tag.startswith("#")]
         clean_text = re.sub(r'#(\w+)', r'\1', text)
         return clean_text, hashtags
@@ -66,7 +70,7 @@ class Preprocessor:
         }
 
     def run(self):
-        print 'Emoticon: ', emoticon
+        print 'Emoticon: ', self.class_label
 
         bar = progressbar.ProgressBar(maxval=len(self.statuses),
                                       widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
@@ -93,5 +97,5 @@ class Preprocessor:
 
 
 if __name__ == "__main__":
-    for emoticon in ['positive', 'negative']:
-        Preprocessor(emoticon).run()
+    for class_label in ['positive', 'negative']:
+        DataPreprocessor(class_label).run()

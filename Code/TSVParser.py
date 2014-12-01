@@ -1,9 +1,9 @@
 import csv
-import sys
-import pdb
-from pprint import pprint
+import DataPreprocessor as __
+
 
 '''Feature extraction class'''
+
 
 class TSV_Object:
     # Store tsv object
@@ -21,6 +21,9 @@ class TSV_Object:
         if data_type == "twitter":
             self.text = tsv_object[0]
             self.hashtags = tsv_object[1]
+        elif data_type == "twitter2":  # data from hoang
+            preprocessor = __.DataPreprocessor()
+            self.text, self.hashtags = preprocessor.remove_hashtags(tsv_object[5])
         elif data_type == "ubuntu":
             self.timestamp = tsv_object[0]
             self.username = tsv_object[1]
@@ -60,36 +63,46 @@ class TSV_Object:
         else:
             return self.hashtags
 
+
 class TSV_Getter:
-    def __init__(self, filename, verbose=0):
+    def __init__(self, filename, data_type=None, emotion=None):
         self.all_tsv_objects = []
         filename = filename.lower()
         # print filename
-        if "ubuntu" in filename:
-            data_type = "ubuntu"
-        elif "twitter" in filename:
-            data_type = "twitter"
-        else:
-            data_type = "unknown"
 
-        if "positive-negative" in filename:
-            emotion = "mixed"
-        elif "positive" in filename:
-            emotion = "positive"
-        elif "negative" in filename:
-            emotion = "negative"
-        elif "neutral" in filename:
-            emotion = "neutral"
-        else:
-            emotion = "unknown"
+        if data_type is None:
+            if "ubuntu" in filename:
+                data_type = "ubuntu"
+            elif "twitter" in filename:
+                data_type = "twitter"
+            else:
+                data_type = "unknown"
+
+        if emotion is None:
+            if "positive-negative" in filename:
+                emotion = "mixed"
+            elif "positive" in filename:
+                emotion = "positive"
+            elif "negative" in filename:
+                emotion = "negative"
+            elif "neutral" in filename:
+                emotion = "neutral"
+            else:
+                emotion = "unknown"
 
         # Read TSV file:
         with open(filename, 'rb') as tsvIn:
-            tsvIn = csv.reader(tsvIn, delimiter='\t')
+
+            # allow to read tsv and csv (default)
+            if ".tsv" in filename:
+                tsvIn = csv.reader(tsvIn, delimiter='\t')
+            else:
+                tsvIn = csv.reader(tsvIn, delimiter=',')
+
             for row in tsvIn:
                 # Do not store the first row
-                #if (row[0] == 'Text'):
-                #    continue
+                # if (row[0] == 'Text'):
+                # continue
                 # Create tsv object of row (which is one tweet)
                 tsv_obj = TSV_Object(row, data_type, emotion)
                 # print row
@@ -103,7 +116,9 @@ class TSV_Getter:
 
 
 if __name__ == "__main__":
-    dataPoints = [[_.text, _.hashtags, ':('] for _ in TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-negative.tsv').get_all_tsv_objects()]
+    dataPoints = [[_.text, _.hashtags, ':('] for _ in
+                  TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-negative.tsv').get_all_tsv_objects()]
     # print 'going to positive!\n'
-    dataPoints = dataPoints + [[_.text, _.hashtags, ':)'] for _ in TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-positive.tsv').get_all_tsv_objects()]
+    dataPoints = dataPoints + [[_.text, _.hashtags, ':)'] for _ in
+                               TSV_Getter('../Data/Chat Data/2006-04-20-#ubuntu-positive.tsv').get_all_tsv_objects()]
     # print len(dataPoints)
