@@ -84,15 +84,19 @@ class TSV_Getter:
 
         # Read TSV file:
         with open(filename, 'rb') as tsvIn:
-            tsvIn = csv.reader(tsvIn, delimiter='\t')
-            for row in tsvIn:
-                # Do not store the first row
-                # Create tsv object of row (which is one tweet)
-                tsv_obj = TSV_Object(row, data_type, emotion)
-                # Store all tsv objects of this file in this getter class
-                self.all_tsv_objects.append(tsv_obj)
-                
-        self.sort_tsv_objects()
+		if ".tsv" in filename:
+			tsvIn = csv.reader(tsvIn, delimiter='\t')
+		else:
+			tsvIn = csv.reader(tsvIn, delimiter=',')
+		for row in tsvIn:
+			# Do not store the first row
+                	# Create tsv object of row (which is one tweet)
+                	tsv_obj = TSV_Object(row, data_type, emotion)
+                	# Store all tsv objects of this file in this getter class
+                	self.all_tsv_objects.append(tsv_obj)
+
+ 	if "ubuntu" in filename_copy:         
+        	self.sort_tsv_objects()
 
     def get_all_tsv_objects(self, size=None):
         if size is None:
@@ -124,7 +128,7 @@ class TSV_Getter:
                 print self.sorted_tsv_objects[i][sorted].get_username()
 
 if __name__ == "__main__":
-    tsv_negative = TSV_Getter('../Data/Chat Data/2006-06-01-#ubuntu-negative.tsv').get_all_tsv_objects()
+    tsv_negative = TSV_Getter('../Data/Twitter/hc9').get_all_tsv_objects()
     #dataPoints = [[_.text, _.hashtags, ':('] for _ in TSV_Getter('../Data/Chat Data/2006-06-01-#ubuntu-negative.tsv').get_all_tsv_objects()]
     
     #print dataPoints
