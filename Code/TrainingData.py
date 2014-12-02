@@ -5,30 +5,29 @@ import argparse
 import re
 from string import punctuation
 import nltk
+import progressbar
+import time
 from Dictionary import Dictionary
 import DataPoint
 import numpy as np
 
 
-
 class TrainingData:
     def __init__(self, data_points):
         self.data_points = data_points
-        self.feature_dictionary = { "words": 1,
-                                    "negative_words": 2,
-                                    "positive_words": 3,
-                                    "positive_words_hashtags": 4,
-                                    "negative_words_hashtags": 5,
-                                    "uppercase_words" : 6,
-                                    "special_punctuation": 7,
-                                    "adjectives": 8}
+        self.feature_dictionary = {"words": 1,
+                                   "negative_words": 2,
+                                   "positive_words": 3,
+                                   "positive_words_hashtags": 4,
+                                   "negative_words_hashtags": 5,
+                                   "uppercase_words": 6,
+                                   "special_punctuation": 7,
+                                   "adjectives": 8}
 
 
-
-
-#####################
-# Basic class funcs #
-#####################
+    #####################
+    # Basic class funcs #
+    #####################
 
     def get_training_points(self):
         return self.data_points
@@ -38,41 +37,43 @@ class TrainingData:
             each.print_data_point()
 
 
-############################
-# Feature extraction funcs #
-############################
+        ############################
+        # Feature extraction funcs #
+        ############################
 
     def count_words(self):
         return self.count_feature(self.feature_dictionary['words'])
 
-#### Might be changed to a matrix if it's hard to work with!!
+    #### Might be changed to a matrix if it's hard to work with!!
     # Returns a dictionary containing the values corresponding to all
     # the features for all the datapoints.
     def get_feature_dictionary(self):
         d = {}
         for feature in self.feature_dictionary:
             #print 'result for feature ', feature, ': \n', self.count_feature(self.feature_dictionary[feature])
-
             d[feature] = self.count_feature(self.feature_dictionary[feature])
+            print ' == ', feature, ':', d[feature]
 
         return d
 
     ''' Returns the feature values for all features for each datapoint
     so 1 vector with all the feature values for 1 datapoint'''
-    def get_feature_matrix(self):
-       feature_dict = self.get_normalized_feature_dictionary()
-       feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
 
-       return feat_matrix
+    def get_feature_matrix(self):
+        feature_dict = self.get_normalized_feature_dictionary()
+        feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+
+        return feat_matrix
 
     ''' Returns the label vector '''
+
     def get_label_vector(self):
         return [each.get_class_label() for each in self.get_training_points()]
 
 
-
     ''' Returns normalized feature dictionary
     All data will be rescaled so each feature has range value [0.1,0.9]'''
+
     def get_normalized_feature_dictionary(self):
         feature_dict = self.get_feature_dictionary()
         normalized_feature_dict = {}
@@ -97,9 +98,9 @@ class TrainingData:
         return normalized_feature_dict
 
 
-########################################
-# Help functions for eature extraction #
-########################################
+    ########################################
+    # Help functions for eature extraction #
+    ########################################
 
     def count_feature(self, feature):
         if feature == self.feature_dictionary['words']:
@@ -124,16 +125,34 @@ class TrainingData:
             return [each.count_special_punctuation() for each in self.get_training_points()]
 
         elif feature == self.feature_dictionary['adjectives']:
-            return [each.count_adjectives() for each in self.get_training_points()]
+            # if adjectives, then show progress bar, because it is so slooow
+
+            time.sleep(1)
+            bar = progressbar.ProgressBar(maxval=len(self.get_training_points()),
+                                          widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
+
+            i = 0
+            output = []
+            for each in self.get_training_points():
+                output.append(each.count_adjectives())
+                i += 1
+                bar.update(i)
+
+            bar.finish()
+            time.sleep(1)
+
+            return output
+
+            # one-liner
+            # return [each.count_adjectives() for each in self.get_training_points()]
 
         else:
             return ['unknown feature, bro! :( Give me another one!']
 
 
-
 if __name__ == "__main__":
 
-    #Command line arguments
+    # Command line arguments
     parser = argparse.ArgumentParser(description="Run simulation")
 
     parser.add_argument('-text', metavar='The text of the data point', type=str)
@@ -144,21 +163,20 @@ if __name__ == "__main__":
 
     # If arguments are passed to the command line, assign them.
     # Otherwise, use some standart ones.
-    if(vars(args)['text'] is not None):
+    if (vars(args)['text'] is not None):
         data_string1 = vars(args)['text']
     else:
         data_string1 = "What's going on if I Happily try to do this SAD thing?!"
 
-    if(vars(args)['hashtags'] is not None):
+    if (vars(args)['hashtags'] is not None):
         hashtags1 = vars(args)['hashtags']
     else:
         hashtags1 = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS", "#sohappy"]
 
-    if(vars(args)['class'] is not None):
-      data_class1 = vars(args)['class']
+    if (vars(args)['class'] is not None):
+        data_class1 = vars(args)['class']
     else:
-      data_class1 = 1
-
+        data_class1 = 1
 
     data_string2 = "This is a second AWesOme example and i LOVE it?!"
     hashtags2 = ["#ProjectBecomesAnnoying", "#MeSoSleepy", "#suicidemood", "#totallyhungry"]
@@ -172,9 +190,7 @@ if __name__ == "__main__":
     data_point1 = DataPoint.DataPoint(data_string1, hashtags1, data_class1, dictionary)
     data_point2 = DataPoint.DataPoint(data_string2, hashtags2, data_class2, dictionary)
 
-
     data = [data_point1, data_point2]
-
 
     training_data = TrainingData(data)
     # Do some random shit to make sure things work :)
@@ -189,7 +205,7 @@ if __name__ == "__main__":
     print "feature dictionary: \n ", training_data.get_feature_dictionary()
 
     feature_dict = training_data.get_feature_dictionary()
-    feat_matrix = training_data.get_feature_matrix() #[[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+    feat_matrix = training_data.get_feature_matrix()  #[[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
     print 'feat_matrix', feat_matrix
 
     '''

@@ -9,7 +9,6 @@ import cPickle
 
 
 def mlp_gradient(x, t, w, b, v, a, L, number_classes, number_features):
-
     # initialize datastructures w, b, v and a to fill later on
     gradW = np.zeros((L, number_classes))
     gradB = np.zeros(number_classes)
@@ -131,13 +130,11 @@ if __name__ == "__main__":
     data_points = []
     amount_data_per_class = 300
 
-    i = 0
     for c in data_class:
-        # uncomment line below for balanced data source
-        # amount_data_per_class = None
+        # comment line below for balanced data source
+        amount_data_per_class = None
         data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1], dictionary) for _ in
-                                     TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(
-                                         amount_data_per_class)]  # unbalanced
+                                     TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(amount_data_per_class)]
 
     '''
     # Training
@@ -173,8 +170,8 @@ if __name__ == "__main__":
     size_all = x.shape[0]
 
     indices = list(range(x.shape[0]))
-    train_test_ratio = 0.75
-    n_train = np.floor(size_all * train_test_ratio).astype(int)
+    training_percentage = 0.75
+    n_train = np.floor(size_all * training_percentage).astype(int)
     random_indices = random.sample(indices, n_train)
     rest_indices = [index for index in indices if index not in random_indices]
 

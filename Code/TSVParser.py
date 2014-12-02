@@ -1,5 +1,5 @@
 import csv
-import DataPreprocessor as __
+from DataPreprocessor import DataPreprocessor
 
 
 '''Feature extraction class'''
@@ -22,7 +22,7 @@ class TSV_Object:
             self.text = tsv_object[0]
             self.hashtags = tsv_object[1]
         elif data_type == "twitter2":  # data from hoang
-            preprocessor = __.DataPreprocessor()
+            preprocessor = DataPreprocessor()
             self.text, self.hashtags = preprocessor.remove_hashtags(tsv_object[5])
         elif data_type == "ubuntu":
             self.timestamp = tsv_object[0]

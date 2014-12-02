@@ -1,3 +1,6 @@
+import os
+import cPickle
+import numpy as np
 from TSVParser import TSV_Getter
 from TrainingData import TrainingData
 from DataPoint import DataPoint
@@ -5,15 +8,20 @@ from Dictionary import Dictionary
 
 import random
 
+
 class GetData:
-    def __init__(self, data_class, n, training_percentage):
+    def __init__(self, data_class, n, training_percentage, data_type="twitter"):
         self.data_class = data_class
         self.n_per_class = n
         self.training_percentage = training_percentage
         self.dictionary = Dictionary()
+        self.data_type = data_type
 
-        all_data = self.load_tsv()
-        self.training_data, self.training_label, self.test_data, self.test_label = self.split_training_and_test(all_data)
+        # all_data = self.load_tsv()
+        self.training_data, \
+        self.training_label, \
+        self.test_data, \
+        self.test_label = self.split_training_and_test_alt()
 
     def get_training_data(self):
         return self.training_data
@@ -30,12 +38,12 @@ class GetData:
 
     # Helper functions
     def lin_space(self, n):
-      arr = []
+        arr = []
 
-      for i in range(0, n):
-        arr.append(i)
+        for i in range(0, n):
+            arr.append(i)
 
-      return arr
+        return arr
 
     def load_tsv(self):
         raw_data = []
@@ -48,7 +56,7 @@ class GetData:
             filename = cls[0]
             class_label = cls[1]
 
-            raw = TSV_Getter(filename).get_all_tsv_objects(None)
+            raw = TSV_Getter(filename, self.data_type).get_all_tsv_objects(None)
 
             arr_index = self.lin_space(len(raw))
             random.shuffle(arr_index)
@@ -95,3 +103,46 @@ class GetData:
             test_label.append(data.get_class_label())
 
         return TrainingData(training_data), training_label, TrainingData(test_data), test_label
+
+    # not elegant
+    def split_training_and_test_alt(self):
+        data_points = []
+
+        print('Feature extraction...')
+
+        for c in self.data_class:
+            data_points = data_points + [DataPoint(_.text, _.hashtags, c[1], self.dictionary) for _ in
+                                         TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(self.n_per_class)]
+
+        # gather the data points into a whole training data
+        all_data = TrainingData(data_points)
+
+        # You can print the data if you wanna see it
+        # training_data.print_data()
+
+        # Show the features
+        # print training_data.get_feature_dictionary()
+        # print training_data.get_label_vector()
+
+        # Soooo, that's your training matrix and your training label
+        t = np.array(all_data.get_label_vector())
+
+        size_all = len(data_points)
+
+        indices = list(range(size_all))
+        n_train = np.floor(size_all * self.training_percentage).astype(int)
+        random_indices = random.sample(indices, n_train)
+        rest_indices = [index for index in indices if index not in random_indices]
+
+        # Devide the data into train and test data (do it in a smarter way in the feature :D)
+        # Get the feature matrix of this data
+        training_data = TrainingData([data_points[i] for i in random_indices])
+        training_label = training_data.get_label_vector()
+
+        test_data = TrainingData([data_points[i] for i in rest_indices])
+        test_label = test_data.get_label_vector()
+
+        return training_data, \
+               training_label, \
+               test_data, \
+               test_label
