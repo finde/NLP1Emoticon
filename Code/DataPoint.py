@@ -13,7 +13,7 @@ from Dictionary import positive_words, negative_words
 
 
 class DataPoint:
-    def __init__(self, data_string, hashtags, class_label, dictionary):
+    def __init__(self, data_string, hashtags, class_label):
         self.data_string = data_string
         self.hashtags = hashtags
         self.class_label = class_label
@@ -261,16 +261,13 @@ if __name__ == "__main__":
         hashtags = ["#FeelingProductive", "#LifeIsSoAwesome", "#NLPSUCKS", "#sohappy"]
 
     if(vars(args)['class'] is not None):
-      data_class = vars(args)['class']
+        data_class = vars(args)['class']
     else:
-      data_class = 0
+        data_class = 0
 
-
-    # Load dictionary of positive and negative words
-    dictionary = Dictionary()
 
     # Construct a data point:
-    data_point = DataPoint(data_string, hashtags, data_class, dictionary)
+    data_point = DataPoint(data_string, hashtags, data_class)
 
 
     # Do some random shit to make sure things work :)
