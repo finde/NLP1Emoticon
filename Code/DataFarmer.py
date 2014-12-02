@@ -4,7 +4,6 @@ import re
 import numpy as np
 from time import sleep
 import tweepy  # http://www.tweepy.org/
-import progressbar
 
 
 class DataFarmer:
@@ -123,18 +122,11 @@ class DataFarmer:
         return number_of_tweets
 
     def run(self, target):
-        bar = progressbar.ProgressBar(maxval=target,
-                                      widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
-
         number_of_tweets = self.fetch_from_twitter(target)
-        bar.update(np.mean(number_of_tweets))
 
         while len(number_of_tweets) > 0 and np.mean(number_of_tweets) < target:
             sleep(10)
             number_of_tweets = self.fetch_from_twitter(target)
-            bar.update(np.mean(number_of_tweets))
-
-        bar.finish()
 
 
 if __name__ == "__main__":

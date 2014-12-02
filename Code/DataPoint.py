@@ -13,7 +13,7 @@ from Dictionary import positive_words, negative_words
 
 
 class DataPoint:
-    def __init__(self, data_string, hashtags, class_label, dictionary):
+    def __init__(self, data_string, hashtags, class_label):
         self.data_string = data_string
         self.hashtags = hashtags
         self.class_label = class_label

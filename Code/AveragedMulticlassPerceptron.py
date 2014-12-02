@@ -1,5 +1,4 @@
 import collections
-import progressbar
 from getData import GetData
 import time
 
@@ -129,16 +128,10 @@ if __name__ == "__main__":
     # training perceptron
     iteration = 50
     print 'Training perceptron... ', iteration, 'times'
-    time.sleep(1)
-    bar = progressbar.ProgressBar(maxval=iteration,
-                                  widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
 
     for n in xrange(iteration):
-        bar.update(n)
         for i in xrange(len(training_data.data_points)):
             multiclass.learn(training_features[i], training_label[i])
-    bar.finish()
-    time.sleep(1)
 
     print('Predicting...')
     # accuration for training data

@@ -3,7 +3,6 @@ import json
 import re
 import language_check  # https://pypi.python.org/pypi/language-check
 import ftfy  # http://ftfy.readthedocs.org/en/latest/
-import progressbar
 
 
 class DataPreprocessor:
@@ -59,7 +58,7 @@ class DataPreprocessor:
         text = self.remove_html(text)
 
         # spellchecker
-        text = self.language_corrector(text)
+        # text = self.language_corrector(text)
 
         # remove RT
         text = self.remove_retweet(text)
@@ -72,9 +71,6 @@ class DataPreprocessor:
     def run(self):
         print 'Emoticon: ', self.class_label
 
-        bar = progressbar.ProgressBar(maxval=len(self.statuses),
-                                      widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
-
         i = 0
         if self.statuses:
             new_statuses = []
@@ -85,15 +81,10 @@ class DataPreprocessor:
                 print "after: ", status
                 new_statuses.append(status)
 
-                i += 1
-                bar.update(i)
-
                 # write and close every iteration, so we at least reach something when error happen
                 f = open(self.filename, 'w+')
                 f.write(json.dumps(new_statuses))
                 f.close()
-
-        bar.finish()
 
 
 if __name__ == "__main__":

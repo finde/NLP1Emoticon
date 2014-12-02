@@ -5,7 +5,6 @@ import argparse
 import re
 from string import punctuation
 import nltk
-import progressbar
 import time
 from Dictionary import Dictionary
 import DataPoint
@@ -126,20 +125,9 @@ class TrainingData:
 
         elif feature == self.feature_dictionary['adjectives']:
             # if adjectives, then show progress bar, because it is so slooow
-
-            time.sleep(1)
-            bar = progressbar.ProgressBar(maxval=len(self.get_training_points()),
-                                          widgets=[progressbar.Bar('=', '[', ']'), ' ', progressbar.Percentage()])
-
-            i = 0
             output = []
             for each in self.get_training_points():
                 output.append(each.count_adjectives())
-                i += 1
-                bar.update(i)
-
-            bar.finish()
-            time.sleep(1)
 
             return output
 

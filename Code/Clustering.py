@@ -2,7 +2,6 @@ import os
 import numpy as np
 import random
 import TrainingData
-from Dictionary import Dictionary
 import DataPoint
 from TSVParser import TSV_Getter
 import scipy.cluster.vq as cluster
@@ -10,8 +9,8 @@ import cPickle
 
 # Cluster features, using K-means
 def cluster_feature_matrix(feature_matrix, number_of_clusters):
-	cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
-	return cluster_centers, assignment
+    cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
+    return cluster_centers, assignment
 
 
 # Find nearest cluster center for given vector
@@ -42,26 +41,23 @@ def get_nearest_clusters_matrix(clusters, matrix):
 
 if __name__ == "__main__":
     # load dictionary
-    dictionary = Dictionary()
-
-	# get data
-	print('Reading data...')
-	data_class = [
-	['../Data/Twitter/hc1', 0, ';-)'],
-	['../Data/Twitter/hc2', 1, ';D'],
-	['../Data/Twitter/hc3', 2, ';)'],
-	# ['../Data/Twitter/hc4', 3, ';-D'],
-	# ['../Data/Twitter/hc5', 4, ';-P'],
-	# ['../Data/Twitter/hc6', 5, ';P'],
-	# ['../Data/Twitter/hc7', 6, ';-('],
-	# ['../Data/Twitter/hc8', 7, ';('],
-	# ['../Data/Twitter/hc9', 8, ';o'],
-	# ['../Data/Twitter/hc10', 9, ';]'],
-	# ['../Data/Twitter/hc11', 10, '=]'],
-	# ['../Data/Twitter/hc13', 11, ';*'],
-	# ['../Data/Twitter/hc15', 12, ';|'],
-	# ['../Data/Twitter/hc_non', 13, '_non_'],
-	]
+    print('Reading data...')
+    data_class = [
+        ['../Data/Twitter/hc1', 0, ';-)'],
+        ['../Data/Twitter/hc2', 1, ';D'],
+        ['../Data/Twitter/hc3', 2, ';)'],
+        # ['../Data/Twitter/hc4', 3, ';-D'],
+        # ['../Data/Twitter/hc5', 4, ';-P'],
+        # ['../Data/Twitter/hc6', 5, ';P'],
+        # ['../Data/Twitter/hc7', 6, ';-('],
+        # ['../Data/Twitter/hc8', 7, ';('],
+        # ['../Data/Twitter/hc9', 8, ';o'],
+        # ['../Data/Twitter/hc10', 9, ';]'],
+        # ['../Data/Twitter/hc11', 10, '=]'],
+        # ['../Data/Twitter/hc13', 11, ';*'],
+        # ['../Data/Twitter/hc15', 12, ';|'],
+        # ['../Data/Twitter/hc_non', 13, '_non_'],
+    ]
 
     # get data points
     data_points = []
@@ -70,7 +66,7 @@ if __name__ == "__main__":
     for c in data_class:
         # comment line below for balanced data source
         amount_data_per_class = None
-        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1], dictionary) for _ in
+        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1]) for _ in
                                      TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
 
     print('Feature extraction...')
@@ -81,13 +77,13 @@ if __name__ == "__main__":
     # filename = '../Data/Twitter/cache.__' + `len(data_class)` + '-Emo__.p'
     # if os.path.isfile(filename) and os.access(filename, os.R_OK):
     # fh = open(filename, "rb")
-    # 	feat_matrix = cPickle.load(fh)
-    # 	fh.close()
+    # feat_matrix = cPickle.load(fh)
+    # fh.close()
     # else:
-    # 	fh = open(filename, "wb")
+    # fh = open(filename, "wb")
     feat_matrix = np.array(training_data.get_feature_matrix())
     # cPickle.dump(feat_matrix, fh)
-    # fh.close()x   
+    # fh.close()x
 
     number_of_clusters = 15
     # Find cluster centers
