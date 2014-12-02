@@ -92,3 +92,4 @@ if __name__ == "__main__":
 
     # print nearest clusters. use only for testing purposes!
     # print "nearest clusters: ", nearest_clusters
+    print ' DONE' 
