@@ -44,3 +44,7 @@ class Dictionary:
         return self.load_word_list(self.FILE_NEG)
 
 
+
+dictionary = Dictionary()
+positive_words = dictionary.get_positive_words()
+negative_words = dictionary.get_negative_words()

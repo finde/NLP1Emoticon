@@ -4,6 +4,12 @@ import re
 from string import punctuation
 import nltk
 from Dictionary import Dictionary
+from Dictionary import positive_words, negative_words
+
+
+#dictionary = Dictionary()
+#positive_words = dictionary.get_positive_words()
+#negative_words = dictionary.get_negative_words()
 
 
 class DataPoint:
@@ -11,8 +17,6 @@ class DataPoint:
         self.data_string = data_string
         self.hashtags = hashtags
         self.class_label = class_label
-        self.positive_words = dictionary.get_positive_words()
-        self.negative_words = dictionary.get_negative_words()
 
 
 
@@ -30,10 +34,10 @@ class DataPoint:
             return self.class_label
 
     def get_positive_words(self):
-            return self.positive_words
+            return positive_words
 
     def get_negative_words(self):
-            return self.negative_words
+            return negative_words
 
     def get_list_of_words(self):
             return self.data_string.split()
@@ -303,3 +307,6 @@ if __name__ == "__main__":
 
     data_point.print_data_point()
 
+
+
+    print punctuation
