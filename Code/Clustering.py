@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # 	fh = open(filename, "wb")
     feat_matrix = np.array(training_data.get_feature_matrix())
     # cPickle.dump(feat_matrix, fh)
-    # fh.close()
+    # fh.close()x   
 
     number_of_clusters = 15
     # Find cluster centers
