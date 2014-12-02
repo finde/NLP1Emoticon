@@ -8,11 +8,12 @@ from TSVParser import TSV_Getter
 from scipy.cluster.vq import *
 import cPickle
 
-
-def cluster_feature_matrix(feature_matrix):
-	cluster_centers, irrelevant = kmeans2(feature_matrix, 20)
+# Cluster features, using K-means
+def cluster_feature_matrix(feature_matrix, number_of_clusters):
+	cluster_centers, irrelevant = kmeans2(feature_matrix, number_of_clusters)
 	return cluster_centers	
 
+# Find nearest cluster center for given vector
 def get_nearest_cluster_vector(clusters, vector):
 	cluster_distance = 1000
 	nearest_cluster = 0
@@ -26,6 +27,7 @@ def get_nearest_cluster_vector(clusters, vector):
 			nearest_cluster = center
 	return nearest_cluster
 
+# Find nearest cluster center for matrix of vectors. Return cluster centers in a matrix
 def get_nearest_clusters_matrix(clusters, matrix):
 	nearest_clusters = []
 	
@@ -36,8 +38,10 @@ def get_nearest_clusters_matrix(clusters, matrix):
 	return nearest_clusters
 
 if __name__ == "__main__":
+	# load dictionary
 	dictionary = Dictionary()
 
+	# get data
 	print('Reading data...')
 	data_class = [
 	['../Data/Twitter/hc1', 0, ';-)'],
@@ -56,6 +60,7 @@ if __name__ == "__main__":
 	# ['../Data/Twitter/hc_non', 13, '_non_'],
 	]
 
+	# get data points
 	data_points = []
 	amount_data_per_class = 300
 
@@ -80,9 +85,9 @@ if __name__ == "__main__":
 		cPickle.dump(feat_matrix, fh)
 		fh.close()
 	
-	
+	number_of_clusters = 15
 	# Find cluster centers
-	cluster_centers = cluster_feature_matrix(feat_matrix)
+	cluster_centers = cluster_feature_matrix(feat_matrix, number_of_clusters)
 	nearest_clusters = get_nearest_clusters_matrix(cluster_centers, feat_matrix)
 
 	# print nearest clusters. use only for testing purposes!
