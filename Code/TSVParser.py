@@ -4,6 +4,7 @@ import pdb
 import numpy as np
 from pprint import pprint
 from copy import deepcopy
+from DataPreprocessor import DataPreprocessor
 
 '''Feature extraction class'''
 
@@ -20,8 +21,10 @@ class TSV_Object:
         self.hashtags = None
 
         if data_type == "twitter":
-            self.text = tsv_object[0]
-            self.hashtags = tsv_object[1]
+            # self.text = tsv_object[0]
+            # self.hashtags = tsv_object[1]
+            preprocessor = DataPreprocessor()
+            self.text, self.hashtags = preprocessor.remove_hashtags(tsv_object[5])
         elif data_type == "ubuntu":
             self.timestamp = tsv_object[0]
             self.username = tsv_object[1]

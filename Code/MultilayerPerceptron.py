@@ -152,7 +152,7 @@ if __name__ == "__main__":
     # print training_data.get_label_vector()
 
     # Get the feature matrix of this data
-    filename = '../Data/Twitter/cache/__' + `len(data_class)` + '-Emo__.p'
+    filename = '../Data/Twitter/cache.__' + `len(data_class)` + '-Emo__.p'
     if os.path.isfile(filename) and os.access(filename, os.R_OK):
         fh = open(filename, "rb")
         feat_matrix = cPickle.load(fh)
