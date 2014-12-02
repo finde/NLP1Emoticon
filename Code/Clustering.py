@@ -5,13 +5,13 @@ import TrainingData
 from Dictionary import Dictionary
 import DataPoint
 from TSVParser import TSV_Getter
-from scipy.cluster.vq import *
+import scipy.cluster.vq as cluster
 import cPickle
 
 # Cluster features, using K-means
 def cluster_feature_matrix(feature_matrix, number_of_clusters):
-	cluster_centers, irrelevant = kmeans2(feature_matrix, number_of_clusters)
-	return cluster_centers	
+	cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
+	return cluster_centers, assignment
 
 # Find nearest cluster center for given vector
 def get_nearest_cluster_vector(clusters, vector):
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 	training_data = TrainingData.TrainingData(data_points)
 
 	# Get the feature matrix of this data
-	filename = '../Data/Twitter/cache/__' + `len(data_class)` + '-Emo__.p'
+	filename = '../Data/Twitter/cache.__' + `len(data_class)` + '-Emo__.p'
 	if os.path.isfile(filename) and os.access(filename, os.R_OK):
 		fh = open(filename, "rb")
 		feat_matrix = cPickle.load(fh)
