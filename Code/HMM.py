@@ -8,28 +8,37 @@ We want the data to look like this at the end:
     
 
 class HMM:
-    def __init__(self):
-        self.counts = dict()
-        self.total_counts = {}
-        self.total_counts['start'] = 0
+    def __init__(self, number_of_clusters, labels):
+        
+        self.states = ['start'] + labels
+        self.total_counts = {state: {trans_state: 0 for trans_state in self.states} for state in self.states}
+        
+        for each in self.total_counts.keys():
+            self.total_counts[each] = {state: 0 for state in self.total_counts.keys()}
+                    
         self.transition_probs = dict()
         self.emission_probs = dict()
+        
+        self.labels = labels
         
     
 
     
     def add_data(self, data, labels):
-        current_counts = {}
-        current_counts['start'] = 0
         
-        for each in set(labels):
-            current_counts[each] = 0
-            if each not in self.total_counts.keys():
-                self.total_counts[each] = 0
-            
-        print current_counts
-        self.total_counts = {self.total_counts[key] + current_counts[key] for key in current_counts.keys()}
+        current_counts = {state: {trans_state: 0 for trans_state in self.states} for state in self.states}
+        current_counts['start'][labels[0]] += 1
+        
+        for i in range(0, len(labels)-1):
+            old_state = labels[i]
+            new_state = labels[i+1]
+            current_counts[old_state][new_state] += 1
         
         
-model = HMM()
+        self.total_counts = {state: {trans_state: self.total_counts[state][trans_state] + current_counts[state][trans_state] for trans_state in self.states} for state in self.states}
+        
+        print self.total_counts
+        
+        
+model = HMM(15, ['p', 'n'])
 model.add_data([1, 5, 2, 7], ['p', 'n', 'n', 'n'])
