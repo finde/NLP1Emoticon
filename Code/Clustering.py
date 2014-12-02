@@ -5,13 +5,13 @@ import TrainingData
 from Dictionary import Dictionary
 import DataPoint
 from TSVParser import TSV_Getter
-from scipy.cluster.vq import *
+import scipy.cluster.vq as cluster
 import cPickle
 
 # Cluster features, using K-means
 def cluster_feature_matrix(feature_matrix, number_of_clusters):
-    cluster_centers, irrelevant = kmeans2(feature_matrix, number_of_clusters)
-    return cluster_centers
+	cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
+	return cluster_centers, assignment
 
 
 # Find nearest cluster center for given vector
@@ -44,17 +44,24 @@ if __name__ == "__main__":
     # load dictionary
     dictionary = Dictionary()
 
-    # get data
-    print('Reading data...')
-    data_class = [  # ['../Data/Twitter/hc1', 0, ';-)'],
-                    ['../Data/Twitter/hc2', 0, ';D'],
-                    ['../Data/Twitter/hc3', 1, ';)'],  # ['../Data/Twitter/hc4', 3, ';-D'],
-                    # ['../Data/Twitter/hc5', 4, ';-P'],  # ['../Data/Twitter/hc6', 5, ';P'],
-                    # ['../Data/Twitter/hc7', 6, ';-('],  # ['../Data/Twitter/hc8', 7, ';('],
-                    # ['../Data/Twitter/hc9', 8, ';o'],  # ['../Data/Twitter/hc10', 9, ';]'],
-                    # ['../Data/Twitter/hc11', 10, '=]'],  # ['../Data/Twitter/hc13', 11, ';*'],
-                    # ['../Data/Twitter/hc15', 12, ';|'],  # ['../Data/Twitter/hc_non', 13, '_non_'],
-    ]
+	# get data
+	print('Reading data...')
+	data_class = [
+	['../Data/Twitter/hc1', 0, ';-)'],
+	['../Data/Twitter/hc2', 1, ';D'],
+	['../Data/Twitter/hc3', 2, ';)'],
+	# ['../Data/Twitter/hc4', 3, ';-D'],
+	# ['../Data/Twitter/hc5', 4, ';-P'],
+	# ['../Data/Twitter/hc6', 5, ';P'],
+	# ['../Data/Twitter/hc7', 6, ';-('],
+	# ['../Data/Twitter/hc8', 7, ';('],
+	# ['../Data/Twitter/hc9', 8, ';o'],
+	# ['../Data/Twitter/hc10', 9, ';]'],
+	# ['../Data/Twitter/hc11', 10, '=]'],
+	# ['../Data/Twitter/hc13', 11, ';*'],
+	# ['../Data/Twitter/hc15', 12, ';|'],
+	# ['../Data/Twitter/hc_non', 13, '_non_'],
+	]
 
     # get data points
     data_points = []
