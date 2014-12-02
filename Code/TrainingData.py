@@ -6,7 +6,6 @@ import re
 from string import punctuation
 import nltk
 import time
-from Dictionary import Dictionary
 import DataPoint
 import numpy as np
 

@@ -3,13 +3,8 @@ import argparse
 import re
 from string import punctuation
 import nltk
-from Dictionary import Dictionary
 from Dictionary import positive_words, negative_words
 
-
-#dictionary = Dictionary()
-#positive_words = dictionary.get_positive_words()
-#negative_words = dictionary.get_negative_words()
 
 
 class DataPoint:

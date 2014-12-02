@@ -2,7 +2,6 @@ import os
 import numpy as np
 import random
 import TrainingData
-from Dictionary import Dictionary
 import DataPoint
 from TSVParser import TSV_Getter
 import cPickle
@@ -51,7 +50,7 @@ def mlp_iter(x_train, t_train, w, b, v, a, L, number_classes, number_features):
                                                   number_features)
 
         # update gradients, but multiply by small learning rate to keep the weights small
-        learning_rate = 1E-1
+        learning_rate = 1E-2
         w += gradW * learning_rate
         b += gradB * learning_rate
         v += gradV * learning_rate
@@ -101,7 +100,6 @@ if __name__ == "__main__":
     # ["#whatever"]]
     #
     # data_class = np.array([0, 1, 2])
-    dictionary = Dictionary()
 
     # data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
 
@@ -133,7 +131,7 @@ if __name__ == "__main__":
     for c in data_class:
         # comment line below for balanced data source
         amount_data_per_class = None
-        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1], dictionary) for _ in
+        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1]) for _ in
                                      TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(amount_data_per_class)]
 
     '''
@@ -196,10 +194,10 @@ if __name__ == "__main__":
     number_features = x_train.shape[1]
 
     # start with really small initial weights!!
-    w = np.random.randn(L, number_classes) * 0.015
-    b = np.random.randn(number_classes) * 0.0015
-    v = np.random.randn(number_features, L) * 0.015
-    a = np.random.randn(L) * 0.0015
+    w = np.random.randn(L, number_classes) * 0.15
+    b = np.random.randn(number_classes) * 0.015
+    v = np.random.randn(number_features, L) * 0.15
+    a = np.random.randn(L) * 0.015
 
     print 'WWWWWWWWWWWWWWWWWW', w
 

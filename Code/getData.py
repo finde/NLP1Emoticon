@@ -14,7 +14,6 @@ class GetData:
         self.data_class = data_class
         self.n_per_class = n
         self.training_percentage = training_percentage
-        self.dictionary = Dictionary()
         self.data_type = data_type
 
         # all_data = self.load_tsv()
@@ -73,7 +72,7 @@ class GetData:
                 current = raw_data[j][i]
                 class_label = cls[1]
 
-                data_point = DataPoint(current.get_text(), current.get_tags(), class_label, self.dictionary)
+                data_point = DataPoint(current.get_text(), current.get_tags(), class_label)
                 data.append(data_point)
 
         return data
@@ -111,7 +110,7 @@ class GetData:
         print('Feature extraction...')
 
         for c in self.data_class:
-            data_points = data_points + [DataPoint(_.text, _.hashtags, c[1], self.dictionary) for _ in
+            data_points = data_points + [DataPoint(_.text, _.hashtags, c[1]) for _ in
                                          TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(self.n_per_class)]
 
         # gather the data points into a whole training data
