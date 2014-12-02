@@ -7,6 +7,7 @@ from TSVParser import TSV_Getter
 import scipy.cluster.vq as cluster
 import cPickle
 
+
 # Cluster features, using K-means
 def cluster_feature_matrix(feature_matrix, number_of_clusters):
     cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
@@ -20,8 +21,6 @@ def get_nearest_cluster_vector(clusters, vector):
 
     # Loop through clusters and find nearest cluster
     for i in range(0, len(clusters)):
-        print 'vector:', vector
-        print 'center:', clusters[i] 
         distance = vector - clusters[i]
         location_cluster = np.linalg.norm(distance)
         if location_cluster < cluster_distance:
@@ -60,21 +59,22 @@ if __name__ == "__main__":
         # ['../Data/Twitter/hc15', 12, ';|'],
         # ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
-
+    
     # get data points
     data_points = []
     amount_data_per_class = 50
-
+    
     for c in data_class:
         # comment line below for balanced data source
         #amount_data_per_class = None
         data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1]) for _ in
-                                     TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
-
+                                        TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
+    
     print('Feature extraction...')
     # gather the data points into a whole training data
     training_data = TrainingData.TrainingData(data_points)
-
+    
+    
     # Get the feature matrix of this data
     # filename = '../Data/Twitter/cache.__' + `len(data_class)` + '-Emo__.p'
     # if os.path.isfile(filename) and os.access(filename, os.R_OK):
@@ -84,14 +84,20 @@ if __name__ == "__main__":
     # else:
     # fh = open(filename, "wb")
     feat_matrix = np.array(training_data.get_feature_matrix())
+    labels = training_data.get_label_vector()
+    
     # cPickle.dump(feat_matrix, fh)
     # fh.close()x
-
+    
     number_of_clusters = 15
     # Find cluster centers
     cluster_centers, assignment = cluster_feature_matrix(feat_matrix, number_of_clusters)
     nearest_clusters = get_nearest_clusters_matrix(cluster_centers, feat_matrix)
-
+    
     # print nearest clusters. use only for testing purposes!
     print "nearest clusters: ", nearest_clusters
     print ' DONE' 
+    print labels
+    
+    
+    

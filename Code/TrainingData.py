@@ -175,8 +175,8 @@ if __name__ == "__main__":
 
 
     # Construct a data point:
-    data_point1 = DataPoint.DataPoint(data_string1, hashtags1, data_class1, dictionary)
-    data_point2 = DataPoint.DataPoint(data_string2, hashtags2, data_class2, dictionary)
+    data_point1 = DataPoint.DataPoint(data_string1, hashtags1, data_class1)
+    data_point2 = DataPoint.DataPoint(data_string2, hashtags2, data_class2)
 
     data = [data_point1, data_point2]
 
