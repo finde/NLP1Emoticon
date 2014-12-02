@@ -89,7 +89,7 @@ if __name__ == "__main__":
     # cPickle.dump(feat_matrix, fh)
     # fh.close()x
     
-    number_of_clusters = 15
+    number_of_clusters = 50
     # Find cluster centers
     cluster_centers, assignment = cluster_feature_matrix(feat_matrix, number_of_clusters)
     nearest_clusters = get_nearest_clusters_matrix(cluster_centers, feat_matrix)
@@ -98,6 +98,12 @@ if __name__ == "__main__":
     print "nearest clusters: ", nearest_clusters
     print ' DONE' 
     print labels
+    
+    
+    # Just checking if the clusters are sort of consistent:
+    for i in range(0, number_of_clusters):
+        assigned_data = [data_index for data_index in range(0, len(assignment)) if assignment[data_index] == i]
+        print 'Cluster', i, 'contains:', [labels[i] for i in assigned_data] 
     
     
     

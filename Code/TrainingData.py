@@ -170,8 +170,6 @@ if __name__ == "__main__":
     hashtags2 = ["#ProjectBecomesAnnoying", "#MeSoSleepy", "#suicidemood", "#totallyhungry"]
 
     data_class2 = -1
-    # Load dictionary of positive and negative words
-    dictionary = Dictionary()
 
 
     # Construct a data point:
