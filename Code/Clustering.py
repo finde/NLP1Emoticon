@@ -19,12 +19,14 @@ def get_nearest_cluster_vector(clusters, vector):
     nearest_cluster = 0
 
     # Loop through clusters and find nearest cluster
-    for center in clusters:
-        distance = vector - center
+    for i in range(0, len(clusters)):
+        print 'vector:', vector
+        print 'center:', clusters[i] 
+        distance = vector - clusters[i]
         location_cluster = np.linalg.norm(distance)
         if location_cluster < cluster_distance:
             cluster_distance = location_cluster
-            nearest_cluster = center
+            nearest_cluster = i
     return nearest_cluster
 
 
@@ -61,11 +63,11 @@ if __name__ == "__main__":
 
     # get data points
     data_points = []
-    amount_data_per_class = 300
+    amount_data_per_class = 50
 
     for c in data_class:
         # comment line below for balanced data source
-        amount_data_per_class = None
+        #amount_data_per_class = None
         data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1]) for _ in
                                      TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
 
@@ -87,9 +89,9 @@ if __name__ == "__main__":
 
     number_of_clusters = 15
     # Find cluster centers
-    cluster_centers = cluster_feature_matrix(feat_matrix, number_of_clusters)
+    cluster_centers, assignment = cluster_feature_matrix(feat_matrix, number_of_clusters)
     nearest_clusters = get_nearest_clusters_matrix(cluster_centers, feat_matrix)
 
     # print nearest clusters. use only for testing purposes!
-    # print "nearest clusters: ", nearest_clusters
+    print "nearest clusters: ", nearest_clusters
     print ' DONE' 
