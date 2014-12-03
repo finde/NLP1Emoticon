@@ -1,6 +1,5 @@
 import collections
 from getData import GetData
-import time
 
 NULL_LABEL = '__NULL_LABEL__'
 

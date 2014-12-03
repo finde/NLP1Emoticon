@@ -4,7 +4,6 @@ import numpy as np
 from TSVParser import TSV_Getter
 from TrainingData import TrainingData
 from DataPoint import DataPoint
-from Dictionary import Dictionary
 
 import random
 
@@ -111,7 +110,7 @@ class GetData:
 
         for c in self.data_class:
             data_points = data_points + [DataPoint(_.text, _.hashtags, c[1]) for _ in
-                                         TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(self.n_per_class)]
+                                         TSV_Getter(c[0]).get_all_tsv_objects(self.n_per_class)]
 
         # gather the data points into a whole training data
         all_data = TrainingData(data_points)
@@ -123,9 +122,7 @@ class GetData:
         # print training_data.get_feature_dictionary()
         # print training_data.get_label_vector()
 
-        # Soooo, that's your training matrix and your training label
-        t = np.array(all_data.get_label_vector())
-
+        # Randomize indices
         size_all = len(data_points)
 
         indices = list(range(size_all))
@@ -133,7 +130,7 @@ class GetData:
         random_indices = random.sample(indices, n_train)
         rest_indices = [index for index in indices if index not in random_indices]
 
-        # Devide the data into train and test data (do it in a smarter way in the feature :D)
+        # Divide the data into train and test data (do it in a smarter way in the feature :D)
         # Get the feature matrix of this data
         training_data = TrainingData([data_points[i] for i in random_indices])
         training_label = training_data.get_label_vector()

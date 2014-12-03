@@ -63,6 +63,9 @@ class TrainingData:
 
         return feat_matrix
 
+    def get_unnormalize_feature_matrix(self):
+        return self.get_feature_dictionary()
+
     ''' Returns the label vector '''
 
     def get_label_vector(self):
@@ -71,6 +74,7 @@ class TrainingData:
 
     ''' Returns normalized feature dictionary
     All data will be rescaled so each feature has range value [0.1,0.9]'''
+
 
     def get_normalized_feature_dictionary(self):
         feature_dict = self.get_feature_dictionary()

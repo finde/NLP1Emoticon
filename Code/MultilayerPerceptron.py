@@ -1,8 +1,8 @@
 import os
 import numpy as np
 import random
-import TrainingData
-import DataPoint
+from TrainingData import TrainingData
+from DataPoint import DataPoint
 from TSVParser import TSV_Getter
 import cPickle
 
@@ -100,6 +100,7 @@ if __name__ == "__main__":
     # ["#whatever"]]
     #
     # data_class = np.array([0, 1, 2])
+    dictionary = Dictionary()
 
     # data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
 
@@ -130,9 +131,9 @@ if __name__ == "__main__":
 
     for c in data_class:
         # comment line below for balanced data source
-        amount_data_per_class = None
-        data_points = data_points + [DataPoint.DataPoint(_.text, _.hashtags, c[1]) for _ in
-                                     TSV_Getter(c[0], 'twitter2').get_all_tsv_objects(amount_data_per_class)]
+        # amount_data_per_class = None
+        data_points = data_points + [DataPoint(_.text, _.hashtags, c[1]) for _ in
+                                     TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
 
     '''
     # Training
@@ -140,7 +141,7 @@ if __name__ == "__main__":
 
     print('Feature extraction...')
     # gather the data points into a whole training data
-    training_data = TrainingData.TrainingData(data_points)
+    training_data = TrainingData(data_points)
 
     # You can print the data if you wanna see it
     # training_data.print_data()
