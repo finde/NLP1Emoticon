@@ -6,6 +6,9 @@
 \usepackage{xcolor,colortbl}
 \usepackage[]{algorithm2e}
 
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{ourbib.bib}
+
 %\usepackage{soul}
 
 \newcommand{\tab}{\hspace{10mm}}
@@ -214,6 +217,14 @@ The features used in this part of the project correspond to the ones already dis
 
 \section*{Sources}
 \addcontentsline{toc}{section}{Sources}
+\begin{itemize}
+	\item Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
+	\item Author: Ryan Kelly, Home Page: https://pythonhosted.org/pyenchant/
+\end{itemize}
+
+\nocite{*}
+\printbibliography
+
 
 \begin{itemize}
 
