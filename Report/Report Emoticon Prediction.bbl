@@ -1,0 +1,41 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{greenwade93}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Greenwade}{G.}%
+     {George~D.}{G.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GGD1}
+  \strng{fullhash}{GGD1}
+  \field{sortinit}{G}
+  \field{number}{3}
+  \field{pages}{342\bibrangedash 351}
+  \field{title}{The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})}
+  \field{volume}{14}
+  \field{journaltitle}{TUGBoat}
+  \field{year}{1993}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

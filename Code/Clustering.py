@@ -10,7 +10,7 @@ import cPickle
 
 # Cluster features, using K-means
 def cluster_feature_matrix(feature_matrix, number_of_clusters):
-    cluster_centers, assignment = cluster.kmeans2(feature_matrix, number_of_clusters)
+    cluster_centers, assignment = cluster.kmeans2(data=feature_matrix, k=number_of_clusters, thresh=1e-07, minit='points')
     return cluster_centers, assignment
 
 
