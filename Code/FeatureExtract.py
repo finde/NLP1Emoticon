@@ -28,6 +28,7 @@ def load_feat_matrix(data_map, amount_data_per_class=None, selected_features=["w
         data_points = [DataPoint(_.text, _.hashtags, label) for _ in
                        TSV_Getter(file_path).get_all_tsv_objects(amount_data_per_class)]
 
+        data_size = len(data_points)
 
         # use cache file to fetch/store extracted feature from file
         filename = file_path + '.__feat_matrix__.cache'
@@ -52,12 +53,14 @@ def load_feat_matrix(data_map, amount_data_per_class=None, selected_features=["w
         # combined_feat_matrix = unnormalized_feature_matrix
         for feature in selected_features:
             # of course we should check if it exists
-            combined_feat_matrix[feature] += unnormalized_feature_matrix[feature]
+            if hasattr(combined_feat_matrix, feature):
+                combined_feat_matrix[feature] += unnormalized_feature_matrix[feature]
+            else:
+                combined_feat_matrix[feature] = unnormalized_feature_matrix[feature]
 
     # normalized feature matrix
     normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_matrix)
-    feat_matrix = [[d[i] for d in normalized_feature_dictionary.values()] for i in
-                   range(0, len(normalized_feature_dictionary['adjectives']))]
+    feat_matrix = [[d[i] for d in normalized_feature_dictionary.values()] for i in range(0, data_size)]
 
     return feat_matrix
 
@@ -85,11 +88,11 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        "positive_words_hashtags",
-        "negative_words_hashtags",
-        "uppercase_words",
-        "special_punctuation",
-        "adjectives"
+        # "positive_words_hashtags",
+        # "negative_words_hashtags",
+        # "uppercase_words",
+        # "special_punctuation",
+        # "adjectives"
     ]
 
     print load_feat_matrix(data_class, None, selected_feature)
