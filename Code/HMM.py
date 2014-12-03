@@ -131,7 +131,7 @@ if __name__ == "__main__":
     
     # get data points
     data_points = []
-    amount_data_per_class = 100
+    amount_data_per_class = 500
     
     for c in data_class:
         # comment line below for balanced data source

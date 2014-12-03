@@ -1,16 +1,18 @@
-\contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {2}Assignment}{2}
-\contentsline {section}{\numberline {3}Twitter emoticon prediction}{3}
-\contentsline {subsection}{\numberline {3.1}Data}{3}
-\contentsline {subsection}{\numberline {3.2}Preprocessing}{3}
-\contentsline {subsection}{\numberline {3.3}Model}{3}
-\contentsline {subsection}{\numberline {3.4}Features}{3}
-\contentsline {subsection}{\numberline {3.5}Results}{4}
-\contentsline {section}{\numberline {4}Ubuntu emoticon prediction}{5}
-\contentsline {subsection}{\numberline {4.1}Data}{5}
-\contentsline {subsection}{\numberline {4.2}Preprocessing}{5}
-\contentsline {subsection}{\numberline {4.3}Model}{5}
-\contentsline {subsection}{\numberline {4.4}Features}{5}
-\contentsline {subsection}{\numberline {4.5}Results}{5}
-\contentsline {section}{\numberline {5}Conclusion}{6}
+\contentsline {section}{\numberline {1}Abstract}{2}
+\contentsline {section}{\numberline {2}Introduction}{2}
+\contentsline {section}{\numberline {3}Problem}{2}
+\contentsline {section}{\numberline {4}Twitter emoticon prediction}{3}
+\contentsline {subsection}{\numberline {4.1}Data}{3}
+\contentsline {subsection}{\numberline {4.2}Preprocessing}{3}
+\contentsline {subsection}{\numberline {4.3}Model}{3}
+\contentsline {subsection}{\numberline {4.4}Features}{3}
+\contentsline {subsection}{\numberline {4.5}Experiments and Results}{4}
+\contentsline {section}{\numberline {5}Ubuntu emoticon prediction}{5}
+\contentsline {subsection}{\numberline {5.1}Data}{5}
+\contentsline {subsection}{\numberline {5.2}Preprocessing}{5}
+\contentsline {subsection}{\numberline {5.3}Model}{5}
+\contentsline {subsection}{\numberline {5.4}Features}{5}
+\contentsline {subsection}{\numberline {5.5}Experiments and Results}{5}
+\contentsline {section}{\numberline {6}Conclusion}{6}
+\contentsline {section}{\numberline {7}Team responsibilities}{6}
 \contentsline {section}{Sources}{6}

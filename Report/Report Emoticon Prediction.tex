@@ -26,18 +26,22 @@
 \pagebreak
 
 
-%%%%%%%%%%%%%%%%
-%%%%% Introcuction %%%%%
-%%%%%%%%%%%%%%%%
-\section{Introduction}
+\section{Abstract}
 
 This report contains the implementation of an emoticon predictor, based on text. This is a project within Natural Language Processing (NLP), meaning many resources within the NLP community were consulted. This report discusses two different ways of prediction emotions. In the first case, emoticons are predicted based on a short message. This lead to the use of an average multiclass perceptron. In the second case, chat data is used to predict emoticons, based on the message as well as the previous post. This lead to the use of the Viterbi algorithm.
 
 
 %%%%%%%%%%%%%%%%
-%%%%% Assignment %%%%%
+%%%%% Introcuction %%%%%
 %%%%%%%%%%%%%%%%
-\section{Assignment}
+\section{Introduction}
+
+
+
+%%%%%%%%%%%%%%%%
+%%%%%  Problem  %%%%%%
+%%%%%%%%%%%%%%%%
+\section{Problem}
 
 As stated in the introduction, this report discusses emoticon prediction based on a short message and based on the previous message. In order to find small messages, Twitter was used. For the second part of the assignment, Ubuntu chat data was used.
 
@@ -96,7 +100,7 @@ A multi-class perceptron was chosen as most appropriate for the purpose of this 
 %%%%%%%%%%%%%%%%
 %%%%%  Features  %%%%%%
 %%%%%%%%%%%%%%%%
-\subsection{Features}
+\subsection{Features\label{sec:feat}}
 
 The following features were extracted from the data and used for classification:
 
@@ -121,7 +125,7 @@ Features such as the number of \textbf{adjectives} were extracted by first perfo
 %%%%%%%%%%%%%%%%
 %%%%%% Results %%%%%%
 %%%%%%%%%%%%%%%%
-\subsection{Results}
+\subsection{Experiments and Results}
 
 \pagebreak
 
@@ -179,12 +183,13 @@ A Hidden Markov Model was chosen as post appropriate for the purpose of this pro
 %%%%%%%%%%%%%%%%
 \subsection{Features}
 
+The features used in this part of the project correspond to the ones already discussed in section ~\ref{sec:feat}. Note that some features, such as numbers of positive or negative words in hashtags are not applicable in the current setting, since the data does not contain hashtags. Thus, such features have not been considered. 
 
 
 %%%%%%%%%%%%%%%%
 %%%%%% Results %%%%%%
 %%%%%%%%%%%%%%%%
-\subsection{Results}
+\subsection{Experiments and Results}
 
 \pagebreak
 
@@ -197,6 +202,9 @@ A Hidden Markov Model was chosen as post appropriate for the purpose of this pro
 
 
 
+
+%%%% He has to be kidding about this one, but... :/ 
+\section{Team responsibilities}
 
 
 \section*{Files attached}
