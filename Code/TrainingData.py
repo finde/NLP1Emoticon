@@ -10,6 +10,33 @@ import DataPoint
 import numpy as np
 
 
+''' Returns normalized feature dictionary
+All data will be rescaled so each feature has range value [0.1,0.9]'''
+
+
+def get_normalized_feature_dictionary(feature_dict):
+    normalized_feature_dict = {}
+
+    for feature in feature_dict:
+        feature_values = feature_dict[feature]
+
+        max_value = max(feature_values)
+        min_value = min(feature_values)
+
+        denominator = max_value - min_value
+        denominator = 1 if denominator == 0 else denominator
+
+        normalized_values = []
+
+        for value in feature_values:
+            normalized_value = ((0.9 - 0.1) * (value - min_value) / denominator) + 0.1
+            normalized_values.append(normalized_value)
+
+        normalized_feature_dict[feature] = normalized_values
+
+    return normalized_feature_dict
+
+
 class TrainingData:
     def __init__(self, data_points):
         self.data_points = data_points
@@ -23,9 +50,9 @@ class TrainingData:
                                    "adjectives": 8}
 
 
-    #####################
+    # ####################
     # Basic class funcs #
-    #####################
+    # ####################
 
     def get_training_points(self):
         return self.data_points
@@ -35,9 +62,9 @@ class TrainingData:
             each.print_data_point()
 
 
-        ############################
-        # Feature extraction funcs #
-        ############################
+            ############################
+            # Feature extraction funcs #
+            ############################
 
     def count_words(self):
         return self.count_feature(self.feature_dictionary['words'])
@@ -58,7 +85,7 @@ class TrainingData:
     so 1 vector with all the feature values for 1 datapoint'''
 
     def get_feature_matrix(self):
-        feature_dict = self.get_normalized_feature_dictionary()
+        feature_dict = get_normalized_feature_dictionary(self.get_feature_dictionary())
         feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
 
         return feat_matrix
@@ -70,34 +97,6 @@ class TrainingData:
 
     def get_label_vector(self):
         return [each.get_class_label() for each in self.get_training_points()]
-
-
-    ''' Returns normalized feature dictionary
-    All data will be rescaled so each feature has range value [0.1,0.9]'''
-
-
-    def get_normalized_feature_dictionary(self):
-        feature_dict = self.get_feature_dictionary()
-        normalized_feature_dict = {}
-
-        for feature in feature_dict:
-            feature_values = feature_dict[feature]
-
-            max_value = max(feature_values)
-            min_value = min(feature_values)
-
-            denominator = max_value - min_value
-            denominator = 1 if denominator == 0 else denominator
-
-            normalized_values = []
-
-            for value in feature_values:
-                normalized_value = ((0.9 - 0.1) * (value - min_value) / denominator) + 0.1
-                normalized_values.append(normalized_value)
-
-            normalized_feature_dict[feature] = normalized_values
-
-        return normalized_feature_dict
 
 
     ########################################
@@ -186,10 +185,10 @@ if __name__ == "__main__":
 
     print "This is your first data point: \n "
     data_point1.print_data_point()
-    #print data_point1.get_data_string()
+    # print data_point1.get_data_string()
     print "This is your second data point: \n "
     data_point2.print_data_point()
-    #print data_point2.get_data_string()
+    # print data_point2.get_data_string()
     print "number of words: \n ", training_data.count_words()
     print "feature dictionary: \n ", training_data.get_feature_dictionary()
 
