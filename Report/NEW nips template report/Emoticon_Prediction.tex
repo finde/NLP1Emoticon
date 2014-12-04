@@ -34,7 +34,7 @@
 % Also add student IDs (Ivan wants them)
 \author{ 
 Iva Gornishka \\ \texttt{iva.gornishka@student.uva.nl} \\ 10415548 \AND
-Cassandra Loor \\ \texttt{cassandra.loor@student.uva.nl} \\ \AND   
+Cassandra Loor \\ \texttt{cassandra.loor@student.uva.nl} \\ 10624635\AND   
 Arif Qodari \\ \texttt{arif.qodari@gmail.com} \\ \AND
 Finde Xumara \\ \texttt{finde.findexumara@student.uva.nl} \\ }
 \end{comment}
@@ -69,7 +69,7 @@ Finde Xumara \\ \texttt{finde.findexumara@student.uva.nl} \\ }
 \begin{tabular}{cc}
 \textbf{Iva Gornishka} 	&	\textbf{Cassandra Loor} \\
 \texttt{iva.gornishka@student.uva.nl} & \texttt{cassandra.loor@student.uva.nl} \\
-10415548 & ID \\ \\
+10415548 & 10624635 \\ \\
 \textbf{Finde Xumara} & \textbf{Arif Qodari} \\
 \texttt{finde.findexumara@student.uva.nl} & \texttt{arif.qodari@gmail.com} \\
 ID & ID \\ \\ \\
@@ -102,7 +102,7 @@ paragraph.
 
 \begin{abstract}
 % Try to sound smarter here :D
-Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction. This report discusses two different ways of prediction emotions. In the first case, emoticons are predicted based on a single short message. This lead to the use of an average multiclass perceptron. In the second case, chat data is used to predict emoticons, based not only on the current message, but also on the previous ones as well. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
+Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction as it heavily relates to emotion prediction. This article predicts emoticons, using two different techniques. In the first case, emoticons are predicted based on a single, short message. This lead to the use of an average multiclass perceptron. In the second case, emoticons are predicted, using messages posted in the past. This leads to the previous message also determining the emotion of the message analyzed. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%
@@ -120,51 +120,13 @@ Introduction (max 2 pages):
 \end{comment}
 
 
-This report discusses two related, but essentially different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, some amount of unrelated short messages should be observed, together with the contained emoticons, a classifier should be trained and at the end, given a new message the corresponding emotion should be predicted. This means that the messages might (and should) be written by different authors in order to achieve good generalization. In the second problem, a whole conversation should be observed and the classification should be done not only by considering the features of a single message, but instead, by also considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
+This report discusses two related, but essentially different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, short, unrelated messages are observed. Their emoticons are used to determine whether a message is positive or negative. Using this information, a is trained. Eventually, a new message can be passed and the corresponding emotion is predicted. In order to determine the sentiment of a message optimally and achieve generalization, messages of different authors are collected and used to train the classifier. In the second problem, an entire conversation is observed. Each message is classified by not only considering the features of a single message, but also by considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
 
-\noindent As a natural consequence of the above statements of the two problems, two different data sets should be used for them. For the first one it might be any corpora of text messages, containing a decent amount of emoticons. Such corpora might contain for example any unrelated text messages from social media. For the current research, a Twitter data was chosen. For the second problem, a corpora containing longer sequences of text messages should be used - these might be different conversations, such as an e-mail exchange or just chat data, as long as they contain sufficient amount of emoticons. For the current research an Ubuntu chat data was chosen. \\
+\noindent As a natural consequence of the above statements of the two problems, different data sets are used to approach each problem. For the first problem, any corpora of text messages containing emoticons can be used. Such corpora can contain unrelated messages. In order to find short unrelated messages, Twitter data is used. For the second problem, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data is used. \\
 
-\noindent After the data is collected, it is first preprocessed. Afterwards appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Some basic feature were chosen for this project without intentional aim on improving them. Since this task on its own deserves a lot of time and effort, it is left as future work and suggestions about it are mentioned in the following sections. \\
+\noindent After the data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic feature were chosen for this project without intentional aim on improving them. Since this task on its own can take up years, it is left as future work. However, suggestions about improving features is mentioned in the following sections. \\
 
-\ldots \ldots \ldots 
-
-%%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
-
-
-
-%%%%%%%%%%%%%%%%
-%%%%%  Problem  %%%%%%
-%%%%%%%%%%%%%%%%
-\section{Problem}
-
-% Requirements:
-\begin{comment}
-Problem: (roughly 1-2 pages)
-• Explain the problem; what kind of assumptions / observations you have about the problem
-\end{comment}
-
-
-% Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
-% \pagebreak
-
-
-%%%%%%%%%%%%%%%%
-%%%%%% Twitter  %%%%%%
-%%%%%%%%%%%%%%%%
-\section{Twitter emoticon prediction}
-
-% Requirements:
-\begin{comment}
-Approach (roughly 2-3 pages)
-• Explain the model; if any important assumptions are made at this stage, explain why they are
-reasonable or necessary
-• Explain learning / inference algorithms
-• Explaining (perhaps briefly) any necessary preprocessing / postprocesing / data acquisition stages
-(maybe earlier, depending on the project; may also move to the experimental section)
-\end{comment}
-
-
-In this part of the project Twitter data was used in order to train a classifier for predicting emoticons. Three basic classes were used in order to classify the data. Table \ref{tab:classes} presents these classes and the corresponding emoticons, contained in this type of data.
+\noindent In order to classify the data, classes must be determined. Three classes are used to classify the data. Table \ref{tab:classes} displays these classes and the corresponding emoticons, contained in this type of data.
 
 
 % Old and ugly
@@ -192,13 +154,53 @@ negative 			& :( \: \: 			:[ \: \: 		=( \: \: 		;( 		\\
 \end{tabular}{}
 \end{center}
 \end{table}
+As table \ref{tab:classes} shows, known emoticons display positive, negative and neutral emotions. However, this data can be split further into extremely positive ( :D ) and extremely negative ( >:( ) emoticons for more specific classification of messages. However, this is beyond the scope of this paper and is further mentioned in future work.
+\ldots \ldots \ldots 
+
+%%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
+
+
+
+%%%%%%%%%%%%%%%%
+%%%%%  Problem  %%%%%%
+%%%%%%%%%%%%%%%%
+\section{Problem}
+
+% Requirements:
+\begin{comment}
+Problem: (roughly 1-2 pages)
+• Explain the problem; what kind of assumptions / observations you have about the problem
+\end{comment}
+
+
+% Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
+% \pagebreak
+
+
+%%%%%%%%%%%%%%%%
+%%%%%% Twitter  %%%%%%
+%%%%%%%%%%%%%%%%
+\section{Emoticon prediction based on short messages}
+
+% Requirements:
+\begin{comment}
+Approach (roughly 2-3 pages)
+• Explain the model; if any important assumptions are made at this stage, explain why they are
+reasonable or necessary
+• Explain learning / inference algorithms
+• Explaining (perhaps briefly) any necessary preprocessing / postprocesing / data acquisition stages
+(maybe earlier, depending on the project; may also move to the experimental section)
+\end{comment}
+
+
+This section discusses how Twitter data is used to train a classifier to predict emoticons. 
 
 %%%%%%%%%%%%%%%%
 %%%%%% Data %%%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Data}
 
-In order to collect data from Twitter, a crawler was used. The Twitter crawler searched for training and test data, based on emoticons. These messages (`tweets') contain much information - the name of the author, text, hyperlinks, hashtags (sequences of the form `\#word\_sequence'). Since there are no official restrictions, messages often contain plenty of intentional or - more often - unintentional spelling and grammar errors. Messages also sometimes contain words from other languages, which makes preprocessing and analyzing the data even harder.
+In order to collect data from Twitter, a crawler was used. The Twitter crawler searched for training and test data, based on emoticons. These messages ('tweets') contain much information - the name of the author, text, hyperlinks, hashtags (sequences of the form `\#word\_sequence'). As there are no official restrictions, messages often contain plenty of intentional or - more often - unintentional spelling and grammar errors. Messages also sometimes contain words from other languages, which makes preprocessing and analyzing the data even harder.
 
 
 %%%%%%%%%%%%%%%%
@@ -223,8 +225,12 @@ Before any of the data can be used, the messages need to be preprocessed. This p
 
 % I saw that this is how people put such not really `important' subsubsections instead of bullets
 \subsubsection*{Splitting the message.}
-\subsubsection*{Spelling check and correction}
-\subsubsection*{Grammar check and correction}
+The message, itself, is split into different components that will help in training. In this case, the text, hashtags and emoticons are extracted. Emoticons in messages are used to add emotion, but not text. The text itself can be used to determine whether a message is positive, negative or neutral. Therefore, the text without the emoticons can be used to determine which emoticon can be assigned to a certain message. Also, the hashtags can be used to further determine the emotion of the message. Hashtags often contain extra information, such as 'sad' or 'ecstatic'. This can also help determine the emotion of a message. In this case, however, the hashtags were not used. Therefore, it is important to research the effect of this feature in the future. 
+
+\subsubsection*{Spelling and grammar correction}
+Short messages are often posted as a reaction or something to share with friends quickly. This means that many messages contain spelling and grammar errors. In order to optimally use the Twitter data, all messages must be fixed spelling and grammar wise. There are several ways of performing these corrections, however these fall beyond the scope of this research. Therefore, names, links, emoticons and hashtags are disregarded when processing data, but the spelling and grammar errors remain. It is imperative to solve these errors in the future for optimal performance.
+
+%\subsubsection*{Grammar check and correction}
 
 
 
@@ -234,15 +240,15 @@ Before any of the data can be used, the messages need to be preprocessed. This p
 \subsection{Model}
 
 
-A multi-class perceptron was chosen as most appropriate for the purpose of this project. 
-
+As a message belongs to one of multiple classes, an averaged multi-class perceptron was implemented. %why average the weights?
+%%% WHERE I LEFT OFF
 
 %%%%%%%%%%%%%%%%
 %%%%%  Features  %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Features \label{sec:features}}
 
-Once the data is collected and preprocessed, its features are extracted. Choosing good features might significantly improve the performance in many cases, but this task is not a trivial one. Due to time limitations, some basic features were chosen for the current research, but it is believed that future research might be done in order to explore a bigger set of features. Table ~\ref{featuretable} presents the features which were extracted and used for classification. Since most of the features' names are self-explanatory, only the some of the features are discussed in details in the following paragraphs.
+Once the data is collected and preprocessed, its features are extracted. Choosing good features might significantly improve the performance in many cases, but this task is not a trivial one. Due to time constraints, certain basic features were chosen for the current research. However, it is believed that research performed in the future can explore a bigger (or different) set of features. Table ~\ref{featuretable} presents the features which were extracted and used for classification. Since most of the features' names are self-explanatory, only the some of the features are discussed in details in the following paragraphs.
 
 
 % Old features, not really fitting the template...
