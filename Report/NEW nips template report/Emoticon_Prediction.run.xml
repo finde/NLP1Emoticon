@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>nips_template.aux</file>
-      <file>nips_template-blx.bib</file>
+      <file>Emoticon_Prediction.aux</file>
+      <file>Emoticon_Prediction-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>nips_template.bbl</file>
+      <file>Emoticon_Prediction.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -65,20 +65,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>nips_template</infile>
+      <infile>Emoticon_Prediction</infile>
     </cmdline>
     <input>
-      <file>nips_template.aux</file>
+      <file>Emoticon_Prediction.aux</file>
     </input>
     <output>
-      <file>nips_template.bbl</file>
+      <file>Emoticon_Prediction.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>nips_template.bbl</file>
+      <file>Emoticon_Prediction.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>nips_template.aux</file>
-      <file>nips_template-blx.bib</file>
+      <file>Emoticon_Prediction.aux</file>
+      <file>Emoticon_Prediction-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>ourbib.bib</file>
