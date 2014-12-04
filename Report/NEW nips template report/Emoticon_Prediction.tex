@@ -99,8 +99,10 @@ paragraph.
 %%%%%%%%%%%%%%%%
 %%%%%  Abstract  %%%%%%
 %%%%%%%%%%%%%%%%
+
 \begin{abstract}
-This report contains the implementation of an emoticon predictor, based on text. This is a project within Natural Language Processing (NLP), meaning many resources within the NLP community were consulted. This report discusses two different ways of prediction emotions. In the first case, emoticons are predicted based on a single short message. This lead to the use of an average multiclass perceptron. In the second case, chat data is used to predict emoticons, based not only on the current message, but also on the previous ones as well. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
+% Try to sound smarter here :D
+Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction. This report discusses two different ways of prediction emotions. In the first case, emoticons are predicted based on a single short message. This lead to the use of an average multiclass perceptron. In the second case, chat data is used to predict emoticons, based not only on the current message, but also on the previous ones as well. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%
@@ -118,6 +120,18 @@ Introduction (max 2 pages):
 \end{comment}
 
 
+This report discusses two related, but different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, some amount of unrelated short messages should be observed, together with the contained emoticons, a classifier should be trained and at the end, given a new message the corresponding emotion should be predicted. This means that the messages might (and should) be written by different authors in order to achieve good generalization. In the second problem, a whole conversation should be observed and the classification should be done not only by considering the features of a single message, but instead, by also considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
+
+\noindent As a natural consequence of the above statements of the two problems, two different data sets should be used for them. For the first one it might be any corpora of text messages, containing a decent amount of emoticons. Such corpora might contain for example any unrelated text messages from social media. For the current research, a Twitter data was chosen. For the second problem, a corpora containing longer sequences of text messages should be used - these might be different conversations, such as an e-mail exchange or just chat data, as long as they contain sufficient amount of emoticons. For the current research an Ubuntu chat data was chosen. \\
+
+\noindent After the data is collected, it is first preprocessed. Afterwards appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Some basic feature were chosen for this project without intentional aim on improving them. Since this task on its own deserves a lot of time and effort, it is left as future work and suggestions about it are mentioned in the following sections. \\
+
+\ldots \ldots \ldots 
+
+%%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
+
+
+
 %%%%%%%%%%%%%%%%
 %%%%%  Problem  %%%%%%
 %%%%%%%%%%%%%%%%
@@ -128,17 +142,6 @@ Introduction (max 2 pages):
 Problem: (roughly 1-2 pages)
 • Explain the problem; what kind of assumptions / observations you have about the problem
 \end{comment}
-
-
-As stated in the introduction, this report discusses two related, but different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, some amount of unrelated short messages should be observed, together with the contained emoticons, a classifier should be trained and at the end, given a new message the corresponding emotion should be predicted. This means that the messages might (and should) be written by different authors in order to achieve good generalization. In the second problem, a whole conversation should be observed and the classification should be done not only by considering the features of a single message, but instead, by also considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
-
-\noindent As a natural consequence of the above statements of the two problems, two different data sets should be used for them. For the first one it might be any corpora of text messages, containing a decent amount of emoticons. Such corpora might contain for example any unrelated text messages from social media. For the current research, a Twitter data was chosen. For the second problem, a corpora containing longer sequences of text messages should be used - these might be different conversations, such as an e-mail exchange or just chat data, as long as they contain sufficient amount of emoticons. For the current research an Ubuntu chat data was chosen. \\
-
-\noindent After the data is collected, it is first preprocessed. Afterwards appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Some basic feature were chosen for this project without intentional aim on improving them. Since this task on its own deserves a lot of time and effort, it is left as future work and suggestions about it are mentioned in the following sections. \\
-
-\ldots \ldots \ldots 
-
-%%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
 
 
 % Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
