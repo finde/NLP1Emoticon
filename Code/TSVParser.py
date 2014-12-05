@@ -28,15 +28,17 @@ class TSV_Object:
         self.username = None
         self.text = None
         self.hashtags = None
+        self.label = None
 
         if data_type == "twitter":
             # self.text = tsv_object[0]
             # self.hashtags = tsv_object[1]
             self.text, self.hashtags = self.remove_hashtags(tsv_object[5])
         elif data_type == "ubuntu":
-            self.timestamp = tsv_object[0]
-            self.username = tsv_object[1]
-            self.text = tsv_object[2]
+            self.timestamp = tsv_object[1]
+            self.username = tsv_object[2]
+            self.text = tsv_object[3]
+            self.label = tsv_object[0]
 
     # Get raw text from tsv object
     def get_text(self):
@@ -47,6 +49,9 @@ class TSV_Object:
 
     def get_username(self):
         return self.username
+
+    def get_label(self):
+        return self.label
 
     # Get emoticons from tsv object
     def get_emoticons(self):
@@ -134,14 +139,15 @@ class TSV_Getter:
                         user_messages.append(self.all_tsv_objects[i])
                 self.sorted_tsv_objects.append(user_messages)
 
-        #Turned off for testing purposes       
+        #Turned off for testing purposes
         for i in range(0, len(self.sorted_tsv_objects)):
             for sorted in range(0, len(self.sorted_tsv_objects[i])):
-                print self.sorted_tsv_objects[i][sorted].get_username()
+                print self.sorted_tsv_objects[i][sorted].get_username() + " " + self.sorted_tsv_objects[i] [sorted].get_label()
 
 
 if __name__ == "__main__":
-    tsv_negative = TSV_Getter('../Data/Twitter/hc9').get_all_tsv_objects()
+    # tsv_negative = TSV_Getter('../Data/Twitter/hc9').get_all_tsv_objects()
+    tsv = TSV_Getter('../Data/Chat Data/2006-05-27-#ubuntu.tsv').get_all_tsv_objects()
     # dataPoints = [[_.text, _.hashtags, ':('] for _ in TSV_Getter('../Data/Chat Data/2006-06-01-#ubuntu-negative.tsv').get_all_tsv_objects()]
 
     #print dataPoints
