@@ -5,6 +5,7 @@ from TrainingData import TrainingData
 from DataPoint import DataPoint
 from TSVParser import TSV_Getter
 import cPickle
+from getData import GetData
 
 
 def mlp_gradient(x, t, w, b, v, a, L, number_classes, number_features):
@@ -84,7 +85,7 @@ def count_correct_results(w, b, v, a, x_test, t_test):
     for i in range(t_test.shape[0]):
         classification = np.argmax(logP[i, :])
         # TODO: These probabilities seem weird, find out if that's expected behaviour
-        print classification, t_test[i], np.exp(logP[i, :]), ' '
+        # print classification, t_test[i], np.exp(logP[i, :]), ' '
         if classification == t_test[i]:
             cnt += 1
     return cnt, t_test.shape[0]
@@ -100,99 +101,72 @@ if __name__ == "__main__":
     # ["#whatever"]]
     #
     # data_class = np.array([0, 1, 2])
-    dictionary = Dictionary()
+    # dictionary = Dictionary()
 
     # data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
+    training_percentage = 0.9
 
     '''
     # Reading
     '''
 
-    print('Reading data...')
+    n_per_class = None
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
         ['../Data/Twitter/hc2', 1, ';D'],
         ['../Data/Twitter/hc3', 2, ';)'],
-        # ['../Data/Twitter/hc4', 3, ';-D'],
-        # ['../Data/Twitter/hc5', 4, ';-P'],
-        # ['../Data/Twitter/hc6', 5, ';P'],
-        # ['../Data/Twitter/hc7', 6, ';-('],
-        # ['../Data/Twitter/hc8', 7, ';('],
-        # ['../Data/Twitter/hc9', 8, ';o'],
-        # ['../Data/Twitter/hc10', 9, ';]'],
-        # ['../Data/Twitter/hc11', 10, '=]'],
-        # ['../Data/Twitter/hc13', 11, ';*'],
-        # ['../Data/Twitter/hc15', 12, ';|'],
-        # ['../Data/Twitter/hc_non', 13, '_non_'],
+        ['../Data/Twitter/hc4', 3, ';-D'],
+        ['../Data/Twitter/hc5', 4, ';-P'],
+        ['../Data/Twitter/hc6', 5, ';P'],
+        ['../Data/Twitter/hc7', 6, ';-('],
+        ['../Data/Twitter/hc8', 7, ';('],
+        ['../Data/Twitter/hc9', 8, ';o'],
+        ['../Data/Twitter/hc10', 9, ';]'],
+        ['../Data/Twitter/hc11', 10, '=]'],
+        ['../Data/Twitter/hc13', 11, ';*'],
+        ['../Data/Twitter/hc15', 12, ';|'],
+        ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
 
-    data_points = []
-    amount_data_per_class = 300
+    # data_class = [
+    # ['2006-05-27-#ubuntu-negative.tsv', ':('],
+    # ['2006-05-27-#ubuntu-positive.tsv', ':)']
+    # ]
 
-    for c in data_class:
-        # comment line below for balanced data source
-        # amount_data_per_class = None
-        data_points = data_points + [DataPoint(_.text, _.hashtags, c[1]) for _ in
-                                     TSV_Getter(c[0]).get_all_tsv_objects(amount_data_per_class)]
+    # load data from tsv and build data collection
+    selected_features = [
+        "words",
+        "negative_words",
+        "positive_words",
+        # "positive_words_hashtags",
+        # "negative_words_hashtags",
+        "uppercase_words",
+        "special_punctuation",
+        "adjectives"
+    ]
 
-    '''
-    # Training
-    '''
+    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
 
-    print('Feature extraction...')
-    # gather the data points into a whole training data
-    training_data = TrainingData(data_points)
+    # split data collection into training and test data
+    training_data = dataCollection.get_training_data()
+    training_label = np.array(dataCollection.get_training_label())
+    test_data = dataCollection.get_test_data()
+    test_label = np.array(dataCollection.get_test_label())
 
-    # You can print the data if you wanna see it
-    # training_data.print_data()
-
-    # Show the features
-    # print training_data.get_feature_dictionary()
-    # print training_data.get_label_vector()
+    print('Extracting features...')
 
     # Get the feature matrix of this data
-    filename = '../Data/Twitter/cache.__' + `len(data_class)` + '-Emo__.p'
-    if os.path.isfile(filename) and os.access(filename, os.R_OK):
-        fh = open(filename, "rb")
-        feat_matrix = cPickle.load(fh)
-        fh.close()
-    else:
-        fh = open(filename, "wb")
-        feat_matrix = np.array(training_data.get_feature_matrix())
-        cPickle.dump(feat_matrix, fh)
-        fh.close()
+    print(' extracting train_data')
+    training_features = dataCollection.get_training_feature_matrix()
 
-    # Soooo, that's your training matrix and your training label
-    x = feat_matrix
-    t = np.array(training_data.get_label_vector())
-
-    size_all = x.shape[0]
-
-    indices = list(range(x.shape[0]))
-    training_percentage = 0.75
-    n_train = np.floor(size_all * training_percentage).astype(int)
-    random_indices = random.sample(indices, n_train)
-    rest_indices = [index for index in indices if index not in random_indices]
-
-    # print 'all', indices
-    # print 'random', random_indices
-    # print 'rest', rest_indices
-
-    # Devide the data into train and test data (do it in a smarter way in the feature :D)
-    x_train = x[random_indices]
-    t_train = t[random_indices]
-    x_test = x[rest_indices]
-    t_test = t[rest_indices]
-
-    print('Training...')
-    print('NTrain:', len(x_train))
-    print('NTest:', len(x_test))
+    print(' extracting test_data')
+    test_features = dataCollection.get_test_feature_matrix()
 
     # These are the parameters - #of features in the hidden layer, #of iterations to perform and #of classes and features
-    L = 2
-    N = 50
+    L = 5
+    N = 100
     number_classes = len(data_class)
-    number_features = x_train.shape[1]
+    number_features = len(selected_features)
 
     # start with really small initial weights!!
     w = np.random.randn(L, number_classes) * 0.15
@@ -200,22 +174,28 @@ if __name__ == "__main__":
     v = np.random.randn(number_features, L) * 0.15
     a = np.random.randn(L) * 0.015
 
-    print 'WWWWWWWWWWWWWWWWWW', w
+    # print 'WWWWWWWWWWWWWWWWWW', w
+    print 'Learning...'
 
     # So we learn the parameters
-    w, b, v, a = mlp_train_set(w, b, v, a, N, L, x_train, t_train, number_classes, number_features)
+    w, b, v, a = mlp_train_set(w, b, v, a, N, L, training_features, training_label, number_classes, number_features)
 
-    print 'WWWWWWWWWWWWWWWWWW', w
+    # print 'WWWWWWWWWWWWWWWWWW', w
+    print 'Predict...'
 
     '''
     # Predicting
     '''
 
     # And then we use them to test
-    count_correct, count_total = count_correct_results(w, b, v, a, x_test, t_test)
-    print '  cnt: ', count_correct
-    print '  cntall: ', count_total
-    print '  accuracy: ', 1.0 * count_correct / count_total * 100, '%'
+    count_correct, count_total = count_correct_results(w, b, v, a, training_features, training_label)
+    # print '  cnt: ', count_correct
+    # print '  cntall: ', count_total
+    print '  train accuracy: ', 1.0 * count_correct / count_total * 100, '%'
+
+    count_correct, count_total = count_correct_results(w, b, v, a, test_features, test_label)
+    print '  test accuracy: ', 1.0 * count_correct / count_total * 100, '%'
+
 
 '''
 Just saving some weights here for test purposes :P 

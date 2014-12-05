@@ -84,18 +84,18 @@ if __name__ == "__main__":
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
         ['../Data/Twitter/hc2', 1, ';D'],
-        # ['../Data/Twitter/hc3', 2, ';)'],
-        # ['../Data/Twitter/hc4', 3, ';-D'],
-        # ['../Data/Twitter/hc5', 4, ';-P'],
-        # ['../Data/Twitter/hc6', 5, ';P'],
-        # ['../Data/Twitter/hc7', 6, ';-('],
-        # ['../Data/Twitter/hc8', 7, ';('],
-        # ['../Data/Twitter/hc9', 8, ';o'],
-        # ['../Data/Twitter/hc10', 9, ';]'],
-        # ['../Data/Twitter/hc11', 10, '=]'],
-        # ['../Data/Twitter/hc13', 11, ';*'],
-        # ['../Data/Twitter/hc15', 12, ';|'],
-        # ['../Data/Twitter/hc_non', 13, '_non_'],
+        ['../Data/Twitter/hc3', 2, ';)'],
+        ['../Data/Twitter/hc4', 3, ';-D'],
+        ['../Data/Twitter/hc5', 4, ';-P'],
+        ['../Data/Twitter/hc6', 5, ';P'],
+        ['../Data/Twitter/hc7', 6, ';-('],
+        ['../Data/Twitter/hc8', 7, ';('],
+        ['../Data/Twitter/hc9', 8, ';o'],
+        ['../Data/Twitter/hc10', 9, ';]'],
+        ['../Data/Twitter/hc11', 10, '=]'],
+        ['../Data/Twitter/hc13', 11, ';*'],
+        ['../Data/Twitter/hc15', 12, ';|'],
+        ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
 
     # data_class = [
@@ -104,7 +104,18 @@ if __name__ == "__main__":
     # ]
 
     # load data from tsv and build data collection
-    dataCollection = GetData(data_class, n_per_class, training_percentage)
+    selected_features = [
+        "words",
+        "negative_words",
+        "positive_words",
+        # "positive_words_hashtags",
+        # "negative_words_hashtags",
+        # "uppercase_words",
+        # "special_punctuation",
+        "adjectives"
+    ]
+
+    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
 
     # split data collection into training and test data
     training_data = dataCollection.get_training_data()
@@ -116,24 +127,25 @@ if __name__ == "__main__":
 
     # Get the feature matrix of this data
     print(' extracting train_data')
-    training_features = training_data.get_feature_matrix()
+    training_features = dataCollection.get_training_feature_matrix()
 
     print(' extracting test_data')
-    test_features = test_data.get_feature_matrix()
+    test_features = dataCollection.get_test_feature_matrix()
 
     # initialize multiclass perceptron
     multiclass = Multiclass()
 
     # training perceptron
-    iteration = 50
+    iteration = 100
     print 'Training perceptron... ', iteration, 'times'
 
     for n in xrange(iteration):
+        print '== Iteration:', n+1
         for i in xrange(len(training_data.data_points)):
             multiclass.learn(training_features[i], training_label[i])
 
     print('Predicting...')
-    # accuration for training data
+    # accuracy for training data
     count = 0
     for i in xrange(len(training_data.data_points)):
         predicted_class = multiclass.predict(training_features[i])
@@ -142,7 +154,7 @@ if __name__ == "__main__":
 
     print "  training accuracy = ", count * 100.0 / len(training_label), '%'
 
-    # accuration for test data
+    # accuracy for test data
     count = 0
     for i in xrange(len(test_data.data_points)):
         predicted_class = multiclass.predict(test_features[i])
