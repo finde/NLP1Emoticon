@@ -2,6 +2,9 @@ from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from flask_appconfig import AppConfig
 
+import sys
+sys.path.insert(0, '../Code')
+
 def create_app(configfile=None):
     app = Flask(__name__)
     AppConfig(app, configfile)

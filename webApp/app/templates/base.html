@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<html lang="en" ng-app="flaskJumpstart">
+<head>
+    <meta charset="utf-8">
+    <title>NLP1Emoticons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/styles.css') }}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="wrap">
+    {% block header %}
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-main-collapse">
+                    <span class="sr-only">Toggle Nav</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Emoticon Prediction</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/#/averaged-multiclass-perceptron">AMP</a></li>
+                    <li><a href="/#/hidden-markov-model">HMM</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% endblock header %}
+
+    <div class="content" ng-view="">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    {% block footer %}
+
+
+    <div class="page-image-citation">
+        Image source: Sheldon. (2012) <em>Bright Colored Emotions</em> http://good-wallpapers.com/abstract/15374
+    </div>
+
+    {% endblock footer %}
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-cookies.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-resource.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.min.js"></script>
+    <script src="{{ url_for('static', filename='app/app.js') }}"></script>
+</div>
+</body>
+</html>

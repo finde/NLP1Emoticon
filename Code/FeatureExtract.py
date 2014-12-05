@@ -65,6 +65,15 @@ def load_feat_matrix(data_map, amount_data_per_class=None, selected_features=["w
     return feat_matrix
 
 
+feature_dictionary = {"words": 1,
+                      "negative_words": 2,
+                      "positive_words": 3,
+                      "positive_words_hashtags": 4,
+                      "negative_words_hashtags": 5,
+                      "uppercase_words": 6,
+                      "special_punctuation": 7,
+                      "adjectives": 8}
+
 if __name__ == "__main__":
     # load file
     data_class = [

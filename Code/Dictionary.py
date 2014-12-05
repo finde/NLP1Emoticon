@@ -1,6 +1,6 @@
 class Dictionary:
-    FILE_POS = "positive-words.txt"
-    FILE_NEG = "negative-words.txt"
+    FILE_POS = "../Data/Dictionary/positive-words.txt"
+    FILE_NEG = "../Data/Dictionary/negative-words.txt"
 
     def __init__(self):
         self.positive_words = self.load_positive_words()
