@@ -1,0 +1,77 @@
+% From the template
+
+\documentclass[
+paper=128mm:96mm, % The same paper size as used in the beamer class
+fontsize=11pt, % Font size
+pagesize, % Write page size to dvi or pdf
+parskip=half-, % Paragraphs separated by half a line
+]{scrartcl} % KOMA script (article)
+
+
+
+% Uncomment  hyperref to get ugly green and red boxes around the refs
+%\usepackage{hyperref}
+\usepackage{url}
+%\documentstyle[nips14submit_09,times,art10]{article} % For LaTeX 2.09
+
+% Old from the report
+%\usepackage{soul}
+
+% Bibliography
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{ourbib.bib}
+
+\newcommand{\tab}{\hspace{10mm}}
+\newcommand{\dtab}{\hspace{20mm}}
+\newcommand{\ttab}{\hspace{30mm}}
+\newcommand{\qtab}{\hspace{40mm}}
+
+
+
+\usepackage[ % Page margins settings
+includeheadfoot,
+top=3.5mm,
+bottom=3.5mm,
+left=5.5mm,
+right=5.5mm,
+headsep=6.5mm,
+footskip=8.5mm
+]{geometry}
+
+
+
+\title{Emoticon Prediction in Text} 
+
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+
+
+\begin{document}
+
+
+% Somebody has a better idea about this footstep? :)
+\maketitle
+
+% Doesn't this author list look better? :/ You can guys pick whatever you like
+% Also, how do we put it a bit more up? :/ 
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Iva Gornishka} 	&	\textbf{Cassandra Loor} \\
+\texttt{iva.gornishka@student.uva.nl} & \texttt{cassandra.loor@student.uva.nl} \\
+10415548 & 10624635 \\ \\
+\textbf{Finde Xumara} & \textbf{Arif Qodari} \\
+\texttt{finde.findexumara@student.uva.nl} & \texttt{arif.qodari@gmail.com} \\
+ID & ID \\ \\ \\
+\end{tabular}{}
+\end{center}
+
+
+\end{document}
