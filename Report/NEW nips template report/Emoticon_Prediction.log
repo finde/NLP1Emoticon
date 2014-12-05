@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.22)  5 DEC 2014 00:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.22)  5 DEC 2014 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,64 +637,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 289--293
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 459--463
+Underfull \hbox (badness 10000) in paragraph at lines 460--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
  []
 
-[4] [5] [6]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 720.
+[4]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [5]
+[6]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 721.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 720.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 721.
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--770
+Underfull \hbox (badness 10000) in paragraph at lines 769--771
 []\OT1/ptm/m/n/10 Install the Mi-crosoft Save as PDF Of-fice 2007 Add-in from $
 \OT1/pcr/m/n/10 http : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--770
+Underfull \hbox (badness 10000) in paragraph at lines 769--771
 \OT1/pcr/m/n/10 microsoft . com / downloads / details . aspx ? displaylang = en
  \ &familyid =
  []
 
 [7]
-Underfull \hbox (badness 2744) in paragraph at lines 816--818
+Underfull \hbox (badness 2744) in paragraph at lines 817--819
 \OT1/ptm/m/n/10 for .pdf graph-ics. See sec-tion 4.4 in the graph-ics bun-dle d
 oc-u-men-ta-tion ($\OT1/pcr/m/n/10 http : / / www . ctan . org /
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 837.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 838.
+[8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 852.
-[8] (./Emoticon_Prediction.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 853.
+ [9] (./Emoticon_Prediction.aux)
 Package logreq Info: Writing requests to 'Emoticon_Prediction.run.xml'.
 \openout1 = `Emoticon_Prediction.run.xml'.
 
@@ -715,10 +717,10 @@ type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Emoticon_Prediction.pdf (8 pages, 119682 bytes).
+Output written on Emoticon_Prediction.pdf (9 pages, 120759 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
