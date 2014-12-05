@@ -240,15 +240,16 @@ Short messages are often posted as a reaction or something to share with friends
 \subsection{Model}
 
 
-As a message belongs to one of multiple classes, an averaged multi-class perceptron was implemented. %why average the weights?
-%%% WHERE I LEFT OFF
+A message can be classified as a positive, negative or neutral emotion. In order to classify these messages, an averaged multi-class perceptron was implemented. A multiclass perceptron is an algorithm that allows supervised classification. As the name of the algorithm implies, the input does not have to be binary allowing input to be classified as one of many classes. As the Twitter data has to be classified as positive, neutral and negative before assigning an emoticon to the message, this algorithm does as desired. 
+
+Basically, a multiclass perceptron finds a border between two classes and draws a border between the two classes. By repeating this, several borders will appear between classes and are used to classify input. This leads to certain "gray"-areas, as different borders assign input data to different classes. In the case of the multiclass perceptron, the average border of all is computed. This creates one border, without any "gray"-areas.
 
 %%%%%%%%%%%%%%%%
 %%%%%  Features  %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Features \label{sec:features}}
 
-Once the data is collected and preprocessed, its features are extracted. Choosing good features might significantly improve the performance in many cases, but this task is not a trivial one. Due to time constraints, certain basic features were chosen for the current research. However, it is believed that research performed in the future can explore a bigger (or different) set of features. Table ~\ref{featuretable} presents the features which were extracted and used for classification. Since most of the features' names are self-explanatory, only the some of the features are discussed in details in the following paragraphs.
+Once the data is collected and preprocessed, its features are extracted. Selecting good features can significantly improve the performance in many cases, but this task is not a trivial one. Due to time constraints, certain basic features were selected to conduct this research. However, it is believed that research conducted in the future can explore a bigger (or different) set of features. Table ~\ref{featuretable} presents the features which were extracted and used for classification. Since most of the features' names are self-explanatory, only the some of the features are discussed in details in the following paragraphs.
 
 
 % Old features, not really fitting the template...
@@ -286,10 +287,10 @@ adjectives & number of adjectives in the text
 
 
 
-\noindent Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words. Both these lists contain ...... % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM 
+\noindent Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words, which were downloaded from SOME REFERENCE. Both these lists contain words that are positive or negative and are used to classify the emotion of a short message. While implementing this aspect, the question of what effect extremely positive and extremely negative words have arose. Due to time constraints, this could not be researched. However, this is interesting to research in the future. % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM 
 \\
 \\
-Features such as the number of \textbf{adjectives} were extracted by first performing POS tagging on each sentence and then counting the adjectives in the tagged sentence. Due to spelling and grammar errors in the messages, POS tagging does not always perform  perfect. As a consequence, slight inaccuracies are possible for this feature, though not significant enough to influence the performance.
+Features, such as the number of \textbf{adjectives}, were extracted by first performing part-of-speech (POS) tagging on each sentence and then counting the adjectives in the tagged sentence. Due to spelling and grammar errors in the messages, POS tagging does not always perform  well. As a consequence, slight inaccuracies are possible for this feature, though not significant enough to negatively influence the performance. % Ask Hoang how to deal with this, as testing is difficult
 
 
 
@@ -334,7 +335,7 @@ reasonable or necessary
 %%%%%%%%%%%%%%%%
 \subsection{Data}
 
-
+%WHERE I LEFT OFF
 %%%%%%%%%%%%%%%%
 %%%% Preprocessing %%%%%
 %%%%%%%%%%%%%%%%
@@ -850,6 +851,8 @@ New York: TELOS/Springer-Verlag.
 and recall at excitatory recurrent synapses and cholinergic modulation
 in rat hippocampal region CA3. {\it Journal of Neuroscience}
 {\bf 15}(7):5249-5262.
+
+%http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 }
 
 \end{document}
