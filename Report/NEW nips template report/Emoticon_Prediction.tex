@@ -24,7 +24,7 @@
 \newcommand{\ttab}{\hspace{30mm}}
 \newcommand{\qtab}{\hspace{40mm}}
 
-
+\newcommand{\red}[1]{\textit{\color{red}{#1}}}
 
 \title{Emoticon Prediction in Text} 
 
@@ -102,7 +102,8 @@ paragraph.
 
 \begin{abstract}
 % Try to sound smarter here :D
-Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction as it heavily relates to emotion prediction. This article predicts emoticons, using two different techniques. In the first case, emoticons are predicted based on a single, short message. This lead to the use of an average multiclass perceptron. In the second case, emoticons are predicted, using messages posted in the past. This leads to the previous message also determining the emotion of the message analyzed. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
+\red{Refine the abstract, maybe add most important results} \\
+Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction. This article discusses two different techniques for predicting emoticons. In the first case, emoticons are predicted based on a single, short message. This lead to the use of an average multiclass perceptron. In the second case, emoticons are predicted, using messages posted in the past. This leads to the previous message also determining the emotion of the message analyzed. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%
@@ -157,6 +158,8 @@ negative 			& :( \: \: 			:[ \: \: 		=( \: \: 		;( 		\\
 As table \ref{tab:classes} shows, known emoticons display positive, negative and neutral emotions. However, this data can be split further into extremely positive ( :D ) and extremely negative ( >:( ) emoticons for more specific classification of messages. However, this is beyond the scope of this paper and is further mentioned in future work.
 \ldots \ldots \ldots 
 
+\red{Finish the introduction, maybe move some parts to the Problem section} \\
+
 %%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
 
 
@@ -171,6 +174,9 @@ As table \ref{tab:classes} shows, known emoticons display positive, negative and
 Problem: (roughly 1-2 pages)
 • Explain the problem; what kind of assumptions / observations you have about the problem
 \end{comment}
+
+
+\red{Find out what should be actually in this section} \\
 
 
 % Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
@@ -287,7 +293,7 @@ adjectives & number of adjectives in the text
 
 
 
-\noindent Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words, which were downloaded from SOME REFERENCE. Both these lists contain words that are positive or negative and are used to classify the emotion of a short message. While implementing this aspect, the question of what effect extremely positive and extremely negative words have arose. Due to time constraints, this could not be researched. However, this is interesting to research in the future. % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM 
+\noindent Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words, which were downloaded from \red{REFERENCE}. Both these lists contain words that are positive or negative and are used to classify the emotion of a short message. While implementing this aspect, the question of what effect extremely positive and extremely negative words have arose. Due to time constraints, this could not be researched. However, this is interesting to research in the future. % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM 
 \\
 \\
 Features, such as the number of \textbf{adjectives}, were extracted by first performing part-of-speech (POS) tagging on each sentence and then counting the adjectives in the tagged sentence. Due to spelling and grammar errors in the messages, POS tagging does not always perform  well. As a consequence, slight inaccuracies are possible for this feature, though not significant enough to negatively influence the performance. % Ask Hoang how to deal with this, as testing is difficult
@@ -351,8 +357,9 @@ Before any of the data can be used, the messages need to be preprocessed. This i
 %%%%%%%%%%%%%%%%
 \subsection{Model}
 
+\red{To be modified and corrected} \\
 
-A Hidden Markov Model was chosen as post appropriate for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
+A Hidden Markov Model was chosen as most appropriate for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
 
 \noindent As explained earlier, after the data has been pre-processed, a feature vector is extracted for each example message. Thus, the training data for the model consists of pair $(X, y)$, where $X$ is a feature vector and $y$ is the corresponding class label. The next step is to compute the transition and emission probabilities, i.e. the probability of transitioning from one class state to another and the probabilities of the different feature vectors given a class state. \\
 
@@ -445,11 +452,30 @@ Team responsibilities (1 paragraph)
 \end{itemize}
 \end{comment}
 
-I'm gonna cite something here \cite{greenwade93} to see how it works ;)
+%I'm gonna cite something here \cite{greenwade93} to see how it works ;)
 
 \nocite{*}
 \printbibliography
+
+\red{This is example reference. Include the real ones in the .bib file} \\
+
 % The bibliography still contains useless things. To be changed later
+
+
+
+\begin{comment}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -854,5 +880,7 @@ in rat hippocampal region CA3. {\it Journal of Neuroscience}
 
 %http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 }
+
+\end{comment}
 
 \end{document}
