@@ -9,7 +9,7 @@ NULL_LABEL = '__NULL_LABEL__'
 def score(features, weights):
     return sum(weights.get(f, 0) for f in features)
 
-
+# based on https://github.com/lmjohns3/py-perceptron
 class Multiclass:
     def __init__(self):
         self.weights = collections.defaultdict(
