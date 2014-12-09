@@ -107,6 +107,8 @@ class HMM:
         print 'Emission counts:', self.emission_counts
         print 'Emission probs:', self.emission_probs
         
+        return self.transition_probs, self.emission_probs
+        
 
 
 if __name__ == "__main__":

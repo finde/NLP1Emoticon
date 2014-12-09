@@ -1,7 +1,11 @@
 import numpy as np
 
 # decoding using viterbi algorithm
-def decoding(states, observations, transition, emission):
+def decoding(observations, transition, emission, states=None):
+    
+    if states == None:
+        states = emission.keys()
+    
     V = {}
     path = {}
     observation_length = len(observations)
@@ -64,10 +68,10 @@ if __name__ == "__main__":
             }
 
     final_score, final_path = decoding(
-            states,
-            observations,
-            transition_probability,
-            emission_probability
+            #states,
+            observations = observations,
+            transition = transition_probability,
+            emission = emission_probability
             )
 
     print final_score
