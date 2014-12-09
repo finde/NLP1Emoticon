@@ -66,7 +66,7 @@ def mlp_train_set(w, b, v, a, N, L, x_train, t_train, number_classes, number_fea
     return w, b, v, a
 
 
-def count_correct_results(w, b, v, a, x_test, t_test):
+def mlp_predict(w, b, v, a, x_test, t_test, data_class):
     h = 1 / (1 + np.exp(-(x_test.dot(v) + a)))
 
     # implement the gradients we derived
@@ -82,14 +82,21 @@ def count_correct_results(w, b, v, a, x_test, t_test):
 
     cnt = 0
 
+    predicted_labels = []
     # count number of correctly labeled images
     for i in range(t_test.shape[0]):
         classification = np.argmax(logP[i, :])
         # TODO: These probabilities seem weird, find out if that's expected behaviour
-        # print classification, t_test[i], np.exp(logP[i, :]), ' '
-        if classification == t_test[i]:
+
+        # classification is a label's index
+        # we need to translate it back to the actual label
+        predicted_label = data_class[classification][1]
+        predicted_labels.append(data_class[classification][2])
+
+        # print predicted_label, t_test[i], np.exp(logP[i, :]), ' '
+        if predicted_label == t_test[i]:
             cnt += 1
-    return cnt, t_test.shape[0]
+    return cnt, t_test.shape[0], predicted_labels
 
 
 if __name__ == "__main__":
@@ -177,13 +184,22 @@ if __name__ == "__main__":
     '''
 
     # And then we use them to test
-    count_correct, count_total = count_correct_results(w, b, v, a, training_features, training_label)
+    count_correct, count_total, _ = mlp_predict(w, b, v, a, training_features, training_label, data_class)
     # print '  cnt: ', count_correct
     # print '  cntall: ', count_total
     print '  train accuracy: ', 1.0 * count_correct / count_total * 100, '%'
 
-    count_correct, count_total = count_correct_results(w, b, v, a, test_features, test_label)
+    count_correct, count_total, _ = mlp_predict(w, b, v, a, test_features, test_label, data_class)
     print '  test accuracy: ', 1.0 * count_correct / count_total * 100, '%'
+
+    # ### new Data ####
+    new_data_point = [
+        DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
+        DataPoint('Buu huuu.... I am lost...', [], '?')
+    ]
+    new_data_feat = TrainingData(new_data_point).get_feature_matrix()
+    _, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))), data_class)
+    print predicted_label
 
 '''
 Just saving some weights here for test purposes :P 

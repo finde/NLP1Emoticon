@@ -1,5 +1,7 @@
 import collections
 from getData import GetData
+from TrainingData import TrainingData
+from DataPoint import DataPoint
 
 NULL_LABEL = '__NULL_LABEL__'
 
@@ -135,3 +137,13 @@ if __name__ == "__main__":
             count += 1
 
     print "  test accuracy = ", count * 100.0 / len(test_label), '%'
+
+    # todo: store w and config
+    ####### NEW test #######
+    new_data_point = [
+        DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
+        DataPoint('Buu huuu.... I am lost... sad', [], '?')
+    ]
+    new_data_feat = TrainingData(new_data_point).get_feature_matrix()
+    for i in new_data_feat:
+        print multiclass.predict(i)

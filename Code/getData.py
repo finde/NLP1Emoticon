@@ -138,23 +138,29 @@ class GetData:
         # Randomize indices
         # if data is not balanced we can do bootstrapping (samples with replacement)
         if self.is_bootstrap is True and self.n_per_class is not None:
-            print data_length
+            # print data_length
 
-            indices = np.array([])
+            train_indices = np.array([])
+            test_indices = np.array([])
             for d in data_length:
                 idx_min = d[0]
                 idx_max = d[1] - 1
-                indices = np.append(indices, npr.randint(idx_min, idx_max, size=(1, self.n_per_class)))
 
-            indices = indices.flatten().astype(int)
-            size_all = len(indices)
+                train_size = (1, np.floor(self.n_per_class * self.training_percentage))
+                train_indices = np.append(train_indices, npr.randint(idx_min, idx_max, size=train_size))
+
+                test_size = (1, self.n_per_class - np.floor(self.n_per_class * self.training_percentage))
+                test_indices = np.append(test_indices, npr.randint(idx_min, idx_max, size=test_size))
+                # print idx_min, idx_max, train_size, test_size
+
+            train_indices = train_indices.flatten().astype(int)
+            test_indices = test_indices.flatten().astype(int)
         else:
             size_all = len(data_points)
             indices = list(range(size_all))  # if data is balanced (hopefully)
-
-        n_train = np.floor(size_all * self.training_percentage).astype(int)
-        random_indices = random.sample(indices, n_train)
-        rest_indices = [index for index in indices if index not in random_indices]
+            n_train = np.floor(size_all * self.training_percentage).astype(int)
+            train_indices = random.sample(indices, n_train)
+            test_indices = [index for index in indices if index not in train_indices]
 
         # feature matrix
         print('== check caches data:')
@@ -162,13 +168,13 @@ class GetData:
 
         # Divide the data into train and test data
         # Get the feature matrix of this data
-        training_data = TrainingData([data_points[i] for i in random_indices])
+        training_data = TrainingData([data_points[i] for i in train_indices])
         training_label = training_data.get_label_vector()
-        training_feature_matrix = np.array([feat_matrix[i] for i in random_indices])
+        training_feature_matrix = np.array([feat_matrix[i] for i in train_indices])
 
-        test_data = TrainingData([data_points[i] for i in rest_indices])
+        test_data = TrainingData([data_points[i] for i in test_indices])
         test_label = test_data.get_label_vector()
-        test_feature_matrix = np.array([feat_matrix[i] for i in rest_indices])
+        test_feature_matrix = np.array([feat_matrix[i] for i in test_indices])
 
         return training_data, \
                training_feature_matrix, \
@@ -182,19 +188,19 @@ if __name__ == "__main__":
     n_per_class = 5
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
-        ['../Data/Twitter/hc2', 1, ';D'],
-        ['../Data/Twitter/hc3', 2, ';)'],
-        ['../Data/Twitter/hc4', 3, ';-D'],
-        ['../Data/Twitter/hc5', 4, ';-P'],
-        ['../Data/Twitter/hc6', 5, ';P'],
+        # ['../Data/Twitter/hc2', 1, ';D'],
+        # ['../Data/Twitter/hc3', 2, ';)'],
+        # ['../Data/Twitter/hc4', 3, ';-D'],
+        # ['../Data/Twitter/hc5', 4, ';-P'],
+        # ['../Data/Twitter/hc6', 5, ';P'],
         ['../Data/Twitter/hc7', 6, ';-('],
-        ['../Data/Twitter/hc8', 7, ';('],
-        ['../Data/Twitter/hc9', 8, ';o'],
-        ['../Data/Twitter/hc10', 9, ';]'],
-        ['../Data/Twitter/hc11', 10, '=]'],
-        ['../Data/Twitter/hc13', 11, ';*'],
-        ['../Data/Twitter/hc15', 12, ';|'],
-        ['../Data/Twitter/hc_non', 13, '_non_'],
+        # ['../Data/Twitter/hc8', 7, ';('],
+        # ['../Data/Twitter/hc9', 8, ';o'],
+        # ['../Data/Twitter/hc10', 9, ';]'],
+        # ['../Data/Twitter/hc11', 10, '=]'],
+        # ['../Data/Twitter/hc13', 11, ';*'],
+        # ['../Data/Twitter/hc15', 12, ';|'],
+        # ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
 
     # data_class = [
@@ -207,10 +213,10 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        # "positive_words_hashtags",
-        # "negative_words_hashtags",
-        # "uppercase_words",
-        # "special_punctuation",
+        "positive_words_hashtags",
+        "negative_words_hashtags",
+        "uppercase_words",
+        "special_punctuation",
         "adjectives"
     ]
 
