@@ -27,6 +27,9 @@ pagesize, % Write page size to dvi or pdf
 parskip=half-, % Paragraphs separated by half a line
 ]{scrartcl} % KOMA script (article)
 
+\usepackage{verbatim}
+
+
 \linespread{1.12} % Increase line spacing for readability
 
 %------------------------------------------------
@@ -219,13 +222,20 @@ shadow
 \small\tableofcontents % Change the font size and print the table of contents - it may be useful to shrink the font size further if the presentation is full of sections
 % To exclude sections/subsections from the table of contents, put an asterisk after \(sub)section like so: \section*{Section Name}
 
+
+Do we need an outline for such a short presentation?
+
 \clearpage
 
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
 
-\section{Introduction}
+\section{Emoticon Prediction in Text}
+
+
+Explain the main problem and the techniques here
+
 
 \clearpage
 
@@ -233,11 +243,18 @@ shadow
 
 \section{Twitter}
 
+
+Details about the twitter part
+
+
+\begin{comment}
 \textit{Sed iaculis} dapibus gravida. Morbi sed tortor erat, nec interdum arcu. Sed id lorem lectus. Quisque viverra augue id sem ornare non aliquam nibh tristique. Aenean in ligula nisl. Nulla sed tellus ipsum.
 
 \begin{multicols}{2} % Divide text into multiple columns
 \mygreen{Sed diam enim, sagittis nec} condimentum sit amet, ullamcorper sit amet libero. \mybrown{Aliquam vel dui orci}, a porta odio. \myred{Nullam id suscipit} ipsum. \myblue{Aenean lobortis} commodo sem, ut commodo leo gravida vitae. Pellentesque vehicula ante iaculis arcu pretium rutrum eget sit amet purus. Integer ornare nulla quis neque ultrices lobortis. Vestibulum ultrices tincidunt libero, quis commodo erat ullamcorper id.
 \end{multicols}
+\end{comment}
+
 
 \clearpage
 
@@ -245,6 +262,11 @@ shadow
 
 \subsection*{Data}
 
+
+Maybe merge data with preprocessing slides? 
+
+
+\begin{comment}
 \begin{itemize}
 \item Lorem ipsum dolor sit amet, consectetur adipiscing elit
 \item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
@@ -255,6 +277,8 @@ shadow
 \item Nam cursus est eget velit posuere pellentesque
 \item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
 \end{enumerate}
+\end{comment}
+
 
 \clearpage
 
@@ -262,6 +286,8 @@ shadow
 
 \subsection*{Preprocessing}
 
+
+\begin{comment}
 How to include a theorem in this presentation:
 \begin{verbatim}
 \mybox{0.8\textwidth}{
@@ -270,6 +296,7 @@ Anything that can go wrong, will go wrong.
 \end{theorem}
 }
 \end{verbatim}
+\end{comment}
 
 \clearpage
 
@@ -277,14 +304,7 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Features}
 
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
+Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)
 
 \clearpage
 
@@ -292,14 +312,9 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Model}
 
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
+
+The perceptron
+
 
 \clearpage
 
@@ -307,14 +322,9 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Results}
 
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
+
+What did we learn? Different features? Different classes? More classes suck
+
 
 \clearpage
 
@@ -323,12 +333,21 @@ Anything that can go wrong, will go wrong.
 
 \section{Ubuntu}
 
+more details about the ubuntu part (just enough there to switch topics)
+
 \clearpage
 
 %------------------------------------------------
 
 \subsection*{Data}
 
+
+
+Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
+Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)
+
+% Might use this table for results :D 
+\begin{comment}
 \begin{table}[h]
 \centering
 \begin{tabular}{l l l}
@@ -342,6 +361,7 @@ Treatment 3 & 0.0009271 & 0.296 \\
 \end{tabular}
 \caption{Table caption}
 \end{table}
+\end{comment}
 
 \clearpage
 
@@ -349,9 +369,12 @@ Treatment 3 & 0.0009271 & 0.296 \\
 
 \subsection*{Preprocessing}
 
+\begin{comment}
 \begin{figure}[h]
 %\centering\includegraphics[width=0.4\linewidth]{placeholder}
 \end{figure}
+\end{comment}
+
 
 \clearpage
 
@@ -359,6 +382,11 @@ Treatment 3 & 0.0009271 & 0.296 \\
 
 \subsection*{Features}
 
+
+
+
+% Might use the cute box from here maybe 
+\begin{comment}
 The most common definition of \mygreen{Murphy's Law} is as follows.
 
 \mybox{0.8\textwidth}{ % Example of encapsulating text in a colored box
@@ -378,6 +406,8 @@ This is a remark.
 \begin{algorithm}
 This is an algorithm.
 \end{algorithm}
+\end{comment}
+
 
 \clearpage
 
@@ -385,14 +415,10 @@ This is an algorithm.
 
 \subsection*{Model}
 
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
+
+The HMM and the Viterbi
+
+
 
 \clearpage
 
@@ -400,14 +426,9 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Results}
 
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
+
+Explain why we have no results :D
+
 
 \clearpage
 
@@ -415,15 +436,25 @@ Anything that can go wrong, will go wrong.
 
 \section*{Citations}
 
+Maybe we can use this slide to mention useful libraries and tools we have used, about the dictionaries. Pretty much anything that might be useful for the other people in their future projects
+
+% Citation example
+\begin{comment}
 An example of the \texttt{\textbackslash cite} command to cite within the presentation:
 
 This statement requires citation \cite{Smith:2012qr}.
+\end{comment}
+
+
 
 \clearpage
 
 %------------------------------------------------
 
 \thispagestyle{empty} % No slide header and footer
+
+Do we need to include references in the presentation? Maybe merge with the previous slide and show references while explaining about the tools and stuff
+
 
 \bibliographystyle{unsrt}
 \bibliography{sample}
@@ -433,6 +464,8 @@ This statement requires citation \cite{Smith:2012qr}.
 %------------------------------------------------
 
 \thispagestyle{empty} % No slide header and footer
+
+Do we want such slide? I don't want to additionally encourage people to ask me questions :D
 
 \begin{tikzpicture}[remember picture,overlay] % Background box
 \node [xshift=\paperwidth/2,yshift=\paperheight/2] at (current page.south west)[rectangle,fill,inner sep=0pt,minimum width=\paperwidth,minimum height=\paperheight/3,top color=mygreen,bottom color=mygreen]{}; % Change the height of the box, its colors and position on the page here
