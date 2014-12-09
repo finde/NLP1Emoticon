@@ -2,4 +2,16 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Emoticon_Prediction.a
 The style file: biblatex.bst
 Database file #1: Emoticon_Prediction-blx.bib
 Database file #2: ourbib.bib
+I was expecting a `,' or a `}'---line 19 of file ourbib.bib
+ :     publisher = "
+ :                  O’Reilly Media Inc.",
+I'm skipping whatever remains of this entry
+Warning--entry type for "ubuntudata" isn't style-file defined
+--line 23 of file ourbib.bib
+You're missing a field name---line 29 of file ourbib.bib
+ :  
+ :  %abstract = {We present the Ubuntu Chat Corpus as a data source for multiparticipant chat analysis. This addresses the problem of the lack of a large, publicly suitable corpora for research in this medium. The advantages of using this corpus for research is its large number of chat messages, its multiple languages, its technical nature, and all of the original chat messages are in the public domain.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 2.9
+(There were 2 error messages)

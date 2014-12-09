@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.4)  8 DEC 2014 13:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.9.4)  9 DEC 2014 11:33
 entering extended mode
 **C:/Users/Iva/Documents/GitHub/NLP1Emoticon/Report/NEW*nips*template*report/Em
 oticon_Prediction.tex
@@ -618,11 +618,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
@@ -634,23 +629,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 364--365
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+
+ []
+
+[5]
 ("C:\Users\Iva\Documents\GitHub\NLP1Emoticon\Report\NEW nips template report\Em
 oticon_Prediction.aux")
 Package logreq Info: Writing requests to 'Emoticon_Prediction.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 9709 strings out of 493921
- 149064 string characters out of 3144883
+ 9715 strings out of 493921
+ 149186 string characters out of 3144883
  346625 words of memory out of 3000000
- 12879 multiletter control sequences out of 15000+200000
+ 12885 multiletter control sequences out of 15000+200000
  25026 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,14n,48p,1041b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,14n,49p,1041b,886s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
@@ -659,9 +659,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Emoticon_Prediction.pdf (4 pages, 95983 bytes).
+Output written on Emoticon_Prediction.pdf (5 pages, 99667 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
