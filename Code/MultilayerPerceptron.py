@@ -100,11 +100,11 @@ def mlp_predict(w, b, v, a, x_test, t_test, data_class):
 
 
 def cluster_to_3_classes(string_label):
-    for i in [0, 1, 2, 3, 4, 5, 9, 10, 11]:
+    for i in [0, 1, 2, 3, 4, 5, 9, 10, 11, 14]:
         if i == string_label:
             return 'happy'
 
-    for i in [6, 7]:
+    for i in [6, 7, 15]:
         if i == string_label:
             return 'sad'
 
@@ -117,29 +117,31 @@ def cluster_to_3_classes(string_label):
 
 if __name__ == "__main__":
     n_per_class = 1000  # data sample per class
-    training_percentage = 0.9  # train-test percentage
-    N = 100  # iteration
-    L = 5  # hidden layer
+    training_percentage = 0.8  # train-test percentage
+    N = 1 # iteration
+    L = 2  # hidden layer
 
     '''
     # Reading
     '''
 
     data_class = [
-        ['../Data/Twitter/hc1', 0, ';-)'],
+        #['../Data/Twitter/hc1', 0, ';-)'],
         ['../Data/Twitter/hc2', 1, ';D'],
-        ['../Data/Twitter/hc3', 2, ';)'],
-        ['../Data/Twitter/hc4', 3, ';-D'],
-        ['../Data/Twitter/hc5', 4, ';-P'],
-        ['../Data/Twitter/hc6', 5, ';P'],
-        ['../Data/Twitter/hc7', 6, ';-('],
-        ['../Data/Twitter/hc8', 7, ';('],
-        ['../Data/Twitter/hc9', 8, ';o'],
-        ['../Data/Twitter/hc10', 9, ';]'],
-        ['../Data/Twitter/hc11', 10, '=]'],
-        ['../Data/Twitter/hc13', 11, ';*'],
-        ['../Data/Twitter/hc15', 12, ';|'],
-        ['../Data/Twitter/hc_non', 13, '_non_'],
+        #['../Data/Twitter/hc3', 2, ';)'],
+        #['../Data/Twitter/hc4', 3, ';-D'],
+        #['../Data/Twitter/hc5', 4, ';-P'],
+        #['../Data/Twitter/hc6', 5, ';P'],
+        #['../Data/Twitter/hc7', 6, ';-('],
+        #['../Data/Twitter/hc8', 7, ';('],
+        #['../Data/Twitter/hc9', 8, ';o'],
+        #['../Data/Twitter/hc10', 9, ';]'],
+        #['../Data/Twitter/hc11', 10, '=]'],
+        #['../Data/Twitter/hc13', 11, ';*'],
+        #['../Data/Twitter/hc15', 12, ';|'],
+        #['../Data/Twitter/hc_non', 13, '_non_'],
+        #['../Data/Twitter/negative_tabed.tsv', 14, ':)'],
+        ['../Data/Twitter/positive_tabed.tsv', 15, ':('],
     ]
 
     # data_class = [
@@ -181,10 +183,10 @@ if __name__ == "__main__":
     number_features = len(selected_features)
 
     # start with really small initial weights!!
-    w = np.random.randn(L, number_classes) * 0.15
-    b = np.random.randn(number_classes) * 0.015
-    v = np.random.randn(number_features, L) * 0.15
-    a = np.random.randn(L) * 0.015
+    w = np.random.randn(L, number_classes) * 1.5
+    b = np.random.randn(number_classes) * 0.15
+    v = np.random.randn(number_features, L) * 1.5
+    a = np.random.randn(L) * 0.15
 
     # print 'WWWWWWWWWWWWWWWWWW', w
     print 'Learning... , samples:', training_label.shape[0]
