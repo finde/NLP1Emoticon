@@ -8,29 +8,7 @@ def score(features, weights):
     return sum(weights.get(f, 0) for f in features)
 
 
-class Perceptron:
-    def __init__(self):
-        self.weights = collections.defaultdict(float)
-        self.edges = collections.defaultdict(float)
-        self.count = 0
-
-    def learn(self, features, label):
-        if self.predict(features) ^ bool(label):
-            for f in features:
-                self.edges[f] += 1
-        self.average()
-
-    def predict(self, features):
-        return score(features, self.weights) > 0
-
-    def average(self):
-        c = self.count
-        for f, w in self.edges.iteritems():
-            self.weights[f] = (c * self.weights[f] + w) / (c + 1)
-        self.count += 1
-
-
-class Multiclass(Perceptron):
+class Multiclass:
     def __init__(self):
         self.weights = collections.defaultdict(
             lambda: collections.defaultdict(float))
@@ -70,17 +48,13 @@ class Multiclass(Perceptron):
 
 if __name__ == "__main__":
 
-    n_per_class = 200  # number of data points per each class
-    training_percentage = 0.75  # percentage of training data from all data
+    n_per_class = 1000  # number of data points per each class
+    training_percentage = 0.9  # percentage of training data from all data
+    iteration = 200
 
     print('Reading data...')
-    # Define data per class
-    # data_class = [
-    # ['negative.tsv', ':('],
-    # ['positive.tsv', ':)']
-    # ]
 
-    n_per_class = None
+    # Define data per class
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
         ['../Data/Twitter/hc2', 1, ';D'],
@@ -108,10 +82,10 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        # "positive_words_hashtags",
-        # "negative_words_hashtags",
-        # "uppercase_words",
-        # "special_punctuation",
+        "positive_words_hashtags",
+        "negative_words_hashtags",
+        "uppercase_words",
+        "special_punctuation",
         "adjectives"
     ]
 
@@ -136,8 +110,7 @@ if __name__ == "__main__":
     multiclass = Multiclass()
 
     # training perceptron
-    iteration = 100
-    print 'Training perceptron... ', iteration, 'times'
+    print 'Training perceptron... , samples:', len(training_label)
 
     for n in xrange(iteration):
         print '== Iteration:', n+1

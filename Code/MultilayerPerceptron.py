@@ -61,6 +61,7 @@ def mlp_iter(x_train, t_train, w, b, v, a, L, number_classes, number_features):
 
 def mlp_train_set(w, b, v, a, N, L, x_train, t_train, number_classes, number_features):
     for i in range(0, N):
+        print 'interation :', i + 1
         w, b, v, a = mlp_iter(x_train, t_train, w, b, v, a, L, number_classes, number_features);
     return w, b, v, a
 
@@ -92,25 +93,15 @@ def count_correct_results(w, b, v, a, x_test, t_test):
 
 
 if __name__ == "__main__":
-    # training_data = get_training_data()
-    # AMP = AverageMulticlassPerceptron(training_data)
-
-    # data_string = ["This is a second AWesOme example and i LOVE it?!", "I feel sad", "I don't care"]
-    # hashtags = [["#happy", "#yay", "#love"],
-    # ["#sad", "#depressed", "#suicidemood", "#totallyhungry"],
-    # ["#whatever"]]
-    #
-    # data_class = np.array([0, 1, 2])
-    # dictionary = Dictionary()
-
-    # data_points = [DataPoint.DataPoint(data_string[i], hashtags[i], data_class[i], dictionary) for i in range(0, len(data_class))]
-    training_percentage = 0.9
+    n_per_class = 1000  # data sample per class
+    training_percentage = 0.9  # train-test percentage
+    N = 200  # iteration
+    L = 5  # hidden layer
 
     '''
     # Reading
     '''
 
-    n_per_class = None
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
         ['../Data/Twitter/hc2', 1, ';D'],
@@ -138,8 +129,8 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        # "positive_words_hashtags",
-        # "negative_words_hashtags",
+        "positive_words_hashtags",
+        "negative_words_hashtags",
         "uppercase_words",
         "special_punctuation",
         "adjectives"
@@ -163,8 +154,6 @@ if __name__ == "__main__":
     test_features = dataCollection.get_test_feature_matrix()
 
     # These are the parameters - #of features in the hidden layer, #of iterations to perform and #of classes and features
-    L = 5
-    N = 100
     number_classes = len(data_class)
     number_features = len(selected_features)
 
@@ -175,7 +164,7 @@ if __name__ == "__main__":
     a = np.random.randn(L) * 0.015
 
     # print 'WWWWWWWWWWWWWWWWWW', w
-    print 'Learning...'
+    print 'Learning... , samples:', training_label.shape[0]
 
     # So we learn the parameters
     w, b, v, a = mlp_train_set(w, b, v, a, N, L, training_features, training_label, number_classes, number_features)
@@ -195,7 +184,6 @@ if __name__ == "__main__":
 
     count_correct, count_total = count_correct_results(w, b, v, a, test_features, test_label)
     print '  test accuracy: ', 1.0 * count_correct / count_total * 100, '%'
-
 
 '''
 Just saving some weights here for test purposes :P 
