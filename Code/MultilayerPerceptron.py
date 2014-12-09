@@ -51,7 +51,7 @@ def mlp_iter(x_train, t_train, w, b, v, a, L, number_classes, number_features):
                                                   number_features)
 
         # update gradients, but multiply by small learning rate to keep the weights small
-        learning_rate = 1E-2
+        learning_rate = 1E-3
         w += gradW * learning_rate
         b += gradB * learning_rate
         v += gradV * learning_rate
@@ -100,10 +100,10 @@ def mlp_predict(w, b, v, a, x_test, t_test, data_class):
 
 
 if __name__ == "__main__":
-    n_per_class = 200  # data sample per class
+    n_per_class = 1000  # data sample per class
     training_percentage = 0.9  # train-test percentage
-    N = 30  # iteration
-    L = 5  # hidden layer
+    N = 50 # iteration
+    L = 2  # hidden layer
 
     '''
     # Reading
@@ -111,18 +111,18 @@ if __name__ == "__main__":
 
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
-        ['../Data/Twitter/hc2', 1, ';D'],
-        ['../Data/Twitter/hc3', 2, ';)'],
-        ['../Data/Twitter/hc4', 3, ';-D'],
-        ['../Data/Twitter/hc5', 4, ';-P'],
-        ['../Data/Twitter/hc6', 5, ';P'],
+        #['../Data/Twitter/hc2', 1, ';D'],
+        #['../Data/Twitter/hc3', 2, ';)'],
+        #['../Data/Twitter/hc4', 3, ';-D'],
+        #['../Data/Twitter/hc5', 4, ';-P'],
+        #['../Data/Twitter/hc6', 5, ';P'],
         ['../Data/Twitter/hc7', 6, ';-('],
-        ['../Data/Twitter/hc8', 7, ';('],
-        ['../Data/Twitter/hc9', 8, ';o'],
-        ['../Data/Twitter/hc10', 9, ';]'],
-        ['../Data/Twitter/hc11', 10, '=]'],
-        ['../Data/Twitter/hc13', 11, ';*'],
-        ['../Data/Twitter/hc15', 12, ';|'],
+        #['../Data/Twitter/hc8', 7, ';('],
+        #['../Data/Twitter/hc9', 8, ';o'],
+        #['../Data/Twitter/hc10', 9, ';]'],
+        #['../Data/Twitter/hc11', 10, '=]'],
+        #['../Data/Twitter/hc13', 11, ';*'],
+        #['../Data/Twitter/hc15', 12, ';|'],
         ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
 
@@ -136,8 +136,8 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        "positive_words_hashtags",
-        "negative_words_hashtags",
+        #"positive_words_hashtags",
+        #"negative_words_hashtags",
         "uppercase_words",
         "special_punctuation",
         "adjectives"
@@ -198,8 +198,8 @@ if __name__ == "__main__":
         DataPoint('super, mega, definitely not', [], '?')
     ]
     new_data_feat = TrainingData(new_data_point).get_feature_matrix()
-    _, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))), data_class)
-    print predicted_label
+    #_, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))), data_class)
+    #print predicted_label
 
 '''
 Just saving some weights here for test purposes :P 
