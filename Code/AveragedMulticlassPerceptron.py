@@ -9,6 +9,7 @@ NULL_LABEL = '__NULL_LABEL__'
 def score(features, weights):
     return sum(weights.get(f, 0) for f in features)
 
+
 # based on https://github.com/lmjohns3/py-perceptron
 class Multiclass:
     def __init__(self):
@@ -40,6 +41,7 @@ class Multiclass:
         return max((score(features, ws), l) for l, ws in sources.iteritems())[1]
 
     def average(self):
+
         c = self.count
         for l, sources in self.edges.iteritems():
             targets = self.weights[l]
@@ -48,11 +50,26 @@ class Multiclass:
         self.count += 1
 
 
+def cluster_to_3_classes(string_label):
+    for i in [0, 1, 2, 3, 4, 5, 9, 10, 11]:
+        if i == string_label:
+            return 'happy'
+
+    for i in [6, 7]:
+        if i == string_label:
+            return 'sad'
+
+    for i in [8, 12, 13]:
+        if i == string_label:
+            return 'neutral'
+
+    return 'neutral'
+
 if __name__ == "__main__":
 
-    n_per_class = 1000  # number of data points per each class
+    n_per_class = 500  # number of data points per each class
     training_percentage = 0.9  # percentage of training data from all data
-    iteration = 200
+    iteration = 100
 
     print('Reading data...')
 
@@ -72,6 +89,8 @@ if __name__ == "__main__":
         ['../Data/Twitter/hc13', 11, ';*'],
         ['../Data/Twitter/hc15', 12, ';|'],
         ['../Data/Twitter/hc_non', 13, '_non_'],
+        ['../Data/Twitter/negative_tabed.tsv', 14, ':)'],
+        ['../Data/Twitter/positive_tabed.tsv', 15, ':('],
     ]
 
     # data_class = [
@@ -84,9 +103,9 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        "positive_words_hashtags",
-        "negative_words_hashtags",
-        "uppercase_words",
+        # "positive_words_hashtags",
+        # "negative_words_hashtags",
+        # "uppercase_words",
         "special_punctuation",
         "adjectives"
     ]
@@ -115,7 +134,7 @@ if __name__ == "__main__":
     print 'Training perceptron... , samples:', len(training_label)
 
     for n in xrange(iteration):
-        print '== Iteration:', n+1
+        print '== Iteration:', n + 1
         for i in xrange(len(training_data.data_points)):
             multiclass.learn(training_features[i], training_label[i])
 
@@ -124,7 +143,9 @@ if __name__ == "__main__":
     count = 0
     for i in xrange(len(training_data.data_points)):
         predicted_class = multiclass.predict(training_features[i])
-        if training_label[i] == predicted_class:
+
+        # if test_label[i] == predicted_class:
+        if cluster_to_3_classes(training_label[i]) == cluster_to_3_classes(predicted_class):
             count += 1
 
     print "  training accuracy = ", count * 100.0 / len(training_label), '%'
@@ -133,17 +154,18 @@ if __name__ == "__main__":
     count = 0
     for i in xrange(len(test_data.data_points)):
         predicted_class = multiclass.predict(test_features[i])
-        if test_label[i] == predicted_class:
+        # if test_label[i] == predicted_class:
+        if cluster_to_3_classes(training_label[i]) == cluster_to_3_classes(predicted_class):
             count += 1
 
     print "  test accuracy = ", count * 100.0 / len(test_label), '%'
 
     # todo: store w and config
-    ####### NEW test #######
-    new_data_point = [
-        DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
-        DataPoint('Buu huuu.... I am lost... sad', [], '?')
-    ]
-    new_data_feat = TrainingData(new_data_point).get_feature_matrix()
-    for i in new_data_feat:
-        print multiclass.predict(i)
+    # ###### NEW test #######
+    # new_data_point = [
+    # DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
+    #     DataPoint('Buu huuu.... I am lost... sad', [], '?')
+    # ]
+    # new_data_feat = TrainingData(new_data_point).get_feature_matrix()
+    # for i in new_data_feat:
+    #     print multiclass.predict(i)

@@ -38,8 +38,9 @@ def get_normalized_feature_dictionary(feature_dict):
 
 
 class TrainingData:
-    def __init__(self, data_points):
+    def __init__(self, data_points, selected_features=None):
         self.data_points = data_points
+
         self.feature_dictionary = {"words": 1,
                                    "negative_words": 2,
                                    "positive_words": 3,
@@ -49,6 +50,10 @@ class TrainingData:
                                    "special_punctuation": 7,
                                    "adjectives": 8}
 
+        # if selected_features is not None:
+        #     temp = {}
+            # for
+            # for f in self.feature_dictionary:
 
     # ####################
     # Basic class funcs #
@@ -86,7 +91,7 @@ class TrainingData:
 
     def get_feature_matrix(self):
         feature_dict = get_normalized_feature_dictionary(self.get_feature_dictionary())
-        feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(feature_dict['adjectives']))]
+        feat_matrix = [[d[i] for d in feature_dict.values()] for i in range(0, len(self.data_points))]
 
         return feat_matrix
 

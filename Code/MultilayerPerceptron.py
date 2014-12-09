@@ -99,11 +99,27 @@ def mlp_predict(w, b, v, a, x_test, t_test, data_class):
     return cnt, t_test.shape[0], predicted_labels
 
 
+def cluster_to_3_classes(string_label):
+    for i in [0, 1, 2, 3, 4, 5, 9, 10, 11]:
+        if i == string_label:
+            return 'happy'
+
+    for i in [6, 7]:
+        if i == string_label:
+            return 'sad'
+
+    for i in [8, 12, 13]:
+        if i == string_label:
+            return 'neutral'
+
+    return 'neutral'
+
+
 if __name__ == "__main__":
     n_per_class = 1000  # data sample per class
     training_percentage = 0.9  # train-test percentage
-    N = 50 # iteration
-    L = 2  # hidden layer
+    N = 100  # iteration
+    L = 5  # hidden layer
 
     '''
     # Reading
@@ -111,18 +127,18 @@ if __name__ == "__main__":
 
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
-        #['../Data/Twitter/hc2', 1, ';D'],
-        #['../Data/Twitter/hc3', 2, ';)'],
-        #['../Data/Twitter/hc4', 3, ';-D'],
-        #['../Data/Twitter/hc5', 4, ';-P'],
-        #['../Data/Twitter/hc6', 5, ';P'],
+        ['../Data/Twitter/hc2', 1, ';D'],
+        ['../Data/Twitter/hc3', 2, ';)'],
+        ['../Data/Twitter/hc4', 3, ';-D'],
+        ['../Data/Twitter/hc5', 4, ';-P'],
+        ['../Data/Twitter/hc6', 5, ';P'],
         ['../Data/Twitter/hc7', 6, ';-('],
-        #['../Data/Twitter/hc8', 7, ';('],
-        #['../Data/Twitter/hc9', 8, ';o'],
-        #['../Data/Twitter/hc10', 9, ';]'],
-        #['../Data/Twitter/hc11', 10, '=]'],
-        #['../Data/Twitter/hc13', 11, ';*'],
-        #['../Data/Twitter/hc15', 12, ';|'],
+        ['../Data/Twitter/hc8', 7, ';('],
+        ['../Data/Twitter/hc9', 8, ';o'],
+        ['../Data/Twitter/hc10', 9, ';]'],
+        ['../Data/Twitter/hc11', 10, '=]'],
+        ['../Data/Twitter/hc13', 11, ';*'],
+        ['../Data/Twitter/hc15', 12, ';|'],
         ['../Data/Twitter/hc_non', 13, '_non_'],
     ]
 
@@ -136,9 +152,9 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        #"positive_words_hashtags",
-        #"negative_words_hashtags",
-        "uppercase_words",
+        # "positive_words_hashtags",
+        # "negative_words_hashtags",
+        # "uppercase_words",
         "special_punctuation",
         "adjectives"
     ]
@@ -193,13 +209,16 @@ if __name__ == "__main__":
     print '  test accuracy: ', 1.0 * count_correct / count_total * 100, '%'
 
     # ### new Data ####
-    new_data_point = [
-        DataPoint("yes i like the new edubuntu background too - although it's a kinda cold and is missing New Zealand (bug reported)", [], '?'),
-        DataPoint('super, mega, definitely not', [], '?')
-    ]
-    new_data_feat = TrainingData(new_data_point).get_feature_matrix()
-    #_, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))), data_class)
-    #print predicted_label
+    # new_data_point = [
+    #     DataPoint(
+    #         "yes i like the new edubuntu background too - although it's a kinda cold and is missing New Zealand (bug reported)",
+    #         [], '?'),
+    #     DataPoint('super, mega, definitely not', [], '?')
+    # ]
+    # new_data_feat = TrainingData(new_data_point).get_feature_matrix()
+    # _, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))),
+    #                                     data_class)
+    # print predicted_label
 
 '''
 Just saving some weights here for test purposes :P 
