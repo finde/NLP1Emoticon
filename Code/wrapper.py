@@ -26,18 +26,18 @@ if __name__ == "__main__":
     
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
-        ['../Data/Twitter/hc2', 1, ';D'],
-        ['../Data/Twitter/hc3', 2, ';)'],
+        #['../Data/Twitter/hc2', 1, ';D'],
+        #['../Data/Twitter/hc3', 2, ';)'],
         #['../Data/Twitter/hc4', 3, ';-D'],
         #['../Data/Twitter/hc5', 4, ';-P'],
         #['../Data/Twitter/hc6', 5, ';P'],
-        #['../Data/Twitter/hc7', 6, ';-('],
+        ['../Data/Twitter/hc7', 6, ';-('],
         #['../Data/Twitter/hc8', 7, ';('],
         #['../Data/Twitter/hc9', 8, ';o'],
         #['../Data/Twitter/hc10', 9, ';]'],
         #['../Data/Twitter/hc11', 10, '=]'],
         #['../Data/Twitter/hc13', 11, ';*'],
-        #['../Data/Twitter/hc15', 12, ';|'],
+        ['../Data/Twitter/hc15', 12, ';|'],
         #['../Data/Twitter/hc_non', 13, '_non_'],
     ]
     
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     # Because the clusters are 0-14 and I want them 1:15 :P :P Gonna fix this..   
     assignment = [each+1 for each in assignment]             
        
-    data_classes = [0, 1, 2]   
+    data_classes = [0, 6, 12]   
     model = HMM(number_of_clusters, data_classes)
     print 'size assinment: ', len(assignment)
     print 'assignment', assignment
