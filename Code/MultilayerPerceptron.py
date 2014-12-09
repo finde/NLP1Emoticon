@@ -100,9 +100,9 @@ def mlp_predict(w, b, v, a, x_test, t_test, data_class):
 
 
 if __name__ == "__main__":
-    n_per_class = 1000  # data sample per class
+    n_per_class = 200  # data sample per class
     training_percentage = 0.9  # train-test percentage
-    N = 200  # iteration
+    N = 30  # iteration
     L = 5  # hidden layer
 
     '''
@@ -194,8 +194,8 @@ if __name__ == "__main__":
 
     # ### new Data ####
     new_data_point = [
-        DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
-        DataPoint('Buu huuu.... I am lost...', [], '?')
+        DataPoint("yes i like the new edubuntu background too - although it's a kinda cold and is missing New Zealand (bug reported)", [], '?'),
+        DataPoint('super, mega, definitely not', [], '?')
     ]
     new_data_feat = TrainingData(new_data_point).get_feature_matrix()
     _, _, predicted_label = mlp_predict(w, b, v, a, np.array(new_data_feat), np.array(xrange(0, len(new_data_point))), data_class)

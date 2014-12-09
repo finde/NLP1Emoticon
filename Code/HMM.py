@@ -8,7 +8,7 @@ import scipy.cluster.vq as cluster
 import cPickle
 import Clustering
 from getData import GetData
-        
+import pdb       
                         
 '''''
 We want the data to look like this at the end:
@@ -118,35 +118,37 @@ if __name__ == "__main__":
 
     n_per_class = 100
     
-    data_class = [
-        ['../Data/Twitter/hc1', 0, ';-)'],
-        ['../Data/Twitter/hc2', 1, ';D'],
-        ['../Data/Twitter/hc3', 2, ';)'],
-        #['../Data/Twitter/hc4', 3, ';-D'],
-        #['../Data/Twitter/hc5', 4, ';-P'],
-        #['../Data/Twitter/hc6', 5, ';P'],
-        #['../Data/Twitter/hc7', 6, ';-('],
-        #['../Data/Twitter/hc8', 7, ';('],
-        #['../Data/Twitter/hc9', 8, ';o'],
-        #['../Data/Twitter/hc10', 9, ';]'],
-        #['../Data/Twitter/hc11', 10, '=]'],
-        #['../Data/Twitter/hc13', 11, ';*'],
-        #['../Data/Twitter/hc15', 12, ';|'],
-        #['../Data/Twitter/hc_non', 13, '_non_'],
-    ]
-    
     #data_class = [
-    #    ['2006-05-27-#ubuntu-negative.tsv', ':('],
-    #    ['2006-05-27-#ubuntu-positive.tsv', ':)']
-    # ]
+    #    ['../Data/Twitter/hc1', 0, ';-)'],
+    #    ['../Data/Twitter/hc2', 1, ';D'],
+    #    ['../Data/Twitter/hc3', 2, ';)'],
+    #    #['../Data/Twitter/hc4', 3, ';-D'],
+    #    #['../Data/Twitter/hc5', 4, ';-P'],
+    #    #['../Data/Twitter/hc6', 5, ';P'],
+    #    #['../Data/Twitter/hc7', 6, ';-('],
+    #    #['../Data/Twitter/hc8', 7, ';('],
+    #    #['../Data/Twitter/hc9', 8, ';o'],
+    #    #['../Data/Twitter/hc10', 9, ';]'],
+    #    #['../Data/Twitter/hc11', 10, '=]'],
+    #    #['../Data/Twitter/hc13', 11, ';*'],
+    #    #['../Data/Twitter/hc15', 12, ';|'],
+    #    #['../Data/Twitter/hc_non', 13, '_non_'],
+    #]
+    #
+    data_class = [
+        ['../Data/Chat Data/2006-05-27-#ubuntu.tsv', 0, ':(']
+     ]
 
+#
+#    pdb.set_trace()    
+    
     # load data from tsv and build data collection
     selected_features = [
         "words",
         "negative_words",
         "positive_words",
-        "positive_words_hashtags",
-        "negative_words_hashtags",
+        #"positive_words_hashtags",
+        #"negative_words_hashtags",
         "uppercase_words",
         "special_punctuation",
         "adjectives"
