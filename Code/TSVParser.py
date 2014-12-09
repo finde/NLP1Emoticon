@@ -137,8 +137,8 @@ class TSV_Getter:
                 for i in range(0, length):
                     if (self.all_tsv_objects[i].get_username() == username):
                         user_messages.append(self.all_tsv_objects[i])
-                # self.sorted_tsv_objects.append(user_messages)
-                self.sorted_tsv_objects += user_messages
+                self.sorted_tsv_objects.append(user_messages)
+                # self.sorted_tsv_objects += user_messages
 
         #Turned off for testing purposes
         # for i in range(0, len(self.sorted_tsv_objects)):
@@ -151,6 +151,9 @@ class TSV_Getter:
 if __name__ == "__main__":
     # tsv_negative = TSV_Getter('../Data/Twitter/hc9').get_all_tsv_objects()
     tsv = TSV_Getter('../Data/Chat Data/2006-05-27-#ubuntu.tsv').get_sorted_tsv_objects()
+
+    for obj in tsv[0]:
+        print obj.get_timestamp() + obj.get_username() + obj.get_label() + obj.get_text()
 
     # print tsv.
     # dataPoints = [[_.text, _.hashtags, ':('] for _ in TSV_Getter('../Data/Chat Data/2006-06-01-#ubuntu-negative.tsv').get_all_tsv_objects()]
