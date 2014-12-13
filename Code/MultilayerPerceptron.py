@@ -51,7 +51,7 @@ def mlp_iter(x_train, t_train, w, b, v, a, L, number_classes, number_features):
                                                   number_features)
 
         # update gradients, but multiply by small learning rate to keep the weights small
-        learning_rate = 1E-3
+        learning_rate = 1E-4
         w += gradW * learning_rate
         b += gradB * learning_rate
         v += gradV * learning_rate
@@ -94,7 +94,9 @@ def mlp_predict(w, b, v, a, x_test, t_test, data_class):
         predicted_labels.append(data_class[classification][2])
 
         # print predicted_label, t_test[i], np.exp(logP[i, :]), ' '
-        if predicted_label == t_test[i]:
+	if cluster_to_3_classes(training_label[i]) == cluster_to_3_classes(predicted_label):
+            #count += 1
+        #if predicted_label == t_test[i]:
             cnt += 1
     return cnt, t_test.shape[0], predicted_labels
 
@@ -118,29 +120,29 @@ def cluster_to_3_classes(string_label):
 if __name__ == "__main__":
     n_per_class = 1000  # data sample per class
     training_percentage = 0.8  # train-test percentage
-    N = 1 # iteration
-    L = 2  # hidden layer
+    N = 30 # iteration
+    L = 5  # hidden layer
 
     '''
     # Reading
     '''
 
     data_class = [
-        #['../Data/Twitter/hc1', 0, ';-)'],
-        ['../Data/Twitter/hc2', 1, ';D'],
-        #['../Data/Twitter/hc3', 2, ';)'],
-        #['../Data/Twitter/hc4', 3, ';-D'],
-        #['../Data/Twitter/hc5', 4, ';-P'],
-        #['../Data/Twitter/hc6', 5, ';P'],
-        #['../Data/Twitter/hc7', 6, ';-('],
-        #['../Data/Twitter/hc8', 7, ';('],
-        #['../Data/Twitter/hc9', 8, ';o'],
-        #['../Data/Twitter/hc10', 9, ';]'],
-        #['../Data/Twitter/hc11', 10, '=]'],
-        #['../Data/Twitter/hc13', 11, ';*'],
-        #['../Data/Twitter/hc15', 12, ';|'],
-        #['../Data/Twitter/hc_non', 13, '_non_'],
-        #['../Data/Twitter/negative_tabed.tsv', 14, ':)'],
+        ['../Data/Twitter/hc1', 0, ';-)'],
+	['../Data/Twitter/hc2', 1, ';D'],
+        ['../Data/Twitter/hc3', 2, ';)'],
+        ['../Data/Twitter/hc4', 3, ';-D'],
+        ['../Data/Twitter/hc5', 4, ';-P'],
+        ['../Data/Twitter/hc6', 5, ';P'],
+        ['../Data/Twitter/hc7', 6, ';-('],
+        ['../Data/Twitter/hc8', 7, ';('],
+        ['../Data/Twitter/hc9', 8, ';o'],
+        ['../Data/Twitter/hc10', 9, ';]'],
+        ['../Data/Twitter/hc11', 10, '=]'],
+        ['../Data/Twitter/hc13', 11, ';*'],
+        ['../Data/Twitter/hc15', 12, ';|'],
+        ['../Data/Twitter/hc_non', 13, '_non_'],
+        ['../Data/Twitter/negative_tabed.tsv', 14, ':)'],
         ['../Data/Twitter/positive_tabed.tsv', 15, ':('],
     ]
 
@@ -154,14 +156,14 @@ if __name__ == "__main__":
         "words",
         "negative_words",
         "positive_words",
-        # "positive_words_hashtags",
-        # "negative_words_hashtags",
-        # "uppercase_words",
+        "positive_words_hashtags",
+        "negative_words_hashtags",
+        "uppercase_words",
         "special_punctuation",
         "adjectives"
     ]
 
-    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
+    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features, is_bootstrap=False)
 
     # split data collection into training and test data
     training_data = dataCollection.get_training_data()
@@ -183,10 +185,10 @@ if __name__ == "__main__":
     number_features = len(selected_features)
 
     # start with really small initial weights!!
-    w = np.random.randn(L, number_classes) * 1.5
-    b = np.random.randn(number_classes) * 0.15
-    v = np.random.randn(number_features, L) * 1.5
-    a = np.random.randn(L) * 0.15
+    w = np.random.randn(L, number_classes) * 0.015
+    b = np.random.randn(number_classes) * 0.0015
+    v = np.random.randn(number_features, L) * 0.015
+    a = np.random.randn(L) * 0.0015
 
     # print 'WWWWWWWWWWWWWWWWWW', w
     print 'Learning... , samples:', training_label.shape[0]
