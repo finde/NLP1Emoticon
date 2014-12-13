@@ -2,10 +2,10 @@ import numpy as np
 
 # decoding using viterbi algorithm
 def decoding(observations, transition, emission, states=None):
-    
+
     if states == None:
         states = emission.keys()
-    
+
     V = {}
     path = {}
     observation_length = len(observations)
@@ -39,7 +39,7 @@ def decoding(observations, transition, emission, states=None):
     # from observations[n] to end symbol
     temp = ()
     for state in states:
-        temp_value = (V[state][observations[t]] * transition[state]["start"], state)
+        temp_value = (V[state][observations[len(observations) - 1]] * transition[state]["start"], state)
         temp += (temp_value,)
 
     # get final score and final path
