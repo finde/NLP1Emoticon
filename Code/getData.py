@@ -208,7 +208,7 @@ class GetData:
 class GetDataUbuntu():
     def __init__(self, filenames, selected_features=None):
         self.filenames = filenames
-        self.training_percentage = training_percentage
+        # self.training_percentage = training_percentage
 
         if selected_features is None:
             self.selected_features = feature_dictionary
@@ -216,7 +216,11 @@ class GetDataUbuntu():
             self.selected_features = selected_features
 
         self.data_features, \
-        self.data_features_per_user = self.get_data_features()
+        self.data_features_per_user, \
+        self.data_labels_per_user = self.get_data_features()
+
+    def get_labels_per_user(self):
+        return self.data_labels_per_user
 
     def get_feature_matrix(self):
         return self.data_features
@@ -226,6 +230,7 @@ class GetDataUbuntu():
 
     def get_data_features(self):
         data_points = []
+        data_labels_per_user = []
         combined_feat_dict = {}
 
         # read and extract feature
@@ -238,7 +243,7 @@ class GetDataUbuntu():
                 fh = open(filename, "rb")
 
                 # load cache file
-                structure, feature_dict = cPickle.load(fh)
+                structure, feature_dict, data_labels_per_user = cPickle.load(fh)
                 fh.close()
 
             else:
@@ -249,18 +254,21 @@ class GetDataUbuntu():
 
                 for username in source_data:
                     user_messages = []
+                    user_labels = []
 
                     for message in username:
                         user_messages.append(DataPoint(message.get_text(), message.get_tags(), message.get_label()))
+                        user_labels.append(message.get_label());
 
                     data_points += user_messages
                     structure.append(len(username))
+                    data_labels_per_user.append(user_labels);
 
                 # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
                 feature_dict = TrainingData(data_points).get_unnormalize_feature_matrix()
 
                 # store to cache file
-                cPickle.dump([structure, feature_dict], fh)
+                cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
                 fh.close()
 
             # aggregate them
@@ -278,6 +286,7 @@ class GetDataUbuntu():
         index = 0
         feat_matrix_all = []
         feat_matrix = []
+        labels_per_user = []
 
         for n_messages in structure:
             feat_matrix_per_user = []
@@ -290,7 +299,16 @@ class GetDataUbuntu():
             feat_matrix.append(feat_matrix_per_user)
             feat_matrix_all += feat_matrix_per_user
 
-        return feat_matrix_all, feat_matrix
+        for user_labels in data_labels_per_user:
+            parsed_labels = []
+
+            for label in user_labels:
+                parsed_label = label[1:-1]
+                parsed_labels.append(parsed_label)
+
+            labels_per_user.append(parsed_labels)
+
+        return feat_matrix_all, feat_matrix, labels_per_user
 
 
 if __name__ == "__main__":
