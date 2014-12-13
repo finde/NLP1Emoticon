@@ -2,6 +2,7 @@ import csv
 import re
 import sys
 from MultilayerPerceptron import mlp_predict
+import requests, json
 
 
 def parse_emoticons(emoticons):
@@ -57,7 +58,7 @@ def parse_data(filename, emoticons):
                 message = remove_url(message)
 
                 # regular expression for emoticon
-                label = "none"
+                label = "neutral"
 
                 for emo in emos:
                     match_emo = re.search(emos[emo], message)
@@ -66,11 +67,20 @@ def parse_data(filename, emoticons):
                         label = emo
                         break
 
-                label = "[" + label + "]"
+                if label == "neutral":
+                    _url = 'http://text-processing.com/api/sentiment/'
 
-                if label == "none":
-                    # run twitter prediction
-                    mlp_predict(w, b, v, a, )
+                    data = "text=" + message
+
+                    response = requests.post(_url, data=data)
+
+                    r = json.loads(response.content)
+
+                    if r['probability'][r['label']] > 0.7:
+                        print 'r', label, r['label'], message, r['probability']
+                        label = r['label']
+
+                label = "[" + label + "]"
 
                 row_tsv = [label, timestamp, username, message]
                 try:
