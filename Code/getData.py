@@ -169,7 +169,7 @@ class GetData:
                 train_size = (1, np.minimum(_size, idx_len))
                 train_indices = np.append(train_indices, npr.randint(idx_min, idx_max, size=train_size))
 
-                _size = self.n_per_class - _size
+                _size = self.n_per_class * (1-self.training_percentage)
                 test_size = (1, np.minimum(_size, idx_len))
                 test_indices = np.append(test_indices, npr.randint(idx_min, idx_max, size=test_size))
                 # print idx_min, idx_max, train_size, test_size
