@@ -29,6 +29,7 @@ parskip=half-, % Paragraphs separated by half a line
 
 \usepackage{verbatim}
 
+\newcommand{\red}[1]{\textit{\color{red}{#1}}}
 
 \linespread{1.12} % Increase line spacing for readability
 
@@ -217,6 +218,7 @@ shadow
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
+\begin{comment}
 \thispagestyle{empty} % No slide header and footer
 
 \small\tableofcontents % Change the font size and print the table of contents - it may be useful to shrink the font size further if the presentation is full of sections
@@ -224,6 +226,8 @@ shadow
 
 
 Do we need an outline for such a short presentation?
+
+\end{comment}
 
 \clearpage
 
@@ -234,7 +238,13 @@ Do we need an outline for such a short presentation?
 \section{Emoticon Prediction in Text}
 
 
-Explain the main problem and the techniques here
+\begin{itemize}
+\item Considering only single messages
+
+\item Considering a sequence of messages (in conversation)
+\end{itemize}
+
+\red{Explain the main problem and the techniques here}
 
 
 \clearpage
@@ -244,7 +254,7 @@ Explain the main problem and the techniques here
 \section{Twitter}
 
 
-Details about the twitter part
+\red{Details about the twitter part}
 
 
 \begin{comment}
@@ -260,10 +270,10 @@ Details about the twitter part
 
 %------------------------------------------------
 
-\subsection*{Data}
+\subsection*{Collecting and preprocessing the data}
 
 
-Maybe merge data with preprocessing slides? 
+\red{Did it on our own, explain super quick how if there was something interesting}
 
 
 \begin{comment}
@@ -283,11 +293,10 @@ Maybe merge data with preprocessing slides?
 \clearpage
 
 %------------------------------------------------
-
+\begin{comment}
 \subsection*{Preprocessing}
 
 
-\begin{comment}
 How to include a theorem in this presentation:
 \begin{verbatim}
 \mybox{0.8\textwidth}{
@@ -304,7 +313,14 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Features}
 
-Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)
+\begin{itemize}
+\item word counts - positive, negative, uppercase words
+\item special punctuation
+\item hashtag-related features
+\item PoS counts
+\end{itemize}
+
+\red{Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)}
 
 \clearpage
 
@@ -313,7 +329,7 @@ Explain the more interesting ones (maybe the adjectives, since they require PoS 
 \subsection*{Model}
 
 
-The perceptron
+\red{The perceptron}
 
 
 \clearpage
@@ -323,7 +339,24 @@ The perceptron
 \subsection*{Results}
 
 
-What did we learn? Different features? Different classes? More classes suck
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c}
+\toprule
+\textbf{Number of classes} & \textbf{Average accuracy} \\
+\midrule
+3 & ? \\
+7 & ? \\
+14 & ? \\
+\bottomrule
+\end{tabular}
+\caption{Average prediciton accuracy}
+\end{table}
+
+
+
+\red{What did we learn? Different features? Different classes? More classes suck}
 
 
 \clearpage
@@ -333,7 +366,9 @@ What did we learn? Different features? Different classes? More classes suck
 
 \section{Ubuntu}
 
-more details about the ubuntu part (just enough there to switch topics)
+
+
+\red{more details about the ubuntu part (just enough therew to switch topics)}
 
 \clearpage
 
@@ -343,8 +378,8 @@ more details about the ubuntu part (just enough there to switch topics)
 
 
 
-Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
-Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)
+\red{Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
+Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)}
 
 % Might use this table for results :D 
 \begin{comment}
@@ -367,7 +402,9 @@ Treatment 3 & 0.0009271 & 0.296 \\
 
 %------------------------------------------------
 
-\subsection*{Preprocessing}
+\subsection*{Preprocessing and extracting features}
+
+\red{No preprocessing done (although i think it was needed) \\ features should be carefully chosen - no hashtags, rarely uppercase words}
 
 \begin{comment}
 \begin{figure}[h]
@@ -380,13 +417,14 @@ Treatment 3 & 0.0009271 & 0.296 \\
 
 %------------------------------------------------
 
+\begin{comment}
 \subsection*{Features}
 
 
 
 
 % Might use the cute box from here maybe 
-\begin{comment}
+
 The most common definition of \mygreen{Murphy's Law} is as follows.
 
 \mybox{0.8\textwidth}{ % Example of encapsulating text in a colored box
@@ -406,6 +444,8 @@ This is a remark.
 \begin{algorithm}
 This is an algorithm.
 \end{algorithm}
+
+
 \end{comment}
 
 
@@ -415,10 +455,13 @@ This is an algorithm.
 
 \subsection*{Model}
 
+\begin{itemize}
+\item HMM
+\item Viterbi
+\end{itemize}
 
-The HMM and the Viterbi
 
-
+\red{The HMM and the Viterbi}
 
 \clearpage
 
@@ -427,7 +470,7 @@ The HMM and the Viterbi
 \subsection*{Results}
 
 
-Explain why we have no results :D
+\red{Explain why we have no results :D}
 
 
 \clearpage
@@ -436,7 +479,15 @@ Explain why we have no results :D
 
 \section*{Citations}
 
-Maybe we can use this slide to mention useful libraries and tools we have used, about the dictionaries. Pretty much anything that might be useful for the other people in their future projects
+\red{Maybe we can use this slide to mention useful libraries and tools we have used, about the dictionaries. Pretty much anything that might be useful for the other people in their future projects}
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{sample}
+
+\red{and a useful paper or two here}
+
 
 % Citation example
 \begin{comment}
@@ -446,26 +497,25 @@ This statement requires citation \cite{Smith:2012qr}.
 \end{comment}
 
 
+\clearpage
+
+\begin{comment}
+%------------------------------------------------
+
+\thispagestyle{empty} % No slide header and footer
+
+\red{Do we need to include references in the presentation? Maybe merge with the previous slide and show references while explaining about the tools and stuff}
+
+
 
 \clearpage
+
+\end{comment}
 
 %------------------------------------------------
 
 \thispagestyle{empty} % No slide header and footer
 
-Do we need to include references in the presentation? Maybe merge with the previous slide and show references while explaining about the tools and stuff
-
-
-\bibliographystyle{unsrt}
-\bibliography{sample}
-
-\clearpage
-
-%------------------------------------------------
-
-\thispagestyle{empty} % No slide header and footer
-
-Do we want such slide? I don't want to additionally encourage people to ask me questions :D
 
 \begin{tikzpicture}[remember picture,overlay] % Background box
 \node [xshift=\paperwidth/2,yshift=\paperheight/2] at (current page.south west)[rectangle,fill,inner sep=0pt,minimum width=\paperwidth,minimum height=\paperheight/3,top color=mygreen,bottom color=mygreen]{}; % Change the height of the box, its colors and position on the page here
