@@ -4,6 +4,37 @@ import sys
 from MultilayerPerceptron import mlp_predict
 import requests, json
 
+from info import classify2
+from math import e
+import pickle
+from datetime import datetime
+
+
+class MyDict(dict):
+    def __getitem__(self, key):
+        if key in self:
+            return self.get(key)
+        return 0
+
+
+pos = MyDict()
+neg = MyDict()
+totals = [0, 0]
+
+
+def percentage_confidence(conf):
+    return 100.0 * e ** conf / (1 + e ** conf)
+
+
+def get_sentiment_info(text):
+    flag, confidence = classify2(text, pos, neg, totals)
+    if confidence > 0.5:
+        sentiment = "positive" if flag else "negative"
+    else:
+        sentiment = "neutral"
+    conf = "%.4f" % percentage_confidence(confidence)
+    return sentiment, conf
+
 
 def parse_emoticons(emoticons):
     obj = {}
@@ -68,17 +99,9 @@ def parse_data(filename, emoticons):
                         break
 
                 if label == "neutral":
-                    _url = 'http://text-processing.com/api/sentiment/'
-
-                    data = "text=" + message
-
-                    response = requests.post(_url, data=data)
-
-                    r = json.loads(response.content)
-
-                    if r['probability'][r['label']] > 0.7:
-                        print 'r', label, r['label'], message, r['probability']
-                        label = r['label']
+                    new_label, confidence = get_sentiment_info(message)
+                    print label, new_label, confidence, message
+                    label = new_label
 
                 label = "[" + label + "]"
 
@@ -92,15 +115,15 @@ def parse_data(filename, emoticons):
 
 filename = [
     "2006-05-27-#ubuntu",
-    # "2006-06-01-#ubuntu",
-    # "2007-04-20-#ubuntu",
-    # "2007-04-21-#ubuntu",
-    # "2007-04-22-#ubuntu",
-    # "2007-10-19-#ubuntu",
-    # "2007-10-20-#ubuntu",
-    # "2007-10-21-#ubuntu",
-    # "2008-04-25-#ubuntu",
-    # "2008-04-26-#ubuntu",
+    "2006-06-01-#ubuntu",
+    "2007-04-20-#ubuntu",
+    "2007-04-21-#ubuntu",
+    "2007-04-22-#ubuntu",
+    "2007-10-19-#ubuntu",
+    "2007-10-20-#ubuntu",
+    "2007-10-21-#ubuntu",
+    "2008-04-25-#ubuntu",
+    "2008-04-26-#ubuntu",
 ]
 
 emoticons = {
@@ -139,6 +162,8 @@ emoticons = {
         ";$",
     ]
 }
+
+pos, neg, totals = pickle.load(open('reduceddata.pickle'))
 
 for f in filename:
     parse_data(f, emoticons)

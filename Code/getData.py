@@ -155,12 +155,33 @@ class GetData:
 
             train_indices = train_indices.flatten().astype(int)
             test_indices = test_indices.flatten().astype(int)
+
         else:
-            size_all = len(data_points)
-            indices = list(range(size_all))  # if data is balanced (hopefully)
-            n_train = np.floor(size_all * self.training_percentage).astype(int)
-            train_indices = random.sample(indices, n_train)
-            test_indices = [index for index in indices if index not in train_indices]
+            train_indices = np.array([])
+            test_indices = np.array([])
+            for d in data_length:
+                idx_min = d[0]
+                idx_max = d[1] - 1
+                idx_len = d[2]
+
+                # min file or self.n_per_class * self.training_percentage
+                _size = np.floor(self.n_per_class * self.training_percentage)
+                train_size = (1, np.min(_size, idx_len))
+                train_indices = np.append(train_indices, npr.randint(idx_min, idx_max, size=train_size))
+
+                _size = self.n_per_class - _size
+                test_size = (1, np.min(_size, idx_len))
+                test_indices = np.append(test_indices, npr.randint(idx_min, idx_max, size=test_size))
+                # print idx_min, idx_max, train_size, test_size
+
+            train_indices = train_indices.flatten().astype(int)
+            test_indices = test_indices.flatten().astype(int)
+
+            # size_all = len(data_points)
+            # indices = list(range(size_all))  # if data is balanced (hopefully)
+            # n_train = np.floor(size_all * self.training_percentage).astype(int)
+            # train_indices = random.sample(indices, n_train)
+            # test_indices = [index for index in indices if index not in train_indices]
 
         # feature matrix
         print('== check caches data:')
@@ -183,6 +204,7 @@ class GetData:
                test_feature_matrix, \
                test_label
 
+
 class GetDataUbuntu():
     def __init__(self, filenames, selected_features=None):
         self.filenames = filenames
@@ -194,7 +216,7 @@ class GetDataUbuntu():
             self.selected_features = selected_features
 
         self.data_features, \
-            self.data_features_per_user = self.get_data_features()
+        self.data_features_per_user = self.get_data_features()
 
     def get_feature_matrix(self):
         return self.data_features
@@ -204,7 +226,7 @@ class GetDataUbuntu():
 
     def get_data_features(self):
         data_points = []
-        combined_feat_dict= {}
+        combined_feat_dict = {}
 
         # read and extract feature
         for file_path in self.filenames:
@@ -269,8 +291,6 @@ class GetDataUbuntu():
             feat_matrix_all += feat_matrix_per_user
 
         return feat_matrix_all, feat_matrix
-
-
 
 
 if __name__ == "__main__":
