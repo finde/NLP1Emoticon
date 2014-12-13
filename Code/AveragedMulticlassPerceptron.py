@@ -67,7 +67,7 @@ def cluster_to_3_classes(string_label):
 
 if __name__ == "__main__":
 
-    n_per_class = 500  # number of data points per each class
+    n_per_class = 1000  # number of data points per each class
     training_percentage = 0.9  # percentage of training data from all data
     iteration = 100
 
@@ -75,22 +75,22 @@ if __name__ == "__main__":
 
     # Define data per class
     data_class = [
-        #['../Data/Twitter/hc1', 0, ';-)'],
-        #['../Data/Twitter/hc2', 1, ';D'],
-        #['../Data/Twitter/hc3', 2, ';)'],
-        #['../Data/Twitter/hc4', 3, ';-D'],
-        #['../Data/Twitter/hc5', 4, ';-P'],
-        #['../Data/Twitter/hc6', 5, ';P'],
-        #['../Data/Twitter/hc7', 6, ';-('],
-        #['../Data/Twitter/hc8', 7, ';('],
-        #['../Data/Twitter/hc9', 8, ';o'],
-        #['../Data/Twitter/hc10', 9, ';]'],
-        #['../Data/Twitter/hc11', 10, '=]'],
-        #['../Data/Twitter/hc13', 11, ';*'],
-        #['../Data/Twitter/hc15', 12, ';|'],
-        #['../Data/Twitter/hc_non', 13, '_non_'],
-        ['../Data/Twitter/negative_tabed.tsv', 14, ':)'],
-        ['../Data/Twitter/positive_tabed.tsv', 15, ':('],
+        ['../Data/Twitter/hc1', 0, ';-)'],
+	    ['../Data/Twitter/hc2', 0, ';D'],
+        ['../Data/Twitter/hc3', 0, ';)'],
+        ['../Data/Twitter/hc4', 0, ';-D'],
+        ['../Data/Twitter/hc5', 0, ';-P'],
+        ['../Data/Twitter/hc6', 0, ';P'],
+        ['../Data/Twitter/hc7', 1, ';-('],
+        ['../Data/Twitter/hc8', 1, ';('],
+        ['../Data/Twitter/hc9', 2, ';o'],
+        ['../Data/Twitter/hc10', 0, ';]'],
+        ['../Data/Twitter/hc11', 0, '=]'],
+        ['../Data/Twitter/hc13', 0, ';*'],
+        ['../Data/Twitter/hc15', 2, ';|'],
+        ['../Data/Twitter/hc_non', 2, '_non_'],
+        ['../Data/Twitter/negative_tabed.tsv', 0, ':)'],
+        ['../Data/Twitter/positive_tabed.tsv', 1, ':('],
     ]
 
     # data_class = [
@@ -144,8 +144,7 @@ if __name__ == "__main__":
     for i in xrange(len(training_data.data_points)):
         predicted_class = multiclass.predict(training_features[i])
 
-        # if test_label[i] == predicted_class:
-        if cluster_to_3_classes(training_label[i]) == cluster_to_3_classes(predicted_class):
+        if training_label[i] == predicted_class:
             count += 1
 
     print "  training accuracy = ", count * 100.0 / len(training_label), '%'
@@ -154,8 +153,8 @@ if __name__ == "__main__":
     count = 0
     for i in xrange(len(test_data.data_points)):
         predicted_class = multiclass.predict(test_features[i])
-        # if test_label[i] == predicted_class:
-        if cluster_to_3_classes(training_label[i]) == cluster_to_3_classes(predicted_class):
+
+        if test_label[i] == predicted_class:
             count += 1
 
     print "  test accuracy = ", count * 100.0 / len(test_label), '%'
