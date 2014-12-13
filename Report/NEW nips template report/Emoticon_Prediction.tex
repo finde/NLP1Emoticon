@@ -19,6 +19,16 @@
 \usepackage[backend=bibtex]{biblatex}
 \addbibresource{ourbib.bib}
 
+
+\usepackage{lipsum}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
 \newcommand{\tab}{\hspace{10mm}}
 \newcommand{\dtab}{\hspace{20mm}}
 \newcommand{\ttab}{\hspace{30mm}}
@@ -26,45 +36,29 @@
 
 \newcommand{\red}[1]{\textit{\color{red}{#1}}}
 
-\title{Emoticon Prediction in Text} 
-
-
-% Found better (i think) way to write them (in two columns)
-\begin{comment}
-% Also add student IDs (Ivan wants them)
-\author{ 
-Iva Gornishka \\ \texttt{iva.gornishka@student.uva.nl} \\ 10415548 \AND
-Cassandra Loor \\ \texttt{cassandra.loor@student.uva.nl} \\ 10624635\AND   
-Arif Qodari \\ \texttt{arif.qodari@gmail.com} \\ 10690832 \AND
-Finde Xumara \\ \texttt{finde.findexumara@student.uva.nl} \\ }
-\end{comment}
-
-
-
-% The \author macro works with any number of authors. There are two commands
-% used to separate the names and addresses of multiple authors: \And and \AND.
-%
-% Using \And between authors leaves it to \LaTeX{} to determine where to break
-% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
-% puts 3 of 4 authors names on the first line, and the last on the second
-% line, try using \AND instead of \And before the third author name.
-
-
-
 \newcommand{\fix}{\marginpar{FIX}}
 \newcommand{\new}{\marginpar{NEW}}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%
+%%%%%% Title  %%%%%%%
+%%%%%%%%%%%%%%%%
+
+
+\title{Emoticon Prediction in Text} 
 
 \nipsfinalcopy % Uncomment for camera-ready version
 
 \begin{document}
 
-
 % Somebody has a better idea about this footstep? :)
-\maketitle\footnote{This project is part of the Natural Language Processing 1 course taught at the University of Amsterdam in 2014-2015}
+\maketitle\blfootnote{This project is part of the Natural Language Processing 1 course taught at the University of Amsterdam in 2014-2015}
 
-
-% Doesn't this author list look better? :/ You can guys pick whatever you like
-% Also, how do we put it a bit more up? :/ 
 \begin{center}
 \begin{tabular}{cc}
 \textbf{Iva Gornishka} 	&	\textbf{Cassandra Loor} \\
@@ -72,7 +66,7 @@ Finde Xumara \\ \texttt{finde.findexumara@student.uva.nl} \\ }
 10415548 & 10624635 \\ \\
 \textbf{Finde Xumara} & \textbf{Arif Qodari} \\
 \texttt{finde.findexumara@student.uva.nl} & \texttt{arif.qodari@gmail.com} \\
-ID & ID \\ \\ \\
+ID & 10690832 \\ \\ \\
 \end{tabular}{}
 \end{center}
 
@@ -82,105 +76,28 @@ ID & ID \\ \\ \\
 % \pagebreak
 
 
-% Original template Abstract info
-\begin{comment}
-\begin{abstract}
-The abstract paragraph should be indented 1/2~inch (3~picas) on both left and
-right-hand margins. Use 10~point type, with a vertical spacing of 11~points.
-The word \textbf{Abstract} must be centered, bold, and in point size 12. Two
-line spaces precede the abstract. The abstract must be limited to one
-paragraph.
-\end{abstract}
-\end{comment}
-
-
-% IVAN WANTS BOTH ABSTRACT AND INTRODUCTION. The old introduction sounds more like abstract maybe. But then what should we put in the introduction??? :/ Actually new `Problem' sounds like an introduction.... TODO: fix this mess :D 
-
 %%%%%%%%%%%%%%%%
 %%%%%  Abstract  %%%%%%
 %%%%%%%%%%%%%%%%
 
+
 \begin{abstract}
-% Try to sound smarter here :D
-\red{Refine the abstract, maybe add most important results, a bit too much `lead`} \\
-Emoticon prediction in text is a problem closely related to opinion mining, sentiment analysis and reputation extraction. This article discusses two different techniques for predicting emoticons. In the first case, emoticons are predicted based on a single, short message. This lead to the use of an average multiclass perceptron. In the second case, emoticons are predicted, using messages posted in the past. This leads to the previous message also determining the emotion of the message analyzed. This lead to the use of a Hidden Markov Model and the Viterbi decoding algorithm.
+\input{abstract}
 \end{abstract}
+
 
 %%%%%%%%%%%%%%%%
 %%%%% Introcuction %%%%%
 %%%%%%%%%%%%%%%%
 \section{Introduction}
-
-% Requirements: 
-\begin{comment}
-Introduction (max 2 pages):
-• Description of the problem area and the problem itself
-• What is the research question / goal?
-• Why is this an important / meaningful / interesting problem to consider?
-• The very basic idea of the approach and why this is a reasonable approach for this problem?
-\end{comment}
-
-
-This report discusses two related, but essentially different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, short, unrelated messages are observed. Their emoticons are used to determine whether a message is positive or negative. Using this information, a is trained. Eventually, a new message can be passed and the corresponding emotion is predicted. In order to determine the sentiment of a message optimally and achieve generalization, messages of different authors are collected and used to train the classifier. In the second problem, an entire conversation is observed. Each message is classified by not only considering the features of a single message, but also by considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
-
-\noindent As a natural consequence of the above statements of the two problems, different data sets are used to approach each problem. For the first problem, any corpora of text messages containing emoticons can be used. Such corpora can contain unrelated messages. In order to find short unrelated messages, Twitter data is used. For the second problem, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data is used. \\
-
-\noindent After the data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic feature were chosen for this project without intentional aim on improving them. Since this task on its own can take up years, it is left as future work. However, suggestions about improving features is mentioned in the following sections. \\
-
-\noindent In order to classify the data, classes must be determined. Three classes are used to classify the data. Table \ref{tab:classes} displays these classes and the corresponding emoticons, contained in this type of data.
-
-
-% Old and ugly
-\begin{comment}
-\begin{itemize}
-% TODO: Fix the emoticon examples to match the emoticons actually used
-\item \textbf{positive} - data containing `positive' emoticons (expressing positive emotions) such as `:)', `:]', `=)', or `:D'
-\item \textbf{neutral} - data containing no emoticons or neutral emoticons like `:$\vert$' or `o\_o'
-\item \textbf{negative} - data containing `negative' emoticons (expressing negative emotions) such as `:(', `:[', `=(` or `;(' 
-\end{itemize}
-\end{comment}
-
-
-% Maybe put this in the general part, since it is the same for both problems?
-\begin{table}[h!]
-\caption{Data classes}
-\label{tab:classes}
-\begin{center}
-\begin{tabular}{ll}
-\multicolumn{1}{l}{\bf DATA CLASS}  &\multicolumn{1}{l}{\bf EXAMPLE EMOTICONS}
-\\ \hline \\
-positive 			& :) \: \:  			:] \: \: 		=) \: \: 		:D  	\\
-neutral 				& :$\vert$ \: \: 	o\_o  								\\
-negative 			& :( \: \: 			:[ \: \: 		=( \: \: 		;( 		\\
-\end{tabular}{}
-\end{center}
-\end{table}
-As table \ref{tab:classes} shows, known emoticons display positive, negative and neutral emotions. However, this data can be split further into extremely positive ( :D ) and extremely negative ( >:( ) emoticons for more specific classification of messages. However, this is beyond the scope of this paper and is further mentioned in future work.
-\ldots \ldots \ldots 
-
-\red{Finish the introduction, maybe move some parts to the Problem section} \\
-
-%%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
-
+\input{introduction}
 
 
 %%%%%%%%%%%%%%%%
 %%%%%  Problem  %%%%%%
 %%%%%%%%%%%%%%%%
 \section{Problem}
-
-% Requirements:
-\begin{comment}
-Problem: (roughly 1-2 pages)
-• Explain the problem; what kind of assumptions / observations you have about the problem
-\end{comment}
-
-
-\red{Find out what should be actually in this section} \\
-
-
-% Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
-% \pagebreak
+\input{problem}
 
 
 %%%%%%%%%%%%%%%%
@@ -198,125 +115,42 @@ reasonable or necessary
 (maybe earlier, depending on the project; may also move to the experimental section)
 \end{comment}
 
-
 This section discusses how Twitter data is used to train a classifier to predict emoticons. 
+
 
 %%%%%%%%%%%%%%%%
 %%%%%% Data %%%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Data}
-
-In order to collect data from Twitter, a crawler was used. The Twitter crawler searched for training and test data, based on emoticons. These messages ('tweets') contain much information - the name of the author, text, hyperlinks, hashtags (sequences of the form `\#word\_sequence'). As there are no official restrictions, messages often contain plenty of intentional or - more often - unintentional spelling and grammar errors. Messages also sometimes contain words from other languages, which makes preprocessing and analyzing the data even harder.
+\input{twitter_data}
 
 
 %%%%%%%%%%%%%%%%
 %%%% Preprocessing %%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Preprocessing \label{sec:preprocessing}}
-
-Before any of the data can be used, the messages need to be preprocessed. This process includes three basic steps. Each one of them is discussed in more details in the following paragraphs.
-
-
-
-% Since the bulleting doesn't match much the tamplate, find better way to present it. Maybe subsubsections?
-\begin{comment}
-\begin{itemize}
-% TODO: PRECISELY EXPLAIN THE PREPROCESSING HERE :) 
-\item \textbf{Splitting the message} into different components - text, hashtags and emoticons.
-\item \textbf{Spelling check and correction} 
-\item \textbf{Grammar check and correction} 
-\end{itemize}
-\end{comment}
-
-
-% I saw that this is how people put such not really `important' subsubsections instead of bullets
-\subsubsection*{Splitting the message.}
-The message, itself, is split into different components that will help in training. In this case, the text, hashtags and emoticons are extracted. Emoticons in messages are used to add emotion, but not text. The text itself can be used to determine whether a message is positive, negative or neutral. Therefore, the text without the emoticons can be used to determine which emoticon can be assigned to a certain message. Also, the hashtags can be used to further determine the emotion of the message. Hashtags often contain extra information, such as 'sad' or 'ecstatic'. This can also help determine the emotion of a message. In this case, however, the hashtags were not used. Therefore, it is important to research the effect of this feature in the future. 
-
-\subsubsection*{Spelling and grammar correction}
-Short messages are often posted as a reaction or something to share with friends quickly. This means that many messages contain spelling and grammar errors. In order to optimally use the Twitter data, all messages must be fixed spelling and grammar wise. There are several ways of performing these corrections, however these fall beyond the scope of this research. Therefore, names, links, emoticons and hashtags are disregarded when processing data, but the spelling and grammar errors remain. It is imperative to solve these errors in the future for optimal performance.
-
-%\subsubsection*{Grammar check and correction}
-
+\input{twitter_preprocessing}
 
 
 %%%%%%%%%%%%%%%%
 %%%%%%  Model  %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Model}
+\input{twitter_model}
 
-
-A message can be classified as a positive, negative or neutral emotion. In order to classify these messages, an averaged multi-class perceptron was implemented. A multiclass perceptron is an algorithm that allows supervised classification. As the name of the algorithm implies, the input does not have to be binary allowing input to be classified as one of many classes. As the Twitter data has to be classified as positive, neutral and negative before assigning an emoticon to the message, this algorithm does as desired. 
-
-Basically, a multiclass perceptron finds a border between two classes and draws a border between the two classes. By repeating this, several borders will appear between classes and are used to classify input. This leads to certain "gray"-areas, as different borders assign input data to different classes. In the case of the multiclass perceptron, the average border of all is computed. This creates one border, without any "gray"-areas.
 
 %%%%%%%%%%%%%%%%
 %%%%%  Features  %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Features \label{sec:features}}
-
-Once the data is collected and preprocessed, its features are extracted. Selecting good features can significantly improve the performance in many cases, but this task is not a trivial one. Due to time constraints, certain basic features were selected to conduct this research. However, it is believed that research conducted in the future can explore a bigger (or different) set of features. Table ~\ref{featuretable} presents the features which were extracted and used for classification. Since most of the features' names are self-explanatory, only the some of the features are discussed in details in the following paragraphs.
-
-
-% Old features, not really fitting the template...
-\begin{comment}
-\begin{itemize}
-\item \textbf{words} - total number of words in the text 
-\item \textbf{positive words} - total number of positive words in the text
-\item \textbf{negative words} - total number of negative words in the text 
-\item \textbf{positive words hashtags} - total number of positive words in the hashtags 
-\item \textbf{negative words hashtags} - total number of negative words in the hashtags 
-\item \textbf{uppercase words} - number of words containing only uppercase letters 
-\item \textbf{special punctuation} - number of special punctuation marks such as `!' and `?' 
-\item \textbf{adjectives} - number of adjectives in the text  
-\end{itemize}
-\end{comment}
-
-\begin{table}[h!]
-\caption{Extracted features}
-\label{featuretable}
-\begin{center}
-\begin{tabular}{ll}
-\multicolumn{1}{l}{\bf FEATURE NAME}  &\multicolumn{1}{l}{\bf DESCRIPTION}
-\\ \hline \\
-words & total number of words in the text \\
-positive words & total number of positive words in the text \\
-negative words & total number of negative words in the text \\
-positive words hashtags & total number of positive words in the hashtags \\
-negative words hashtags & total number of negative words in the hashtags \\
-uppercase words & number of words containing only uppercase letters \\
-special punctuation & number of special punctuation marks such as `!' and `?' \\
-adjectives & number of adjectives in the text 
-\end{tabular}{}
-\end{center}
-\end{table}
-
-
-
-\noindent Extracting features such as \textbf{positive words} and \textbf{negative words} requires the usage of a predefined lists of `positive' and `negative' words, which were downloaded from \red{REFERENCE}. Both these lists contain words that are positive or negative and are used to classify the emotion of a short message. While implementing this aspect, the question of what effect extremely positive and extremely negative words have arose. Due to time constraints, this could not be researched. However, this is interesting to research in the future. % TODO: DESCRIBE THE LISTS AND STATE WERE THEY WERE TAKEN FROM 
-\\
-\\
-Features, such as the number of \textbf{adjectives}, were extracted by first performing part-of-speech (POS) tagging on each sentence and then counting the adjectives in the tagged sentence. Due to spelling and grammar errors in the messages, POS tagging does not always perform  well. As a consequence, slight inaccuracies are possible for this feature, though not significant enough to negatively influence the performance. % Ask Hoang how to deal with this, as testing is difficult
-
+\input{twitter_features}
 
 
 %%%%%%%%%%%%%%%%
 %%%%%% Results %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Experiments and Results}
-
-% Requirements:
-\begin{comment}
-Experiments / Empirical evaluation (roughly 2-3 pages)
-• Any details about experiments (dataset sizes, parameter selection, etc)
-• Results
-• Analysis (discussion of results / visualization / findings / etc)
-\end{comment}
-
-
-% Don't leave blank pages, space is precious :D We can leave space if we fir in ~10 pages :)
-% \pagebreak
-
+\input{twitter_results}
 
 
 %%%%%%%%%%%%%%%%
@@ -335,13 +169,12 @@ reasonable or necessary
 \end{comment}
 
 
-
 %%%%%%%%%%%%%%%%
 %%%%%% Data %%%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Data}
+\input{ubuntu_data}
 
-In this part of the project the Ububntu Chat Corpus was used as training data \red{SOME REFERENCE HERE}. This corpus consists of archived chat logs  from Ubuntu's Internet Relay Chat technical support channels \red {Reference}. The logs contain continuous conversations, where numerous people take part in the conversation. Some people only post a couple of messages, whereas others take more active part in the conversations. 
 
 %WHERE I LEFT OFF
 %%%%%%%%%%%%%%%%
@@ -353,28 +186,12 @@ In this part of the project the Ububntu Chat Corpus was used as training data \r
 Since the Ubuntu Chat corpus is well structured, and hardly any hashtags, hyperlinks, capitalized sentences or other special message parts appear, preprocessing the data would not significantly increase the performance. This lead to the decision that the preprocessing step for this data set would be omitted for the purpose of this project.
 
 
-
 %%%%%%%%%%%%%%%%
 %%%%%%  Model  %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Model}
+\input{ubuntu_model}
 
-\red{To be modified and corrected} \\
-
-A Hidden Markov Model was chosen as most appropriate for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
-
-\noindent As explained earlier, after the data has been pre-processed, a feature vector is extracted for each example message. Thus, the training data for the model consists of pair $(X, y)$, where $X$ is a feature vector and $y$ is the corresponding class label. The next step is to compute the transition and emission probabilities, i.e. the probability of transitioning from one class state to another and the probabilities of the different feature vectors given a class state. \\
-
-\noindent  Consider a simple example: the probability of observing a `sad' massage right after a `neutral' message has been observed is a transition probability. Furthermore, the probability of the feature vector of the message `I need to get some sleep now' given the neutral class is an emission probability. This means that the following general formulas might be used in order to calculate these probabilities:
-
-\begin{align*}
-\cal{P} (\textit{transitioning from class y' to class y''}) 
-&= \frac {\# \textit{ of times class y'' is observed after class y'}} {\textit {total \# of training examples}} \\
-\cal{P} (\textit{feature vector $X$ given class y}) 
-&= \frac {\# \textit{ of times the pair $(X, y)$ occurs in the training data }} {\textit {total \# of training examples from class y}} \\
-\end{align*}
-
-\noindent Since the total number of feature vectors $X$ which can be observed is too big, not all possible vectors would be observed in the training data. This would make predicting unseen messages impossible, since no emission probabilities would be present for these vectors. In order to avoid this issue, the following solution is implemented: the training data is first clustered, emission probabilities are computed for each cluster, then given an unseen message, its feature vector is first assigned to a cluster and finally, a label is predicted for this message. 
 
 %%%%%%%%%%%%%%%%
 %%%%%  Features  %%%%%%
@@ -388,43 +205,21 @@ A Hidden Markov Model was chosen as most appropriate for the purpose of this pro
 %%%%%% Results %%%%%%
 %%%%%%%%%%%%%%%%
 \subsection{Experiments and Results}
-
-% Requirements:
-\begin{comment}
-Experiments / Empirical evaluation (roughly 2-3 pages)
-• Any details about experiments (dataset sizes, parameter selection, etc)
-• Results
-• Analysis (discussion of results / visualization / findings / etc)
-\end{comment}
-
+\input{ubuntu_results}
 
 
 %%%%%%%%%%%%%%%%
 %%%%  Conculsion  %%%%%%
 %%%%%%%%%%%%%%%%
 \section{Conclusion}
-
-% Requirements:
-\begin{comment}
-Discussion and Conclusions (0.5 – 1 page)
-• Refer to the research questions you defined in your introduction.
-• Any related work you are aware of?
-• Challenges you observed?
-• “Future work” (you do not need to do this work really J, but what would you change in the
-model / what experiments you would run / etc, if you would have a chance to do this? What other
-people should look into?
-• Any thoughts / observation / wider implications
-\end{comment}
+\input{conclusion}
 
 
 %%%%%%%%%%%%%%%%
 %%%%   Future work  %%%%%
 %%%%%%%%%%%%%%%%
 \section{Future work}
-
-\red{Explore features, compare different models and parameters}
-
-
+\input{future_work}
 
 
 %%%% He has to be kidding about this one, but... :/ 
@@ -469,31 +264,45 @@ Team responsibilities (1 paragraph)
 
 
 % Plug this somewhere
-\section{Ubuntu Chat Corpus \label{sec:ubuntudata}}
+\section*{Ubuntu Chat Corpus \label{sec:ubuntudata}}
 More information about the Ubuntu Chat Corpus might be found at \url{http://daviduthus.org/UCC/}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \begin{comment}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent\makebox[\linewidth]{\rule{\paperwidth}{2pt}} \\%%
