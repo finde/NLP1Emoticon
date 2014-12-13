@@ -124,66 +124,63 @@ class GetData:
     def split_training_and_test(self):
         data_points = []
         data_length = []
+        class_indices = {}
 
         print('Feature extraction...')
 
         print('== reading source files:')
         for c in self.data_class:
             source_data = TSV_Getter(c[0]).get_all_tsv_objects()
+
             idx_start = len(data_points)
             data_points = data_points + [DataPoint(_.text, _.hashtags, c[1]) for _ in source_data]
             idx_end = len(data_points)
-            data_length.insert(c[1], [idx_start, idx_end, len(source_data)])
+
+            data_length.append([idx_start, idx_end, len(source_data)])
+
+            if not class_indices.has_key(c[1]):
+                class_indices.update({c[1]: []})
+
+            class_indices.update({c[1]: class_indices.get(c[1]) + range(idx_start, idx_end)})
 
         # Randomize indices
         # if data is not balanced we can do bootstrapping (samples with replacement)
+        train_indices = np.array([])
+        test_indices = np.array([])
         if self.is_bootstrap is True and self.n_per_class is not None:
-            # print data_length
+            for d in class_indices:
+                _random, _int = random.random, int  # speed hack
+                _indices = class_indices[d]
+                train_size = np.floor(self.n_per_class * self.training_percentage).astype(int)
+                train_indices = np.append(train_indices,
+                                          [_indices[_int(_random() * len(_indices))] for _ in xrange(train_size)])
 
-            train_indices = np.array([])
-            test_indices = np.array([])
-            for d in data_length:
-                idx_min = d[0]
-                idx_max = d[1] - 1
-
-                train_size = (1, np.floor(self.n_per_class * self.training_percentage))
-                train_indices = np.append(train_indices, npr.randint(idx_min, idx_max, size=train_size))
-
-                test_size = (1, self.n_per_class - np.floor(self.n_per_class * self.training_percentage))
-                test_indices = np.append(test_indices, npr.randint(idx_min, idx_max, size=test_size))
-                # print idx_min, idx_max, train_size, test_size
-
-            train_indices = train_indices.flatten().astype(int)
-            test_indices = test_indices.flatten().astype(int)
+                test_size = np.minimum(len(_indices), self.n_per_class - train_size)
+                test_indices = np.append(test_indices,
+                                         [_indices[_int(_random() * len(_indices))] for _ in xrange(test_size)])
 
         else:
-            train_indices = np.array([])
-            test_indices = np.array([])
-            for d in data_length:
-                idx_min = d[0]
-                idx_max = d[1] - 1
-                idx_len = d[2]
+            for d in class_indices:
+                _indices = class_indices[d]
+                train_size = np.minimum(len(_indices), np.floor(self.n_per_class * self.training_percentage)).astype(
+                    int)
+                train_indices = np.append(train_indices,
+                                          [_indices[i] for i in random.sample(xrange(len(_indices)), train_size)])
 
-                # min file or self.n_per_class * self.training_percentage
-                _size = np.floor(self.n_per_class * self.training_percentage)
-                train_size = (1, np.minimum(_size, idx_len))
-                train_indices = np.append(train_indices, npr.randint(idx_min, idx_max, size=train_size))
+                test_size = np.minimum(len(_indices), self.n_per_class - train_size)
+                test_indices = np.append(test_indices,
+                                         [_indices[i] for i in random.sample(xrange(len(_indices)), test_size)])
 
-                _size = self.n_per_class * (1-self.training_percentage)
-                test_size = (1, np.minimum(_size, idx_len))
-                test_indices = np.append(test_indices, npr.randint(idx_min, idx_max, size=test_size))
-                # print idx_min, idx_max, train_size, test_size
+                # size_all = len(data_points)
+                # indices = list(range(size_all))  # if data is balanced (hopefully)
+                # n_train = np.floor(size_all * self.training_percentage).astype(int)
+                # train_indices = random.sample(indices, n_train)
+                # test_indices = [index for index in indices if index not in train_indices]
+        train_indices = train_indices.flatten().astype(int)
+        test_indices = test_indices.flatten().astype(int)
 
-            train_indices = train_indices.flatten().astype(int)
-            test_indices = test_indices.flatten().astype(int)
 
-            # size_all = len(data_points)
-            # indices = list(range(size_all))  # if data is balanced (hopefully)
-            # n_train = np.floor(size_all * self.training_percentage).astype(int)
-            # train_indices = random.sample(indices, n_train)
-            # test_indices = [index for index in indices if index not in train_indices]
-
-        # feature matrix
+        # feature matrix_indices
         print('== check caches data:')
         feat_matrix = load_feat_matrix(self.data_class, None, self.selected_features)
 
