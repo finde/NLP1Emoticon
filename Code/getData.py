@@ -203,9 +203,8 @@ class GetData:
 
 
 class GetDataUbuntu():
-    def __init__(self, filenames, selected_features=None):
-        self.filenames = filenames
-        # self.training_percentage = training_percentage
+    def __init__(self, filepath, selected_features=None):
+        self.filepath = filepath
 
         if selected_features is None:
             self.selected_features = feature_dictionary
@@ -226,56 +225,54 @@ class GetDataUbuntu():
         return self.data_features_per_user
 
     def get_data_features(self):
+        # read and extract feature
         data_points = []
         data_labels_per_user = []
         combined_feat_dict = {}
 
-        # read and extract feature
-        for file_path in self.filenames:
+        # use cache file to fetch/store extracted feature from file
+        filename = self.filepath + '.__feat_matrix__.cache'
 
-            # use cache file to fetch/store extracted feature from file
-            filename = file_path + '.__feat_matrix__.cache'
+        if os.path.isfile(filename) and os.access(filename, os.R_OK):
+            fh = open(filename, "rb")
 
-            if os.path.isfile(filename) and os.access(filename, os.R_OK):
-                fh = open(filename, "rb")
+            # load cache file
+            structure, feature_dict, data_labels_per_user = cPickle.load(fh)
+            fh.close()
 
-                # load cache file
-                structure, feature_dict, data_labels_per_user = cPickle.load(fh)
-                fh.close()
+        else:
+            fh = open(filename, "wb")
 
+            source_data = TSV_Getter(file_path).get_sorted_tsv_objects()
+            structure = []
+
+            for username in source_data:
+                user_messages = []
+                user_labels = []
+
+                for message in username:
+                    user_messages.append(DataPoint(message.get_text(), message.get_tags(), message.get_label()))
+                    user_labels.append(message.get_label());
+
+                data_points += user_messages
+                structure.append(len(username))
+                data_labels_per_user.append(user_labels);
+
+            # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
+            feature_dict = TrainingData(data_points).get_unnormalize_feature_matrix()
+
+            # store to cache file
+            cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
+            fh.close()
+
+        # aggregate them
+        # combined_feat_matrix = feature_matrix
+        for feature in self.selected_features:
+            # of course we should check if it exists
+            if combined_feat_dict.has_key(feature):
+                combined_feat_dict[feature] += feature_dict[feature]
             else:
-                fh = open(filename, "wb")
-
-                source_data = TSV_Getter(file_path).get_sorted_tsv_objects()
-                structure = []
-
-                for username in source_data:
-                    user_messages = []
-                    user_labels = []
-
-                    for message in username:
-                        user_messages.append(DataPoint(message.get_text(), message.get_tags(), message.get_label()))
-                        user_labels.append(message.get_label());
-
-                    data_points += user_messages
-                    structure.append(len(username))
-                    data_labels_per_user.append(user_labels);
-
-                # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
-                feature_dict = TrainingData(data_points).get_unnormalize_feature_matrix()
-
-                # store to cache file
-                cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
-                fh.close()
-
-            # aggregate them
-            # combined_feat_matrix = feature_matrix
-            for feature in self.selected_features:
-                # of course we should check if it exists
-                if combined_feat_dict.has_key(feature):
-                    combined_feat_dict[feature] += feature_dict[feature]
-                else:
-                    combined_feat_dict[feature] = feature_dict[feature]
+                combined_feat_dict[feature] = feature_dict[feature]
 
         # normalized feature matrix
         normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_dict)
@@ -285,53 +282,31 @@ class GetDataUbuntu():
         feat_matrix = []
         labels_per_user = []
 
-        for n_messages in structure:
+        for n in xrange(0, len(structure)):
+            n_messages = structure[n]
+            user_labels = data_labels_per_user[n]
+
             feat_matrix_per_user = []
+            parsed_labels = []
 
             for i in xrange(0, n_messages):
                 temp = [d[index] for d in normalized_feature_dictionary.values()]
                 feat_matrix_per_user.append(temp)
+
+                label = user_labels[i]
+                parsed_label = label[1:-1]
+                parsed_labels.append(parsed_label)
+
                 index += 1
 
             feat_matrix.append(feat_matrix_per_user)
             feat_matrix_all += feat_matrix_per_user
-
-        for user_labels in data_labels_per_user:
-            parsed_labels = []
-
-            for label in user_labels:
-                parsed_label = label[1:-1]
-                parsed_labels.append(parsed_label)
-
             labels_per_user.append(parsed_labels)
 
         return feat_matrix_all, feat_matrix, labels_per_user
 
 
 if __name__ == "__main__":
-    n_per_class = 5
-    data_class = [
-        ['../Data/Twitter/hc1', 0, ';-)'],
-        # ['../Data/Twitter/hc2', 1, ';D'],
-        # ['../Data/Twitter/hc3', 2, ';)'],
-        # ['../Data/Twitter/hc4', 3, ';-D'],
-        # ['../Data/Twitter/hc5', 4, ';-P'],
-        # ['../Data/Twitter/hc6', 5, ';P'],
-        ['../Data/Twitter/hc7', 6, ';-('],
-        # ['../Data/Twitter/hc8', 7, ';('],
-        # ['../Data/Twitter/hc9', 8, ';o'],
-        # ['../Data/Twitter/hc10', 9, ';]'],
-        # ['../Data/Twitter/hc11', 10, '=]'],
-        # ['../Data/Twitter/hc13', 11, ';*'],
-        # ['../Data/Twitter/hc15', 12, ';|'],
-        # ['../Data/Twitter/hc_non', 13, '_non_'],
-    ]
-
-    # data_class = [
-    # ['2006-05-27-#ubuntu-negative.tsv', ':('],
-    # ['2006-05-27-#ubuntu-positive.tsv', ':)']
-    # ]
-
     # load data from tsv and build data collection
     selected_features = [
         "words",
@@ -343,8 +318,6 @@ if __name__ == "__main__":
         # "special_punctuation",
         # "adjectives"
     ]
-
-    training_percentage = 0.9
 
     filenames = [
         "../Data/Chat Data/2006-05-27-#ubuntu.tsv",
@@ -359,8 +332,8 @@ if __name__ == "__main__":
         # "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
     ]
 
-    dataCollection = GetDataUbuntu(filenames, selected_features)
+    dataCollection = GetDataUbuntu(filenames[0], selected_features)
     feat_mat = dataCollection.get_feature_matrix()
     feat_mat_user = dataCollection.get_feature_matrix_per_user()
-    print feat_mat
-    print feat_mat_user
+    print len(feat_mat)
+    print len(feat_mat_user)
