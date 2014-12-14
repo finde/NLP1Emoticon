@@ -1,0 +1,17 @@
+
+\red{To be modified and corrected} \\
+
+A Hidden Markov Model was chosen as most appropriate for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
+
+\noindent As explained earlier, after the data has been pre-processed, a feature vector is extracted for each example message. Thus, the training data for the model consists of pair $(X, y)$, where $X$ is a feature vector and $y$ is the corresponding class label. The next step is to compute the transition and emission probabilities, i.e. the probability of transitioning from one class state to another and the probabilities of the different feature vectors given a class state. \\
+
+\noindent  Consider a simple example: the probability of observing a `sad' massage right after a `neutral' message has been observed is a transition probability. Furthermore, the probability of the feature vector of the message `I need to get some sleep now' given the neutral class is an emission probability. This means that the following general formulas might be used in order to calculate these probabilities:
+
+\begin{align*}
+\cal{P} (\textit{transitioning from class y' to class y''}) 
+&= \frac {\# \textit{ of times class y'' is observed after class y'}} {\textit {total \# of training examples}} \\
+\cal{P} (\textit{feature vector $X$ given class y}) 
+&= \frac {\# \textit{ of times the pair $(X, y)$ occurs in the training data }} {\textit {total \# of training examples from class y}} \\
+\end{align*}
+
+\noindent Since the total number of feature vectors $X$ which can be observed is too big, not all possible vectors would be observed in the training data. This would make predicting unseen messages impossible, since no emission probabilities would be present for these vectors. In order to avoid this issue, the following solution is implemented: the training data is first clustered, emission probabilities are computed for each cluster, then given an unseen message, its feature vector is first assigned to a cluster and finally, a label is predicted for this message. 

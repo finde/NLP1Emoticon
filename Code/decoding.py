@@ -34,7 +34,7 @@ def decoding(observations, transition, emission, states=None):
 
         # update path, key is the latest column_t
         path = new_path
-
+        
     # last calculation
     # from observations[n] to end symbol
     temp = ()
@@ -45,7 +45,9 @@ def decoding(observations, transition, emission, states=None):
     # get final score and final path
     final_score, opt_state = max(temp)
     final_path = path[opt_state]
-
+    
+    print path
+    
     return final_score, final_path
 
 if __name__ == "__main__":
