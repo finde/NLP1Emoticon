@@ -5,6 +5,7 @@ from TSVParser import TSV_Getter
 from TrainingData import TrainingData, get_normalized_feature_dictionary
 from DataPoint import DataPoint
 import numpy.random as npr
+import pdb
 
 import random
 
@@ -12,8 +13,8 @@ feature_dictionary = [
     "words",
     "negative_words",
     "positive_words",
-    "positive_words_hashtags",
-    "negative_words_hashtags",
+#    "positive_words_hashtags",
+#    "negative_words_hashtags",
     "uppercase_words",
     "special_punctuation",
     "adjectives"
@@ -36,6 +37,7 @@ def load_feat_matrix(data_map, max_amount_data_per_class=None, selected_features
     n_data = 0
 
     if selected_features is None:
+	pdb.set_trace()
         selected_features = feature_dictionary
 
     # read and extract feature
@@ -48,23 +50,22 @@ def load_feat_matrix(data_map, max_amount_data_per_class=None, selected_features
         n_data += len(data_points)
 
         # use cache file to fetch/store extracted feature from file
-        filename = file_path + '.__feat_matrix__.cache'
-        if os.path.isfile(filename) and os.access(filename, os.R_OK):
-            fh = open(filename, "rb")
+#        filename = file_path + '.__feat_matrix__.cache'
+#        if os.path.isfile(filename) and os.access(filename, os.R_OK):
+#            fh = open(filename, "rb")
 
             # load cache file
-            unnormalized_feature_matrix = cPickle.load(fh)
-            fh.close()
-
-        else:
-            fh = open(filename, "wb")
+#            unnormalized_feature_matrix = cPickle.load(fh)
+#            fh.close()
+#        else:
+#            fh = open(filename, "wb")
 
             # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
-            unnormalized_feature_matrix = TrainingData(data_points).get_unnormalize_feature_matrix()
+        unnormalized_feature_matrix = TrainingData(data_points).get_unnormalize_feature_matrix()
 
             # store to cache file
-            cPickle.dump(unnormalized_feature_matrix, fh)
-            fh.close()
+#            cPickle.dump(unnormalized_feature_matrix, fh)
+#            fh.close()
 
         # aggregate them
         # combined_feat_matrix = unnormalized_feature_matrix
@@ -185,7 +186,7 @@ class GetData:
 
         # feature matrix
         print('== check caches data:')
-        feat_matrix = load_feat_matrix(self.data_class, None, self.selected_features)
+        feat_matrix = load_feat_matrix(self.data_class, None, selected_features=self.selected_features)
 
         # Divide the data into train and test data
         # Get the feature matrix of this data
@@ -365,5 +366,5 @@ if __name__ == "__main__":
     dataCollection = GetDataUbuntu(filenames, selected_features)
     feat_mat = dataCollection.get_feature_matrix()
     feat_mat_user = dataCollection.get_feature_matrix_per_user()
-    print feat_mat
-    print feat_mat_user
+    #print feat_mat
+    #print feat_mat_user
