@@ -239,6 +239,8 @@ Do we need an outline for such a short presentation?
 
 
 \begin{itemize}
+\item Sentiment analysis
+
 \item Considering only single messages
 
 \item Considering a sequence of messages (in conversation)
@@ -253,8 +255,15 @@ Do we need an outline for such a short presentation?
 
 \section{Twitter}
 
-
 \red{Details about the twitter part}
+
+\begin{itemize}
+\item Why Twitter?
+
+\item Collect data and preprocessing
+\item Classification
+\item Feature testing
+\end{itemize}
 
 
 \begin{comment}
@@ -272,9 +281,18 @@ Do we need an outline for such a short presentation?
 
 \subsection*{Collecting and preprocessing the data}
 
+%\red{Did it on our own, explain super quick how if there was something interesting}
+\begin{itemize}
 
-\red{Did it on our own, explain super quick how if there was something interesting}
+\item Data crawling
 
+\item Provided dataset
+
+\item Preprocessing
+\begin{comment}
+Preprocessing as in: get rid of hashtags, names and links!
+\end{comment}
+\end{itemize}
 
 \begin{comment}
 \begin{itemize}
@@ -314,13 +332,14 @@ Anything that can go wrong, will go wrong.
 \subsection*{Features}
 
 \begin{itemize}
-\item word counts - positive, negative, uppercase words
-\item special punctuation
-\item hashtag-related features
+\item Word counts - positive, negative, uppercase words
+\item Special punctuation
+\item Hashtag-related features
 \item PoS counts
+\item Adjectives
 \end{itemize}
 
-\red{Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)}
+%\red{Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)}
 
 \clearpage
 
@@ -328,9 +347,16 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Model}
 
+\red{The perceptron + ADD REFERENCE!}
 
-\red{The perceptron}
+\begin{itemize}
 
+\item Averaged Multiclass Perceptron
+
+\item Based on third party implementation
+
+\item Used for feature analysis
+\end{itemize}
 
 \clearpage
 
@@ -356,7 +382,7 @@ Anything that can go wrong, will go wrong.
 
 
 
-\red{What did we learn? Different features? Different classes? More classes suck}
+%\red{What did we learn? Different features? Different classes? More classes suck}
 
 
 \clearpage
@@ -366,7 +392,15 @@ Anything that can go wrong, will go wrong.
 
 \section{Ubuntu}
 
+\begin{itemize}
 
+\item Sequence based
+
+\item Take into account previous message
+
+\item Different model AMP
+
+\end{itemize}
 
 \red{more details about the ubuntu part (just enough therew to switch topics)}
 
@@ -376,10 +410,18 @@ Anything that can go wrong, will go wrong.
 
 \subsection*{Data}
 
+\begin{itemize}
 
+\item Provided by TA
 
-\red{Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
-Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)}
+\item Suboptimal
+
+\item Re-label data
+
+\end{itemize}
+
+%\red{Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
+%Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)}
 
 % Might use this table for results :D 
 \begin{comment}
@@ -403,6 +445,14 @@ Treatment 3 & 0.0009271 & 0.296 \\
 %------------------------------------------------
 
 \subsection*{Preprocessing and extracting features}
+
+\begin{itemize}
+
+\item Preprocessed... or not?
+
+\item It was not
+
+\end{itemize}
 
 \red{No preprocessing done (although i think it was needed) \\ features should be carefully chosen - no hashtags, rarely uppercase words}
 
@@ -456,8 +506,13 @@ This is an algorithm.
 \subsection*{Model}
 
 \begin{itemize}
-\item HMM
+
+\item First order Hidden Markov Model
+
+\item Emission and transition probabilities
+
 \item Viterbi
+
 \end{itemize}
 
 
@@ -469,9 +524,7 @@ This is an algorithm.
 
 \subsection*{Results}
 
-
 \red{Explain why we have no results :D}
-
 
 \clearpage
 
