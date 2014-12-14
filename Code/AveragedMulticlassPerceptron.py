@@ -65,9 +65,10 @@ def cluster_to_3_classes(string_label):
 
     return 'neutral'
 
+
 if __name__ == "__main__":
 
-    n_per_class = 1000  # number of data points per each class
+    n_per_class = 700  # number of data points per each class
     training_percentage = 0.9  # percentage of training data from all data
     iteration = 100
 
@@ -76,7 +77,7 @@ if __name__ == "__main__":
     # Define data per class
     data_class = [
         ['../Data/Twitter/hc1', 0, ';-)'],
-	    ['../Data/Twitter/hc2', 0, ';D'],
+        ['../Data/Twitter/hc2', 0, ';D'],
         ['../Data/Twitter/hc3', 0, ';)'],
         ['../Data/Twitter/hc4', 0, ';-D'],
         ['../Data/Twitter/hc5', 0, ';-P'],
@@ -110,7 +111,7 @@ if __name__ == "__main__":
         "adjectives"
     ]
 
-    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
+    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features, is_bootstrap=False)
 
     # split data collection into training and test data
     training_data = dataCollection.get_training_data()
@@ -151,20 +152,39 @@ if __name__ == "__main__":
 
     # accuracy for test data
     count = 0
+    count_detail = {}
+    count_total = {}
+
     for i in xrange(len(test_data.data_points)):
         predicted_class = multiclass.predict(test_features[i])
 
+        if not count_detail.has_key(predicted_class):
+            count_detail.update({predicted_class: 0})
+
+        if not count_total.has_key(test_label[i]):
+            count_total.update({test_label[i]: 0})
+
+        _count_detail = count_detail.get(predicted_class)
+        _count_total = count_total.get(test_label[i])
+
+        # print test_label[i], predicted_class
         if test_label[i] == predicted_class:
             count += 1
+            count_detail.update({predicted_class: _count_detail + 1})
 
-    print "  test accuracy = ", count * 100.0 / len(test_label), '%'
+        count_total.update({test_label[i]: _count_total + 1})
 
-    # todo: store w and config
-    # ###### NEW test #######
-    # new_data_point = [
-    # DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
-    #     DataPoint('Buu huuu.... I am lost... sad', [], '?')
-    # ]
-    # new_data_feat = TrainingData(new_data_point).get_feature_matrix()
-    # for i in new_data_feat:
-    #     print multiclass.predict(i)
+    print "  test accuracy = ", count * 100.0 / len(test_label), '% (', len(test_label), ' samples)'
+
+    for _ in count_detail:
+        print "  class ", _, " accuracy = ", count_detail[_] * 100.0 / count_total[_], '% (', count_detail[_], '/', count_total[_], ')'
+
+        # todo: store w and config
+        # ###### NEW test #######
+        # new_data_point = [
+        # DataPoint('Yippiee holiday is coming, I am so happy', [], '?'),
+        # DataPoint('Buu huuu.... I am lost... sad', [], '?')
+        # ]
+        # new_data_feat = TrainingData(new_data_point).get_feature_matrix()
+        # for i in new_data_feat:
+        # print multiclass.predict(i)
