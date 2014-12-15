@@ -320,9 +320,9 @@ Treatment 3 & 0.0009271 & 0.296 \\
 \subitem \textbullet $\:$ Open platform
 \subitem \textbullet $\:$ Contains emoticons
 
-\item Collect data and preprocessing
-\item Classification
-\item Feature testing
+%\item Collect data and preprocessing
+%\item Classification
+%\item Feature testing
 \end{itemize}
 
 
@@ -508,6 +508,7 @@ This is an algorithm.
 \item First order Hidden Markov Model
 
 \item Emission and transition probabilities
+\subitem \textbullet $\:$ Not all possible feature vectors are observed $\Rightarrow$ Clustering
 
 \item Viterbi
 
@@ -533,13 +534,18 @@ This is an algorithm.
 \midrule
 10 & 43\% \\
 30 & 42.11\%\\
-50 & ? 42.45\%\\
-100 & ? 42.50 \%\\
+50 & 42.45\%\\
+100 & 42.50 \%\\
 \bottomrule
 \end{tabular}
-\caption{Average prediciton accuracy}
-\end{table}
+% \caption{Average prediciton accuracy}
+\end{table} 
 
+\hspace{1cm}
+
+\begin{itemize}
+\item Future tests: different features and different amount of training data
+\end{itemize}
 
 \clearpage
 

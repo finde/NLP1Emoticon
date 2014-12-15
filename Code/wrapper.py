@@ -21,9 +21,9 @@ if __name__ == "__main__":
     # Reading
     '''
 
-    tests = 10
+    tests = 1
     avg_accuracies = []
-    number_of_clusters = 5
+    number_of_clusters = 500
     for i in range(0, tests):
 	    selected_features = [
 		"words",
