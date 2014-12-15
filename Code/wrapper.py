@@ -21,91 +21,100 @@ if __name__ == "__main__":
     # Reading
     '''
 
-    selected_features = [
-        "words",
-        "negative_words",
-        "positive_words",
-        #"positive_words_hashtags",
-        #"negative_words_hashtags",
-        #"uppercase_words",
-        "special_punctuation",
-        "adjectives"
-    ]
 
-    filenames = [
-        "../Data/Chat Data/2006-05-27-#ubuntu.tsv",
-        "../Data/Chat Data/2006-06-01-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-20-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-21-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-22-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-19-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-20-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-21-#ubuntu.tsv",
-        "../Data/Chat Data/2008-04-25-#ubuntu.tsv",
-        "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
-    ]
+    tests = 10
+    avg_accuracies = []
+    for i in range(0, tests):
+	    selected_features = [
+		"words",
+		"negative_words",
+		"positive_words",
+		#"positive_words_hashtags",
+		#"negative_words_hashtags",
+		#"uppercase_words",
+		"special_punctuation",
+		"adjectives"
+	    ]
 
-    dataCollection = GetDataUbuntu(filenames[0],selected_features)
+	    filenames = [
+		"../Data/Chat Data/2006-05-27-#ubuntu.tsv",
+		"../Data/Chat Data/2006-06-01-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-20-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-21-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-22-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-19-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-20-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-21-#ubuntu.tsv",
+		"../Data/Chat Data/2008-04-25-#ubuntu.tsv",
+		"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
+	    ]
 
-    print('Extracting features...')
+	    dataCollection = GetDataUbuntu(filenames[0],selected_features)
 
-    training_features = np.array(dataCollection.get_feature_matrix())
-    training_features_per_user = dataCollection.get_feature_matrix_per_user()
-    labels_per_user = dataCollection.get_labels_per_user()
+	    print('Extracting features...')
 
-    number_of_clusters = 50
+	    training_features = np.array(dataCollection.get_feature_matrix())
+	    training_features_per_user = dataCollection.get_feature_matrix_per_user()
+	    labels_per_user = dataCollection.get_labels_per_user()
 
-    # Find cluster centers
-    print('Clustering...')
+	    number_of_clusters = 50
 
-    cluster_centers, assignment = Clustering.cluster_feature_matrix(training_features, number_of_clusters)
+	    # Find cluster centers
+	    print('Clustering...')
 
-    assignments = []
-    for sequences in training_features_per_user:
-        sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
-        sentence_assignment = [each+1 for each in sentence_assignment]
-        assignments.append(sentence_assignment)
+	    cluster_centers, assignment = Clustering.cluster_feature_matrix(training_features, number_of_clusters)
 
-    data_classes = ['positive', 'negative', 'neutral']
+	    assignments = []
+	    for sequences in training_features_per_user:
+		sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
+		sentence_assignment = [each+1 for each in sentence_assignment]
+		assignments.append(sentence_assignment)
 
-    # build HMM model
-    model = HMM(number_of_clusters, data_classes)
+	    data_classes = ['positive', 'negative', 'neutral']
 
-    for i in range(0, len(assignments)):
-        assignment = assignments[i]
-        training_label = labels_per_user[i]
-        transition_probability, emission_probability = model.add_data(assignment, training_label)
+	    # build HMM model
+	    model = HMM(number_of_clusters, data_classes)
 
-    # testing
-    print "Now Testing with Training Data"
-    print ""
+	    for i in range(0, len(assignments)):
+		assignment = assignments[i]
+		training_label = labels_per_user[i]
+		transition_probability, emission_probability = model.add_data(assignment, training_label)
 
-    sumaccuracy = 0
+	    # testing
+	    print "Now Testing with Training Data"
+	    print ""
 
-    for i in range(0, len(assignments)):
-        observations = assignments[i]
-        test_label = labels_per_user[i]
+	    sumaccuracy = 0
 
-        final_score, final_path = decoding.decoding(
-            observations = observations,
-            transition = transition_probability,
-            emission = emission_probability
-            )
+	    for i in range(0, len(assignments)):
+		observations = assignments[i]
+		test_label = labels_per_user[i]
 
-        count = 0
-        for i in range(0,len(final_path)):
-            if final_path[i] == test_label[i]:
-                count += 1
+		final_score, final_path = decoding.decoding(
+		    observations = observations,
+		    transition = transition_probability,
+		    emission = emission_probability
+		    )
 
-        accuracy = 100.0 * count / len(final_path)
-        sumaccuracy += accuracy
+		count = 0
+		for i in range(0,len(final_path)):
+		    if final_path[i] == test_label[i]:
+		        count += 1
 
-        print '-------------------------------'
-        print 'final score:', final_score
-        print 'final path:', final_path
-        print 'true path:', test_label
-        print 'accuracy', accuracy
-        print '-------------------------------'
+		accuracy = 100.0 * count / len(final_path)
+		sumaccuracy += accuracy
+
+		print '-------------------------------'
+		print 'final score:', final_score
+		print 'final path:', final_path
+		print 'true path:', test_label
+		print 'accuracy', accuracy
+		print '-------------------------------'
 
 
-    print "average accuracy", sumaccuracy / len(assignments)
+	    avg_acc = sumaccuracy / len(assignments)
+	    avg_accuracies.append(avg_acc)
+	    print "average accuracy", avg_acc
+
+    print "overall acc: ", sum(avg_accuracies)/len(avg_accuracies)
+    print "we have: ", avg_accuracies

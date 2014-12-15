@@ -69,9 +69,9 @@ def cluster_to_3_classes(string_label):
 if __name__ == "__main__":
     all_trains = []
     all_tests = []
-    n_per_class = 500  # number of data points per each class
+    n_per_class = 700  # number of data points per each class
     training_percentage = 0.8  # percentage of training data from all data
-    iteration = 50
+    iteration = 1000
     nr_of_tests = 1
 
     for ex in range(0,nr_of_tests):
