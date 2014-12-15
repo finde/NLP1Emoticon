@@ -244,7 +244,7 @@ class GetDataUbuntu():
         else:
             fh = open(filename, "wb")
 
-            source_data = TSV_Getter(file_path).get_sorted_tsv_objects()
+            source_data = TSV_Getter(self.filepath).get_sorted_tsv_objects()
             structure = []
 
             for username in source_data:
@@ -322,19 +322,20 @@ if __name__ == "__main__":
 
     filenames = [
         "../Data/Chat Data/2006-05-27-#ubuntu.tsv",
-        # "../Data/Chat Data/2006-06-01-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-04-20-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-04-21-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-04-22-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-10-19-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-10-20-#ubuntu.tsv",
-        # "../Data/Chat Data/2007-10-21-#ubuntu.tsv",
-        # "../Data/Chat Data/2008-04-25-#ubuntu.tsv",
-        # "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
+        "../Data/Chat Data/2006-06-01-#ubuntu.tsv",
+        "../Data/Chat Data/2007-04-20-#ubuntu.tsv",
+        "../Data/Chat Data/2007-04-21-#ubuntu.tsv",
+        "../Data/Chat Data/2007-04-22-#ubuntu.tsv",
+        "../Data/Chat Data/2007-10-19-#ubuntu.tsv",
+        "../Data/Chat Data/2007-10-20-#ubuntu.tsv",
+        "../Data/Chat Data/2007-10-21-#ubuntu.tsv",
+        "../Data/Chat Data/2008-04-25-#ubuntu.tsv",
+        "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
     ]
 
-    dataCollection = GetDataUbuntu(filenames[0], selected_features)
-    feat_mat = dataCollection.get_feature_matrix()
-    feat_mat_user = dataCollection.get_feature_matrix_per_user()
-    print feat_mat
-    print feat_mat_user
+    for filename in filenames:
+        dataCollection = GetDataUbuntu(filename, selected_features)
+        # feat_mat = dataCollection.get_feature_matrix()
+        # feat_mat_user = dataCollection.get_feature_matrix_per_user()
+        # print feat_mat
+        # print feat_mat_user
