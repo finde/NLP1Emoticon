@@ -28,8 +28,10 @@ parskip=half-, % Paragraphs separated by half a line
 ]{scrartcl} % KOMA script (article)
 
 \usepackage{verbatim}
-
+\usepackage[style=verbose]{biblatex}
 \newcommand{\red}[1]{\textit{\color{red}{#1}}}
+
+\addbibresource{ourbib.bib}
 
 \linespread{1.12} % Increase line spacing for readability
 
@@ -262,7 +264,7 @@ Do we need an outline for such a short presentation?
 \section{Sequential message-based analysis}
 
 \begin{itemize}
-\item Ubuntu Chat data \red{[REFERENCE]}
+\item Ubuntu Chat data\footnote{\url{http://daviduthus.org/UCC/}}
 \subitem \textbullet $\:$ Sequence based
 \subitem \textbullet $\:$ Take into account previous message
 
@@ -314,7 +316,7 @@ Treatment 3 & 0.0009271 & 0.296 \\
 
 \begin{itemize}
 \item Twitter
-\subitem \textbullet $\:$ Widely used \red{REFERENCE PAPERS}
+\subitem \textbullet $\:$ Widely used\footnote{Apoorv Agarwal et al. `Sentiment analysis of twitter data'. In: \textit{Proceedings of the Workshop on Languages in Social Media.} Association for Computational Linguistics. 2011, pp. 30-38. }
 \subitem \textbullet $\:$ Open platform
 \subitem \textbullet $\:$ Contains emoticons
 
@@ -370,10 +372,15 @@ Preprocessing as in: get rid of hashtags, names and links!
 
 %------------------------------------------------
 
-\subsection*{Features}
+\subsection*{Features}	
 
 \begin{itemize}
-\item Word counts - positive, negative, uppercase words \red{REFERENCE}
+\item Word counts - positive, negative, uppercase words\footnote{Saif M Mohammad, Svetlana Kiritchenko, and Xiaodan Zhu. `NRC-Canada: Building the state-of-the-art in sentiment analysis of tweets'. In: \textit{arXiv preprint arXiv:1308.6242} (2013). } 
+
+\nocite{*} 
+\printbibliography
+
+
 \item Special punctuation
 \item Hashtag-related features
 \item PoS counts
@@ -423,7 +430,7 @@ Adjectives & 53.60\%\\
 \bottomrule 
 \end{tabular}
 %}
-\caption{Average prediction accuracy}
+%\caption{Average prediction accuracy}
 \end{table}
 
 %\red{What did we learn? Different features? Different classes? More classes suck}
