@@ -82,6 +82,8 @@ footskip=8.5mm
 \usepackage[english]{babel} % Document language - required for customizing section titles
 \usepackage{microtype} % Better typography
 \usepackage{tocstyle} % Required for customizing the table of contents
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
 %------------------------------------------------
 
 %------------------------------------------------
@@ -241,24 +243,80 @@ Do we need an outline for such a short presentation?
 \begin{itemize}
 \item Sentiment analysis
 
-\item Considering only single messages
-
 \item Considering a sequence of messages (in conversation)
+
+\subitem \textbullet $\:$ Considering only single messages
+
 \end{itemize}
 
-\red{Explain the main problem and the techniques here}
+%\red{Explain the main problem and the techniques here}
 
 
 \clearpage
 
 %------------------------------------------------
 
-\section{Twitter}
+%------------------------------------------------
 
-\red{Details about the twitter part}
+
+\section{Sequential message-based analysis}
 
 \begin{itemize}
-\item Why Twitter?
+\item Ubuntu Chat data \red{[REFERENCE]}
+\subitem \textbullet $\:$ Sequence based
+\subitem \textbullet $\:$ Take into account previous message
+
+\item Problem
+\subitem \textbullet $\:$ No emoticons $\Rightarrow$ Manually relabel data
+\end{itemize}
+
+%\red{more details about the ubuntu part (just enough therew to switch topics)}
+
+\clearpage
+
+%------------------------------------------------
+\begin{comment}
+\subsection*{Data}
+
+\begin{itemize}
+
+
+\item Manually label data [1]
+
+\end{itemize}
+
+%\red{Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
+%Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)}
+
+% Might use this table for results :D 
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\caption{Table caption}
+\end{table}
+\end{comment}
+
+\clearpage
+
+%------------------------------------------------
+
+\section{Single message-based analysis}
+
+%\red{Details about the twitter part}
+
+\begin{itemize}
+\item Twitter
+\subitem \textbullet $\:$ Widely used \red{REFERENCE PAPERS}
+\subitem \textbullet $\:$ Open platform
+\subitem \textbullet $\:$ Contains emoticons
 
 \item Collect data and preprocessing
 \item Classification
@@ -279,15 +337,12 @@ Do we need an outline for such a short presentation?
 
 %------------------------------------------------
 
-\subsection*{Collecting and preprocessing the data}
+\subsection*{Single message-based analysis: Collecting and preprocessing the data}
 
 %\red{Did it on our own, explain super quick how if there was something interesting}
 \begin{itemize}
-
-\item Data crawling
-
 \item Provided dataset
-
+\item Data crawling
 \item Preprocessing
 \begin{comment}
 Preprocessing as in: get rid of hashtags, names and links!
@@ -311,20 +366,6 @@ Preprocessing as in: get rid of hashtags, names and links!
 \clearpage
 
 %------------------------------------------------
-\begin{comment}
-\subsection*{Preprocessing}
-
-
-How to include a theorem in this presentation:
-\begin{verbatim}
-\mybox{0.8\textwidth}{
-\begin{theorem}[Murphy (1949)]
-Anything that can go wrong, will go wrong.
-\end{theorem}
-}
-\end{verbatim}
-\end{comment}
-
 \clearpage
 
 %------------------------------------------------
@@ -332,11 +373,11 @@ Anything that can go wrong, will go wrong.
 \subsection*{Features}
 
 \begin{itemize}
-\item Word counts - positive, negative, uppercase words
+\item Word counts - positive, negative, uppercase words \red{REFERENCE}
 \item Special punctuation
 \item Hashtag-related features
 \item PoS counts
-\item Adjectives
+\subitem \textbullet $\:$ Adjectives
 \end{itemize}
 
 %\red{Explain the more interesting ones (maybe the adjectives, since they require PoS tagging which is NLP-related)}
@@ -345,16 +386,17 @@ Anything that can go wrong, will go wrong.
 
 %------------------------------------------------
 
-\subsection*{Model}
+\subsection*{Single message-based analysis: Model}
 
-\red{The perceptron + ADD REFERENCE!}
+%\red{The perceptron + ADD REFERENCE!}
 
 \begin{itemize}
 
-\item Averaged Multiclass Perceptron
+\item Multiclass Perceptron
+\subitem \textbullet $\:$ Multilayer Perceptron
+\subitem \textbullet $\:$ Averaged Multiclass Perceptron
 
-\item Based on third party implementation
-
+\item Used for relabel the ubuntu chat data
 \item Used for feature analysis
 \end{itemize}
 
@@ -362,99 +404,48 @@ Anything that can go wrong, will go wrong.
 
 %------------------------------------------------
 
-\subsection*{Results}
-
-
+\subsection*{Single message-based analysis: Results}
 
 \begin{table}[h]
 \centering
+%\resizebox{5cm}{10cm}{
 \begin{tabular}{c c}
 \toprule
-\textbf{Number of classes} & \textbf{Average accuracy} \\
+\textbf{Feature excluded} & \textbf{Average test accuracy} \\
 \midrule
-3 & ? \\
-7 & ? \\
-14 & ? \\
-\bottomrule
+None & 53.18\%\\
+Lexicon words & 52.71\%\\
+Lexicon hashtags & 54.68\%\\
+Number of words & 50.39\%\\
+Uppercase words & 52.39\%\\
+Special punctuation & 54.75\%\\
+Adjectives & 53.60\%\\
+\bottomrule 
 \end{tabular}
-\caption{Average prediciton accuracy}
+%}
+\caption{Average prediction accuracy}
 \end{table}
-
-
 
 %\red{What did we learn? Different features? Different classes? More classes suck}
 
 
 \clearpage
 
-%------------------------------------------------
+%-------------------------------------------
 
-
-\section{Ubuntu}
+\subsection*{Sequential message-based analysis: Preprocessing and extracting features}
 
 \begin{itemize}
+\item Preprocessing
+\item Parser refinement
+\subitem \textbullet $\:$ Wrong emoticons
 
-\item Sequence based
-
-\item Take into account previous message
-
-\item Different model AMP
+\item Feature extraction similar to single-message based
+\subitem \textbullet $\:$ Excluding hashtags
 
 \end{itemize}
 
-\red{more details about the ubuntu part (just enough therew to switch topics)}
-
-\clearpage
-
-%------------------------------------------------
-
-\subsection*{Data}
-
-\begin{itemize}
-
-\item Provided by TA
-
-\item Suboptimal
-
-\item Re-label data
-
-\end{itemize}
-
-%\red{Explain the re-labeling drama, explain how important it is to pick appropriate data!!!! :D Maybe in the results actually \\
-%Maybe totally join with preprocessing here, since there is no preprocessing (just mention it)}
-
-% Might use this table for results :D 
-\begin{comment}
-\begin{table}[h]
-\centering
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
-\end{comment}
-
-\clearpage
-
-%------------------------------------------------
-
-\subsection*{Preprocessing and extracting features}
-
-\begin{itemize}
-
-\item Preprocessed... or not?
-
-\item It was not
-
-\end{itemize}
-
-\red{No preprocessing done (although i think it was needed) \\ features should be carefully chosen - no hashtags, rarely uppercase words}
+%\red{No preprocessing done (although i think it was needed) \\ features should be carefully chosen - no hashtags, rarely uppercase words}
 
 \begin{comment}
 \begin{figure}[h]
@@ -468,7 +459,7 @@ Treatment 3 & 0.0009271 & 0.296 \\
 %------------------------------------------------
 
 \begin{comment}
-\subsection*{Features}
+\subsection*{Sequential message-based analysis: Features}
 
 
 
@@ -503,7 +494,7 @@ This is an algorithm.
 
 %------------------------------------------------
 
-\subsection*{Model}
+\subsection*{Sequential message-based analysis: Model}
 
 \begin{itemize}
 
@@ -515,25 +506,53 @@ This is an algorithm.
 
 \end{itemize}
 
+\begin{textblock*}{5cm}(7cm,6cm) % {block width} (coords)
+\includegraphics[width=5cm]{HMM_observations}
+\end{textblock*}
 
-\red{The HMM and the Viterbi}
-
-\clearpage
-
-%------------------------------------------------
-
-\subsection*{Results}
-
-\red{Explain why we have no results :D}
+%\red{The HMM and the Viterbi}
 
 \clearpage
 
 %------------------------------------------------
 
+\subsection*{Sequential message-based analysis: Results}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{c c}
+\toprule
+\textbf{Number of clusters} & \textbf{Average accuracy} \\
+\midrule
+10 & 43\% \\
+30 & 42.11\%\\
+50 & ? 42.45\%\\
+100 & ? 42.50 \%\\
+\bottomrule
+\end{tabular}
+\caption{Average prediciton accuracy}
+\end{table}
+
+
+\clearpage
+
+%------------------------------------------------
+
+\section*{Future work}
+\begin{itemize}
+\item Continue HMM
+\subitem \textbullet $\:$ Add latent variable for user mood
+\item Feature analysis
+\item Better corpora
+\end{itemize}
+
+%------------------------------------------------
+\begin{comment}
+CITATION PER PAGE!!! 
 \section*{Citations}
 
-\red{Maybe we can use this slide to mention useful libraries and tools we have used, about the dictionaries. Pretty much anything that might be useful for the other people in their future projects}
-
+%\red{Maybe we can use this slide to mention useful libraries and tools we have used, about the dictionaries. Pretty much anything that might be useful for the other people in their future projects}
+[1] https://github.com/vivekn/sentiment-web
 
 
 \bibliographystyle{unsrt}
@@ -543,7 +562,7 @@ This is an algorithm.
 
 
 % Citation example
-\begin{comment}
+%\begin{comment}
 An example of the \texttt{\textbackslash cite} command to cite within the presentation:
 
 This statement requires citation \cite{Smith:2012qr}.
