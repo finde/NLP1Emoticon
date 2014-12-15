@@ -6,3 +6,46 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 • Results
 • Analysis (discussion of results / visualization / findings / etc)
 \end{comment}
+
+
+
+
+Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in table \ref{table:HMMaccuracy} and would be discussed in more details in this section.
+
+
+\red{correct the table for the HMM}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 			& {\textbf{Features}} 
+ & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Axccuracy}} 					& {\textbf{Test Accuracy}} 
+ \\
+\hline
+2 			& all 				& 500 		& 50			& ?			& ? 			\\
+2 			& subset 		& 500 		& 50			& ?			& ? 			\\
+3 			& all 				& 500 		& 50			& ?			& ? 			\\
+3 			& subset 		& 500 		& 50			& ?			& ? 			\\
+14 		& all		 		& 500 		& 50			& ?			& ? 			\\
+14 		& subset 		& 500 		& 50			& ?			& ? 			\\
+\hline
+\end{tabular}
+\caption{AMP accuracy}
+\label{table:HMMaccuracy}
+\end{center}
+\end{table}
+
+
+\red{do we even test classes here?}
+\subsubsection*{Classes.} 
+
+
+\subsubsection*{Features.}
+
+\red{Update with the features used for the HMM testing - i.e. all = all - hashtags now, subset would be even smaller}
+
+The effect of different features was also explored. Tests showed that some of the feature are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Averaged Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPaccuracy}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
+The second one, denoted in table \ref{table:HMMaccuracy} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
+
+\subsection*{Number of clusters}

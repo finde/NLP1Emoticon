@@ -3,10 +3,16 @@
 
 
 \subsection{Data selection}
-As discussed in section \ref{sec:ubuntudata}, the Ubuntu Chat Corpora does not contain a sufficient amount of emoticons for training. It has not been proven weather the artificial relabeling of the data has had a impact on the performance of the Hidden Markov Model, but it is believed that tests should be also performed using another training corpora in order to compare the performance. \red{suggestions on what data? I mentioned skype data earlier just for example, but maybe somebody has seen something in a paper to cite here?}
+As discussed in section \ref{sec:ubuntudata}, the Ubuntu Chat Corpora does not contain a sufficient amount of emoticons for training. It has not been proven weather the artificial relabeling of the data has had an impact on the performance of the Hidden Markov Model, but it is believed that tests should be also performed using another corpora in order to compare the performance. \red{suggestions on what data? I mentioned skype data earlier just for example, but maybe somebody has seen something in a paper to cite here?}
 
 
 \subsection{Feature selection}
 
-As mentioned earlier in this paper, feature selection is crucial for the emoticon prediction in text, just like it is in every prediction problem. It is believed that further exploration of the feature space could lead to much better results. A bigger set of features is discussed in \cite{fairytales}. Although a different type of data is used for this research, some of the discussed features might be applicable in other settings too. 
+As mentioned earlier in this paper, feature selection is crucial for the emoticon prediction in text, just like it is in every prediction problem. It is believed that further exploration of the feature space could lead to much better results. A bigger set of features is discussed in \cite{fairytales}. Although a different type of data is used for this research, some of the discussed features might be applicable in other settings too. Last but not least, a set of features for sentiment analysis in Twitter data is discussed in \cite{twittersentiment}.
 
+
+\subsection{Different Models}
+
+For the purpose of this project an Average Multiclass Perceptron (AMP) and a Hidden Markov Model (HMM) were selected as most appropriate. It has not been tested whether different models yield better performance, hence a future work in the area might include exploring different models. Different sources, such as \cite{emotionclassifiers}, suggest using an SVM or Naive Bayes instead of the AMP for emotion prediction, and we believe these could be also appropriate for emoticon prediction. Furthermore, using a second order HMM could improve the performance for predicting whole sequences.
+\\ \\
+\red{also cite \ref{stateoftheartsentiment} for something maybe} 
