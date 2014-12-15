@@ -7,3 +7,44 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 • Analysis (discussion of results / visualization / findings / etc)
 \end{comment}
 
+Different experiments were run to test the performance of the Averaged Multiclass Perceptron. Sample results are shown in table \ref{table:AMPaccuracy} and would be discussed in more details in this section.
+
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 			& {\textbf{Features}} 
+ & {\textbf{Data per class}} 					& {\textbf{Iterations}} 
+ & {\textbf{Train Axccuracy}} 					& {\textbf{Test Accuracy}} 
+ \\
+\hline
+2 			& all 				& 500 		& 50			& ?			& ? 			\\
+2 			& subset 		& 500 		& 50			& ?			& ? 			\\
+3 			& all 				& 500 		& 50			& ?			& ? 			\\
+3 			& subset 		& 500 		& 50			& ?			& ? 			\\
+14 		& all		 		& 500 		& 50			& ?			& ? 			\\
+14 		& subset 		& 500 		& 50			& ?			& ? 			\\
+\hline
+\end{tabular}
+\caption{AMP accuracy}
+\label{table:AMPaccuracy}
+\end{center}
+\end{table}
+
+
+\subsubsection*{Classes.} 
+Unsurprisingly, results show that the more classes are used the worse the performance becomes. \\
+
+\noindent In order to test the performance on two classes, the messages containing different`happy' and `sad' emoticons were split into two general groups - `negative' and `positive' data. Since the data in this classes is significantly different, especially with respect to features such as count of positive or negative words, distinguishing between them seems to be a relatively easy task. \\
+
+\noindent For testing the performance on three classes, data containing no emoticons or neutral emoticons were added to the training set as `neutral' data. In this case the performance dropped dramatically, which seems to be an expected behavior. The lack of an emoticon in a message does not necessarily mean that this message is not a positive or a negative one - e.g. some people do not use emoticons to express their emotions, but hashtags instead. Thus, neutral data is often classified mistakenly as positive or negative, which significantly decreases the overall performance of the perceptron. \\
+
+\noindent For testing purposes, the data was finally split into 14 different classes, each of them containing messages with a different emoticon - i.e. messages containing emoticons such as `:)' and `:D' were not both considered `positive' anymore, but treated as data from different classes instead. \red{I BET THIS SUCKS A LOT BUT IS IT EVEN MORE THAN 3 CLASSES? UPDATE WHEN REAL RESULTS ARE THERE'}
+
+
+\subsubsection*{Features.}
+
+The effect of different features was also explored. Tests showed that some of the feature are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Averaged Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPaccuracy}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
+The second one, denoted in table \ref{table:AMPaccuracy} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
+
