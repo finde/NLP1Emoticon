@@ -214,7 +214,10 @@ class GetDataUbuntu():
 
         self.data_features, \
         self.data_features_per_user, \
-        self.data_labels_per_user = self.get_data_features()
+        self.data_labels_per_user, \
+        self.test_features, \
+        self.test_features_user, \
+        self.test_labels_user = self.get_data_features()
 
     def get_labels_per_user(self):
         return self.data_labels_per_user
@@ -225,13 +228,22 @@ class GetDataUbuntu():
     def get_feature_matrix_per_user(self):
         return self.data_features_per_user
 
+    def get_test_feature_matrix(self):
+        return self.test_features
+
+    def get_test_feature_matrix_per_user(self):
+        return self.test_features_user
+
+    def get_test_labels_per_user(self):
+        return self.test_labels_user
+
     def get_data_features(self):
         # read and extract feature
         data_points = []
         data_labels_per_user = []
         combined_feat_dict = {}
 
-        combined_stucture = []
+        combined_structure = []
         combined_data_labels_per_user = []
 
         # structure = number of sequential sentence per user
@@ -276,7 +288,7 @@ class GetDataUbuntu():
                 cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
                 fh.close()
 
-            combined_stucture += structure
+            combined_structure += structure
             combined_data_labels_per_user += data_labels_per_user
 
             # aggregate them
@@ -291,13 +303,21 @@ class GetDataUbuntu():
         # normalized feature matrix
         normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_dict)
 
-        index = 0
-        feat_matrix_all = []
-        feat_matrix = []
-        labels_per_user = []
+        # splitting training and testing
+        training_percentage = 0.9
 
-        for n in xrange(0, len(combined_stucture)):
-            n_messages = combined_stucture[n]
+        n_all = len(combined_structure)
+        n_training = np.floor(training_percentage * n_all).astype(int)
+        n_test = n_all - n_training
+
+        # get training data
+        index = 0
+        training_feat_matrix = []
+        training_feat_matrix_user = []
+        training_labels_user = []
+
+        for n in xrange(0, n_training):
+            n_messages = combined_structure[n]
             user_labels = combined_data_labels_per_user[n]
 
             feat_matrix_per_user = []
@@ -313,11 +333,39 @@ class GetDataUbuntu():
 
                 index += 1
 
-            feat_matrix.append(feat_matrix_per_user)
-            feat_matrix_all += feat_matrix_per_user
-            labels_per_user.append(parsed_labels)
+            training_feat_matrix_user.append(feat_matrix_per_user)
+            training_feat_matrix += feat_matrix_per_user
+            training_labels_user.append(parsed_labels)
 
-        return feat_matrix_all, feat_matrix, labels_per_user
+        # get test data
+        index = 0
+        test_feat_matrix = []
+        test_feat_matrix_user = []
+        test_labels_user = []
+
+        for n in xrange(n_training, n_all):
+            n_messages = combined_structure[n]
+            user_labels = combined_data_labels_per_user[n]
+
+            feat_matrix_per_user = []
+            parsed_labels = []
+
+            for i in xrange(0, n_messages):
+                temp = [d[index] for d in normalized_feature_dictionary.values()]
+                feat_matrix_per_user.append(temp)
+
+                label = user_labels[i]
+                parsed_label = label[1:-1]
+                parsed_labels.append(parsed_label)
+
+                index += 1
+
+            test_feat_matrix_user.append(feat_matrix_per_user)
+            test_feat_matrix += feat_matrix_per_user
+            test_labels_user.append(parsed_labels)
+
+        return training_feat_matrix, training_feat_matrix_user, training_labels_user, \
+                test_feat_matrix, test_feat_matrix_user, test_labels_user
 
 
 if __name__ == "__main__":
@@ -348,6 +396,17 @@ if __name__ == "__main__":
 
     # for filename in filenames:
     dataCollection = GetDataUbuntu(filenames, selected_features)
-    feat_mat = dataCollection.get_feature_matrix()
-    feat_mat_user = dataCollection.get_feature_matrix_per_user()
-    print len(feat_mat), len(feat_mat_user)
+
+    print len(dataCollection.get_feature_matrix())
+    print len(dataCollection.get_feature_matrix_per_user())
+    print len(dataCollection.get_labels_per_user())
+
+    print len(dataCollection.get_test_feature_matrix())
+    print len(dataCollection.get_test_feature_matrix_per_user())
+    print len(dataCollection.get_test_labels_per_user())
+    # for filename in filenames:
+    #     dataCollection = GetDataUbuntu(filename, selected_features)
+        # feat_mat = dataCollection.get_feature_matrix()
+        # feat_mat_user = dataCollection.get_feature_matrix_per_user()
+        # print feat_mat
+        # print feat_mat_user
