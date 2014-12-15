@@ -50,22 +50,22 @@ def load_feat_matrix(data_map, max_amount_data_per_class=None, selected_features
         n_data += len(data_points)
 
         # use cache file to fetch/store extracted feature from file
-#        filename = file_path + '.__feat_matrix__.cache'
-#        if os.path.isfile(filename) and os.access(filename, os.R_OK):
-#            fh = open(filename, "rb")
+        filename = file_path + '.__feat_matrix__.cache'
+        if os.path.isfile(filename) and os.access(filename, os.R_OK):
+            fh = open(filename, "rb")
 
             # load cache file
-#            unnormalized_feature_matrix = cPickle.load(fh)
-#            fh.close()
-#        else:
-#            fh = open(filename, "wb")
+            unnormalized_feature_matrix = cPickle.load(fh)
+            fh.close()
+        else:
+            fh = open(filename, "wb")
 
             # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
-        unnormalized_feature_matrix = TrainingData(data_points).get_unnormalize_feature_matrix()
+            unnormalized_feature_matrix = TrainingData(data_points).get_unnormalize_feature_matrix()
 
             # store to cache file
-#            cPickle.dump(unnormalized_feature_matrix, fh)
-#            fh.close()
+            cPickle.dump(unnormalized_feature_matrix, fh)
+            fh.close()
 
         # aggregate them
         # combined_feat_matrix = unnormalized_feature_matrix
