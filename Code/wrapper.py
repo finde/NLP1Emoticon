@@ -21,9 +21,9 @@ if __name__ == "__main__":
     # Reading
     '''
 
-
     tests = 10
     avg_accuracies = []
+    number_of_clusters = 5
     for i in range(0, tests):
 	    selected_features = [
 		"words",
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 		"positive_words",
 		#"positive_words_hashtags",
 		#"negative_words_hashtags",
-		#"uppercase_words",
+		"uppercase_words",
 		"special_punctuation",
 		"adjectives"
 	    ]
@@ -49,15 +49,17 @@ if __name__ == "__main__":
 		"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
 	    ]
 
-	    dataCollection = GetDataUbuntu(filenames[0],selected_features)
+	    dataCollection = GetDataUbuntu(filenames,selected_features)
 
 	    print('Extracting features...')
 
 	    training_features = np.array(dataCollection.get_feature_matrix())
 	    training_features_per_user = dataCollection.get_feature_matrix_per_user()
-	    labels_per_user = dataCollection.get_labels_per_user()
+	    training_labels_per_user = dataCollection.get_labels_per_user()
 
-	    number_of_clusters = 50
+	    test_features = np.array(dataCollection.get_test_feature_matrix())
+	    test_features_per_user = dataCollection.get_test_feature_matrix_per_user()
+	    test_labels_per_user = dataCollection.get_test_labels_per_user()
 
 	    # Find cluster centers
 	    print('Clustering...')
@@ -77,18 +79,24 @@ if __name__ == "__main__":
 
 	    for i in range(0, len(assignments)):
 		assignment = assignments[i]
-		training_label = labels_per_user[i]
+		training_label = training_labels_per_user[i]
 		transition_probability, emission_probability = model.add_data(assignment, training_label)
 
 	    # testing
-	    print "Now Testing with Training Data"
+	    print "Now Testing with Training & Test Data"
 	    print ""
 
-	    sumaccuracy = 0
+	    # training data
+	    training_assignments = []
+	    training_sumaccuracy = 0
+	    for sequences in training_features_per_user:
+		sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
+		sentence_assignment = [each+1 for each in sentence_assignment]
+		training_assignments.append(sentence_assignment)
 
-	    for i in range(0, len(assignments)):
-		observations = assignments[i]
-		test_label = labels_per_user[i]
+	    for i in range(0, len(training_assignments)):
+		observations = training_assignments[i]
+		training_label = training_labels_per_user[i]
 
 		final_score, final_path = decoding.decoding(
 		    observations = observations,
@@ -97,24 +105,55 @@ if __name__ == "__main__":
 		    )
 
 		count = 0
-		for i in range(0,len(final_path)):
-		    if final_path[i] == test_label[i]:
+		for j in range(0,len(final_path)):
+		    if final_path[j] == training_label[j]:
 		        count += 1
 
 		accuracy = 100.0 * count / len(final_path)
-		sumaccuracy += accuracy
+		training_sumaccuracy += accuracy
 
-		print '-------------------------------'
-		print 'final score:', final_score
-		print 'final path:', final_path
-		print 'true path:', test_label
-		print 'accuracy', accuracy
-		print '-------------------------------'
+	    # test data
+	    test_assignments = []
+	    test_sumaccuracy = 0
+	    for sequences in test_features_per_user:
+		sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
+		sentence_assignment = [each+1 for each in sentence_assignment]
+		test_assignments.append(sentence_assignment)
+
+	    for i in range(0, len(test_assignments)):
+		observations = test_assignments[i]
+		test_label = test_labels_per_user[i]
+
+		final_score, final_path = decoding.decoding(
+		    observations = observations,
+		    transition = transition_probability,
+		    emission = emission_probability
+		    )
+
+		count = 0
+		for j in range(0,len(final_path)):
+		    if final_path[j] == test_label[j]:
+		        count += 1
+
+		accuracy = 100.0 * count / len(final_path)
+		test_sumaccuracy += accuracy
+
+		# print '-------------------------------'
+		# print 'final score:', final_score
+		# print 'final path:', final_path
+		# print 'true path:', test_label
+		# print 'accuracy', accuracy
+		# print '-------------------------------'
 
 
-	    avg_acc = sumaccuracy / len(assignments)
-	    avg_accuracies.append(avg_acc)
-	    print "average accuracy", avg_acc
+	    result = test_sumaccuracy / len(test_assignments)
+	    avg_accuracies.append(result)
+	    print '-------------------------------'
+	    print "average testing accuracy", result
+	    print "average training  accuracy", training_sumaccuracy / len(training_assignments)
+	    print '-------------------------------'
 
     print "overall acc: ", sum(avg_accuracies)/len(avg_accuracies)
     print "we have: ", avg_accuracies
+    print "cluster centers: ", number_of_clusters
+
