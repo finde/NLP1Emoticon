@@ -13,8 +13,8 @@ feature_dictionary = [
     "words",
     "negative_words",
     "positive_words",
-#    "positive_words_hashtags",
-#    "negative_words_hashtags",
+    # "positive_words_hashtags",
+    # "negative_words_hashtags",
     "uppercase_words",
     "special_punctuation",
     "adjectives"
@@ -37,7 +37,7 @@ def load_feat_matrix(data_map, max_amount_data_per_class=None, selected_features
     n_data = 0
 
     if selected_features is None:
-	pdb.set_trace()
+        pdb.set_trace()
         selected_features = feature_dictionary
 
     # read and extract feature
@@ -204,8 +204,8 @@ class GetData:
 
 
 class GetDataUbuntu():
-    def __init__(self, filepath, selected_features=None):
-        self.filepath = filepath
+    def __init__(self, filepaths, selected_features=None):
+        self.filepaths = filepaths
 
         if selected_features is None:
             self.selected_features = feature_dictionary
@@ -231,49 +231,62 @@ class GetDataUbuntu():
         data_labels_per_user = []
         combined_feat_dict = {}
 
-        # use cache file to fetch/store extracted feature from file
-        filename = self.filepath + '.__feat_matrix__.cache'
+        combined_stucture = []
+        combined_data_labels_per_user = []
 
-        if os.path.isfile(filename) and os.access(filename, os.R_OK):
-            fh = open(filename, "rb")
+        # structure = number of sequential sentence per user
+        # feature_dict = feature histogram of each sentence (unnormalized)
+        # data_labels_per_user = 2 dimensional matrix contains data_labels (of sequential message) per user.
 
-            # load cache file
-            structure, feature_dict, data_labels_per_user = cPickle.load(fh)
-            fh.close()
+        for filepath in self.filepaths:
 
-        else:
-            fh = open(filename, "wb")
+            # use cache file to fetch/store extracted feature from file
+            filename = filepath + '.__feat_matrix__.cache'
 
-            source_data = TSV_Getter(self.filepath).get_sorted_tsv_objects()
-            structure = []
+            if os.path.isfile(filename) and os.access(filename, os.R_OK):
+                fh = open(filename, "rb")
 
-            for username in source_data:
-                user_messages = []
-                user_labels = []
+                # load cache file
+                structure, feature_dict, data_labels_per_user = cPickle.load(fh)
+                fh.close()
 
-                for message in username:
-                    user_messages.append(DataPoint(message.get_text(), message.get_tags(), message.get_label()))
-                    user_labels.append(message.get_label());
-
-                data_points += user_messages
-                structure.append(len(username))
-                data_labels_per_user.append(user_labels);
-
-            # extract feature (everything.. we surely will hand-pick them later, but for the sake of caching, do it all)
-            feature_dict = TrainingData(data_points).get_unnormalize_feature_matrix()
-
-            # store to cache file
-            cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
-            fh.close()
-
-        # aggregate them
-        # combined_feat_matrix = feature_matrix
-        for feature in self.selected_features:
-            # of course we should check if it exists
-            if combined_feat_dict.has_key(feature):
-                combined_feat_dict[feature] += feature_dict[feature]
             else:
-                combined_feat_dict[feature] = feature_dict[feature]
+                fh = open(filename, "wb")
+
+                # load source data
+                source_data = TSV_Getter(filepath).get_sorted_tsv_objects()
+                structure = []
+
+                for username in source_data:
+                    user_messages = []
+                    user_labels = []
+
+                    for message in username:
+                        user_messages.append(DataPoint(message.get_text(), message.get_tags(), message.get_label()))
+                        user_labels.append(message.get_label())
+
+                    data_points += user_messages
+                    structure.append(len(username))
+                    data_labels_per_user.append(user_labels)
+
+                # extract feature (everything.. we surely will hand-pick them later, but for the speed, do it all)
+                feature_dict = TrainingData(data_points).get_unnormalize_feature_matrix()
+
+                # store to cache file
+                cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
+                fh.close()
+
+            combined_stucture += structure
+            combined_data_labels_per_user += data_labels_per_user
+
+            # aggregate them
+            # combined_feat_matrix = feature_matrix
+            for feature in self.selected_features:
+                # of course we should check if it exists
+                if combined_feat_dict.has_key(feature):
+                    combined_feat_dict[feature] += feature_dict[feature]
+                else:
+                    combined_feat_dict[feature] = feature_dict[feature]
 
         # normalized feature matrix
         normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_dict)
@@ -283,9 +296,9 @@ class GetDataUbuntu():
         feat_matrix = []
         labels_per_user = []
 
-        for n in xrange(0, len(structure)):
-            n_messages = structure[n]
-            user_labels = data_labels_per_user[n]
+        for n in xrange(0, len(combined_stucture)):
+            n_messages = combined_stucture[n]
+            user_labels = combined_data_labels_per_user[n]
 
             feat_matrix_per_user = []
             parsed_labels = []
@@ -333,9 +346,8 @@ if __name__ == "__main__":
         "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
     ]
 
-    for filename in filenames:
-        dataCollection = GetDataUbuntu(filename, selected_features)
-        # feat_mat = dataCollection.get_feature_matrix()
-        # feat_mat_user = dataCollection.get_feature_matrix_per_user()
-        # print feat_mat
-        # print feat_mat_user
+    # for filename in filenames:
+    dataCollection = GetDataUbuntu(filenames, selected_features)
+    feat_mat = dataCollection.get_feature_matrix()
+    feat_mat_user = dataCollection.get_feature_matrix_per_user()
+    print len(feat_mat), len(feat_mat_user)
