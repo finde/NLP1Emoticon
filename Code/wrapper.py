@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     tests = 1
     avg_accuracies = []
-    number_of_clusters = 500
+    number_of_clusters = 50
     for i in range(0, tests):
 	    selected_features = [
 		"words",
@@ -38,15 +38,15 @@ if __name__ == "__main__":
 
 	    filenames = [
 		"../Data/Chat Data/2006-05-27-#ubuntu.tsv",
-		"../Data/Chat Data/2006-06-01-#ubuntu.tsv",
-		"../Data/Chat Data/2007-04-20-#ubuntu.tsv",
-		"../Data/Chat Data/2007-04-21-#ubuntu.tsv",
-		"../Data/Chat Data/2007-04-22-#ubuntu.tsv",
-		"../Data/Chat Data/2007-10-19-#ubuntu.tsv",
-		"../Data/Chat Data/2007-10-20-#ubuntu.tsv",
-		"../Data/Chat Data/2007-10-21-#ubuntu.tsv",
-		"../Data/Chat Data/2008-04-25-#ubuntu.tsv",
-		"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
+		#"../Data/Chat Data/2006-06-01-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-04-20-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-04-21-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-04-22-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-10-19-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-10-20-#ubuntu.tsv",
+		#"../Data/Chat Data/2007-10-21-#ubuntu.tsv",
+		#"../Data/Chat Data/2008-04-25-#ubuntu.tsv",
+		#"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
 	    ]
 
 	    dataCollection = GetDataUbuntu(filenames,selected_features)

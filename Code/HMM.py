@@ -18,6 +18,9 @@ We want the data to look like this at the end:
 '''''        
 
 class HMM:
+    
+    smoothing_const = 0.001
+    
     def __init__(self, number_of_clusters , labels):
         
         self.labels = labels
@@ -44,18 +47,18 @@ class HMM:
     def update_transitions_probs(self):
         # Be careful not to devide by 0!!
         for state in self.transition_counts.keys():
-            total = float(sum((self.transition_counts[state]).values()))
+            total = float(sum((self.transition_counts[state]).values())) + HMM.smoothing_const*len(self.get_states())
             if total > 0:
-                self.transition_probs[state] = {trans_state: self.transition_counts[state][trans_state]/total 
+                self.transition_probs[state] = {trans_state: (self.transition_counts[state][trans_state]+HMM.smoothing_const)/total 
                                                     for trans_state in self.get_states()}
     
         
     def update_emission_probs(self):
         # Be careful not to devide by 0!!
         for state in self.emission_counts.keys():
-            total = float(sum((self.emission_counts[state]).values()))
+            total = float(sum((self.emission_counts[state]).values())) + HMM.smoothing_const*self.get_number_of_clusters()
             if total > 0:
-                self.emission_probs[state] = {cluster: self.emission_counts[state][cluster]/total 
+                self.emission_probs[state] = {cluster: (self.emission_counts[state][cluster]+HMM.smoothing_const)/total 
                                                 for cluster in range(1, self.number_of_clusters+1)}
             
     
@@ -84,7 +87,7 @@ class HMM:
         # Initialize the dict for the current emission counts:
         current_emission_counts = {label: {cluster: 0 for cluster in range(1, self.number_of_clusters+1)} for label in self.labels}
         
-        print current_emission_counts, self.emission_counts 
+        #print current_emission_counts, self.emission_counts 
         
         # Count all observed emissions of words in labels:
         
@@ -156,34 +159,37 @@ if __name__ == "__main__":
         "adjectives"
     ]
 
-    dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
+    #dataCollection = GetData(data_class, n_per_class, training_percentage, selected_features)
 
     # split data collection into training and test data
-    training_data = dataCollection.get_training_data()
-    training_label = np.array(dataCollection.get_training_label())
+    #training_data = dataCollection.get_training_data()
+    #training_label = np.array(dataCollection.get_training_label())
  
     print('Extracting features...')
 
     # Get the feature matrix of this data
     print(' extracting train_data')
-    training_features = dataCollection.get_training_feature_matrix()
+    #training_features = dataCollection.get_training_feature_matrix()
 
     number_classes = len(data_class)
     
-    number_of_clusters = 50
+    number_of_clusters = 3
     
     # Find cluster centers
-    cluster_centers, assignment = Clustering.cluster_feature_matrix(training_features, number_of_clusters)
+    #cluster_centers, assignment = Clustering.cluster_feature_matrix(training_features, number_of_clusters)
     
+    
+    assignment = [1, 2, 1, 0]
+    training_label = [1, 1, 1, 0] 
      
     # Because the clusters are 0-14 and I want them 1:15 :P :P Gonna fix this..   
     assignment = [each+1 for each in assignment]             
        
-    data_classes = [0, 1, 2]   
+    data_classes = [0, 1]   
     model = HMM(number_of_clusters, data_classes)
     print 'size assinment: ', len(assignment)
     print 'assignment', assignment
     print 'size labels', len(training_label)
     print 'lables', training_label
-    model.add_data(assignment, training_label)
+    trans, emis = model.add_data(assignment, training_label)
  
