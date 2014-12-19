@@ -3,7 +3,21 @@
 \begin{comment}
 Problem: (roughly 1-2 pages)
 • Explain the problem; what kind of assumptions / observations you have about the problem
-\end{comment}
-
 
 \red{Find out what should be actually in this section} \\
+\end{comment}
+
+The intent of this research is to determine the transition of emoticons in a conversation. Such transitions are found in sequential messages. As stated before, chat data from Ubuntu is used to analyse transitions. This leads to the following problem: 
+\begin{center}
+\textit{How can emoticons be predicted in a sequence of messages, using the emoticon of the previous message?}
+\end{center}
+
+As the chosen corpora is not optimal, a different corpora must be used to train a model on which can be trained to label the Ubuntu data. Using Twitter data, the use of emoticons in independent messages can be used to train a different model. This model will be used to label the Ubuntu data. Then, the emoticons of the sequential messages must be predicted.
+
+Both corpora must be preprocessed. As both corpora are written by users in their spare time, the presence of grammatical- and spelling errors and slang is quite real. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed where necessary.
+
+When training a model to predict emoticons on independent messages, there are several models that can be used. A support vector machine (SVM) and perceptron can be used. Therein, different perceptrons can be used. For this research, a perceptron was used. Two perceptrons were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP). The AMP can be used to classify the data. However, the MLP can yield better results due to the use of hidden layers. This research will show which yields best results.
+
+The model used to predict emoticons on sequences is the Hidden Markov Model (HMM). There are two versions of the HMM: the first-order HMM and the second-order HMM. The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed. The second-order HMM uses the two previous messages to predict the emoticon of the message that is being analysed. For this research, the first-order HMM is used.
+
+To summarize: in order to predict emoticons in sequence based messages, the sentiment must be found. By preprocessing each message and extracting features, the "gist" of each message is extracted. This "gist" is used to train a first-order Hidden Markov Model, which can then be used to predict the emoticon of messages. However, in order to label the training data correctly, first all messages must be labeled. To do this, a perceptron is used.
