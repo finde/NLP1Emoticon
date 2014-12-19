@@ -1,3 +1,33 @@
+This report discusses emoticon prediction, based on a sequence of messages. In order to find messages that are related to one another and can transition in sentiment, an entire conversation is observed. Each message is classified by not only considering the features of a single message, but also by considering the previous messages of the same user. This problem is complex and interesting one, since it also takes into account the transitions from one sentiment state to another.
+
+\noindent In order to find conversation messages with changes in sentiment, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data is used. Unfortunately, due to the lack of emoticons in this corpora, the emoticons of all other sentences must also be determined. In order to label the corpora, another model must be trained. In order to train this model, a corpora of short, unrelated messages filled with emoticons is used. In order to find such messages, Twitter data is used. Therefore, the Twitter data is used to train a model. This model is then used to label the Ubuntu chat data. 
+
+\noindent After the data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic features were chosen for this project without intentional aim on improving them. Since this task on its own can take up years, it is left as future work. However, suggestions about improving features is mentioned in the following sections.
+
+\noindent In order to classify the data, classes must be determined. Three classes are used to classify the data. Table \ref{tab:classes} displays these classes and the corresponding emoticons, contained in this type of data.
+
+% Maybe put this in the general part, since it is the same for both problems?
+\begin{table}[h!]
+\caption{Data classes}
+\label{tab:classes}
+\begin{center}
+\begin{tabular}{ll}
+\multicolumn{1}{l}{\bf DATA CLASS}  &\multicolumn{1}{l}{\bf EXAMPLE EMOTICONS}
+\\ \hline \\
+positive 			& :) \: \:  			:] \: \: 		=) \: \: 		:D  	\\
+neutral 				& :$\vert$ \: \: 	o\_o  								\\
+negative 			& :( \: \: 			:[ \: \: 		=( \: \: 		;( 		\\
+\end{tabular}{}
+\end{center}
+\end{table}
+
+As table \ref{tab:classes} shows, this selection of emoticons displays positive, negative and neutral emotions. However, this data can be split further into extremely positive ( $:D$ ) and extremely negative ( $>:($ ) emoticons for more specific classification of messages. However, this is beyond the scope of this paper.
+
+\begin{comment}
+\red{Finish the introduction, maybe move some parts to the Problem section} \\
+
+
+
 % Requirements: 
 \begin{comment}
 Introduction (max 2 pages):
@@ -7,7 +37,7 @@ Introduction (max 2 pages):
 • The very basic idea of the approach and why this is a reasonable approach for this problem?
 \end{comment}
 
-
+\begin{comment}
 This report discusses two related, but essentially different problems - emoticon prediction based on a single short message and based on a sequence of messages. In the first problem, short, unrelated messages are observed. Their emoticons are used to determine whether a message is positive or negative. Using this information, a is trained. Eventually, a new message can be passed and the corresponding emotion is predicted. In order to determine the sentiment of a message optimally and achieve generalization, messages of different authors are collected and used to train the classifier. In the second problem, an entire conversation is observed. Each message is classified by not only considering the features of a single message, but also by considering the previous messages of the same user. This problem is a more complex and interesting one, since it also takes into account the transitions from one sentiment state to another. \\
 
 \noindent As a natural consequence of the above statements of the two problems, different data sets are used to approach each problem. For the first problem, any corpora of text messages containing emoticons can be used. Such corpora can contain unrelated messages. In order to find short unrelated messages, Twitter data is used. For the second problem, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data is used. \\
@@ -15,7 +45,7 @@ This report discusses two related, but essentially different problems - emoticon
 \noindent After the data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic feature were chosen for this project without intentional aim on improving them. Since this task on its own can take up years, it is left as future work. However, suggestions about improving features is mentioned in the following sections. \\
 
 \noindent In order to classify the data, classes must be determined. Three classes are used to classify the data. Table \ref{tab:classes} displays these classes and the corresponding emoticons, contained in this type of data.
-
+\end{comment}
 
 % Old and ugly
 \begin{comment}
@@ -27,7 +57,7 @@ This report discusses two related, but essentially different problems - emoticon
 \end{itemize}
 \end{comment}
 
-
+\begin{comment}
 % Maybe put this in the general part, since it is the same for both problems?
 \begin{table}[h!]
 \caption{Data classes}
@@ -46,6 +76,5 @@ As table \ref{tab:classes} shows, known emoticons display positive, negative and
 \ldots \ldots \ldots 
 
 \red{Finish the introduction, maybe move some parts to the Problem section} \\
-
 %%% Continue the rest of the discussion of the problem by only mentioning something brief about the models and possible alternatives. More details are in the corresponding sections!!
-
+\end{comment}
