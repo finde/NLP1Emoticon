@@ -8,32 +8,8 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 \end{comment}
 
 
-Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in table \ref{table:HMMaccuracy} and would be discussed in more details in this section.
+Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are be discussed in more details in this section.
 
-First, the influence of the amount of clusters was tested.
-
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{| c | c | c | c | c | c | c |}
-\hline
- {\textbf{Classes}} 	 
- & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
- & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
- \\
-\hline
-3 	 		& 500 		& 10			& 60.56		& 41.87		\\
-3 	 		& 500 		& 20			& 61.46		& 40.95		\\
-3 	 		& 500 		& 30			& 61.94		& 40.62		\\
-3 	 		& 500 		& 40			& 61.69		& 40.40		\\
-3 	 		& 500 		& 50			& 61.88		& 40.50		\\
-\hline
-\end{tabular}
-\caption{AMP accuracy}
-\label{table:HMMaccuracy}
-\end{center}
-\end{table}
-
-This shows that the amount of clusters do not appear to make a difference. \red{OR THE IMPLEMENTATION IS OFF}
 
 \begin{comment}
 \red{correct the table for the HMM}
@@ -71,4 +47,27 @@ This shows that the amount of clusters do not appear to make a difference. \red{
 The effect of different features was also explored. Tests showed that some of the feature are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Averaged Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPaccuracy}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
 The second one, denoted in table \ref{table:HMMaccuracy} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
 
-\subsection*{Number of clusters}
+\subsection*{Amount of clusters}
+Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}.
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 	 
+ & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
+ \\
+\hline
+3 	 		& 500 		& 10			& 60.56		& 41.87		\\
+3 	 		& 500 		& 20			& 61.46		& 40.95		\\
+3 	 		& 500 		& 30			& 61.94		& 40.62		\\
+3 	 		& 500 		& 40			& 61.69		& 40.40		\\
+3 	 		& 500 		& 50			& 61.88		& 40.50		\\
+\hline
+\end{tabular}
+\caption{AMP accuracy}
+\label{table:HMMclusters}
+\end{center}
+\end{table}
+
+It appears as if the amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. \red{The minimal differences between the results can be caused by a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.}
