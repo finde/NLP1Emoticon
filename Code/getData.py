@@ -300,6 +300,54 @@ class GetDataUbuntu():
                 else:
                     combined_feat_dict[feature] = feature_dict[feature]
 
+
+        #########################################
+        # temporary changes
+        # ignoring neutral label
+        new_combined_feat_dict = {}
+        new_combined_structure = []
+        new_combined_data_labels_per_user = []
+
+        feat_keys = combined_feat_dict.keys()
+        flat_combined_labels = [x for sublist in combined_data_labels_per_user for x in sublist]
+
+        # create new_combined_feat_dict
+        for key in feat_keys:
+            raw_data = combined_feat_dict[key]
+            n_data = len(raw_data)
+
+            new_array = []
+
+            for i in xrange(0, n_data):
+                if not flat_combined_labels[i] == "[neutral]":
+                    new_array.append(raw_data[i])
+
+            new_combined_feat_dict[key] = new_array
+
+        # create new structure and labels
+        for i in xrange(0, len(combined_structure)):
+            labels_user = combined_data_labels_per_user[i]
+            n_messages = combined_structure[i]
+
+            new_array = []
+            new_n_messages = 0
+
+            for j in xrange(0, n_messages):
+                if not labels_user[j] == "[neutral]":
+                    new_array.append(labels_user[j])
+                    new_n_messages += 1
+
+            if (new_n_messages > 0):
+                new_combined_structure.append(new_n_messages)
+                new_combined_data_labels_per_user.append(new_array)
+
+
+        combined_feat_dict = new_combined_feat_dict
+        combined_structure = new_combined_structure
+        combined_data_labels_per_user = new_combined_data_labels_per_user
+        #########################################
+        # end of temporary changes
+
         # normalized feature matrix
         normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_dict)
 
@@ -383,15 +431,15 @@ if __name__ == "__main__":
 
     filenames = [
         "../Data/Chat Data/2006-05-27-#ubuntu.tsv",
-        "../Data/Chat Data/2006-06-01-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-20-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-21-#ubuntu.tsv",
-        "../Data/Chat Data/2007-04-22-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-19-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-20-#ubuntu.tsv",
-        "../Data/Chat Data/2007-10-21-#ubuntu.tsv",
-        "../Data/Chat Data/2008-04-25-#ubuntu.tsv",
-        "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
+        # "../Data/Chat Data/2006-06-01-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-04-20-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-04-21-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-04-22-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-10-19-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-10-20-#ubuntu.tsv",
+        # "../Data/Chat Data/2007-10-21-#ubuntu.tsv",
+        # "../Data/Chat Data/2008-04-25-#ubuntu.tsv",
+        # "../Data/Chat Data/2008-04-26-#ubuntu.tsv",
     ]
 
     # for filename in filenames:
