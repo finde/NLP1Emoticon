@@ -9,43 +9,34 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 
 
 Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are be discussed in more details in this section.
-
-
-\begin{comment}
-\red{correct the table for the HMM}
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
  {\textbf{Classes}} 			& {\textbf{Features}} 
  & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
- & {\textbf{Train Axccuracy}} 					& {\textbf{Test Accuracy}} 
+ & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
  \\
 \hline
-2 			& all 				& 500 		& 50			& ?			& ? 			\\
-2 			& subset 		& 500 		& 50			& ?			& ? 			\\
-3 			& all 				& 500 		& 50			& ?			& ? 			\\
-3 			& subset 		& 500 		& 50			& ?			& ? 			\\
-14 		& all		 		& 500 		& 50			& ?			& ? 			\\
-14 		& subset 		& 500 		& 50			& ?			& ? 			\\
+2 			& all 				& 500 		& 50			& 73.65		& 72.66 		\\
+3 			& all 				& 500 		& 50			& 61.88		& 40.50 		\\
 \hline
 \end{tabular}
 \caption{AMP accuracy}
 \label{table:HMMaccuracy}
 \end{center}
 \end{table}
-\end{comment}
 
 \red{do we even test classes here?}
-\subsubsection*{Classes.} 
+\subsubsection*{Classes} 
+Table \ref{table:HMMaccuracy} shows that the use of two classes yields best results. This is not surprising. What is surprising is that this result is much better than with three classes, leading to believe that there is a bug in the implementation. 
 
-
-\subsubsection*{Features.}
+\subsubsection*{Features}
 
 \red{Update with the features used for the HMM testing - i.e. all = all - hashtags now, subset would be even smaller}
 
 The effect of different features was also explored. Tests showed that some of the feature are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Averaged Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPaccuracy}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
-The second one, denoted in table \ref{table:HMMaccuracy} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
+The second one, denoted in table \ref{table:HMMfeatures} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
 
 \subsection*{Amount of clusters}
 Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}.
@@ -70,4 +61,4 @@ Different amounts of clusters were used to test their effect on the model. The r
 \end{center}
 \end{table}
 
-It appears as if the amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. \red{The minimal differences between the results can be caused by a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.}
+It appears as if the amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results confirms the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
