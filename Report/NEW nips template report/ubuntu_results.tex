@@ -7,7 +7,7 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 • Analysis (discussion of results / visualization / findings / etc)
 \end{comment}
 
-Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are discussed in more detail in this section. Table \ref{table:HMMaccuracy} shows the accuracy of two classes (positive and negative) and all three classes. 
+Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are discussed in more detail in this section. Table \ref{table:HMMaccuracy} shows the accuracy of two classes (positive and negative) and all three classes. As with the perceptron, K-fold validation was used. The data was trained on 90\% of the selected data and tested on the 10\% that is left. Each test is run on all data available, unless specified otherwise. This, because it is difficult to determine clear-cut classes with as each sequence transitions from positivity to negativity to neutrality. The amount of clusters is set to 50.
 
 \begin{table}[h!]
 \begin{center}
