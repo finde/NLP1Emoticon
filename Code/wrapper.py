@@ -22,8 +22,9 @@ if __name__ == "__main__":
     '''
 
     tests = 1
-    avg_accuracies = []
-    number_of_clusters = 50
+    avg_test_accuracies = []
+    avg_train_accuracies = []
+    number_of_clusters = 10
     for i in range(0, tests):
 	    selected_features = [
 		"words",
@@ -31,25 +32,25 @@ if __name__ == "__main__":
 		"positive_words",
 		#"positive_words_hashtags",
 		#"negative_words_hashtags",
-		"uppercase_words",
+		#"uppercase_words",
 		"special_punctuation",
 		"adjectives"
 	    ]
 
 	    filenames = [
 		"../Data/Chat Data/2006-05-27-#ubuntu.tsv",
-		#"../Data/Chat Data/2006-06-01-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-04-20-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-04-21-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-04-22-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-10-19-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-10-20-#ubuntu.tsv",
-		#"../Data/Chat Data/2007-10-21-#ubuntu.tsv",
-		#"../Data/Chat Data/2008-04-25-#ubuntu.tsv",
-		#"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
+		"../Data/Chat Data/2006-06-01-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-20-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-21-#ubuntu.tsv",
+		"../Data/Chat Data/2007-04-22-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-19-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-20-#ubuntu.tsv",
+		"../Data/Chat Data/2007-10-21-#ubuntu.tsv",
+		"../Data/Chat Data/2008-04-25-#ubuntu.tsv",
+		"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
 	    ]
 
-	    dataCollection = GetDataUbuntu(filenames,selected_features)
+	    dataCollection = GetDataUbuntu(filenames,selected_features=selected_features)
 
 	    print('Extracting features...')
 
@@ -72,7 +73,8 @@ if __name__ == "__main__":
 		sentence_assignment = [each+1 for each in sentence_assignment]
 		assignments.append(sentence_assignment)
 
-	    data_classes = ['positive', 'negative', 'neutral']
+	    #data_classes = ['positive', 'negative', 'neutral']
+	    data_classes = ['positive', 'negative']
 
 	    # build HMM model
 	    model = HMM(number_of_clusters, data_classes)
@@ -80,6 +82,7 @@ if __name__ == "__main__":
 	    for i in range(0, len(assignments)):
 		assignment = assignments[i]
 		training_label = training_labels_per_user[i]
+		print "training label: ", training_label
 		transition_probability, emission_probability = model.add_data(assignment, training_label)
 
 	    # testing
@@ -132,6 +135,7 @@ if __name__ == "__main__":
 
 		count = 0
 		for j in range(0,len(final_path)):
+		    print "testset PREDICTED: ", final_path[j], " TRUE: ", test_label[j]
 		    if final_path[j] == test_label[j]:
 		        count += 1
 
@@ -146,14 +150,20 @@ if __name__ == "__main__":
 		# print '-------------------------------'
 
 
-	    result = test_sumaccuracy / len(test_assignments)
-	    avg_accuracies.append(result)
+	    result_test = test_sumaccuracy / len(test_assignments)
+	    avg_test_accuracies.append(result_test)
+	    result_train = training_sumaccuracy / len(training_assignments)
+	    avg_train_accuracies.append(result_train)
+	    
 	    print '-------------------------------'
-	    print "average testing accuracy", result
-	    print "average training  accuracy", training_sumaccuracy / len(training_assignments)
+	    print "average testing accuracy", result_test
+	    print "average training  accuracy", result_train
 	    print '-------------------------------'
+	    pdb.set_trace()
 
-    print "overall acc: ", sum(avg_accuracies)/len(avg_accuracies)
-    print "we have: ", avg_accuracies
+    print "overall train acc: ", sum(avg_train_accuracies)/len(avg_train_accuracies)
+    print "TRAIN: we have: ", avg_train_accuracies
+    print "overall test acc: ", sum(avg_test_accuracies)/len(avg_test_accuracies)
+    print "TEST: we have: ", avg_test_accuracies
     print "cluster centers: ", number_of_clusters
 
