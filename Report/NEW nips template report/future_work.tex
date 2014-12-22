@@ -8,4 +8,8 @@ As mentioned earlier in this paper, feature selection is crucial for the emotico
 \subsection{Model selection}
 
 For the purpose of this project an Average Multiclass Perceptron (AMP) and a Hidden Markov Model (HMM) were selected as most appropriate. It has not been tested whether different models yield better performance, hence a future work in the area might include exploring different models. Different sources, such as \cite{emotionclassifiers}, suggest using an SVM or Naive Bayes instead of the AMP for emotion prediction, and we believe these could be also appropriate for emoticon prediction. Furthermore, using a second order HMM could improve the performance for predicting sequences.
+
+\subsection{Bug fixing}
+As stated when evaluating the HMM results, there seems too be a bug in the implementation. The amount of clusters and the size of the dataset hardly makes any difference in performance. It is imperative to find out where this bug comes from and to fix this, in order to successfully analyse the implemented model.
+
 %\red{also cite \ref{stateoftheartsentiment} for something maybe} 

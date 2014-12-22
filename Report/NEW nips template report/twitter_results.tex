@@ -10,7 +10,7 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 As the AMP needs to be used to label data, different experiments were run to test the performance. Sample results are shown in table \ref{table:AMPaccuracy} and are be discussed in detail in this section.
 
 \subsubsection{Prediction with varying number of classes}
-To see how well the perceptron predicts data on a varying number of classes, the algorithm was run while predicting multiple classes. Initially, it is interesting to see how well the data is classified using two classes; positive and negative. There is also a third class representing neutral data. There are also classes which are defined as extremely positive and extremely negative. In total, these are 15 classes. The performance of the model is also tested in this number of classes. To test the model, K-fold validation is used. Using 80\% of the data, 20\% is used as a test set to grade the performance of the model. In order to ensure a proper resemblance of test results, the results are averaged over 10 tests.
+To see how well the perceptron predicts data on a varying number of classes, the algorithm was run while predicting multiple classes. Initially, it is interesting to see how well the data is classified using two classes; positive and negative. There is also a third class representing neutral data. There are also classes which are defined as extremely positive and extremely negative. In total, these are 15 classes. The performance of the model is also tested in this number of classes. To test the model, K-fold validation is used. Using 80\% of the data, 20\% is used as a test set to measure the performance of the model. In order to ensure a proper resemblance of test results, the results are averaged over 10 tests.
 
 \begin{table}[h!]
 \begin{center}
@@ -118,3 +118,32 @@ Excluding the positive and negative hashtags, as well as the uppercase words, yi
 Tests show that some of the features are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Average Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPfeatures}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
 The second one, denoted in table \ref{table:AMPaccuracy} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
 \end{comment}
+
+\subsection{Dataset size}
+This section discusses the effect of different dataset sizes on the AMP implementation. The results are displayed table \ref{table:AMPdataset}. As hashtags are hardly used, this feature was turned off to research the sizes of the dataset. This will create less similarity between the classes.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 	 
+ & {\textbf{Samples per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
+ \\
+\hline
+2 	 		& 50			& 50			& 	59.75	& 48.00		\\
+2 	 		& 100 		& 50			& 	55.75	& 52.25		\\
+2 	 		& 200 		& 50			& 	55.19	& 53.63		\\
+2 	 		& 300 		& 50			& 	54.65	& 53.75		\\
+2 	 		& 400 		& 50			& 	54.55	& 52.56		\\
+2 	 		& 500 		& 50			& 	55.78	& 54.80		\\
+2 	 		& 1000 		& 50			& 	53.47	& 53.80		\\
+2 	 		& 2500 		& 50			& 	54.68	& 54.82		\\
+\hline
+\end{tabular}
+\caption{HMM amount of clusters}
+\label{table:HMMdataset}
+\end{center}
+\end{table}
+
+Table \ref{table:AMPdataset} indicates that the more data is used, the more the model generalizes. However, the performance of the model remains poor. This happens due to poorly chosen features. Also, the model seems unstable as there is no clear increase and decrease in performance. However, as the difference in performance is smallest when using a dataset of 2500 samples per class, this indicates that generalization is being achieved.

@@ -97,7 +97,41 @@ Different amounts of clusters were used to test their effect on the model. The r
 \end{center}
 \end{table}
 
-The results in table \ref{table:HMMclusters} shows that an increasing amount of clusters yields yields varying results. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results leads to the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
+The results in table \ref{table:HMMclusters} shows that an increasing amount of clusters yields varying results. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results leads to the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
+
+\subsection{Dataset size}
+This section discusses the effect of different dataset sizes on the HMM implementation. The results are displayed table \ref{table:HMMdataset}.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 	 
+ & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
+ \\
+\hline
+3 	 		& 50			& 50			& 45.17		& 39.65		\\
+3 	 		& 100 		& 50			& 41.90		& 38.76		\\
+3 	 		& 200 		& 50			& 40.91		& 38.48		\\
+3 	 		& 300 		& 50			& 40.67		& 37.53		\\
+3 	 		& 400 		& 50			& 40.41		& 37.34		\\
+3 	 		& 500 		& 50			& 40.32		& 36.67		\\
+3 	 		& 1000 		& 50			& 39.29		& 36.63		\\
+3 	 		& 2500 		& 50			& 39.00		& 36.14		\\
+\hline
+\end{tabular}
+\caption{HMM amount of clusters}
+\label{table:HMMdataset}
+\end{center}
+\end{table}
+
+Table \ref{table:HMMdataset} indicates that when least data is used, the model performs best. There is a significant change in the performance when testing on the training set. However, there is a smaller change in performance when testing on the test set. This leads to the conclusion that the model overfits quickly. As the data is balanced with few data, the performance is expected to perform poorly on all levels. Given that the model actually yields best results with little training, this confirms that there is a bug in the implementation. However, due to time constraints, this cannot be found and fixed.
+
+
+
+
+%-------------------------------------------------------------------------------------------------
 
 \begin{comment}
 \subsection*{Amount of clusters}
