@@ -375,10 +375,12 @@ class GetDataUbuntu():
                 class_indices.update({_first_label: class_indices.get(_first_label) + [labels_index]})
 
         # get the least-data
+        ideal_n_all_per_class = min([len(class_indices.get(_)) for _ in class_indices])
+
         if self.n_per_class is None:
-            n_all_per_class = min([len(class_indices.get(_)) for _ in class_indices])
+            n_all_per_class = ideal_n_all_per_class
         else:
-            n_all_per_class = self.n_per_class
+            n_all_per_class = min([self.n_per_class, ideal_n_all_per_class])
 
         # splitting training and testing
         training_percentage = 0.9
@@ -491,7 +493,7 @@ if __name__ == "__main__":
     ]
 
     # for filename in filenames:
-    dataCollection = GetDataUbuntu(filenames, selected_features, n_per_class=5)
+    dataCollection = GetDataUbuntu(filenames, selected_features, n_per_class=50000)
 
     print len(dataCollection.get_feature_matrix())
     print len(dataCollection.get_feature_matrix_per_user())
