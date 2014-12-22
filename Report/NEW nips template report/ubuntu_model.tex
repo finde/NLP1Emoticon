@@ -1,11 +1,8 @@
-
-\red{To be modified and corrected} \\
-
-A first-order Hidden Markov Model was chosen as most appropriate for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
+A first-order Hidden Markov Model was chosen for the purpose of this project. This section summarizes the steps which were taken in order to train the model and predict classes for unseen examples afterwards. \\
 
 \noindent As explained earlier, after the data has been pre-processed, a feature vector is extracted for each example message. This feature vector is similar to the feature vector extracted from the Twitter data, excluding hashtags and uppercase words. Thus, the training data for the model consists of pair $(X, y)$, where $X$ is a feature vector and $y$ is the corresponding class label. The next step is to compute the transition and emission probabilities, i.e. the probability of transitioning from one class state to another and the probabilities of the different feature vectors given a class state. \\
 
-\noindent  Consider the following: the probability of observing a "negative" message right after a "neutral" message has been observed is a transition probability. Furthermore, the probability of the feature vector of the message 'I need to get some sleep now' given the neutral class is an emission probability. This means that the following general formulas might be used in order to calculate these probabilities:
+\noindent  Consider the following: the probability of observing a "negative" message immediately after a "neutral" message has been observed, is a transition probability. Furthermore, the probability of the feature vector of the message 'I need to get some sleep now', given the neutral class, is an emission probability. This means that the following general formulas can be used in order to calculate these probabilities:
 
 % \begin{align*}
 % \cal{P} (\textit{transitioning from class y' to class y''}) 
@@ -20,13 +17,19 @@ A first-order Hidden Markov Model was chosen as most appropriate for the purpose
 \mathcal{P}(X | y) & = \frac{c(y \rightarrow X)}{c(y)}\\
 \end{align*}
 
-Where $\mathcal{P}(v | u)$ is the transition probability from class $u$ to $v$.
+Where $\mathcal{P}(v | u)$ is the transition probability from class $u$ to $v$. The amount of times a class is followed by another class is observed in the training data and can be determined by $c(u, v)$. For example, $c(positive, negative)$ is the amount of times class $positive$ followed by class $negative$ is observed in a sequence in the training data.
+
+Similarly, $c(u)$ defines the amount of times the class $u$ is seen in the training data. For example, $c(positive)$ is the number of times class $positive$ is seen in the training data.
+
+Moreover, $\mathcal{P}(X | y)$ is the emission probability of feature vector $X$ given class $y$. The amount of times class $y$ is seen, paired with feature vector $X$, can be defined as $c(y \rightarrow X)$.
+
+\begin{comment}
 $c(u, v)$ defined as the number of times the sequence of class $u$ followed by class $v$ is seen in training data.
-For example, $c(positive, negative)$ is the number of times sequence of class $positive$ followed by class $negative$ is seen in the training data.
+For example, $c(positive, negative)$ is the number of times sequence of class $positive$ followed by class $negative$ is observed in the training data.
 Similarly, $c(u)$ defined as the number of times the class $u$ is seen in the training data.
 For example, $c(positive)$ is the number of times class $positive$ is seen in the training data.
-
-Moreover $\mathcal{P}(X | y)$ is the emission probability of feature vector $X$ given class $y$.
+Moreover, $\mathcal{P}(X | y)$ is the emission probability of feature vector $X$ given class $y$.
 $c(y \rightarrow X)$ defined as the number of times class $y$ is seen paired with feature vector X in the training data.
+\end{comment}
 
-\noindent Since the total number of feature vectors $X$ which can be observed is too big, not all possible vectors would be observed in the training data. This would make predicting unseen messages impossible, since no emission probabilities would be present for these vectors. In order to avoid this issue, the following solution is implemented: the training data is first clustered, emission probabilities are computed for each cluster, then given an unseen message, its feature vector is first assigned to a cluster and finally, a label is predicted for this message. 
+\noindent Since the total amount of feature vectors $X$, which can be observed, is too large, not all possible vectors would be observed in the training data. This would make predicting unseen messages impossible, since no emission probabilities would be present for these vectors. In order to avoid this, the training data is first clustered. Emission probabilities are computed for each cluster. Then, given an unseen message, its feature vector is assigned to a cluster. Finally, a label is predicted for this message. 
