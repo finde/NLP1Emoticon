@@ -49,7 +49,9 @@ if __name__ == "__main__":
 		#"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
 	    ]
 
-	    dataCollection = GetDataUbuntu(filenames,selected_features)
+	    data_classes = ['positive', 'negative', 'neutral']
+
+	    dataCollection = GetDataUbuntu(filenames,selected_features, data_classes)
 
 	    print('Extracting features...')
 
@@ -71,8 +73,6 @@ if __name__ == "__main__":
 		sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
 		sentence_assignment = [each+1 for each in sentence_assignment]
 		assignments.append(sentence_assignment)
-
-	    data_classes = ['positive', 'negative', 'neutral']
 
 	    # build HMM model
 	    model = HMM(number_of_clusters, data_classes)
