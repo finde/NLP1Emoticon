@@ -21,13 +21,18 @@ if __name__ == "__main__":
     # Reading
     '''
 
-    tests = 1
+    tests = 10
     avg_test_accuracies = []
     avg_train_accuracies = []
-    number_of_clusters = 10
+    number_of_clusters = 50
+
+    pred_pos = 0
+    act_pos = 0
+    pred_neg = 0
+    act_neg = 0
     for i in range(0, tests):
 	    selected_features = [
-		"words",
+#		"words",
 		"negative_words",
 		"positive_words",
 		#"positive_words_hashtags",
@@ -50,7 +55,10 @@ if __name__ == "__main__":
 		"../Data/Chat Data/2008-04-26-#ubuntu.tsv",
 	    ]
 
-	    dataCollection = GetDataUbuntu(filenames,selected_features=selected_features)
+	    data_classes = ['positive', 'negative', 'neutral']
+	    #data_classes = ['positive', 'negative']
+
+	    dataCollection = GetDataUbuntu(filenames,selected_features, data_classes)
 
 	    print('Extracting features...')
 
@@ -72,9 +80,6 @@ if __name__ == "__main__":
 		sentence_assignment = Clustering.get_nearest_clusters_matrix(cluster_centers, sequences)
 		sentence_assignment = [each+1 for each in sentence_assignment]
 		assignments.append(sentence_assignment)
-
-	    #data_classes = ['positive', 'negative', 'neutral']
-	    data_classes = ['positive', 'negative']
 
 	    # build HMM model
 	    model = HMM(number_of_clusters, data_classes)
@@ -135,7 +140,7 @@ if __name__ == "__main__":
 
 		count = 0
 		for j in range(0,len(final_path)):
-		    print "testset PREDICTED: ", final_path[j], " TRUE: ", test_label[j]
+		    #print "testset PREDICTED: ", final_path[j], " TRUE: ", test_label[j]
 		    if final_path[j] == test_label[j]:
 		        count += 1
 
@@ -159,7 +164,9 @@ if __name__ == "__main__":
 	    print "average testing accuracy", result_test
 	    print "average training  accuracy", result_train
 	    print '-------------------------------'
-	    pdb.set_trace()
+	    #pdb.set_trace()
+
+    print "EXC AMOUNT WORDS"
 
     print "overall train acc: ", sum(avg_train_accuracies)/len(avg_train_accuracies)
     print "TRAIN: we have: ", avg_train_accuracies

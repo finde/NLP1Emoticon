@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.4 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -15,6 +15,78 @@
       \aftergroup\endinput}
   {}
 \endgroup
+
+\entry{twittersentiment}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Agarwal}{A.}%
+     {Apoorv}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xie}{X.}%
+     {Boyi}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vovsha}{V.}%
+     {Ilia}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rambow}{R.}%
+     {Owen}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Passonneau}{P.}%
+     {Rebecca}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Association for Computational Linguistics}%
+  }
+  \strng{namehash}{AA+1}
+  \strng{fullhash}{AAXBVIROPR1}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of the Workshop on Languages in Social Media}
+  \field{pages}{30\bibrangedash 38}
+  \field{title}{Sentiment analysis of twitter data}
+  \field{year}{2011}
+\endentry
+
+\entry{fairytales}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Alm}{A.}%
+     {Cecilia~Ovesdotter}{C.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roth}{R.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sproat}{S.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {Association for Computational Linguistics}%
+  }
+  \strng{namehash}{ACORDSR1}
+  \strng{fullhash}{ACORDSR1}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of the conference on Human Language Technology
+  and Empirical Methods in Natural Language Processing}
+  \field{pages}{579\bibrangedash 586}
+  \field{title}{Emotions from text: machine learning for text-based emotion
+  prediction}
+  \field{year}{2005}
+\endentry
 
 \entry{nltk}{book}{}
   \name{author}{2}{}{%
@@ -36,23 +108,82 @@
   \field{year}{2009, publisher =}
 \endentry
 
-\entry{greenwade93}{article}{}
-  \name{author}{1}{}{%
+\entry{emotionclassifiers}{inproceedings}{}
+  \name{author}{2}{}{%
     {{}%
-     {Greenwade}{G.}%
-     {George~D.}{G.~D.}%
+     {Danisman}{D.}%
+     {Taner}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alpkocak}{A.}%
+     {Adil}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{GGD1}
-  \strng{fullhash}{GGD1}
-  \field{sortinit}{G}
-  \field{number}{3}
-  \field{pages}{342\bibrangedash 351}
-  \field{title}{The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})}
-  \field{volume}{14}
-  \field{journaltitle}{TUGBoat}
-  \field{year}{1993}
+  \strng{namehash}{DTAA1}
+  \strng{fullhash}{DTAA1}
+  \field{sortinit}{D}
+  \field{booktitle}{AISB 2008 Convention Communication, Interaction and Social
+  Intelligence}
+  \field{pages}{53}
+  \field{title}{Feeler: Emotion classification of text using vector space
+  model}
+  \field{volume}{1}
+  \field{year}{2008}
+\endentry
+
+\entry{hu2004mining}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hu}{H.}%
+     {Minqing}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Bing}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{HMLB1}
+  \strng{fullhash}{HMLB1}
+  \field{sortinit}{H}
+  \field{booktitle}{Proceedings of the tenth ACM SIGKDD international
+  conference on Knowledge discovery and data mining}
+  \field{pages}{168\bibrangedash 177}
+  \field{title}{Mining and summarizing customer reviews}
+  \field{year}{2004}
+\endentry
+
+\entry{stateoftheartsentiment}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mohammad}{M.}%
+     {Saif~M}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kiritchenko}{K.}%
+     {Svetlana}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Xiaodan}{X.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MSMKSZX1}
+  \strng{fullhash}{MSMKSZX1}
+  \field{sortinit}{M}
+  \field{title}{NRC-Canada: Building the state-of-the-art in sentiment analysis
+  of tweets}
+  \field{journaltitle}{arXiv preprint arXiv:1308.6242}
+  \field{year}{2013}
 \endentry
 
 \entry{ubuntudata}{misc}{}

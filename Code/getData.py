@@ -204,13 +204,19 @@ class GetData:
 
 
 class GetDataUbuntu():
-    def __init__(self, filepaths, selected_features=None):
+    def __init__(self, filepaths, selected_features=None, data_classes=None, n_per_class=None):
         self.filepaths = filepaths
 
         if selected_features is None:
             self.selected_features = feature_dictionary
         else:
             self.selected_features = selected_features
+
+        if data_classes is None:
+            data_classes = ['positive', 'negative', 'neutral']
+
+        self.data_classes = ['[' + _ + ']' for _ in data_classes]
+        self.n_per_class = n_per_class
 
         self.data_features, \
         self.data_features_per_user, \
@@ -288,6 +294,12 @@ class GetDataUbuntu():
                 cPickle.dump([structure, feature_dict, data_labels_per_user], fh)
                 fh.close()
 
+            # #######################################
+            #
+            # TODO:: remove single-message users (maybe)
+            #
+            # #######################################
+
             combined_structure += structure
             combined_data_labels_per_user += data_labels_per_user
 
@@ -301,62 +313,98 @@ class GetDataUbuntu():
                     combined_feat_dict[feature] = feature_dict[feature]
 
 
-        #########################################
+        # ########################################
         # temporary changes
         # ignoring neutral label
-        new_combined_feat_dict = {}
-        new_combined_structure = []
-        new_combined_data_labels_per_user = []
+#        new_combined_feat_dict = {}
+#        new_combined_structure = []
+#        new_combined_data_labels_per_user = []
 
-        feat_keys = combined_feat_dict.keys()
-        flat_combined_labels = [x for sublist in combined_data_labels_per_user for x in sublist]
+#        feat_keys = combined_feat_dict.keys()
+#        flat_combined_labels = [x for sublist in combined_data_labels_per_user for x in sublist]
 
         # create new_combined_feat_dict
-        for key in feat_keys:
-            raw_data = combined_feat_dict[key]
-            n_data = len(raw_data)
+#        for key in feat_keys:
+#            raw_data = combined_feat_dict[key]
+#            n_data = len(raw_data)
 
-            new_array = []
+#            new_array = []
 
-            for i in xrange(0, n_data):
-                if not flat_combined_labels[i] == "[neutral]":
-                    new_array.append(raw_data[i])
+#            for i in xrange(0, n_data):
+#                if flat_combined_labels[i] in self.data_classes:
+#                    new_array.append(raw_data[i])
 
-            new_combined_feat_dict[key] = new_array
+#            new_combined_feat_dict[key] = new_array
 
         # create new structure and labels
-        for i in xrange(0, len(combined_structure)):
-            labels_user = combined_data_labels_per_user[i]
-            n_messages = combined_structure[i]
+#        for i in xrange(0, len(combined_structure)):
+#            labels_user = combined_data_labels_per_user[i]
+#            n_messages = combined_structure[i]
 
-            new_array = []
-            new_n_messages = 0
+#            new_array = []
+#            new_n_messages = 0
 
-            for j in xrange(0, n_messages):
-                if not labels_user[j] == "[neutral]":
-                    new_array.append(labels_user[j])
-                    new_n_messages += 1
+#            for j in xrange(0, n_messages):
+#                if labels_user[j] in self.data_classes:
+#                    new_array.append(labels_user[j])
+#                    new_n_messages += 1
 
-            if (new_n_messages > 0):
-                new_combined_structure.append(new_n_messages)
-                new_combined_data_labels_per_user.append(new_array)
+#            if (new_n_messages > 0):
+#                new_combined_structure.append(new_n_messages)
+#                new_combined_data_labels_per_user.append(new_array)
 
-
-        combined_feat_dict = new_combined_feat_dict
-        combined_structure = new_combined_structure
-        combined_data_labels_per_user = new_combined_data_labels_per_user
-        #########################################
+#        combined_feat_dict = new_combined_feat_dict
+#        combined_structure = new_combined_structure
+#        combined_data_labels_per_user = new_combined_data_labels_per_user
+        # ########################################
         # end of temporary changes
 
         # normalized feature matrix
         normalized_feature_dictionary = get_normalized_feature_dictionary(combined_feat_dict)
 
+        # ########################################
+        # split the data per class
+        # (based on first message)
+        class_indices = {}
+        for labels_index, _current_labels in enumerate(combined_data_labels_per_user):
+            _first_label = _current_labels[0]
+
+            if not class_indices.has_key(_first_label):
+                class_indices.update({_first_label: [labels_index]})
+            else:
+                class_indices.update({_first_label: class_indices.get(_first_label) + [labels_index]})
+
+        # get the least-data
+        if self.n_per_class is None:
+            n_all_per_class = min([len(class_indices.get(_)) for _ in class_indices])
+        else:
+            n_all_per_class = self.n_per_class
+
         # splitting training and testing
         training_percentage = 0.9
 
-        n_all = len(combined_structure)
-        n_training = np.floor(training_percentage * n_all).astype(int)
-        n_test = n_all - n_training
+        n_training = np.floor(training_percentage * n_all_per_class).astype(int)
+        n_test = n_all_per_class - n_training
+        train_indices = []
+        test_indices = []
+
+        for d in class_indices:
+            _indices = class_indices[d]
+            train_indices = np.append(train_indices,
+                                      [_indices[i] for i in random.sample(xrange(len(_indices)), n_training)])
+            test_indices = np.append(test_indices,
+                                     [_indices[i] for i in random.sample(xrange(len(_indices)), n_test)])
+
+        train_indices = train_indices.flatten().astype(int)
+        test_indices = test_indices.flatten().astype(int)
+        # ########################################
+        # end of splitting per class
+
+        # n_all = len(combined_structure)
+        # n_training = np.floor(training_percentage * n_all).astype(int)
+        # n_test = n_all - n_training
+        # test_indices =
+        # train_indices = xrange(0, n_training)
 
         # get training data
         index = 0
@@ -364,7 +412,7 @@ class GetDataUbuntu():
         training_feat_matrix_user = []
         training_labels_user = []
 
-        for n in xrange(0, n_training):
+        for n in train_indices:
             n_messages = combined_structure[n]
             user_labels = combined_data_labels_per_user[n]
 
@@ -391,7 +439,7 @@ class GetDataUbuntu():
         test_feat_matrix_user = []
         test_labels_user = []
 
-        for n in xrange(n_training, n_all):
+        for n in test_indices:
             n_messages = combined_structure[n]
             user_labels = combined_data_labels_per_user[n]
 
@@ -413,7 +461,7 @@ class GetDataUbuntu():
             test_labels_user.append(parsed_labels)
 
         return training_feat_matrix, training_feat_matrix_user, training_labels_user, \
-                test_feat_matrix, test_feat_matrix_user, test_labels_user
+               test_feat_matrix, test_feat_matrix_user, test_labels_user
 
 
 if __name__ == "__main__":
@@ -443,7 +491,7 @@ if __name__ == "__main__":
     ]
 
     # for filename in filenames:
-    dataCollection = GetDataUbuntu(filenames, selected_features)
+    dataCollection = GetDataUbuntu(filenames, selected_features, n_per_class=5)
 
     print len(dataCollection.get_feature_matrix())
     print len(dataCollection.get_feature_matrix_per_user())
@@ -453,8 +501,8 @@ if __name__ == "__main__":
     print len(dataCollection.get_test_feature_matrix_per_user())
     print len(dataCollection.get_test_labels_per_user())
     # for filename in filenames:
-    #     dataCollection = GetDataUbuntu(filename, selected_features)
-        # feat_mat = dataCollection.get_feature_matrix()
-        # feat_mat_user = dataCollection.get_feature_matrix_per_user()
-        # print feat_mat
-        # print feat_mat_user
+    # dataCollection = GetDataUbuntu(filename, selected_features)
+    # feat_mat = dataCollection.get_feature_matrix()
+    # feat_mat_user = dataCollection.get_feature_matrix_per_user()
+    # print feat_mat
+    # print feat_mat_user

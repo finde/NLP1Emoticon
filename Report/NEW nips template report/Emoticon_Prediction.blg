@@ -1,17 +1,73 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Emoticon_Prediction.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Emoticon_Prediction.aux
 The style file: biblatex.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Emoticon_Prediction-blx.bib
 Database file #2: ourbib.bib
-I was expecting a `,' or a `}'---line 19 of file ourbib.bib
+I was expecting a `,' or a `}'---line 10 of file ourbib.bib
  :     publisher = "
  :                  O’Reilly Media Inc.",
 I'm skipping whatever remains of this entry
 Warning--entry type for "ubuntudata" isn't style-file defined
---line 23 of file ourbib.bib
-You're missing a field name---line 29 of file ourbib.bib
+--line 14 of file ourbib.bib
+You're missing a field name---line 20 of file ourbib.bib
  :  
  :  %abstract = {We present the Ubuntu Chat Corpus as a data source for multiparticipant chat analysis. This addresses the problem of the lack of a large, publicly suitable corpora for research in this medium. The advantages of using this corpus for research is its large number of chat messages, its multiple languages, its technical nature, and all of the original chat messages are in the public domain.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Biblatex version: 2.9
+Biblatex version: 2.8
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 8 entries,
+            6047 wiz_defined-function locations,
+            1168 strings with 9416 characters,
+and the built_in function-call counts, 25919 in all, are:
+= -- 1078
+> -- 972
+< -- 300
++ -- 363
+- -- 364
+* -- 1911
+:= -- 1709
+add.period$ -- 0
+call.type$ -- 8
+change.case$ -- 152
+chr.to.int$ -- 34
+cite$ -- 14
+duplicate$ -- 2747
+empty$ -- 2513
+format.name$ -- 555
+if$ -- 5945
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 0
+newline$ -- 207
+num.names$ -- 381
+pop$ -- 2331
+preamble$ -- 1
+purify$ -- 179
+quote$ -- 0
+skip$ -- 1607
+stack$ -- 0
+substring$ -- 724
+swap$ -- 896
+text.length$ -- 242
+text.prefix$ -- 7
+top$ -- 1
+type$ -- 291
+warning$ -- 0
+while$ -- 172
+width$ -- 0
+write$ -- 198
 (There were 2 error messages)

@@ -8,35 +8,53 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 \end{comment}
 
 
-Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are be discussed in more details in this section.
+
+Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are be discussed in more details in this section. Table \ref{table:HMMaccuracy} shows the accuracy of two classes (positive and negative) and all three classes. \red{RESULTS NOT CHANGED FOR 2 CLASSES AS THIS IS BROKEN}
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
  {\textbf{Classes}} 			& {\textbf{Features}} 
  & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
- & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
  \\
 \hline
-2 			& all 				& 500 		& 50			& 73.65		& 72.66 		\\
-3 			& all 				& 500 		& 50			& 61.88		& 40.50 		\\
+2 			& all 				& 500 		& 50			& 73.65		& 72.66 		\\ %not changed as the new version broke this
+3 			& all 				& 500 		& 50			& 39.23		& 38.37 		\\
 \hline
 \end{tabular}
-\caption{AMP accuracy}
+\caption{HMM accuracy}
 \label{table:HMMaccuracy}
 \end{center}
 \end{table}
 
-\red{do we even test classes here?}
 \subsubsection*{Classes} 
-Table \ref{table:HMMaccuracy} shows that the use of two classes yields best results. This is not surprising. What is surprising is that this result is much better than with three classes, leading to believe that there is a bug in the implementation. 
+Table \ref{table:HMMaccuracy} shows that the use of two classes yields best results. However, this happens due to the fact that the results are biased. As the chat data comes from a support forum, most messages are indeed negative or neutral. As the emission and transition values are calculated by counting labels, the HMM itself will most likely transition to negative or neutral. This leads to data labelled as positive always being correct. However, this does not happen often, due to the aforementioned calculations. Finding a better way to select data to train on will be imperative in the future in order to produce better results. As the data of three classes is least biased, this will be used in further testing.
 
 \subsubsection*{Features}
+As with the AMP, the effect of the features on the HMM were tested. As this model trains on a sequence of messages, it could be that the features have a different effect.
 
-\red{Update with the features used for the HMM testing - i.e. all = all - hashtags now, subset would be even smaller}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Features Excluded}} 	 	& \textbf{Classes}	&		& {\textbf{Iterations}} 
+ & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
+ \\
+\hline
+None						&	3	&	50	&	39.23	&	38.37	\\
+Positive/negative words	&	3	&	50	&	38.69	&	38.62	\\
+Amount of words			&	3	&	50	&	38.61	&	38.02	\\
+Special punctuation		&	3	&	50	&	38.81	&	38.25	\\
+Adjectives				&	3	&	50	&	38.66	&	37.73	\\
+\hline
+\end{tabular}
+\caption{AMP accuracy}
+\label{table:HMMfeatures}
+\end{center}
+\end{table}
 
-The effect of different features was also explored. Tests showed that some of the feature are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Averaged Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPaccuracy}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
-The second one, denoted in table \ref{table:HMMfeatures} as `subset', is a subset of all features, which does not contain hashtag-related features \red{and maybe the uppercase words since ubuntu data does not contain much of them? shall we try also without it}.
+Table \ref{table:HMMfeatures} shows that the exclusion of more features shows no improvement. This confirms the suspicion of poorly selected features. However, this does confirm that the current selection of features works optimal and should be used for further testing.
 
 \subsection*{Amount of clusters}
 Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}.
@@ -46,19 +64,47 @@ Different amounts of clusters were used to test their effect on the model. The r
 \hline
  {\textbf{Classes}} 	 
  & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
- & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
  \\
 \hline
-3 	 		& 500 		& 10			& 60.56		& 41.87		\\
-3 	 		& 500 		& 20			& 61.46		& 40.95		\\
-3 	 		& 500 		& 30			& 61.94		& 40.62		\\
-3 	 		& 500 		& 40			& 61.69		& 40.40		\\
-3 	 		& 500 		& 50			& 61.88		& 40.50		\\
+3 	 		& 500 		& 10			& 38.27		& 37.94		\\
+3 	 		& 500 		& 20			& 38.53		& 38.36		\\
+3 	 		& 500 		& 30			& 39.00		& 37.45		\\
+3 	 		& 500 		& 40			& 38.99		& 38.22		\\
+3 	 		& 500 		& 50			& 39.23		& 38.37		\\
 \hline
 \end{tabular}
-\caption{AMP accuracy}
+\caption{HMM amount of clusters}
 \label{table:HMMclusters}
 \end{center}
 \end{table}
 
-It appears as if the amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results confirms the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
+The results in \ref{table:HMMclusters} shows that an increasing amount of clusters yields yields varying results. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results introduces the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
+
+\begin{comment}
+\subsection*{Amount of clusters}
+Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}. This was tested on three classes. As stated before, the transitions between neutral and negative are more prominent, which will show the effect of the amount of clusters.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 	 
+ & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
+ \\
+\hline
+3 	 		& 500 		& 10			& 73.68		& 76.41		\\
+3 	 		& 500 		& 20			& 73.71		& 76.38		\\
+3 	 		& 500 		& 30			& 73.78		& 76.28		\\
+3 	 		& 500 		& 40			& 74.11		& 75.88		\\
+3 	 		& 500 		& 50			& 74.18		& 75.55		\\
+\hline
+\end{tabular}
+\caption{HMM amount of clusters}
+\label{table:HMMclusters}
+\end{center}
+\end{table}
+
+The results in \ref{table:HMMclusters} shows that an increasing amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results confirms the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed. On the other hand, in each case, the test set performs better than the training set. This means that the model generalizes well, which is the goal of the implementation of any model.
+\end{comment}

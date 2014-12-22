@@ -107,12 +107,12 @@ Tests show that some of the features are not meaningful enough and including the
 \parbox[t]{3cm}{Positive/negative hashtags \\Uppercase words}	&	500	&	50	&	56.96	& 	56.25	\\
 \hline
 \end{tabular}
-\caption{AMP accuracy}
+\caption{AMP optimal accuracy}
 \label{table:AMPoptimal}
 \end{center}
 \end{table}
 
-As expected, these features yield the best results and will be used in labelling the sequence-based data.
+Excluding the positive and negative hashtags, as well as the uppercase words, yield the best results and will be used in labelling the sequence-based data.
 
 \begin{comment}
 Tests show that some of the features are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Average Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPfeatures}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
