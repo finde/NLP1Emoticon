@@ -62,7 +62,7 @@ Unsurprisingly, the results show that the more classes are used the worse the pe
 
 \noindent For testing the performance on three classes, data containing no emoticons or neutral emoticons were added to the training set as `neutral' data. In this case the performance dropped dramatically. The lack of an emoticon in a message does not necessarily mean that this message is not a positive or a negative one, which is reflected in the results. For example, some people do not use emoticons to express their emotions, but hashtags instead. Thus, neutral data is often classified mistakenly as positive or negative or vice versa, which significantly decreases the overall performance of the perceptron. \\
 
-\noindent For testing purposes, the data was eventually split into 15 different classes, each of them containing messages with a different emoticon - i.e. messages containing emoticons such as `:)' and `:D' were not both considered `positive' anymore, but treated as different classes instead.
+\noindent For testing purposes, the data was eventually split into 15 different classes, each of them containing messages with a different emoticon - i.e. messages containing emoticons such as `:)' and `:D' were not both considered `positive' anymore, but treated as different classes instead. This has lead to very small datasets for certain classes. This leads to bias of the larger classes, mislabelling most data.
 
 
 \subsubsection*{Features}
