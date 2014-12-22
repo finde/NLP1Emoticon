@@ -7,18 +7,18 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 • Analysis (discussion of results / visualization / findings / etc)
 \end{comment}
 
-Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are be discussed in more details in this section. Table \ref{table:HMMaccuracy} shows the accuracy of two classes (positive and negative) and all three classes. \red{RESULTS NOT CHANGED FOR 2 CLASSES AS THIS IS BROKEN}
+Different experiments were run to test the performance of the Hidden Markov Model. Sample results are shown in tables and are discussed in more detail in this section. Table \ref{table:HMMaccuracy} shows the accuracy of two classes (positive and negative) and all three classes. 
+
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
- {\textbf{Classes}} 			& {\textbf{Features}} 
- & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ {\textbf{Classes}} 			& {\textbf{Features}}	& {\textbf{Clusters}} 
  & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
  \\
 \hline
-2 			& all 				& 500 		& 50			& 73.65		& 72.66 		\\ %not changed as the new version broke this
-3 			& all 				& 500 		& 50			& 39.23		& 38.37 		\\
+2 			& all 	& 50			& 73.65		& 72.66 		\\ %not changed as the new version broke this
+3 			& all	& 50			& 39.23		& 38.37 		\\
 \hline
 \end{tabular}
 \caption{HMM accuracy}
@@ -26,18 +26,38 @@ Different experiments were run to test the performance of the Hidden Markov Mode
 \end{center}
 \end{table}
 
+\begin{comment}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{| c | c | c | c | c | c |}
+\hline
+ {\textbf{Classes}} 	
+ & {\textbf{Data per class}} 					& {\textbf{Clusters}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
+ \\
+\hline
+2 			& 500 		& 50			& 73.65		& 72.66 		\\ %not changed as the new version broke this
+3 			& 500 		& 50			& 39.23		& 38.37 		\\
+\hline
+\end{tabular}
+\caption{HMM accuracy}
+\label{table:HMMaccuracy}
+\end{center}
+\end{table}
+\end{comment}
+
 \subsubsection*{Classes} 
-Table \ref{table:HMMaccuracy} shows that the use of two classes yields best results. However, this happens due to the fact that the results are biased. As the chat data comes from a support forum, most messages are indeed negative or neutral. As the emission and transition values are calculated by counting labels, the HMM itself will most likely transition to negative or neutral. This leads to data labelled as positive always being correct. However, this does not happen often, due to the aforementioned calculations. Finding a better way to select data to train on will be imperative in the future in order to produce better results. As the data of three classes is least biased, this will be used in further testing.
+Table \ref{table:HMMaccuracy} shows that the use of two classes yields best results. However, this happens due to the fact that the results are biased. As the chat data comes from a support forum, most messages are indeed negative or neutral. As the emission and transition values are calculated by counting labels, the HMM itself will most likely transition to negative or neutral. This also leads to few data labelled as positive always being correct. However, this does not happen often, due to the aforementioned calculations. Finding a better way to select data to train the model on will be imperative in the future in order to produce better results. As the data of three classes is least biased, this will be used in further testing.
 
 \subsubsection*{Features}
 As with the AMP, the effect of the features on the HMM were tested. As this model trains on a sequence of messages, it could be that the features have a different effect.
 
 \begin{table}[h!]
 \begin{center}
-\begin{tabular}{| c | c | c | c | c | c | c |}
+\begin{tabular}{| c | c | c | c | c |}
 \hline
- {\textbf{Features Excluded}} 	 	& \textbf{Classes}	&		& {\textbf{Iterations}} 
- & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
+ {\textbf{Features Excluded}} 	 	& \textbf{Classes}	& {\textbf{Iterations}} 
+ & {\textbf{Train Accuracy (\%)}} 					& {\textbf{Test Accuracy (\%)}} 
  \\
 \hline
 None						&	3	&	50	&	39.23	&	38.37	\\
@@ -52,10 +72,10 @@ Adjectives				&	3	&	50	&	38.66	&	37.73	\\
 \end{center}
 \end{table}
 
-Table \ref{table:HMMfeatures} shows that the exclusion of more features shows no improvement. This confirms the suspicion of poorly selected features. However, this does confirm that the current selection of features works optimal and should be used for further testing.
+Table \ref{table:HMMfeatures} shows that the exclusion of more features shows no improvement. This confirms the suspicion of poorly selected features. However, this also does confirm that the current selection of features works optimal and should be used for further testing.
 
 \subsection*{Amount of clusters}
-Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}.
+Different amounts of clusters were used to test their effect on the model. The results are displayed in table \ref{table:HMMclusters}.
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{| c | c | c | c | c | c | c |}
@@ -77,11 +97,11 @@ Different amounts of clusters were used to test their effect on the model. The r
 \end{center}
 \end{table}
 
-The results in \ref{table:HMMclusters} shows that an increasing amount of clusters yields yields varying results. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results introduces the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
+The results in table \ref{table:HMMclusters} shows that an increasing amount of clusters yields yields varying results. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results leads to the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed.
 
 \begin{comment}
 \subsection*{Amount of clusters}
-Different amounts of clusters were used to test their effect on the model. The results are displayed in \ref{table:HMMclusters}. This was tested on three classes. As stated before, the transitions between neutral and negative are more prominent, which will show the effect of the amount of clusters.
+Different amounts of clusters were used to test their effect on the model. The results are displayed in table \ref{table:HMMclusters}. This was tested on three classes. As stated before, the transitions between neutral and negative are more prominent, which will show the effect of the amount of clusters.
 
 \begin{table}[h!]
 \begin{center}
@@ -104,5 +124,5 @@ Different amounts of clusters were used to test their effect on the model. The r
 \end{center}
 \end{table}
 
-The results in \ref{table:HMMclusters} shows that an increasing amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results confirms the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed. On the other hand, in each case, the test set performs better than the training set. This means that the model generalizes well, which is the goal of the implementation of any model.
+The results in table \ref{table:HMMclusters} shows that an increasing amount of clusters yields worse results as more are added. This could mean that the model overfits. However, there is not much difference between implementing few clusters and many clusters. The fact that the model does not yield good results can be attributed to the fact that the selected features are not sufficient. The minimal differences between the results confirms the suspicion that there is a bug in the implementation. However, due to time constraints, this bug was not identified and fixed. On the other hand, in each case, the test set performs better than the training set. This means that the model generalizes well, which is the goal of the implementation of any model.
 \end{comment}

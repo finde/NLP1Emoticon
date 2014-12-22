@@ -1,4 +1,4 @@
-\subsection{Data selection}
+\subsection{Corpus selection}
 As discussed in section \ref{sec:ubuntudata}, the Ubuntu Chat Corpora does not contain a sufficient amount of emoticons for training. It has not been proven whether the artificial relabelling of the data has had an impact on the performance of the Hidden Markov Model, but it is believed that tests should be also performed using another corpora in order to compare the performance. Also, this alternate dataset should be balanced in such a way that there are equal transitions between positive, negative and neutral. This will lead to more general transition and emission probabilities. There sequence-based corpora that can be used. Facebook and Skype often contains the information that is necessary as stated here. However, this is not open and free to use, which makes finding a sufficient corpora difficult. %\red{suggestions on what data? I mentioned skype data earlier just for example, but maybe somebody has seen something in a paper to cite here?}
 
 \subsection{Feature selection}
@@ -7,5 +7,5 @@ As mentioned earlier in this paper, feature selection is crucial for the emotico
 
 \subsection{Model selection}
 
-For the purpose of this project an Average Multiclass Perceptron (AMP) and a Hidden Markov Model (HMM) were selected as most appropriate. It has not been tested whether different models yield better performance, hence a future work in the area might include exploring different models. Different sources, such as \cite{emotionclassifiers}, suggest using an SVM or Naive Bayes instead of the AMP for emotion prediction, and we believe these could be also appropriate for emoticon prediction. Furthermore, using a second order HMM could improve the performance for predicting whole sequences.
+For the purpose of this project an Average Multiclass Perceptron (AMP) and a Hidden Markov Model (HMM) were selected as most appropriate. It has not been tested whether different models yield better performance, hence a future work in the area might include exploring different models. Different sources, such as \cite{emotionclassifiers}, suggest using an SVM or Naive Bayes instead of the AMP for emotion prediction, and we believe these could be also appropriate for emoticon prediction. Furthermore, using a second order HMM could improve the performance for predicting sequences.
 %\red{also cite \ref{stateoftheartsentiment} for something maybe} 
