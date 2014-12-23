@@ -186,6 +186,26 @@
   \field{year}{2013}
 \endentry
 
+\entry{sagimoral}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sagi}{S.}%
+     {Eyal}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dehghani}{D.}%
+     {Morteza}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SEDM1}
+  \strng{fullhash}{SEDM1}
+  \field{sortinit}{S}
+  \field{title}{Moral Rhetoric in Twitter: A Case Study of the US Federal
+  Shutdown of 2013}
+\endentry
+
 \entry{ubuntudata}{misc}{}
   \name{author}{2}{}{%
     {{}%
