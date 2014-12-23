@@ -12,23 +12,50 @@ The intent of this research is to determine the transition of emoticons in a con
 \textit{How can emoticons be predicted in a sequence of messages, using the emoticon of the previous message?}
 \end{center}
 
-This leads to several, obvious, steps that must be taken. These are:
+This leads to several obvious steps that must be taken. These are:
 \begin{itemize}
 \item Preprocess corpora
 \item Extract features
-\item Implement a model
+\item Train a model
+\item Predict emoticons for unseen data
 \end{itemize}
 
-However, the selected corpora is not optimal. The Ubuntu chat data does not contain enough emoticons. Therefore, in order to train a model, each message must be classified. This leads to implementing another model which labels the Ubuntu chat corpora. This model must determine the emoticon of a single, independent message. This means that a different model must be trained on a different corpora. Using Twitter data, the use of emoticons can be used to train a such a model. This model will be used to label the Ubuntu data. Then, the emoticons of the sequential messages must be predicted.
+\subsubsection*{Relabelling the data} 
+However, since the Ubuntu chat data contains mainly technical conversations, there appeared to be a significant lack of emoticons. This means that the majority of the messages were labelled as `neutral', which in turn implies a terribly biased prediction performance. In order to use this data and test the prediction performance, the decision was made to relabel the data. For every `neutral' message, an emoticon was predicted using a classifier trained on Twitter data and discussed later in section \ref{sec:twitter}. This lead to the acquisition of data containing enough emoticons to properly train a model and predict new examples. In order to avoid such artificial relabelling of the data in other projects, corpora from a more appropriate source should be used - e.g. Skype conversation logs or any other group chat logs. 
 
-As stated before, both corpora must be preprocessed. As the messages in both corpora are written by users in their spare time, the presence of grammatical- and spelling errors and slang is quite real. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed where necessary.
 
-When training a model to predict emoticons on independent messages, there are several models that can be used. A support vector machine (SVM) and perceptron can be used. Therein, different perceptrons can be used. For this research, a perceptron was used. Two perceptrons were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP). The AMP can be used to classify the data. However, the MLP can yield better results due to the presence of hidden layers. This research will show which yields best results.
+\begin{comment}
+However, the Ubuntu chat data does not contain enough emoticons. Therefore, before training a model, each message which does not contain an emoticon must first be relabeled. This requires the implementation of another model which, given a single, independent message, predicts a corresponding emoticon. This means that a different model must be trained on a different corpus. As mentioned before, a Twitter data can be used for training this model. Once emoticons are predicted for the Ubuntu chat messages, the newly obtained corpus might be eventually used for emoticon prediction in a sequence of messages.
+\end{comment}
 
-The model used to predict emoticons on sequences is the Hidden Markov Model (HMM). There are two versions of the HMM: the first-order HMM and the second-order HMM. The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed. The second-order HMM uses the two previous messages to predict the emoticon of the message that is being analysed. To conduct this research, the first-order HMM is used. This can be expanded in the future to take into account two messages.
+\subsubsection*{Preprocessing} 
+As stated before, both corpora must be preprocessed. As the messages in both corpora are written by users in their spare time, there is a presence of slang, grammatical and spelling errors. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed later in this paper.
+
+
+\subsubsection*{The models} 
+In this research, Perceptron was used to predict emoticon for independent message.
+Two different kinds of perceptron were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP).
+The MLP is more complex model but it has an advantage that it is possible to yield better results due to the presence of hidden layers.
+This research compares performance of both models to show which yields best results.
+
+% The model used to predict emoticons on sequences is the Hidden Markov Model (HMM). There are two versions of the HMM: the first-order HMM and the second-order HMM. The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed, whereas the second-order HMM uses the two previous messages. To conduct this research, the first-order HMM is used. This can be expanded in the future to take into account two messages.
+
+The model used to predict emoticons on sequences is the first-order Hidden Markov Model (HMM).
+The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed.
 
 It is expected that the two models will work separately. Even if the first model, used to relabel the sequence-based data, performs poorly, the performance of the HMM will not be affected. As the HMM is based on mislabelled data, it will learn these labels and continue building upon this. This will lead to sub-optimal results, overall, but the HMM will still perform well. Also, the sequence-based data in itself is slightly biased. As this data was collected from a support forum, it is expected that most data will be negative. This can lead to biased prediction. This must be prevented, by creating a balanced dataset of positive, negative and neutral data. 
 
-The dataset must be balanced for both models. However, creating a balanced dataset is easier the single-message prediction as there are no transitions there. This means that selecting data to train the HMM on must be performed very well to create a purely balanced dataset.
+% \red{Scottish guy's response for the following paragraph: `I'm sorry, that's not English'}
+% The datasets must be balanced for both models. However, creating a balanced dataset is easier the single-message prediction as there are no transitions there. This means that selecting data to train the HMM on must be performed very well to create a purely balanced dataset.
 
+Balancing dataset for all classes is can be done easily for Twitter data but that would be difficult for Ubuntu chat dataset.
+As a solution, data selection technique was performed when building training set.
+It takes a sequence of messages based on the first class appears in the sequence.
+This technique makes the resulting training set has the same amount of data for all classes based on the first messages.
+However, this technique still does not fully guarantee the resulting training set is balance for all messages.
+
+
+% This is all explained in this section, no need to summarize it like 4 lines later
+\begin{comment}
 To summarize: in order to predict emoticons in sequence of messages, the positivity, neutrality or negativity of each message must be determined. By preprocessing each message and extracting features, the "gist" of each message is extracted. This "gist" is used to train a first-order Hidden Markov Model, which can then be used to predict the emoticon of messages. However, in order to label the training data correctly, first all messages must be labelled. To do this, a perceptron is used. When training all of the models, it is imperative to select balanced data to train each model in order to achieve optimal prediction.
+\end{comment}

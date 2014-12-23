@@ -1,10 +1,10 @@
 This report discusses emoticon prediction, based on a sequence of messages. In order to find messages that are related to one another and can transition in positivity to negativity, an entire conversation is observed. Each message is classified by not only considering the features of a single message, but also by considering the previous messages of the same author. This problem is a complex and interesting one, since it also takes into account the transitions from one state to another.
 
-\noindent In order to find messages with such transitions, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data is used. Unfortunately, due to the lack of emoticons in this specific corpora, the emoticons of all other sentences must also be determined. In order to label the corpora, another model must be trained. In order to train this model, a corpora of short, unrelated messages that are filled with emoticons is used. In order to find such messages, Twitter \cite{twittersentiment} data is used. Therefore, the Twitter data is used to train a model. This model is then used to label the Ubuntu chat data \cite{ubuntudata}. 
+\noindent In order to find messages with such transitions, a corpora containing longer sequences of text messages are used - these might be conversations, such as an e-mail exchange or simply chat data, as long as the corpora contains a sufficient amount of emoticons. As emoticons appear in chat data more often, Ubuntu chat data \cite{ubuntudata} is used. Unfortunately, due to the lack of emoticons in this specific corpus, the emoticons of all sentences, which do not contain an emoticon, must also be determined. In order to relabel these sentences, another prediction model must be trained. In order to train this model, a corpus of short, unrelated Twitter \cite{twittersentiment} messages, containing emoticons, is used. This model is then used to relabel the Ubuntu chat data. 
 
-\noindent After the data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic features were chosen for this project without any intentional aim on improving this selection. Since this task on its own can take up years, it is left as future work. However, suggestions about improving features are mentioned in the following sections.
+\noindent After the Ubuntu chat data is collected, it is first preprocessed. Then, appropriate features are extracted and a model is trained. The current report does not discuss the choice of features in detail. Basic features were chosen for this project without any intentional aim on improving this selection. Since this task on its own can take years, it is left as future work. However, suggestions on how to improve these features are mentioned in the following sections.
 
-\noindent In order to classify the data, classes must be determined. Three classes are used to classify the data. Table \ref{tab:classes} displays these classes and the corresponding emoticons, contained in this type of data.
+\noindent Three basic classes are used in order to classify the data. Table \ref{tab:classes} presents these classes and the corresponding emoticons, contained in this type of data.
 
 % Maybe put this in the general part, since it is the same for both problems?
 \begin{table}[h!]
@@ -21,7 +21,9 @@ negative 			& :( \: \: 			:[ \: \: 		=( \: \: 		;( 		\\
 \end{center}
 \end{table}
 
-As table \ref{tab:classes} shows, this selection of emoticons displays positive, negative and neutral emotions. However, this data can be split further into extremely positive ( :D ) and extremely negative ( $>:($ ) emoticons for more specific classification of messages. However, this is beyond the scope of this paper.
+As table \ref{tab:classes} shows, this selection of emoticons displays positive, negative and neutral emotions.
+This data can be split further into extremely positive ( :D ) and extremely negative ( $;($ ) emoticons for more specific classification of messages.
+However, this is beyond the scope of this paper.
 
 \begin{comment}
 \red{Finish the introduction, maybe move some parts to the Problem section} \\

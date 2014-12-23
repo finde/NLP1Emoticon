@@ -7,7 +7,7 @@ Experiments / Empirical evaluation (roughly 2-3 pages)
 • Analysis (discussion of results / visualization / findings / etc)
 \end{comment}
 
-As the AMP needs to be used to label data, different experiments were run to test the performance. Sample results are shown in table \ref{table:AMPaccuracy} and are be discussed in detail in this section. Each test is run based on a standard set of 500 samples per class to ensure balance, over three classes as this is determined in the introduction. To test the model, K-fold validation is used. Using 80\% of the data, 20\% is used as a test set to measure the performance of the model. In order to ensure a proper resemblance of test results, the results are averaged over 10 tests. Also, all features as declared earlier are used.
+As the AMP needs to be used to relabel the Ubuntu chat data, different experiments were run to test the performance. Sample results are shown in table \ref{table:AMPaccuracy} and are be discussed in detail in this section. Each test is run based on a standard set of 500 samples per class to ensure balance. 80\% of the data is used for training and 20\% is used as a test set to measure the performance of the model. In order to ensure a proper resemblance of test results, the results are averaged over 10 tests. Also, all features as declared earlier are used.
 
 \subsubsection{Prediction with varying number of classes}
 To test how well the perceptron predicts data on a varying number of classes, the algorithm was run while predicting multiple classes. Initially, it is interesting to see how well the data is classified using two classes; positive and negative. There is also a third class representing neutral data. There are also classes which are defined as extremely positive and extremely negative. In total, these are 15 classes. The performance of the model is also tested in this number of classes. 
@@ -26,7 +26,7 @@ To test how well the perceptron predicts data on a varying number of classes, th
 15	&	500	&	50	&	10.62	&	9.01		\\
 \hline
 \end{tabular}
-\caption{AMP accuracy}
+\caption{AMP accuracy for different number of classes }
 \label{table:AMPaccuracy}
 \end{center}
 \end{table}
@@ -67,7 +67,7 @@ Unsurprisingly, the results show that the more classes are used the worse the pe
 
 \subsubsection*{Features}
 
-The effect of different features was also explored. In order to see clear results, two classes were used to classify the data. These results are displayed in table \ref{table:AMPfeatures}.
+The effect of different features was also explored. Each one of the features was being excluded and prediction performance was tested using the rest of the features. In order to see clear results, two classes were used to classify the data. These results are displayed in table \ref{table:AMPfeatures}.
 
 \begin{table}[h!]
 \begin{center}
@@ -104,7 +104,7 @@ Tests show that some of the features are not meaningful enough and including the
  & {\textbf{Train Accuracy}} 					& {\textbf{Test Accuracy}} 
  \\
 \hline
-\parbox[t]{3cm}{Positive/negative hashtags \\Uppercase words}	&	500	&	50	&	56.96	& 	56.25	\\
+\parbox[t]{3cm}{Positive/negative hashtags and Uppercase words}	&	500	&	50	&	56.96	& 	56.25	\\
 \hline
 \end{tabular}
 \caption{AMP optimal accuracy}
@@ -112,7 +112,7 @@ Tests show that some of the features are not meaningful enough and including the
 \end{center}
 \end{table}
 
-Excluding the positive and negative hashtags, as well as the uppercase words, yield the best results and will be used in labelling the sequence-based data.
+Excluding the positive and negative hashtags, as well as the uppercase words, yield the best results and will be used for relabelling the sequence-based data.
 
 \begin{comment}
 Tests show that some of the features are not meaningful enough and including them in the set of used features only decreases the performance. Furthermore, the Average Multiclass Perceptron was also used further in this project in a scenario where the data does not contain any hashtags. Thus, in table \ref{table:AMPfeatures}, results are shown for two different feature sets. The first one, denoted as `all', contains all features discussed in section \ref{sec:features}.
@@ -120,7 +120,7 @@ The second one, denoted in table \ref{table:AMPaccuracy} as `subset', is a subse
 \end{comment}
 
 \subsection{Dataset size}
-This section discusses the effect of different dataset sizes on the AMP implementation. The results are displayed table \ref{table:AMPdataset}. As hashtags are hardly used, this feature was turned off to research the sizes of the dataset. This will create less similarity between the classes.
+This section discusses the effect of different dataset sizes on the AMP implementation. The results are presented in table \ref{table:AMPdataset}. As hashtags are hardly used, this feature was turned off to research the sizes of the dataset. This will create less similarity between the classes.
 
 \begin{table}[h!]
 \begin{center}
