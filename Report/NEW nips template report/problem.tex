@@ -20,12 +20,19 @@ This leads to several obvious steps that must be taken. These are:
 \item Predict emoticons for unseen data
 \end{itemize}
 
+\subsubsection*{Relabelling the data} 
+However, since the Ubuntu chat data contains mainly technical conversations, there appeared to be a significant lack of emoticons. This means that the majority of the messages were labelled as `neutral', which in turn implies a terribly biased prediction performance. In order to use this data and test the prediction performance, the decision was made to relabel the data. For every `neutral' message, an emoticon was predicted using a classifier trained on Twitter data and discussed later in section \ref{sec:twitter}. This lead to the acquisition of data containing enough emoticons to properly train a model and predict new examples. In order to avoid such artificial relabelling of the data in other projects, corpora from a more appropriate source should be used - e.g. Skype conversation logs or any other group chat logs. 
+
+
+\begin{comment}
 However, the Ubuntu chat data does not contain enough emoticons. Therefore, before training a model, each message which does not contain an emoticon must first be relabeled. This requires the implementation of another model which, given a single, independent message, predicts a corresponding emoticon. This means that a different model must be trained on a different corpus. As mentioned before, a Twitter data can be used for training this model. Once emoticons are predicted for the Ubuntu chat messages, the newly obtained corpus might be eventually used for emoticon prediction in a sequence of messages.
+\end{comment}
 
-
+\subsubsection*{Preprocessing} 
 As stated before, both corpora must be preprocessed. As the messages in both corpora are written by users in their spare time, there is a presence of slang, grammatical- and spelling errors. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed later in this paper.
 
 
+\subsubsection*{The models} 
 \red{I am not even going to try to fix the next fucking paragraph, please somebody do something about it because I would kill myself about 7 times before fixing it.}
 When training a model to predict emoticons on independent messages, there are several models that can be used. A support vector machine (SVM) and perceptron can be used. Therein, different perceptrons can be used. For this research, a perceptron was used. Two perceptrons were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP). The AMP can be used to classify the data. However, the MLP can yield better results due to the presence of hidden layers. This research will show which yields best results.
 
