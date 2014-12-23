@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.22)  23 DEC 2014 17:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.22)  23 DEC 2014 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -636,16 +636,12 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
  [2])
 (./twitter_data.tex) (./twitter_preprocessing.tex) (./twitter_model.tex)
-(./twitter_features.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+(./twitter_features.tex [3]
 Underfull \hbox (badness 10000) in paragraph at lines 27--31
 
  []
 
-[3]) (./twitter_results.tex
+) (./twitter_results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -699,7 +695,7 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Emoticon_Prediction.pdf (10 pages, 121189 bytes).
+Output written on Emoticon_Prediction.pdf (10 pages, 121307 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

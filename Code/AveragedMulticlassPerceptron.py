@@ -69,7 +69,7 @@ def cluster_to_3_classes(string_label):
 if __name__ == "__main__":
     all_trains = []
     all_tests = []
-    n_per_class = 500  # number of data points per each class
+    n_per_class = 300  # number of data points per each class
     training_percentage = 0.8  # percentage of training data from all data
     iteration = 50
     nr_of_tests = 10
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 		"positive_words",
 #		"positive_words_hashtags",
 #		"negative_words_hashtags",
-#		"uppercase_words",
+		"uppercase_words",
 		"special_punctuation",
 		"adjectives"
 	    ]

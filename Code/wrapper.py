@@ -26,13 +26,10 @@ if __name__ == "__main__":
     avg_train_accuracies = []
     number_of_clusters = 50
 
-    pred_pos = 0
-    act_pos = 0
-    pred_neg = 0
-    act_neg = 0
+    class_size = 400
     for i in range(0, tests):
 	    selected_features = [
-#		"words",
+		"words",
 		"negative_words",
 		"positive_words",
 		#"positive_words_hashtags",
@@ -58,7 +55,7 @@ if __name__ == "__main__":
 	    data_classes = ['positive', 'negative', 'neutral']
 	    #data_classes = ['positive', 'negative']
 
-	    dataCollection = GetDataUbuntu(filenames,selected_features, data_classes)
+	    dataCollection = GetDataUbuntu(filenames,selected_features, data_classes, n_per_class=class_size)
 
 	    print('Extracting features...')
 
@@ -166,7 +163,7 @@ if __name__ == "__main__":
 	    print '-------------------------------'
 	    #pdb.set_trace()
 
-    print "EXC AMOUNT WORDS"
+    print "class_size: ", class_size
 
     print "overall train acc: ", sum(avg_train_accuracies)/len(avg_train_accuracies)
     print "TRAIN: we have: ", avg_train_accuracies
