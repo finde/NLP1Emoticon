@@ -29,19 +29,30 @@ However, the Ubuntu chat data does not contain enough emoticons. Therefore, befo
 \end{comment}
 
 \subsubsection*{Preprocessing} 
-As stated before, both corpora must be preprocessed. As the messages in both corpora are written by users in their spare time, there is a presence of slang, grammatical- and spelling errors. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed later in this paper.
+As stated before, both corpora must be preprocessed. As the messages in both corpora are written by users in their spare time, there is a presence of slang, grammatical and spelling errors. There are also other sub-optimal aspects of the data that must be handled. After preprocessing, the corpora are ready for feature extraction. These subjects will be discussed later in this paper.
 
 
 \subsubsection*{The models} 
-\red{I am not even going to try to fix the next fucking paragraph, please somebody do something about it because I would kill myself about 7 times before fixing it.}
-When training a model to predict emoticons on independent messages, there are several models that can be used. A support vector machine (SVM) and perceptron can be used. Therein, different perceptrons can be used. For this research, a perceptron was used. Two perceptrons were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP). The AMP can be used to classify the data. However, the MLP can yield better results due to the presence of hidden layers. This research will show which yields best results.
+In this research, Perceptron was used to predict emoticon for independent message.
+Two different kinds of perceptron were implemented: the average multiclass perceptron (AMP) and the multilayer perceptron (MLP).
+The MLP is more complex model but it has an advantage that it is possible to yield better results due to the presence of hidden layers.
+This research compares performance of both models to show which yields best results.
 
-The model used to predict emoticons on sequences is the Hidden Markov Model (HMM). There are two versions of the HMM: the first-order HMM and the second-order HMM. The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed, whereas the second-order HMM uses the two previous messages. To conduct this research, the first-order HMM is used. This can be expanded in the future to take into account two messages.
+% The model used to predict emoticons on sequences is the Hidden Markov Model (HMM). There are two versions of the HMM: the first-order HMM and the second-order HMM. The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed, whereas the second-order HMM uses the two previous messages. To conduct this research, the first-order HMM is used. This can be expanded in the future to take into account two messages.
+
+The model used to predict emoticons on sequences is the first-order Hidden Markov Model (HMM).
+The first-order HMM uses the emoticon of the previous message to predict the emoticon of the message that is being analysed.
 
 It is expected that the two models will work separately. Even if the first model, used to relabel the sequence-based data, performs poorly, the performance of the HMM will not be affected. As the HMM is based on mislabelled data, it will learn these labels and continue building upon this. This will lead to sub-optimal results, overall, but the HMM will still perform well. Also, the sequence-based data in itself is slightly biased. As this data was collected from a support forum, it is expected that most data will be negative. This can lead to biased prediction. This must be prevented, by creating a balanced dataset of positive, negative and neutral data. 
 
-\red{Scottish guy's response for the following paragraph: `I'm sorry, that's not English'}
-The datasets must be balanced for both models. However, creating a balanced dataset is easier the single-message prediction as there are no transitions there. This means that selecting data to train the HMM on must be performed very well to create a purely balanced dataset.
+% \red{Scottish guy's response for the following paragraph: `I'm sorry, that's not English'}
+% The datasets must be balanced for both models. However, creating a balanced dataset is easier the single-message prediction as there are no transitions there. This means that selecting data to train the HMM on must be performed very well to create a purely balanced dataset.
+
+Balancing dataset for all classes is can be done easily for Twitter data but that would be difficult for Ubuntu chat dataset.
+As a solution, data selection technique was performed when building training set.
+It takes a sequence of messages based on the first class appears in the sequence.
+This technique makes the resulting training set has the same amount of data for all classes based on the first messages.
+However, this technique still does not fully guarantee the resulting training set is balance for all messages.
 
 
 % This is all explained in this section, no need to summarize it like 4 lines later
